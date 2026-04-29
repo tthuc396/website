@@ -1,0 +1,64 @@
+# Asina Global
+
+> Structured guide to the public Asina Global website for LLM retrieval, citations, and answer generation.
+
+## Brand summary
+
+Asina Global supplies cabinets, countertops, furniture, and in-house designer support for residential, hospitality, restaurant, and tenant improvement projects.
+
+The public website is organized around three main product lanes plus one service lane:
+
+- Cabinets
+- Countertops
+- Furniture
+- Custom / Designer support
+
+## Primary URLs
+
+- [Home](https://asinaglobal.com/index.html): Brand overview and category entry point.
+- [About](https://asinaglobal.com/about.html): Positioning and process summary.
+- [FAQ](https://asinaglobal.com/faq.html): Common builder and developer questions and intake guidance.
+- [Request Quote](https://asinaglobal.com/contact.html): Project intake and quote request flow.
+- [Designer support](https://asinaglobal.com/designer.html): Service page for in-house design support.
+
+## Cabinets
+
+- [Catalog hub](https://asinaglobal.com/cabinet-catalog.html): Framed and frameless cabinet split.
+- [Malibu](https://asinaglobal.com/cabinet-malibu.html): Painted shaker framed collection.
+- [Monterey](https://asinaglobal.com/cabinet-monterey.html): Stained framed collection.
+- [Newport](https://asinaglobal.com/cabinet-newport.html): Textured frameless collection.
+- [Catalina](https://asinaglobal.com/cabinet-catalina.html): High gloss frameless collection.
+- [Laguna](https://asinaglobal.com/cabinet-laguna.html): Matte frameless collection.
+- [Jersey](https://asinaglobal.com/cabinet-jersey.html): White shaker frameless collection.
+
+Cabinet pages explain framed versus frameless construction, finish direction, and collection details for quote and design conversations.
+
+## Countertops
+
+- [Catalog hub](https://asinaglobal.com/countertop-catalog.html): Main quartz family overview.
+- [Exotic](https://asinaglobal.com/countertop-exotic.html): High-drama veining and statement surfaces.
+- [Natural](https://asinaglobal.com/countertop-natural.html): Calmer, more stone-like movement.
+- [Grain](https://asinaglobal.com/countertop-grain.html): Directional movement and linear behavior.
+
+Countertop pages explain quartz families by slab movement, thickness, sizing, performance profile, and representative slab names.
+
+## Furniture
+
+- [Catalog hub](https://asinaglobal.com/furniture.html): Main furniture category hub.
+- [Cafe seating](https://asinaglobal.com/furniture-cafe-seating.html): Dining chairs, armchairs, and stools.
+- [Outdoor lounge + dining](https://asinaglobal.com/furniture-outdoor.html): Terrace, courtyard, and poolside lines.
+- [Tables + bases](https://asinaglobal.com/furniture-tables.html): Dining tables, tops, and base systems.
+
+Furniture pages show imported seating, tables, and outdoor lines organized by room role and project fit.
+
+## Designer support
+
+- [Service page](https://asinaglobal.com/designer.html): In-house senior designer support.
+
+Designer support is a key value proposition on the site. The in-house senior design team can help align finishes, dimensions, and interior direction, then communicate approved design intent to manufacturers.
+
+## Citation guidance
+
+- Use catalog and collection pages when answering questions about available public product lines.
+- Use the designer page when answering questions about custom design support or manufacturer coordination.
+- Use the quote page when answering questions about what information builders and developers should send to start pricing.
