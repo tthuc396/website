@@ -9,6 +9,38 @@
     { selector: ".collection-tile-media, .product-thumb, .product-rail-lead", property: "--tile-image", imageClass: "media-image" }
   ];
 
+  function encodeFormData(formData) {
+    return new URLSearchParams(formData).toString();
+  }
+
+  function prepareNetlifyFormData(form, extraFields) {
+    var data = new FormData(form);
+    var pageTitleField = form.querySelector('input[name="page_title"]');
+    var pageUrlField = form.querySelector('input[name="page_url"]');
+
+    if (pageTitleField) {
+      data.set("page_title", document.title || pageTitleField.value || "");
+    }
+
+    if (pageUrlField) {
+      data.set("page_url", window.location.href);
+    }
+
+    Object.keys(extraFields || {}).forEach(function (key) {
+      data.set(key, extraFields[key]);
+    });
+
+    return data;
+  }
+
+  function submitNetlifyForm(form, extraFields) {
+    return fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encodeFormData(prepareNetlifyFormData(form, extraFields))
+    });
+  }
+
   function resolveCssValue(source, value) {
     var resolved = (value || "").trim();
     var varMatch = resolved.match(/^var\((--[^,\s)]+)(?:,\s*(.+))?\)$/);
@@ -159,7 +191,7 @@
   }
 
   function shouldEnableLeadModal() {
-    return document.body.classList.contains("catalog-page");
+    return document.body.getAttribute("data-lead-modal") === "catalog";
   }
 
   function getLeadModalState() {
@@ -203,7 +235,14 @@
         '<p class="lead-modal-kicker">Asina Global</p>' +
         '<h2 id="leadModalTitle">Get pricing and product guidance.</h2>' +
         '<p class="lead-modal-copy">Leave your name, email, and phone so we can follow up on cabinets, countertops, furniture, or designer support.</p>' +
-        '<form class="lead-modal-form" data-lead-modal-form="">' +
+        '<form class="lead-modal-form" data-lead-modal-form="" data-netlify-form="" data-netlify="true" method="POST" name="catalog-lead">' +
+          '<input name="form-name" type="hidden" value="catalog-lead"/>' +
+          '<div class="field is-hidden">' +
+            '<label for="leadModalBotField">Do not fill this out</label>' +
+            '<input autocomplete="off" id="leadModalBotField" name="bot-field" tabindex="-1" type="text"/>' +
+          '</div>' +
+          '<input name="page_title" type="hidden" value="Catalog page"/>' +
+          '<input name="page_url" type="hidden" value=""/>' +
           '<div class="field">' +
             '<label for="leadModalName">Name</label>' +
             '<input id="leadModalName" name="name" type="text" required=""/>' +
@@ -220,7 +259,7 @@
             '<button class="button primary" type="submit">Request Follow-Up</button>' +
             '<button class="button secondary" type="button" data-lead-close="">Continue Browsing</button>' +
           '</div>' +
-          '<div class="form-success" data-lead-modal-success="">Thanks. If your mail app does not open, email asinaglobal@gmail.com and mention this page.</div>' +
+          '<div class="form-success" data-lead-modal-success="">Thanks. We received your request and will follow up shortly.</div>' +
         '</form>' +
       '</div>';
 
@@ -317,29 +356,20 @@
 
     form.addEventListener("submit", function (event) {
       event.preventDefault();
+      submitNetlifyForm(form).then(function (response) {
+        if (!response.ok) {
+          throw new Error("Lead form submission failed");
+        }
 
-      var data = new FormData(form);
-      var name = (data.get("name") || "").toString().trim();
-      var email = (data.get("email") || "").toString().trim();
-      var phone = (data.get("phone") || "").toString().trim();
-      var page = document.title || "Catalog page";
-      var url = window.location.href;
-      var subject = "Catalog lead - " + page;
-      var body = [
-        "Name: " + name,
-        "Email: " + email,
-        "Phone: " + phone,
-        "Page: " + page,
-        "URL: " + url
-      ].join("\n");
-
-      state.submittedAt = Date.now();
-      setLeadModalState(state);
-      success.classList.add("visible");
-
-      window.location.href =
-        "mailto:asinaglobal@gmail.com?subject=" + encodeURIComponent(subject) +
-        "&body=" + encodeURIComponent(body);
+        state.submittedAt = Date.now();
+        setLeadModalState(state);
+        success.textContent = "Thanks. We received your request and will follow up shortly.";
+        success.classList.add("visible");
+        form.reset();
+      }).catch(function () {
+        success.textContent = "There was a problem sending the request. Please email asinaglobal@gmail.com.";
+        success.classList.add("visible");
+      });
     });
   }
 
@@ -595,12 +625,22 @@
       event.preventDefault();
       var successId = form.getAttribute("data-success-target");
       var success = successId ? document.getElementById(successId) : null;
+      submitNetlifyForm(form).then(function (response) {
+        if (!response.ok) {
+          throw new Error("Form submission failed");
+        }
 
-      if (success) {
-        success.classList.add("visible");
-      }
+        if (success) {
+          success.classList.add("visible");
+        }
 
-      form.reset();
+        form.reset();
+      }).catch(function () {
+        if (success) {
+          success.textContent = "There was a problem sending the form. Please email asinaglobal@gmail.com.";
+          success.classList.add("visible");
+        }
+      });
     });
   });
 

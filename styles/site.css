@@ -27,12 +27,12 @@
   --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   --font-ui: "Avenir Next", "Avenir", "Segoe UI", sans-serif;
   --asset-logo: url("../assets/brand/asina-global-logo.jpg");
-  --asset-cabinets: url("../assets/catalog/cabinets/extracted/page-05-img-01-obj-1839.jpg");
-  --asset-cabinets-alt: url("../assets/catalog/cabinets/extracted/page-07-img-02-obj-1858.jpg");
-  --asset-cabinets-detail: url("../assets/catalog/cabinets/extracted/page-15-img-02-obj-1966.png");
+  --asset-cabinets: url("../assets/catalog/cabinets/optimized/page-05-img-01-obj-1839.jpg");
+  --asset-cabinets-alt: url("../assets/catalog/cabinets/optimized/page-07-img-02-obj-1858.jpg");
+  --asset-cabinets-detail: url("../assets/catalog/cabinets/optimized/page-12-img-02-obj-1919.jpg");
   --asset-countertops: url("../assets/catalog/countertops/extracted/page-06-img-01-obj-1756.jpg");
   --asset-countertops-alt: url("../assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg");
-  --asset-countertops-detail: url("../assets/catalog/countertops/extracted/page-44-img-17-obj-2179.png");
+  --asset-countertops-detail: url("../assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg");
   --asset-furniture: url("../assets/furniture/velit/terrace-lounge.jpeg");
   --asset-furniture-detail: url("../assets/furniture/velit/lounge-group.jpeg");
   --asset-furniture-alt: url("../assets/furniture/velit/sunset-dining.jpeg");
@@ -1040,6 +1040,18 @@ button {
   gap: 8px;
 }
 
+.field.is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .field.full {
   grid-column: 1 / -1;
 }
@@ -1901,6 +1913,17 @@ button {
 .catalog-card-copy {
   display: grid;
   gap: 16px;
+}
+
+.catalog-card,
+.collection-tile,
+.product-tile,
+.finish-entry,
+.guide-link-card,
+.quote-card,
+.faq-item {
+  content-visibility: auto;
+  contain-intrinsic-size: 420px;
 }
 
 .catalog-card-list {

@@ -51,7 +51,14 @@
 <div class="form-panel">
 <h2>Request project access.</h2>
 <p>Use this form to share project details, finish direction, and quoting needs.</p>
-<form data-demo-form="" data-success-target="contactSuccess">
+<form data-demo-form="" data-success-target="contactSuccess" data-netlify-form="" data-netlify="true" method="POST" name="project-inquiry" netlify-honeypot="bot-field">
+<input name="form-name" type="hidden" value="project-inquiry"/>
+<p class="field is-hidden">
+<label for="contactBotField">Do not fill this out</label>
+<input autocomplete="off" id="contactBotField" name="bot-field" tabindex="-1" type="text"/>
+</p>
+<input name="page_title" type="hidden" value="Request a Quote"/>
+<input name="page_url" type="hidden" value="/contact.html"/>
 <div class="form-grid">
 <div class="field">
 <label for="contactName">Name</label>
@@ -124,7 +131,7 @@
 </div>
 <div class="asset-photo-grid reveal">
 <div class="asset-photo-card">
-<img alt="Cabinet room scene" src="./assets/catalog/cabinets/extracted/page-05-img-01-obj-1839.jpg" decoding="async" loading="lazy"/>
+<img alt="Cabinet room scene" src="./assets/catalog/cabinets/optimized/page-05-img-01-obj-1839.jpg" decoding="async" loading="lazy"/>
 <span>Cabinet Scope</span>
 </div>
 <div class="asset-photo-card">
@@ -135,7 +142,7 @@
 <div class="content-grid">
 <article class="quote-card reveal">
 <h3>Best for</h3>
-<p>Buyers who already know the project type and need a cleaner next step into quoting.</p>
+<p>Builders and developers who already know the project type and need a cleaner next step into quoting.</p>
 </article>
 <article class="quote-card reveal">
 <h3>What helps most</h3>
@@ -148,6 +155,17 @@
 </div>
 </section>
 </main>
+<div aria-hidden="true" hidden="">
+<form data-netlify="true" method="POST" name="catalog-lead" netlify-honeypot="bot-field">
+<input name="form-name" type="hidden" value="catalog-lead"/>
+<input name="name" type="text"/>
+<input name="email" type="email"/>
+<input name="phone" type="tel"/>
+<input name="page_title" type="text"/>
+<input name="page_url" type="text"/>
+<input name="bot-field" type="text"/>
+</form>
+</div>
 <footer class="footer">
 <span>Asina Global</span>
 <span>Request Quote</span>
