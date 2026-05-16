@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" fill="none">
+  <defs>
+    <linearGradient id="logo-metal" x1="146" x2="292" y1="22" y2="176" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2E2A27"/>
+      <stop offset="0.34" stop-color="#6E675F"/>
+      <stop offset="0.62" stop-color="#151312"/>
+      <stop offset="1" stop-color="#4E4842"/>
+    </linearGradient>
+    <linearGradient id="logo-text" x1="142" x2="390" y1="138" y2="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#241F1B"/>
+      <stop offset="0.44" stop-color="#595149"/>
+      <stop offset="1" stop-color="#161311"/>
+    </linearGradient>
+  </defs>
+  <path d="M226 22 247 29 293 169H272L226 50 180 169H159L205 29 226 22Z" fill="url(#logo-metal)"/>
+  <path d="M206 66 223 73 189 169H168L206 66Z" fill="url(#logo-metal)"/>
+  <path d="M230 87 245 94 219 169H198L230 87Z" fill="url(#logo-metal)"/>
+  <text x="260" y="207" fill="url(#logo-text)" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="300" letter-spacing="0.3em" text-anchor="middle">ASINA</text>
+  <text x="260" y="245" fill="url(#logo-text)" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="300" letter-spacing="0.26em" text-anchor="middle">GLOBAL</text>
+</svg>

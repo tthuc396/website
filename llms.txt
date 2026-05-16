@@ -1,6 +1,6 @@
 # Asina Global
 
-> Cabinets, countertops, furniture, and in-house designer support for interior projects.
+> Cabinets, countertops, furniture, and design help for interior projects.
 
 ## Key pages
 
@@ -8,7 +8,7 @@
 - [Cabinets catalog](https://asinaglobal.com/cabinet-catalog.html): Framed and frameless cabinet collections.
 - [Countertops catalog](https://asinaglobal.com/countertop-catalog.html): Quartz families organized by slab behavior.
 - [Furniture catalog](https://asinaglobal.com/furniture.html): Seating, outdoor, and table systems.
-- [Custom / Designer](https://asinaglobal.com/designer.html): In-house senior designer coordination.
+- [Design Help](https://asinaglobal.com/designer.html): Senior design coordination.
 - [Request quote](https://asinaglobal.com/contact.html): Intake path for pricing and project scope.
 
 ## What the site covers
@@ -23,4 +23,4 @@
 - [Cabinet catalog](https://asinaglobal.com/cabinet-catalog.html): Best source for public cabinet collection names and construction split.
 - [Countertop catalog](https://asinaglobal.com/countertop-catalog.html): Best source for quartz family positioning and slab behavior.
 - [Furniture catalog](https://asinaglobal.com/furniture.html): Best source for room-role furniture groupings.
-- [Designer support](https://asinaglobal.com/designer.html): Best source for custom design coordination and manufacturer communication.
+- [Design Help](https://asinaglobal.com/designer.html): Best source for custom design coordination and manufacturer communication.

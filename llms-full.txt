@@ -4,14 +4,14 @@
 
 ## Brand summary
 
-Asina Global supplies cabinets, countertops, furniture, and in-house designer support for residential, hospitality, restaurant, and tenant improvement projects.
+Asina Global supplies cabinets, countertops, furniture, and design help for residential, hospitality, restaurant, and tenant improvement projects.
 
 The public website is organized around three main product lanes plus one service lane:
 
 - Cabinets
 - Countertops
 - Furniture
-- Custom / Designer support
+- Design Help
 
 ## Primary URLs
 
@@ -19,7 +19,7 @@ The public website is organized around three main product lanes plus one service
 - [About](https://asinaglobal.com/about.html): Positioning and process summary.
 - [FAQ](https://asinaglobal.com/faq.html): Common builder and developer questions and intake guidance.
 - [Request Quote](https://asinaglobal.com/contact.html): Project intake and quote request flow.
-- [Designer support](https://asinaglobal.com/designer.html): Service page for in-house design support.
+- [Design Help](https://asinaglobal.com/designer.html): Service page for senior design help.
 
 ## Cabinets
 
@@ -51,11 +51,11 @@ Countertop pages explain quartz families by slab movement, thickness, sizing, pe
 
 Furniture pages show imported seating, tables, and outdoor lines organized by room role and project fit.
 
-## Designer support
+## Design Help
 
-- [Service page](https://asinaglobal.com/designer.html): In-house senior designer support.
+- [Service page](https://asinaglobal.com/designer.html): Senior design help.
 
-Designer support is a key value proposition on the site. The in-house senior design team can help align finishes, dimensions, and interior direction, then communicate approved design intent to manufacturers.
+Design help is a key value proposition on the site. The senior design team can help align finishes, dimensions, and interior direction, then communicate approved design intent to manufacturers.
 
 ## Citation guidance
 

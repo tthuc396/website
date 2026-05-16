@@ -1,0 +1,84 @@
+<svg width="900" height="1320" viewBox="0 0 900 1320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="70" x2="810" y2="1230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F0E5"/>
+      <stop offset="1" stop-color="#E6DDD0"/>
+    </linearGradient>
+    <linearGradient id="panelA" x1="0" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF7F2"/>
+      <stop offset="1" stop-color="#E4D9CB"/>
+    </linearGradient>
+    <linearGradient id="panelB" x1="0" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5B894"/>
+      <stop offset="1" stop-color="#9D7352"/>
+    </linearGradient>
+    <linearGradient id="panelC" x1="0" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8A696"/>
+      <stop offset="1" stop-color="#7D6B5C"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="900" height="1320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#5A4130" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1320" rx="40" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="52" y="52" width="796" height="1216" rx="32" fill="#FFFCF8"/>
+  </g>
+
+  <text x="90" y="126" fill="#6B4F3D" font-family="Georgia, 'Times New Roman', serif" font-size="20" letter-spacing="2.5">ASINA GLOBAL</text>
+  <text x="90" y="188" fill="#171311" font-family="Georgia, 'Times New Roman', serif" font-size="48">Cabinet Material</text>
+  <text x="90" y="242" fill="#171311" font-family="Georgia, 'Times New Roman', serif" font-size="48">Guide</text>
+  <text x="90" y="290" fill="#433B35" font-family="Arial, sans-serif" font-size="22" font-weight="600">A cleaner summary of cabinet materials</text>
+  <text x="90" y="320" fill="#433B35" font-family="Arial, sans-serif" font-size="22" font-weight="600">and construction notes builders usually</text>
+  <text x="90" y="350" fill="#433B35" font-family="Arial, sans-serif" font-size="22" font-weight="600">ask about first.</text>
+
+  <text x="90" y="414" fill="#6B4F3D" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">FACE OPTIONS</text>
+
+  <rect x="90" y="444" width="320" height="80" rx="20" fill="url(#panelA)"/>
+  <text x="122" y="495" fill="#171311" font-family="Arial, sans-serif" font-size="30" font-weight="700">Painted Shaker</text>
+  <text x="122" y="548" fill="#59473A" font-family="Arial, sans-serif" font-size="22" font-weight="700">Malibu and Jersey</text>
+
+  <rect x="90" y="586" width="320" height="80" rx="20" fill="url(#panelB)"/>
+  <text x="122" y="637" fill="#FFF8F0" font-family="Arial, sans-serif" font-size="30" font-weight="700">Stained Wood</text>
+  <text x="122" y="690" fill="#5F4838" font-family="Arial, sans-serif" font-size="22" font-weight="700">Monterey</text>
+
+  <rect x="90" y="728" width="320" height="80" rx="20" fill="url(#panelC)"/>
+  <text x="122" y="779" fill="#FFF8F0" font-family="Arial, sans-serif" font-size="28" font-weight="700">Modern Surfaces</text>
+  <text x="122" y="832" fill="#5B4A3E" font-family="Arial, sans-serif" font-size="22" font-weight="700">Newport, Catalina, Laguna</text>
+
+  <g transform="translate(452 454)">
+    <rect x="28" y="40" width="232" height="284" rx="24" fill="#EFE6D9" stroke="#C9B7A6" stroke-width="2"/>
+    <rect x="56" y="72" width="176" height="32" rx="10" fill="#C6B29E"/>
+    <rect x="72" y="130" width="146" height="158" rx="12" fill="#F9F6F1" stroke="#D9CABC" stroke-width="2"/>
+    <rect x="92" y="152" width="106" height="114" rx="10" fill="#E8DED2"/>
+    <rect x="56" y="292" width="176" height="20" rx="8" fill="#C7AD8B"/>
+    <rect x="254" y="142" width="118" height="96" rx="18" fill="#F7EFE4" stroke="#D4C1AD" stroke-width="2"/>
+    <rect x="274" y="160" width="78" height="60" rx="12" fill="#EDE1D1"/>
+    <rect x="292" y="180" width="42" height="22" rx="6" fill="#C8AF93"/>
+    <line x1="258" y1="190" x2="230" y2="190" stroke="#9E836D" stroke-width="2"/>
+  </g>
+
+  <text x="90" y="908" fill="#6B4F3D" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">WHAT WE ARE QUOTING</text>
+
+  <text x="90" y="956" fill="#171311" font-family="Arial, sans-serif" font-size="24" font-weight="700">Door / face</text>
+  <text x="90" y="986" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">Painted, stained, melamine, lacquer,</text>
+  <text x="90" y="1014" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">or soft-touch finish options.</text>
+
+  <text x="90" y="1062" fill="#171311" font-family="Arial, sans-serif" font-size="24" font-weight="700">Cabinet box</text>
+  <text x="90" y="1092" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">Premium plywood construction varies by</text>
+  <text x="90" y="1120" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">collection platform.</text>
+
+  <text x="470" y="956" fill="#171311" font-family="Arial, sans-serif" font-size="24" font-weight="700">Drawer box</text>
+  <text x="470" y="986" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">Soft-close and dovetail appear only on</text>
+  <text x="470" y="1014" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">collections that use them.</text>
+
+  <text x="470" y="1062" fill="#171311" font-family="Arial, sans-serif" font-size="24" font-weight="700">Shelf / back panel</text>
+  <text x="470" y="1092" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">Quote-ready thickness notes are shown</text>
+  <text x="470" y="1120" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">on each collection page.</text>
+
+  <text x="90" y="1188" fill="#171311" font-family="Arial, sans-serif" font-size="24" font-weight="700">How to use this</text>
+  <text x="90" y="1218" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">Match the collection first, then compare</text>
+  <text x="90" y="1246" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">face material, box platform, and any</text>
+  <text x="90" y="1274" fill="#3D342E" font-family="Arial, sans-serif" font-size="22" font-weight="600">thickness notes shown on that collection page.</text>
+</svg>

@@ -1,6 +1,6 @@
 # Asina Global Website
 
-Static marketing website for Asina Global, covering cabinets, countertops, furniture, designer support, and related blog content.
+Static marketing website for Asina Global, covering cabinets, countertops, furniture, design help, and related blog content.
 
 ## Stack
 
