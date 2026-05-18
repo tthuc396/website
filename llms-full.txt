@@ -4,7 +4,7 @@
 
 ## Brand summary
 
-Asina Global supplies cabinets, countertops, furniture, and design help for residential, hospitality, restaurant, and tenant improvement projects.
+Asina Global supplies cabinets, countertops, custom restaurant furniture, and design help for hospitality, restaurant, and tenant improvement projects.
 
 The public website is organized around three main product lanes plus one service lane:
 
@@ -44,12 +44,9 @@ Countertop pages explain quartz families by slab movement, thickness, sizing, pe
 
 ## Furniture
 
-- [Catalog hub](https://asinaglobal.com/furniture.html): Main furniture category hub.
-- [Cafe seating](https://asinaglobal.com/furniture-cafe-seating.html): Dining chairs, armchairs, and stools.
-- [Outdoor lounge + dining](https://asinaglobal.com/furniture-outdoor.html): Terrace, courtyard, and poolside lines.
-- [Tables + bases](https://asinaglobal.com/furniture-tables.html): Dining tables, tops, and base systems.
+- [Furniture](https://asinaglobal.com/furniture.html): Custom restaurant furniture page for chairs, table bases, benches, and franchise or theme-driven pieces.
 
-Furniture pages show imported seating, tables, and outdoor lines organized by room role and project fit.
+The furniture page stays intentionally general and directs restaurant TI teams to contact Asina Global for current options, custom fit, and design review.
 
 ## Design Help
 

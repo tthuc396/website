@@ -300,12 +300,12 @@
               '<a href="mailto:asinaglobal@gmail.com">asinaglobal@gmail.com</a>' +
             '</div>' +
             '<div class="footer-contact-row">' +
-              '<span>Address</span>' +
-              '<p>151 Sabal Palm Dr, Longwood, FL 32779</p>' +
+              '<span>Base</span>' +
+              '<p>Central Florida</p>' +
             '</div>' +
             '<div class="footer-contact-row">' +
               '<span>Serving</span>' +
-              '<p>Central Florida base with local walkthrough support and project supply nationwide.</p>' +
+              '<p>Local walkthrough support in Central Florida and project supply nationwide.</p>' +
             '</div>' +
             '<div class="footer-contact-row">' +
               '<span>Best fit</span>' +
@@ -499,6 +499,134 @@
       }).catch(function () {
         success.textContent = "There was a problem sending the request. Please email asinaglobal@gmail.com.";
         success.classList.add("visible");
+      });
+    });
+  }
+
+  function initCatalogSlabViewer() {
+    var slabTiles = Array.from(document.querySelectorAll(".catalog-slab-grid .product-tile"));
+
+    if (!slabTiles.length) {
+      return;
+    }
+
+    var viewer = document.createElement("div");
+    viewer.className = "slab-viewer";
+    viewer.setAttribute("aria-hidden", "true");
+    viewer.innerHTML =
+      '<div class="slab-viewer-backdrop" data-slab-viewer-close=""></div>' +
+      '<div class="slab-viewer-panel" role="dialog" aria-modal="true" aria-labelledby="slabViewerTitle" aria-describedby="slabViewerCode">' +
+        '<button class="slab-viewer-close" type="button" aria-label="Close enlarged slab image" data-slab-viewer-close="">Close</button>' +
+        '<figure class="slab-viewer-figure">' +
+          '<div class="slab-viewer-frame">' +
+            '<img class="slab-viewer-image" alt="" decoding="async" loading="eager"/>' +
+          '</div>' +
+          '<figcaption class="slab-viewer-meta">' +
+            '<div class="slab-viewer-copy">' +
+              '<p class="slab-viewer-code" id="slabViewerCode"></p>' +
+              '<h2 id="slabViewerTitle"></h2>' +
+            '</div>' +
+          '</figcaption>' +
+        '</figure>' +
+      '</div>';
+
+    document.body.appendChild(viewer);
+
+    var viewerImage = viewer.querySelector(".slab-viewer-image");
+    var viewerTitle = viewer.querySelector("#slabViewerTitle");
+    var viewerCode = viewer.querySelector("#slabViewerCode");
+    var closeButton = viewer.querySelector(".slab-viewer-close");
+    var closeTargets = viewer.querySelectorAll("[data-slab-viewer-close]");
+    var lastActiveElement = null;
+
+    function closeViewer() {
+      if (!viewer.classList.contains("visible")) {
+        return;
+      }
+
+      viewer.classList.remove("visible");
+      viewer.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("slab-viewer-open");
+      viewerImage.removeAttribute("src");
+      viewerImage.alt = "";
+
+      if (lastActiveElement && typeof lastActiveElement.focus === "function") {
+        lastActiveElement.focus();
+      }
+    }
+
+    function openViewer(data) {
+      if (!data.src) {
+        return;
+      }
+
+      lastActiveElement = document.activeElement;
+      viewerImage.src = data.src;
+      viewerImage.alt = data.alt || data.title || "Quartz slab";
+      viewerTitle.textContent = data.title || "Quartz slab";
+      viewerCode.textContent = data.code || "";
+      viewerCode.hidden = !data.code;
+      viewer.classList.add("visible");
+      viewer.setAttribute("aria-hidden", "false");
+      document.body.classList.add("slab-viewer-open");
+
+      window.requestAnimationFrame(function () {
+        if (closeButton) {
+          closeButton.focus();
+        }
+      });
+    }
+
+    closeTargets.forEach(function (target) {
+      target.addEventListener("click", function () {
+        closeViewer();
+      });
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && viewer.classList.contains("visible")) {
+        closeViewer();
+      }
+    });
+
+    slabTiles.forEach(function (tile) {
+      var thumb = tile.querySelector(".product-thumb");
+      var image = tile.querySelector(".product-thumb-image");
+      var title = tile.querySelector(".product-copy h3");
+      var code = tile.querySelector(".product-copy small");
+
+      if (!thumb || !image) {
+        return;
+      }
+
+      var titleText = title ? title.textContent.trim() : "";
+      var codeText = code ? code.textContent.trim() : "";
+
+      function handleOpen() {
+        openViewer({
+          src: image.currentSrc || image.src,
+          alt: image.alt,
+          title: titleText,
+          code: codeText
+        });
+      }
+
+      tile.classList.add("is-zoomable");
+      tile.setAttribute("role", "button");
+      tile.setAttribute("tabindex", "0");
+      tile.setAttribute("aria-haspopup", "dialog");
+      tile.setAttribute(
+        "aria-label",
+        "View larger slab image for " + (titleText || "this slab") + (codeText ? ", " + codeText : "")
+      );
+      thumb.classList.add("is-zoomable");
+
+      tile.addEventListener("click", handleOpen);
+      tile.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          handleOpen();
+        }
       });
     });
   }
@@ -747,6 +875,7 @@
   enhanceSiteNav();
   hydrateMediaImages();
   initFinishSelectors();
+  initCatalogSlabViewer();
   promotePriorityImages();
   ensureBlogNavLink();
   normalizeSharedCopy();

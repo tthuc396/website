@@ -88,7 +88,8 @@ body.menu-open {
   overflow: hidden;
 }
 
-body.lead-modal-open {
+body.lead-modal-open,
+body.slab-viewer-open {
   overflow: hidden;
 }
 
@@ -315,8 +316,8 @@ body.faq-page .topbar::before {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 38px;
-  padding: 9px 12px;
+  min-height: 44px;
+  padding: 10px 12px;
   border: 1px solid transparent;
   border-radius: 999px;
   color: var(--muted-strong);
@@ -1654,7 +1655,8 @@ body.faq-page .story-panel {
   box-shadow: 0 36px 88px rgba(18, 14, 11, 0.22);
 }
 
-.lead-modal-close {
+.lead-modal-close,
+.slab-viewer-close {
   position: absolute;
   top: 16px;
   right: 16px;
@@ -1668,6 +1670,59 @@ body.faq-page .story-panel {
   letter-spacing: 0.12em;
   font-size: 11px;
   cursor: pointer;
+}
+
+.slab-viewer-figure {
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.slab-viewer-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(240, 231, 221, 0.94));
+}
+
+.slab-viewer-image {
+  display: block;
+  width: 100%;
+  height: min(74vh, 860px);
+  object-fit: contain;
+}
+
+.slab-viewer-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.slab-viewer-copy {
+  display: grid;
+  gap: 6px;
+}
+
+.slab-viewer-code {
+  margin: 0;
+  color: var(--muted-strong);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.slab-viewer-copy h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3vw, 44px);
+  font-weight: 400;
+  line-height: 0.96;
+  letter-spacing: -0.05em;
 }
 
 .lead-modal-kicker {
@@ -1703,6 +1758,63 @@ body.faq-page .story-panel {
   flex-wrap: wrap;
   gap: 12px;
   padding-top: 10px;
+}
+
+.slab-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 170;
+  display: grid;
+  place-items: center;
+  padding: clamp(14px, 3vw, 28px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+
+.slab-viewer.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.slab-viewer-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(14, 11, 9, 0.74);
+  backdrop-filter: blur(12px);
+}
+
+.slab-viewer-panel {
+  position: relative;
+  width: min(1220px, calc(100vw - 24px));
+  max-height: calc(100vh - 24px);
+  padding:
+    clamp(78px, 7vw, 96px)
+    clamp(18px, 2.6vw, 24px)
+    clamp(18px, 2.6vw, 24px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  border-radius: 30px;
+  background:
+    linear-gradient(180deg, rgba(255, 251, 246, 0.98), rgba(244, 236, 227, 0.98));
+  border: 1px solid rgba(255, 255, 255, 0.58);
+  box-shadow: 0 36px 88px rgba(18, 14, 11, 0.24);
+}
+
+.slab-viewer-close {
+  z-index: 2;
+  top: clamp(20px, 2.6vw, 28px);
+  right: clamp(20px, 2.6vw, 28px);
+  background: rgba(23, 19, 17, 0.96);
+  border-color: rgba(23, 19, 17, 0.96);
+  color: var(--white);
+  box-shadow: 0 14px 30px rgba(18, 14, 11, 0.18);
+}
+
+.slab-viewer-close:hover {
+  background: rgba(23, 19, 17, 1);
+  border-color: rgba(23, 19, 17, 1);
+  transform: translateY(-1px);
 }
 
 .variant-card {
@@ -1813,6 +1925,23 @@ body.faq-page .mini-list div {
   line-height: 1.7;
   letter-spacing: 0;
   text-transform: none;
+}
+
+.footer-request p {
+  max-width: 62ch;
+}
+
+.footer-contact-row p,
+.footer-contact-row a {
+  max-width: 54ch;
+}
+
+.footer-contact-row a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  width: max-content;
+  max-width: 100%;
 }
 
 .footer-contact-list {
@@ -2206,9 +2335,18 @@ body.faq-page .mini-list div {
 .landing-hero .button.secondary,
 .catalog-hero .button.secondary,
 .collection-hero .button.secondary {
-  color: var(--white);
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.82);
+  border-color: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 12px 28px rgba(17, 16, 14, 0.18);
+}
+
+.home-hero .button.secondary:hover,
+.landing-hero .button.secondary:hover,
+.catalog-hero .button.secondary:hover,
+.collection-hero .button.secondary:hover {
+  background: rgba(255, 255, 255, 0.94);
+  border-color: rgba(255, 255, 255, 0.9);
 }
 
 .home-hero .button.browse,
@@ -2946,6 +3084,65 @@ body.faq-page .mini-list div {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(18, 15, 12, 0.12)),
     rgba(255, 251, 246, 0.94);
+}
+
+.catalog-slab-grid .product-tile.is-zoomable {
+  cursor: pointer;
+}
+
+.catalog-slab-grid .product-thumb.is-zoomable {
+  cursor: zoom-in;
+  touch-action: manipulation;
+}
+
+.catalog-slab-grid .product-thumb.is-zoomable::before {
+  content: "Enlarge";
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 1;
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(17, 14, 12, 0.72);
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
+  pointer-events: none;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .catalog-slab-grid .product-thumb.is-zoomable::before {
+    content: "Tap to enlarge";
+    opacity: 1;
+    transform: translateY(0);
+    background: rgba(17, 14, 12, 0.82);
+  }
+}
+
+.catalog-slab-grid .product-tile:hover .product-thumb.is-zoomable::before,
+.catalog-slab-grid .product-tile.is-zoomable:focus-visible .product-thumb.is-zoomable::before,
+.catalog-slab-grid .product-thumb.is-zoomable:focus-visible::before {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.catalog-slab-grid .product-tile.is-zoomable:focus-visible {
+  outline: none;
+}
+
+.catalog-slab-grid .product-tile.is-zoomable:focus-visible .product-thumb,
+.catalog-slab-grid .product-thumb.is-zoomable:focus-visible {
+  outline: none;
+  box-shadow:
+    inset 0 0 0 2px rgba(255, 255, 255, 0.72),
+    0 0 0 3px rgba(53, 41, 31, 0.42);
 }
 
 .catalog-slab-grid .product-copy {
@@ -4323,6 +4520,13 @@ html.js .stagger-grid.reveal.visible > *:nth-child(6) {
     grid-template-columns: 1fr;
   }
 
+  .catalog-index-item p,
+  .product-copy p,
+  .detail-card p,
+  .cta-support-item p {
+    max-width: 62ch;
+  }
+
   .review-collection-nav,
   .review-sections {
     width: 100%;
@@ -4474,6 +4678,34 @@ html.js .stagger-grid.reveal.visible > *:nth-child(6) {
   .page-note {
     font-size: 14.5px;
     line-height: 1.7;
+  }
+
+  .slab-viewer {
+    padding: 10px;
+  }
+
+  .slab-viewer-panel {
+    width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+    padding: 78px 12px 14px;
+    border-radius: 24px;
+  }
+
+  .slab-viewer-close {
+    top: 16px;
+    right: 16px;
+    min-width: 48px;
+    min-height: 48px;
+    padding: 0 12px;
+  }
+
+  .slab-viewer-image {
+    height: min(58vh, 420px);
+  }
+
+  .slab-viewer-copy h2 {
+    font-size: clamp(24px, 8vw, 32px);
+    line-height: 1;
   }
 
   .cta-band-note {
