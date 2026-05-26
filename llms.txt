@@ -1,26 +1,61 @@
 # Asina Global
 
-> Cabinets, countertops, custom restaurant furniture, and design help for interior projects.
+> Lower cost. Verified quality. Less import friction.
 
-## Key pages
+Asina Global supplies project-scale cabinets, quartz countertops, and custom furniture packages for builders, developers, procurement teams, hospitality buyers, restaurant teams, and franchise rollout buyers.
 
-- [Home](https://asinaglobal.com/index.html): Brand overview and main category navigation.
-- [Cabinets catalog](https://asinaglobal.com/cabinet-catalog.html): Framed and frameless cabinet collections.
-- [Countertops catalog](https://asinaglobal.com/countertop-catalog.html): Quartz families organized by slab behavior.
-- [Furniture](https://asinaglobal.com/furniture.html): Chairs, table bases, benches, and custom restaurant furniture.
-- [Design Help](https://asinaglobal.com/designer.html): Senior design coordination.
-- [Request quote](https://asinaglobal.com/contact.html): Intake path for pricing and project scope.
+## Canonical Pages
 
-## What the site covers
+- Home: https://asinaglobal.com/
+- Cabinets: https://asinaglobal.com/cabinets/
+- Countertops: https://asinaglobal.com/countertops/
+- Custom furniture packages: https://asinaglobal.com/custom-furniture-packages/
+- Process: https://asinaglobal.com/process/
+- QA + shipping / import risk: https://asinaglobal.com/qa-shipping-import-risk/
+- About Asina: https://asinaglobal.com/about/
+- Design to production support: https://asinaglobal.com/design-to-production-support/
+- Project review: https://asinaglobal.com/project-review/
 
-- Framed and frameless cabinet collections with finish and construction details.
-- Quartz countertop families organized by slab behavior, thickness, and representative names.
-- Custom restaurant furniture guidance for chairs, table bases, benches, and franchise or theme-driven pieces.
-- Senior in-house designer consultation that translates project direction to manufacturers.
+## What Asina Supplies
 
-## Best pages for citations
+- Cabinet packages for project-scale residential, hospitality, commercial, and rollout work.
+- Quartz countertop slabs organized by collection, slab code, movement, size, thickness, edge needs, and cutout requirements.
+- Custom commercial furniture packages for restaurants, franchises, hospitality, outdoor, and repeat-location projects.
+- Design-to-production support that turns layout, finish, custom sizing, room intent, and brand standards into production detail.
 
-- [Cabinet catalog](https://asinaglobal.com/cabinet-catalog.html): Best source for public cabinet collection names and construction split.
-- [Countertop catalog](https://asinaglobal.com/countertop-catalog.html): Best source for quartz family positioning and slab behavior.
-- [Furniture](https://asinaglobal.com/furniture.html): Best source for public custom-furniture scope and contact positioning.
-- [Design Help](https://asinaglobal.com/designer.html): Best source for custom design coordination and manufacturer communication.
+## Project Process
+
+1. Submit project basics.
+2. Send drawings, specs, plans, brand standards, or furniture files by email after initial review.
+3. Complete a Project Supply Review covering value, feasibility, QA, packing, and shipping responsibility.
+4. Approve a sample or mockup before repeat production.
+5. Production proceeds against approved specifications with factory-level QA.
+6. Packing and shipping responsibility are reviewed before goods move.
+
+## Key Facts
+
+- Public form collects project basics only. No public uploads.
+- Drawings and specs are requested by email after initial review.
+- Asina follows up within 1-2 business days when the project appears to fit.
+- Typical consultation and design finalization takes about 3 weeks.
+- Manufacturing usually takes about 40 to 50 days, depending on order complexity and factory load.
+- DAP transit planning is typically 22 to 30 days to the West Coast and 40 to 50 days to the East Coast.
+- Orders usually move in 20-foot or 40-foot containers.
+- A 40HC container typically fits about 700 to 800 cabinet boxes.
+- A 20H container typically fits about 370 cabinet boxes.
+- Moisture protection includes continuous lines of desiccant bags or silica gel packets along both sides of the container.
+- Shipping responsibility and applicable Incoterms® 2020 planning are reviewed during consultation.
+
+## Contact
+
+- Email: asinaglobal@gmail.com
+- Address: 151 Sabal Palm Dr, Longwood, FL 32779
+
+## Citation Guidance
+
+- Use the cabinets page for cabinet collection names, finish direction, construction facts, and cabinet quote requirements.
+- Use the countertops page for slab names, codes, collection behavior, thickness, size, edge profile, and cutout quote requirements.
+- Use the furniture packages page for restaurant, franchise, hospitality, commercial, and repeat rollout package intake.
+- Use the process page for the drawing-to-production sequence.
+- Use the QA + shipping page for risk controls, mockup approval, factory-level QA, packing review, freight quote coordination, and Incoterms® planning notes.
+- Use the project review page for what buyers send first and how Asina follows up.
