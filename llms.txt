@@ -6,15 +6,15 @@ Asina Global supplies project-scale cabinets, quartz countertops, and custom fur
 
 ## Canonical Pages
 
-- [Home](https://asinaglobal.com/): Wholesale project supply overview for cabinets, countertops, furniture packages, QA, and shipping coordination.
-- [Cabinets](https://asinaglobal.com/cabinets/): Cabinet collections, finish direction, construction facts, and cabinet quote requirements.
-- [Countertops](https://asinaglobal.com/countertops/): Slab names, codes, collections, thickness, sizing, edge profiles, and cutout requirements.
-- [Custom furniture packages](https://asinaglobal.com/custom-furniture-packages/): Restaurant, franchise, hospitality, commercial, and repeat rollout furniture intake.
-- [Process](https://asinaglobal.com/process/): Drawing-to-production sequence from project basics to shipping coordination.
-- [QA + shipping / import risk](https://asinaglobal.com/qa-shipping-import-risk/): Risk controls, source protection, QA, packing review, and Incoterms® planning notes.
-- [About Asina](https://asinaglobal.com/about/): Supplier accountability, project buyers served, and operating model.
-- [Design to production support](https://asinaglobal.com/design-to-production-support/): Layout, finish, sizing, brand standard, and production-detail support.
-- [Project review](https://asinaglobal.com/project-review/): Initial project basics form and follow-up expectations.
+- Home: https://asinaglobal.com/
+- Cabinets: https://asinaglobal.com/cabinets/
+- Countertops: https://asinaglobal.com/countertops/
+- Custom furniture packages: https://asinaglobal.com/custom-furniture-packages/
+- Process: https://asinaglobal.com/process/
+- QA + shipping / import risk: https://asinaglobal.com/qa-shipping-import-risk/
+- About Asina: https://asinaglobal.com/about/
+- Design to production support: https://asinaglobal.com/design-to-production-support/
+- Project review: https://asinaglobal.com/project-review/
 
 ## What Asina Supplies
 
