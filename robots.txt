@@ -34,4 +34,4 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-Sitemap: https://www.asinaglobal.com/sitemap.xml
+Sitemap: https://asinaglobal.com/sitemap.xml
