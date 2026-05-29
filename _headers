@@ -18,5 +18,9 @@
 /llms.txt
   Cache-Control: public, max-age=3600
 
+/google34903b7c0d871605.html
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: public, max-age=0, must-revalidate
+
 /*.html
   Cache-Control: public, max-age=0, must-revalidate
