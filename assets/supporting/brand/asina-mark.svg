@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <defs>
+    <linearGradient id="mark-metal" x1="32" x2="150" y1="18" y2="166" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7F8FA"/>
+      <stop offset="0.28" stop-color="#D5D8DE"/>
+      <stop offset="0.55" stop-color="#A8AEB8"/>
+      <stop offset="0.78" stop-color="#F1F2F5"/>
+      <stop offset="1" stop-color="#8E949D"/>
+    </linearGradient>
+  </defs>
+  <path d="M90 10 112 18 160 162H138L90 34 42 162H20L68 18 90 10Z" fill="url(#mark-metal)"/>
+  <path d="M68 50 86 58 50 162H28L68 50Z" fill="url(#mark-metal)"/>
+  <path d="M94 74 110 82 82 162H60L94 74Z" fill="url(#mark-metal)"/>
+</svg>
