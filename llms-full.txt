@@ -1,4 +1,8 @@
-# Asina Global
+# Site: Asina Global LLC
+# Description: B2B wholesale supplier of cabinets, countertops, and custom furniture packages for contractors, developers, procurement teams, and commercial buyers in Florida.
+# License: RSL 1.0 reference. Search, AI answer citation, and discovery use are permitted with attribution to https://asinaglobal.com/. Resale, bulk republication, or reuse outside discovery requires permission from Asina Global LLC.
+
+# Asina Global LLC
 
 > Lower cost. Verified quality. Less import friction.
 
