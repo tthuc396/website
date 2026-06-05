@@ -564,11 +564,14 @@ var pages = [
 		path: "/how-to-choose-wholesale-cabinet-supplier/",
 		showInHeader: false,
 		title: "How to Choose a Wholesale Cabinet Supplier for Contractors & Developers (2026)",
+		schemaBreadcrumbLabel: "How to Choose a Wholesale Cabinet Supplier",
 		description: "Five supplier models, five project types. A contractor's guide to choosing the right wholesale cabinet source in Central Florida by order size, lead time, service level, and project fit.",
 		twitterDescription: "Five supplier models, five project types. A contractor's guide to choosing the right wholesale cabinet source in Central Florida.",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
 		imageAlt: "Asina Global guide for choosing a wholesale cabinet supplier in Central Florida.",
 		articleHeadline: "How to Choose a Wholesale Cabinet Supplier for Contractors and Developers (2026)",
+		datePublished: "2026-01-01",
+		dateModified: "2026-06-05",
 		keywords: [
 			"how to choose a wholesale cabinet supplier",
 			"wholesale cabinet supplier for contractors",
@@ -712,7 +715,10 @@ var pages = [
 		path: "/import-vs-domestic-cabinets-cost/",
 		showInHeader: false,
 		title: "Import vs. Domestic Cabinets: Cost Guide for Florida Contractors | Asina Global",
-		articleHeadline: "Import Vs Domestic Cabinets",
+		schemaBreadcrumbLabel: "Import vs. Domestic Cabinets: Cost Guide",
+		articleHeadline: "Import vs. Domestic Cabinets: Cost Guide for Florida Contractors",
+		datePublished: "2026-01-01",
+		dateModified: "2026-06-05",
 		description: "Compare import vs. domestic cabinet costs for Florida contractors — landed cost breakdown, Section 232 tariff impact, container-scale savings, lead times, QA, and repeatability.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Project supply environment used for import versus domestic cabinet planning.",
@@ -1346,16 +1352,27 @@ var siteDetails = {
 	foundingDate: "2026-04-13",
 	priceRange: "$$",
 	geo: {
-		latitude: 28.703,
-		longitude: -81.348
+		latitude: 28.703102,
+		longitude: -81.417381
 	},
-	areaServed: [{
-		"@type": "State",
-		name: "Florida"
-	}, {
-		"@type": "Country",
-		name: "United States"
-	}],
+	areaServed: [
+		{
+			"@type": "City",
+			name: "Orlando"
+		},
+		{
+			"@type": "City",
+			name: "Longwood"
+		},
+		{
+			"@type": "State",
+			name: "Florida"
+		},
+		{
+			"@type": "Country",
+			name: "United States"
+		}
+	],
 	businessHours: {
 		label: "Monday-Friday, 9:00 AM-5:00 PM",
 		days: [
@@ -1420,7 +1437,7 @@ var siteDetails = {
 		}
 	],
 	description: "Asina Global supplies project-scale cabinets, countertops, and custom furniture packages with drawing review, mockup approval, QA, packing, and shipping coordination.",
-	businessDescription: "B2B wholesale supplier of cabinets, countertops, and custom furniture packages for contractors, developers, and commercial buyers in Florida.",
+	businessDescription: "Asina Global supplies wholesale cabinets, countertops, and custom furniture packages for builders, developers, and contractors in Florida. Services include drawing review, mockup approval, QA, packing, and import coordination.",
 	audience: "Builders, developers, procurement teams, restaurant groups, franchise rollout teams, and commercial project buyers.",
 	phone: "407-743-7473",
 	schemaPhone: "+1-407-743-7473",
