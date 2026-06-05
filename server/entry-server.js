@@ -2676,8 +2676,9 @@ var pages = [
 		id: "countertops",
 		label: "Countertops",
 		path: "/countertops/",
-		title: "Quartz Slab and Countertop Supply | Asina Global",
-		description: "Review Asina quartz countertops by slab code, collection, movement, size, thickness, edge profile, cutouts, destination, and project quote inputs for review.",
+		title: "Wholesale Quartz Countertop Supply in Florida | Asina Global",
+		description: "Wholesale quartz countertop supply in Florida. Review slab codes by collection, movement, size, thickness, edge profile, and cutout requirements. Countertops sourced and coordinated alongside cabinet packages.",
+		schemaDescription: "Wholesale quartz countertop supply in Florida. Review slab codes by collection, movement, size, thickness, edge profile, and cutout requirements. Coordinated alongside cabinet packages.",
 		image: "/assets/pdf-extracted/countertops/exotic/9114-calacatta-storm-black-pdf-slab.jpg",
 		imageAlt: "Calacatta Storm Black quartz slab prepared for Asina Global countertop project review.",
 		serviceType: "Wholesale countertop supply",
@@ -2879,8 +2880,8 @@ var pages = [
 		label: "Multi-Unit Cabinets",
 		path: "/multi-unit-cabinet-packages/",
 		showInHeader: false,
-		title: "Multi-Unit Cabinet Packages For Builders | Asina Global",
-		description: "Plan repeatable cabinet packages for builders and developers with finish choice, cabinet run, unit count, mockup approval, QA, and shipping review steps.",
+		title: "Multi-Unit Cabinet Packages for Developers & Contractors in Florida | Asina Global",
+		description: "Asina Global supplies multi-unit and multifamily cabinet packages for developers and contractors in Florida. Drawing review, mockup approval, QA, and shipping coordination for 10–200 unit builds.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for multi-unit project supply review.",
 		serviceType: "Multi-unit cabinet package supply",
@@ -2892,6 +2893,32 @@ var pages = [
 			"commercial cabinet packages",
 			"contractor cabinet supply"
 		]
+	},
+	{
+		id: "dealer-supply",
+		label: "Dealer Cabinet Supply",
+		path: "/wholesale-cabinet-supply-for-dealers/",
+		showInHeader: false,
+		title: "Cabinet Wholesale Supply for Dealers & Distributors in Florida | Asina Global",
+		description: "Asina Global supplies Florida cabinet dealers, kitchen designers, and distributors with project-scale imported cabinets, quartz countertops, and furniture packages. Container quantities, QA included. Dealer client relationships protected.",
+		ogDescription: "Asina Global supplies Florida cabinet dealers, kitchen designers, and distributors with project-scale imported cabinets, quartz countertops, and furniture packages. Container quantities, QA included.",
+		socialImage: "/assets/supporting/brand/asina-global-logo.svg",
+		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
+		imageAlt: "Cabinet package room prepared for dealer and distributor wholesale supply review.",
+		articleHeadline: "Cabinet Wholesale Supply for Dealers and Distributors in Florida",
+		serviceType: "Cabinet Wholesale Supply for Dealers and Distributors",
+		keywords: [
+			"wholesale cabinet supplier for dealers Florida",
+			"cabinet wholesale distributor Florida",
+			"cabinet dealer supply Central Florida",
+			"import cabinet source for dealers Florida",
+			"cabinet supply for resellers Florida",
+			"wholesale cabinet source kitchen designers Florida"
+		],
+		areaServed: [{
+			"@type": "State",
+			name: "Florida"
+		}]
 	},
 	{
 		id: "restaurant-furniture",
@@ -2955,6 +2982,59 @@ var pages = [
 			"DDP cabinets",
 			"supplier of record"
 		]
+	},
+	{
+		id: "supplier-guide",
+		label: "Wholesale Cabinet Supplier Guide",
+		path: "/how-to-choose-wholesale-cabinet-supplier/",
+		showInHeader: false,
+		title: "How to Choose a Wholesale Cabinet Supplier for Contractors & Developers (2026)",
+		description: "Five supplier models, five project types. A contractor's guide to choosing the right wholesale cabinet source in Central Florida by order size, lead time, service level, and project fit.",
+		twitterDescription: "Five supplier models, five project types. A contractor's guide to choosing the right wholesale cabinet source in Central Florida.",
+		image: "/assets/supporting/brand/asina-global-logo.svg",
+		imageAlt: "Asina Global guide for choosing a wholesale cabinet supplier in Central Florida.",
+		articleHeadline: "How to Choose a Wholesale Cabinet Supplier for Contractors and Developers (2026)",
+		keywords: [
+			"how to choose a wholesale cabinet supplier",
+			"wholesale cabinet supplier for contractors",
+			"contractor cabinet supplier guide",
+			"Central Florida cabinet supplier models",
+			"wholesale cabinet source developers"
+		],
+		areaServed: [{
+			"@type": "AdministrativeArea",
+			name: "Central Florida"
+		}, {
+			"@type": "State",
+			name: "Florida"
+		}]
+	},
+	{
+		id: "supplier-comparison",
+		label: "Supplier Comparison",
+		path: "/wholesale-cabinet-suppliers-central-florida/",
+		showInHeader: false,
+		title: "Wholesale Cabinet Suppliers in Central Florida: Compared for Contractors (2026)",
+		description: "Compare wholesale cabinet suppliers in Central Florida by model, lead time, supply path, project fit, contractor needs, and developer-scale buying needs.",
+		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
+		imageAlt: "Cabinet package room prepared for Central Florida wholesale cabinet supplier comparison.",
+		articleHeadline: "Wholesale Cabinet Suppliers in Central Florida Compared for Contractors",
+		keywords: [
+			"wholesale cabinet suppliers Central Florida",
+			"wholesale cabinets Orlando contractor",
+			"bulk cabinet supplier Central Florida",
+			"wholesale cabinet supply Florida contractor",
+			"ELLIE Cabinetry vs Asina Global",
+			"KitchenCrest alternatives Florida",
+			"ROC Cabinetry alternatives Florida"
+		],
+		areaServed: [{
+			"@type": "AdministrativeArea",
+			name: "Central Florida"
+		}, {
+			"@type": "State",
+			name: "Florida"
+		}]
 	},
 	{
 		id: "container-economics",
@@ -3056,9 +3136,9 @@ var pages = [
 		label: "Import vs Domestic",
 		path: "/import-vs-domestic-cabinets-cost/",
 		showInHeader: false,
-		title: "Import vs. Domestic Cabinet Cost Guide | Asina Global",
+		title: "Import vs. Domestic Cabinets: Cost Guide for Florida Contractors | Asina Global",
 		articleHeadline: "Import Vs Domestic Cabinets",
-		description: "Compare import vs. domestic cabinet cost with landed cost, container-scale savings, tariff exposure, lead times, QA, and a decision matrix for builders.",
+		description: "Compare import vs. domestic cabinet costs for Florida contractors — landed cost breakdown, Section 232 tariff impact, container-scale savings, lead times, QA, and repeatability.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Project supply environment used for import versus domestic cabinet planning.",
 		serviceType: "Import versus domestic cabinet planning",
@@ -3133,8 +3213,9 @@ var pages = [
 		label: "Commercial Cabinet + Countertop Supply",
 		path: "/commercial-cabinet-countertop-supply-florida/",
 		showInHeader: false,
-		title: "Florida Commercial Cabinet Countertop Supply | Asina Global",
-		description: "Review Florida commercial cabinet and countertop supply for builders, developers, hospitality, restaurant, and repeat project buyers at scale across Florida.",
+		title: "Commercial Cabinet & Countertop Supply in Florida | Asina Global",
+		description: "Asina Global supplies commercial cabinet and countertop packages for Florida contractors, developers, and franchise buyers. Drawing review, QA, and shipping coordination included. Cabinets and quartz countertops from one supplier.",
+		schemaDescription: "Asina Global supplies commercial cabinet and countertop packages for Florida contractors, developers, and franchise buyers. Drawing review, QA, and shipping coordination included.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Commercial cabinet and countertop supply packet prepared for Florida project review.",
 		serviceType: "Commercial cabinet and countertop supply",
@@ -3502,6 +3583,13 @@ var pageFaqs = {
 		["Can Asina review cabinet collections before drawings?", "Yes. Start with the category, room type, finish direction, unit count, location, and timeline. Asina requests drawings by email after the first review."],
 		["How does mockup approval help?", "A mockup or sample confirms measurements, color, finish, materials, and details before repeat production begins."]
 	],
+	"dealer-supply": [
+		["Does Asina compete with my direct clients?", "No. Asina is a wholesale supplier — we work through dealers, not around them. We do not contact dealer clients directly or quote to the same buyer a dealer has brought to us."],
+		["What is the minimum order for a dealer account?", "There is no formal minimum, but container-scale quantities — a full or near-full 40ft container equivalent — are where the economics are strongest. Smaller dealer orders are reviewed case by case."],
+		["How does pricing work for a dealer account?", "Pricing is per project, based on cabinet specifications, quantity, and shipping terms. Submit a project review with your client's drawing set and Asina will respond with a proposal."],
+		["What lead times should a dealer communicate to their client?", "8–14 weeks from drawing approval and deposit. This is an import production timeline, not a stock pull. Plan and communicate accordingly."],
+		["What Incoterms does Asina offer?", "FOB, CIF, DAP, DPU, and DDP are available depending on the project. Full shipping responsibility planning is covered in the QA and shipping page."]
+	],
 	"restaurant-furniture": [
 		["What projects fit this page?", "Restaurants, franchise rollouts, commercial venues, outdoor areas, and repeat-location furniture packages."],
 		["What furniture can Asina review?", "Asina can review tables, chairs, stools, table bases, benches, booths, outdoor groups, and custom branded pieces by project fit."],
@@ -3525,6 +3613,20 @@ var pageFaqs = {
 		["Do I need to manage Incoterms myself?", "Not at the first step. Start with the practical responsibility level you want. Asina can discuss common Incoterms® 2020 terms during quote review when precision is needed."],
 		["Can Asina review a smaller first order?", "Yes, if it connects to future project volume. Smaller orders may not carry the same cost advantage after freight, packing, and handling, so the next phase should be clear."],
 		["Can cabinets, countertops, and furniture be reviewed together?", "Yes. Mixed-scope projects can start in one Project Supply Review when the categories, quantities, destination, timeline, and file needs are clear."]
+	],
+	"supplier-guide": [
+		["What is the difference between RTA and assembled cabinets for a multi-unit project?", "RTA cabinets require on-site assembly before installation — your crew boxes and builds each cabinet. Assembled cabinets arrive as complete units ready to hang. For multi-unit projects with tight installation schedules, assembled cabinets reduce on-site labor. Asina Global supplies assembled cabinets built to a drawing set, not flat-pack RTA boxes."],
+		["How many units do I need for import cabinet pricing to make sense?", "Container-scale orders — enough to fill or nearly fill a 40ft container — are where per-unit import economics are strongest. Projects under 10 units may find that local stock suppliers are more practical given import lead times. A standard 40ft container holds approximately 15–22 complete kitchens depending on door style and cabinet count."],
+		["Are imported cabinets subject to tariffs in 2026?", "Yes. A 25% Section 232 tariff on imported kitchen cabinets has been in effect since October 2025. Import project suppliers factor current tariff rates into their proposals. Verify the current tariff status directly with any import supplier before committing."],
+		["Can one supplier handle cabinets, countertops, and furniture for a commercial project?", "Most cabinet suppliers cannot. Asina Global supplies cabinet packages, quartz countertop slabs, and custom commercial furniture packages from the same project review, which reduces procurement coordination for commercial projects that need all three categories."],
+		["What lead time should I communicate to my GC for imported cabinets?", "Plan for 8–14 weeks from drawing approval and deposit to US delivery. Add 2–3 weeks of buffer for schedule uncertainty. Communicate the full timeline to your GC before drawings are finalized."]
+	],
+	"supplier-comparison": [
+		["Who is this comparison for?", "It is for contractors, builders, developers, procurement teams, dealers, and repeat-project buyers comparing wholesale cabinet suppliers in Central Florida."],
+		["Is Asina Global LLC included in the comparison?", "Yes. Asina Global LLC is one of the suppliers compared, and the page discloses that relationship at the top."],
+		["Does the page publish competitor pricing?", "No. The page does not fabricate pricing. When public pricing is not listed, it treats pricing as not publicly listed and compares the buying model instead."],
+		["When should a contractor choose a local RTA warehouse?", "A local RTA warehouse can make sense when the project needs fast stock, pickup, or a smaller order that does not justify import planning."],
+		["When should a buyer review Asina Global LLC?", "Review Asina when the project has repeat rooms, developer or commercial scale, import planning time, and a need for mockup approval, QA, packing review, and supplier-of-record accountability."]
 	],
 	"container-economics": [
 		["How many kitchens fit in a 40ft container?", "There is no single fixed count. Capacity depends on cabinet mix, box sizes, assembly state, packing protection, accessories, and whether the shipment includes other product categories."],
@@ -3757,7 +3859,7 @@ var getPageById = (id) => pages.find((page) => page.id === id) ?? pages[0];
 var getPathForPage = (id) => getPageById(id).path;
 var getCanonicalUrlForPage = (id) => new URL(getPathForPage(id), siteOrigin).toString();
 var getAbsoluteUrl = (value = "/") => new URL(value, siteOrigin).toString();
-var getSocialImageForPage = (id) => getAbsoluteUrl(getPageById(id).image ?? siteDetails.logo);
+var getSocialImageForPage = (id) => getAbsoluteUrl(getPageById(id).socialImage ?? getPageById(id).image ?? siteDetails.logo);
 var normalizePath = (pathname = "/") => {
 	return pathname.split("?")[0].split("#")[0].replace(/\/+$/, "") || "/";
 };
@@ -3970,6 +4072,11 @@ var routeDossiers = {
 		label: "Multi-Unit Cabinets",
 		stage: 2
 	},
+	"dealer-supply": {
+		code: "DLR-26",
+		label: "Dealer Cabinet Supply",
+		stage: 2
+	},
 	"restaurant-furniture": {
 		code: "FURN-10",
 		label: "Restaurant + Franchise Furniture",
@@ -3983,6 +4090,16 @@ var routeDossiers = {
 	"importer-resources": {
 		code: "BUY-12",
 		label: "Buyer Resources",
+		stage: 2
+	},
+	"supplier-comparison": {
+		code: "CMP-27",
+		label: "Supplier Comparison",
+		stage: 2
+	},
+	"supplier-guide": {
+		code: "GUIDE-28",
+		label: "Supplier Guide",
 		stage: 2
 	},
 	"container-economics": {
@@ -4271,13 +4388,13 @@ var countertopCollectionRoutes = Object.entries(countertopCollectionRouteMap).ma
 var commercialIntentPages = {
 	"commercial-mixed": {
 		eyebrow: "Commercial Cabinet + Countertop Supply",
-		title: "Cabinets and countertops reviewed through one Florida supply process.",
+		title: "Commercial Cabinet and Countertop Supply in Florida",
 		copy: "For builders, developers, hospitality buyers, restaurant groups, and procurement teams, Asina reviews cabinet packages, slab decisions, QA, packing, and shipping responsibility in one place.",
 		media: heroAssets.environment,
 		mediaAlt: "Commercial cabinet and countertop supply packet prepared for Florida project review",
 		ticket: "Cabinet finish, slab code, destination, timeline",
 		introEyebrow: "Mixed Scope Fit",
-		introTitle: "For projects that combine cabinets, counters, or furniture.",
+		introTitle: "Wholesale Cabinet and Countertop Supply for Florida Commercial Projects",
 		introCopy: "This page answers commercial cabinet and countertop supplier searches without turning the site into a retail showroom. Asina checks scope, scale, timeline, and approvals before drawings or specs move by email.",
 		scopes: [
 			["Cabinet packages", "Finish choice, room type, cabinet run, unit count, and mockup needs."],
@@ -4501,6 +4618,20 @@ var buyerPathEntries = [
 		Icon: Box
 	},
 	{
+		page: "dealer-supply",
+		label: "Dealer cabinet supply",
+		copy: "Support dealer, designer, and distributor projects that need an import source with QA.",
+		meta: "Dealer / reseller / distributor",
+		Icon: FileText
+	},
+	{
+		page: "supplier-comparison",
+		label: "Central Florida supplier comparison",
+		copy: "Compare local stock, showroom, assembled supply, and project-scale import models.",
+		meta: "Supplier models / Central Florida",
+		Icon: PackageCheck
+	},
+	{
 		page: "multifamily-supply",
 		label: "Multifamily cabinet + countertop supply",
 		copy: "Review unit count, finish schedule, slab direction, phases, QA, and packing.",
@@ -4595,7 +4726,7 @@ var buyerQuestionGuides = {
 		copy: "Use this guide to plan cabinet box count, mixed SKUs, packing needs, and project scale before Asina reviews the quote.",
 		artifactTitle: "40ft cabinet loading",
 		answerTitle: "The useful answer is a planning range, not a fixed promise.",
-		answerCopy: "A 40HC container typically holds about 700 to 800 cabinet boxes. Final capacity changes with cabinet sizes, box count, accessories, finish protection, packing density, and whether the shipment includes countertops or furniture.",
+		answerCopy: "A 40HC container typically holds about 700 to 800 cabinet boxes. For wholesale cabinets for a 40-unit build Florida buyers can actually schedule, start with cabinet box count, repeat room mix, accessories, finish protection, packing density, and whether the shipment includes countertops or furniture.",
 		checks: [
 			["Cabinet mix", "Wall, base, tall, vanity, pantry, and accessory pieces change the box count."],
 			["Packing method", "Flat-pack, assembled pieces, finish protection, and moisture control affect capacity."],
@@ -4941,7 +5072,7 @@ var buyerQuestionGuides = {
 	},
 	"import-vs-domestic": {
 		eyebrow: "Cabinet Cost Planning",
-		title: "Import vs. Domestic Cabinet Cost",
+		title: "Import vs. Domestic Cabinets: Cost Guide for Florida Contractors",
 		copy: "Compare speed, project scale, total cost picture, QA, repeatability, and supplier accountability before choosing how to source cabinets.",
 		artifactTitle: "Import or domestic fit",
 		answerTitle: "Domestic and imported supply solve different project problems.",
@@ -5203,7 +5334,7 @@ var routeProofDossiers = {
 	},
 	"multi-unit": {
 		eyebrow: "Builder Package Review",
-		title: "Cabinet decisions need repeatable rooms, quantities, and approval checkpoints.",
+		title: "Multifamily Cabinet Supply for Developers — How It Works",
 		items: [
 			[
 				"Unit count",
@@ -5218,6 +5349,27 @@ var routeProofDossiers = {
 			[
 				"Shipping plan",
 				"Asina reviews packing, container fit, and responsibility before release.",
+				Truck
+			]
+		]
+	},
+	"dealer-supply": {
+		eyebrow: "Dealer Supply Review",
+		title: "Dealer work needs protected relationships and a clear import path.",
+		items: [
+			[
+				"Dealer-led client",
+				"The dealer brings the project, scope, relationship, and markup path.",
+				FileText
+			],
+			[
+				"Import review",
+				"Asina reviews drawings, quantity, mockup needs, production QA, and packing.",
+				PackageCheck
+			],
+			[
+				"Trade terms",
+				"Shipping responsibility and Incoterms® planning stay inside the quote path.",
 				Truck
 			]
 		]
@@ -5285,6 +5437,48 @@ var routeProofDossiers = {
 			]
 		]
 	},
+	"supplier-comparison": {
+		eyebrow: "Supplier Comparison",
+		title: "A useful comparison names the buying model before the price talk.",
+		items: [
+			[
+				"Local stock",
+				"RTA and warehouse options can be faster for small or urgent cabinet needs.",
+				Box
+			],
+			[
+				"Project import",
+				"Asina fits repeat volume, mockup approval, QA, packing, and supplier-of-record review.",
+				PackageCheck
+			],
+			[
+				"Fair disclosure",
+				"The page names Asina as one of the suppliers compared and avoids invented pricing.",
+				ShieldCheck
+			]
+		]
+	},
+	"supplier-guide": {
+		eyebrow: "Supplier Model Guide",
+		title: "Choose the cabinet supplier model before you compare the quote.",
+		items: [
+			[
+				"Stock speed",
+				"RTA warehouses and showroom chains can fit small, urgent, or homeowner-led work.",
+				Box
+			],
+			[
+				"Project scale",
+				"Import project suppliers fit drawing sets, repeat units, mockup approval, QA, and container planning.",
+				PackageCheck
+			],
+			[
+				"Dealer path",
+				"Dealer supply keeps the reseller relationship protected while the import supply path is reviewed.",
+				ShieldCheck
+			]
+		]
+	},
 	orlando: {
 		eyebrow: "Florida To Nationwide Support",
 		title: "Orlando-area buyers, Florida projects, and qualified nationwide teams start from one project review.",
@@ -5308,7 +5502,7 @@ var routeProofDossiers = {
 	},
 	"commercial-mixed": {
 		eyebrow: "Mixed Scope Review",
-		title: "Cabinet and countertop decisions can share one quote path.",
+		title: "Wholesale Cabinet and Countertop Supply for Florida Commercial Projects",
 		items: [
 			[
 				"Cabinet facts",
@@ -5611,9 +5805,12 @@ function App({ initialPage = "home" }) {
 							activePage === "privacy" && /* @__PURE__ */ jsx(PrivacyPolicyPage, { navigate }),
 							activePage === "buyer-paths" && /* @__PURE__ */ jsx(BuyerPathsPage, { navigate }),
 							activePage === "multi-unit" && /* @__PURE__ */ jsx(MultiUnitCabinetPackagesPage, { navigate }),
+							activePage === "dealer-supply" && /* @__PURE__ */ jsx(DealerCabinetSupplyPage, { navigate }),
+							activePage === "supplier-guide" && /* @__PURE__ */ jsx(WholesaleCabinetSupplierGuidePage, { navigate }),
 							activePage === "restaurant-furniture" && /* @__PURE__ */ jsx(RestaurantFranchiseFurniturePackagesPage, { navigate }),
 							activePage === "rfq" && /* @__PURE__ */ jsx(RFQProcurementResourcesPage, { navigate }),
 							activePage === "importer-resources" && /* @__PURE__ */ jsx(ProjectSupplyImporterResourcesPage, { navigate }),
+							activePage === "supplier-comparison" && /* @__PURE__ */ jsx(WholesaleCabinetSupplierComparisonPage, { navigate }),
 							activePage === "container-economics" && /* @__PURE__ */ jsx(BuyerQuestionGuidePage, {
 								guideId: "container-economics",
 								navigate
@@ -6056,29 +6253,29 @@ function RouteHandoff({ activePage, activeDossier }) {
 }
 function Reveal({ children, className = "", delay = 0 }) {
 	const reducedMotion = useReducedMotion();
+	const visibleState = {
+		opacity: 1,
+		y: 0,
+		clipPath: "inset(0 0 0% 0)"
+	};
 	return /* @__PURE__ */ jsx(motion.div, {
 		className,
-		initial: reducedMotion ? {
+		initial: reducedMotion ? visibleState : {
 			opacity: 1,
-			y: 0,
-			clipPath: "inset(0 0 0% 0)"
-		} : {
-			opacity: 1,
-			y: 14,
+			y: 12,
 			clipPath: "inset(0 0 0% 0)"
 		},
-		whileInView: {
-			opacity: 1,
-			y: 0,
-			clipPath: "inset(0 0 0% 0)"
-		},
+		animate: visibleState,
+		whileInView: visibleState,
 		viewport: {
 			once: true,
-			amount: .22
+			amount: .16,
+			margin: "0px 0px -8% 0px"
 		},
 		transition: {
-			duration: reducedMotion ? 0 : .42,
-			delay: reducedMotion ? 0 : delay
+			duration: reducedMotion ? 0 : .38,
+			delay: reducedMotion ? 0 : delay,
+			ease: motionEase
 		},
 		children
 	});
@@ -6521,6 +6718,111 @@ var relatedRouteGroups = {
 				copy: "Use this path when cabinet work repeats across rooms, phases, developments, or unit counts.",
 				meta: "Units / cabinet runs / finish",
 				Icon: Box
+			},
+			{
+				page: "review",
+				label: "Start project review",
+				copy: "Send project basics first. Asina requests drawings and specs by email after the fit check.",
+				meta: "Basics / email follow-up",
+				Icon: Send
+			}
+		]
+	},
+	"dealer-supply": {
+		eyebrow: "Related Dealer Supply Paths",
+		title: "Related Resources",
+		copy: "Use these pages to compare supplier models, prepare quote inputs, review QA controls, and check whether import supply fits the dealer-led project.",
+		links: [
+			{
+				page: "supplier-comparison",
+				label: "Central Florida supplier comparison",
+				copy: "Compare local stock, showroom, assembled, and project-scale import supplier models.",
+				meta: "Comparison / local suppliers",
+				Icon: FileText
+			},
+			{
+				page: "rfq",
+				label: "RFQ procurement resources",
+				copy: "Prepare drawings, finish schedule, unit count, destination, timeline, and quote inputs.",
+				meta: "RFQ / drawings / quantity",
+				Icon: FileText
+			},
+			{
+				page: "qa",
+				label: "QA + shipping controls",
+				copy: "Review mockup approval, production checks, packing, and shipping responsibility.",
+				meta: "Mockup / QA / packing",
+				Icon: ShieldCheck
+			},
+			{
+				page: "import-vs-domestic",
+				label: "Import vs domestic planning",
+				copy: "Compare speed, container scale, cost picture, QA, and tariff exposure before quoting a client.",
+				meta: "Speed / scale / cost",
+				Icon: PackageCheck
+			}
+		]
+	},
+	"supplier-comparison": {
+		eyebrow: "Related Supplier Comparison Paths",
+		title: "Related Pages on Asina Global",
+		copy: "The comparison page should lead buyers into dealer supply, multi-unit packages, import planning, or mixed commercial review only when those paths fit.",
+		links: [
+			{
+				page: "dealer-supply",
+				label: "Dealer cabinet supply",
+				copy: "Use this path when a dealer, designer, or distributor is bringing a project client.",
+				meta: "Dealer / reseller / distributor",
+				Icon: FileText
+			},
+			{
+				page: "multi-unit",
+				label: "Multi-unit cabinet packages",
+				copy: "Use this path when cabinet runs repeat across units, rooms, or phases.",
+				meta: "Units / cabinet runs / finish",
+				Icon: Box
+			},
+			{
+				page: "import-vs-domestic",
+				label: "Import vs domestic cabinet cost",
+				copy: "Compare timing, scale, cost picture, QA, and responsibility before choosing a sourcing path.",
+				meta: "Import / domestic / cost",
+				Icon: PackageCheck
+			},
+			{
+				page: "commercial-mixed",
+				label: "Commercial cabinet + countertop supply",
+				copy: "Use this when cabinets and surfaces need one coordinated project review.",
+				meta: "Cabinets / countertops",
+				Icon: Ruler
+			}
+		]
+	},
+	"supplier-guide": {
+		eyebrow: "Related Supplier Guide Paths",
+		title: "Move from supplier model into the right Asina path.",
+		copy: "Use these pages once the supplier model fits the project schedule, order size, and service level.",
+		links: [
+			{
+				page: "dealer-supply",
+				label: "Cabinet wholesale supply for dealers",
+				copy: "Use this when a dealer, kitchen designer, or distributor brings a project-scale client.",
+				meta: "Dealer / reseller / client protected",
+				Icon: FileText
+			},
+			{
+				page: "multi-unit",
+				label: "Multi-unit cabinet packages",
+				copy: "Use this when cabinet runs repeat across units, rooms, or phases.",
+				meta: "Developers / contractors / units",
+				Icon: Box
+			},
+			{
+				page: "import-vs-domestic",
+				label: "Import vs domestic cost guide",
+				copy: "Compare speed, landed cost, tariff exposure, QA, and repeatability before sourcing.",
+				meta: "Cost / lead time / QA",
+				Icon: PackageCheck
 			},
 			{
 				page: "review",
@@ -7325,7 +7627,7 @@ function BuyerPathTeaser({ navigate }) {
 					className: "section-label",
 					children: "Buyer Paths"
 				}),
-				/* @__PURE__ */ jsx("h2", { children: "Find the right starting point without reading every guide." }),
+				/* @__PURE__ */ jsx("h2", { children: "Find the right cabinet, countertop, or furniture starting point." }),
 				/* @__PURE__ */ jsx("p", { children: "Buyers who need a specific route can open the full directory for product categories, commercial use cases, RFQ preparation, QA, shipping, and collection detail." }),
 				/* @__PURE__ */ jsxs(RouteLink, {
 					page: "buyer-paths",
@@ -7439,7 +7741,19 @@ function BuyerPathsPage({ navigate }) {
 							children: "Route Index"
 						}),
 						/* @__PURE__ */ jsx("h2", { children: "Choose the path by what the project needs first." }),
-						/* @__PURE__ */ jsx("p", { children: "Some buyers start with a product category. Others need commercial intent, quote preparation, or shipping responsibility clarified before pricing. This page keeps those paths separate so each project can move into review with clearer context." })
+						/* @__PURE__ */ jsx("p", { children: "Some buyers start with a product category. Others need commercial intent, quote preparation, or shipping responsibility clarified before pricing. This page keeps those paths separate so each project can move into review with clearer context." }),
+						/* @__PURE__ */ jsxs("p", { children: [
+							"Buyers comparing local sourcing can also see",
+							" ",
+							/* @__PURE__ */ jsx(RouteLink, {
+								page: "supplier-comparison",
+								navigate,
+								className: "copy-link",
+								children: "how Asina compares to local suppliers"
+							}),
+							" ",
+							"before choosing a product or planning route."
+						] })
 					]
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "buyer-path-index-steps",
@@ -7810,7 +8124,7 @@ function EconomicsShipping({ navigate }) {
 					className: "ledger-caption",
 					children: "Wholesale Economics"
 				}),
-				/* @__PURE__ */ jsx("h2", { children: "The best value usually works at container scale." }),
+				/* @__PURE__ */ jsx("h2", { children: "Wholesale cabinet value usually starts at container scale." }),
 				/* @__PURE__ */ jsx("p", { children: "A 40ft container load usually gives builders and developers the best cost advantage. Asina can discuss smaller trial runs when they point to future wholesale or repeat-project volume." }),
 				/* @__PURE__ */ jsx("p", { children: "Cabinet orders typically move in 20-foot or 40-foot containers. A 40HC container can typically fit about 700 to 800 cabinet boxes; a 20-foot container can typically fit about 370 boxes, depending on the final mix." })
 			]
@@ -7842,7 +8156,7 @@ function SourceProtectionPanel({ navigate }) {
 				className: "ledger-caption",
 				children: "Source Protection + Accountability"
 			}),
-			/* @__PURE__ */ jsx("h2", { children: "Buyers see the process, not private source details." }),
+			/* @__PURE__ */ jsx("h2", { children: "Cabinet, countertop, and furniture buyers see the review path." }),
 			/* @__PURE__ */ jsx("p", { children: "Asina is the supplier of record. Buyers see the review, QA, packing, and shipping process while private production sources stay protected." }),
 			/* @__PURE__ */ jsx(RouteLink, {
 				page: "qa",
@@ -8228,18 +8542,38 @@ function CabinetsPage({ navigate }) {
 		]
 	});
 }
-function PageShell({ variant, eyebrow, title, copy, actionPage, navigate, children }) {
+function PageShell({ variant, eyebrow, title, copy, actionPage, navigate, breadcrumb, heroMeta, heroDisclosure, children }) {
 	return /* @__PURE__ */ jsxs(Fragment, { children: [
 		/* @__PURE__ */ jsxs("section", {
 			className: `page-hero ${variant ? `page-hero-${variant}` : ""}`,
 			children: [/* @__PURE__ */ jsxs(Reveal, {
 				className: "page-hero-copy",
 				children: [
+					breadcrumb && /* @__PURE__ */ jsx("nav", {
+						className: "page-breadcrumb",
+						"aria-label": "Breadcrumb",
+						children: breadcrumb.map((item, index) => item.page ? /* @__PURE__ */ jsx(RouteLink, {
+							page: item.page,
+							navigate,
+							children: item.label
+						}, item.label) : /* @__PURE__ */ jsx("span", {
+							"aria-current": index === breadcrumb.length - 1 ? "page" : void 0,
+							children: item.label
+						}, item.label))
+					}),
 					/* @__PURE__ */ jsx("p", {
 						className: "page-label",
 						children: eyebrow
 					}),
 					/* @__PURE__ */ jsx("h1", { children: title }),
+					heroMeta && /* @__PURE__ */ jsx("p", {
+						className: "page-hero-meta",
+						children: heroMeta
+					}),
+					heroDisclosure && /* @__PURE__ */ jsx("p", {
+						className: "page-hero-disclosure",
+						children: heroDisclosure
+					}),
 					/* @__PURE__ */ jsx("p", { children: copy }),
 					actionPage && navigate && /* @__PURE__ */ jsxs(RouteLink, {
 						page: actionPage,
@@ -8316,18 +8650,19 @@ function PageHeroArtifact({ variant }) {
 	const guideArtifact = (guideId) => {
 		const guide = buyerQuestionGuides[guideId];
 		if (!guide) return null;
+		const usesEnvironmentPhoto = guide.image === heroAssets.environment;
 		return /* @__PURE__ */ jsxs("div", {
-			className: "hero-artifact importer-artifact seo-artifact",
+			className: `hero-artifact importer-artifact seo-artifact${usesEnvironmentPhoto ? " seo-artifact-static-media" : ""}`,
 			"aria-label": `${guide.eyebrow} proof packet`,
 			children: [
 				/* @__PURE__ */ jsx(ResponsiveImage, {
-					className: "importer-artifact-media",
+					className: `importer-artifact-media${usesEnvironmentPhoto ? " is-static-artifact-media" : ""}`,
 					src: guide.image,
 					alt: guide.mediaAlt,
 					loading: "eager",
 					fetchPriority: "high",
 					sizes: "(max-width: 920px) 92vw, 34vw",
-					preferredWidth: 960
+					preferredWidth: usesEnvironmentPhoto ? 1280 : 960
 				}),
 				/* @__PURE__ */ jsx("span", {
 					className: "seo-artifact-scan",
@@ -8589,6 +8924,38 @@ function PageHeroArtifact({ variant }) {
 				/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Scale" }), /* @__PURE__ */ jsx("dd", { children: "Container planning" })] })
 			] })]
 		}),
+		"dealer-supply": /* @__PURE__ */ jsxs("div", {
+			className: "hero-artifact dealer-artifact",
+			"aria-label": "Dealer wholesale cabinet supply proof packet",
+			children: [
+				/* @__PURE__ */ jsx(ResponsiveImage, {
+					className: "dealer-artifact-media",
+					src: heroAssets.cabinetRoom,
+					alt: "Cabinet package room prepared for dealer and distributor wholesale supply review",
+					loading: "eager",
+					fetchPriority: "high",
+					sizes: "(max-width: 920px) 92vw, 34vw",
+					preferredWidth: 960
+				}),
+				/* @__PURE__ */ jsxs("div", {
+					className: "dealer-artifact-ticket",
+					children: [
+						/* @__PURE__ */ jsx("span", { children: "Dealer packet" }),
+						/* @__PURE__ */ jsx("strong", { children: "Client protected. Import path reviewed." }),
+						/* @__PURE__ */ jsx("p", { children: "Drawings, quantity, mockup, QA, packing, and trade terms stay in one dealer-led review." })
+					]
+				}),
+				/* @__PURE__ */ jsx("ol", {
+					className: "dealer-artifact-steps",
+					children: [
+						"Dealer brings project",
+						"Asina reviews fit",
+						"Mockup approved",
+						"Dealer sells through"
+					].map((item, index) => /* @__PURE__ */ jsxs("li", { children: [/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }), item] }, item))
+				})
+			]
+		}),
 		"restaurant-furniture": /* @__PURE__ */ jsxs("div", {
 			className: "hero-artifact furniture-artifact",
 			"aria-label": "Restaurant and franchise furniture rollout packet proof",
@@ -8673,6 +9040,72 @@ function PageHeroArtifact({ variant }) {
 						"Lead time",
 						"QA proof",
 						"Shipping"
+					].map((item, index) => /* @__PURE__ */ jsxs("span", { children: [/* @__PURE__ */ jsx("i", { children: String(index + 1).padStart(2, "0") }), item] }, item))
+				})
+			]
+		}),
+		"supplier-comparison": /* @__PURE__ */ jsxs("div", {
+			className: "hero-artifact comparison-artifact",
+			"aria-label": "Central Florida wholesale cabinet supplier comparison proof",
+			children: [
+				/* @__PURE__ */ jsx(ResponsiveImage, {
+					className: "comparison-artifact-media",
+					src: heroAssets.cabinetRoom,
+					alt: "Cabinet package room prepared for Central Florida supplier comparison",
+					loading: "eager",
+					fetchPriority: "high",
+					sizes: "(max-width: 920px) 92vw, (max-width: 1280px) 42vw, 36vw",
+					preferredWidth: 1600
+				}),
+				/* @__PURE__ */ jsxs("div", {
+					className: "comparison-artifact-panel",
+					children: [
+						/* @__PURE__ */ jsx("span", { children: "Comparison guide" }),
+						/* @__PURE__ */ jsx("strong", { children: "Stock speed, assembled supply, project import." }),
+						/* @__PURE__ */ jsx("p", { children: "Five supplier models compared by fit, lead time signal, and responsibility path." })
+					]
+				}),
+				/* @__PURE__ */ jsx("div", {
+					className: "comparison-artifact-ledger",
+					children: [
+						"Asina Global",
+						"ELLIE Cabinetry",
+						"KitchenCrest",
+						"ROC Cabinetry",
+						"Cabinets To Go"
+					].map((item, index) => /* @__PURE__ */ jsxs("span", { children: [/* @__PURE__ */ jsx("i", { children: String(index + 1).padStart(2, "0") }), item] }, item))
+				})
+			]
+		}),
+		"supplier-guide": /* @__PURE__ */ jsxs("div", {
+			className: "hero-artifact comparison-artifact",
+			"aria-label": "Wholesale cabinet supplier model guide proof",
+			children: [
+				/* @__PURE__ */ jsx(ResponsiveImage, {
+					className: "comparison-artifact-media",
+					src: heroAssets.cabinetRoom,
+					alt: "Cabinet package room prepared for wholesale cabinet supplier model review",
+					loading: "eager",
+					fetchPriority: "high",
+					sizes: "(max-width: 920px) 92vw, (max-width: 1280px) 42vw, 36vw",
+					preferredWidth: 1600
+				}),
+				/* @__PURE__ */ jsxs("div", {
+					className: "comparison-artifact-panel",
+					children: [
+						/* @__PURE__ */ jsx("span", { children: "Supplier guide" }),
+						/* @__PURE__ */ jsx("strong", { children: "RTA, assembled, showroom, import, dealer supply." }),
+						/* @__PURE__ */ jsx("p", { children: "Five supplier models mapped to project type, lead time, service level, and order scale." })
+					]
+				}),
+				/* @__PURE__ */ jsx("div", {
+					className: "comparison-artifact-ledger",
+					children: [
+						"RTA",
+						"Stock",
+						"Retail",
+						"Import",
+						"Dealer"
 					].map((item, index) => /* @__PURE__ */ jsxs("span", { children: [/* @__PURE__ */ jsx("i", { children: String(index + 1).padStart(2, "0") }), item] }, item))
 				})
 			]
@@ -8807,10 +9240,14 @@ function PageHeroArtifact({ variant }) {
 	}
 	return /* @__PURE__ */ jsx(motion.div, {
 		className: "page-hero-artifact",
-		initial: reducedMotion ? { opacity: 1 } : {
-			opacity: 0,
-			y: 18,
-			rotate: -.35
+		initial: reducedMotion ? {
+			opacity: 1,
+			y: 0,
+			rotate: 0
+		} : {
+			opacity: 1,
+			y: 14,
+			rotate: -.25
 		},
 		animate: {
 			opacity: 1,
@@ -8818,7 +9255,7 @@ function PageHeroArtifact({ variant }) {
 			rotate: 0
 		},
 		transition: {
-			duration: reducedMotion ? 0 : .42,
+			duration: reducedMotion ? 0 : .38,
 			ease: motionEase
 		},
 		children: variants[variant]
@@ -9217,7 +9654,7 @@ function CountertopsPage({ navigate }) {
 	return /* @__PURE__ */ jsxs(PageShell, {
 		variant: "countertops",
 		eyebrow: "Wholesale Countertops",
-		title: "Inspectable slabs with pricing details close by.",
+		title: "Wholesale Quartz Countertop Supply in Florida",
 		copy: "Start with the slab, then keep size, thickness, edge, cutout, and timeline details close by.",
 		navigate,
 		actionPage: "review",
@@ -10700,7 +11137,7 @@ function ResourceByline({ pageId, navigate }) {
 		]
 	});
 }
-function ImportVsDomesticCostSection() {
+function ImportVsDomesticCostSection({ navigate }) {
 	const supplyPaths = [
 		{
 			title: "Domestic stock",
@@ -10982,6 +11419,20 @@ function ImportVsDomesticCostSection() {
 						className: "import-tariff-footnote",
 						children: [/* @__PURE__ */ jsx("strong", { children: "What a 25 percent tariff does to the cost picture" }), /* @__PURE__ */ jsx("p", { children: "If a 25 percent additional duty applies to a $60,000 FOB order, that adds $15,000 before freight, brokerage, handling, or delivery. Cabinet imports may also face other trade remedies, so Asina verifies classification, origin, and applicable duty treatment during consultation before drawings move or a quote is issued." })]
 					})
+				]
+			}),
+			/* @__PURE__ */ jsxs("p", {
+				className: "page-footer-note",
+				children: [
+					"For a full comparison of supplier models available in Central Florida, see our",
+					" ",
+					/* @__PURE__ */ jsx(RouteLink, {
+						page: "supplier-guide",
+						navigate,
+						className: "copy-link",
+						children: "wholesale cabinet supplier guide for contractors"
+					}),
+					"."
 				]
 			})
 		]
@@ -11557,8 +12008,8 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 	return /* @__PURE__ */ jsxs(PageShell, {
 		variant: "multi-unit",
 		eyebrow: "Multi-Unit Cabinet Packages",
-		title: "Cabinet packages built for repeatable rooms.",
-		copy: "For builders and developers, the first review connects finish choice, room type, cabinet run, unit count, mockup approval, QA, packing, and shipping.",
+		title: "Multi-Unit Cabinet Packages for Developers and Contractors in Florida",
+		copy: "For developers building 10 to 200 units, Asina Global reviews cabinet packages from drawing set through mockup approval, production QA, and shipping coordination. Multifamily projects, phased builds, and repeat-room commercial work are the primary use case.",
 		navigate,
 		actionPage: "review",
 		children: [
@@ -11573,6 +12024,29 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 						}),
 						/* @__PURE__ */ jsx("h2", { children: "Good cabinet procurement starts with repeatability." }),
 						/* @__PURE__ */ jsx("p", { children: "This page is for project buyers comparing a multi-unit cabinet supplier, apartment cabinet packages, developer cabinet procurement, cabinet supplier for builders, commercial cabinet packages, commercial cabinet supply, or contractor cabinet supply. Asina reviews repeated rooms, units, phases, commercial spaces, and builder packages. It is not a retail kitchen cart or a discount cabinet page." }),
+						/* @__PURE__ */ jsxs("p", { children: [
+							"For cabinet supplier for apartment development Florida work, or wholesale cabinets for a 40-unit build Florida buyers can actually schedule, compare",
+							" ",
+							/* @__PURE__ */ jsx(RouteLink, {
+								page: "supplier-comparison",
+								navigate,
+								className: "copy-link",
+								children: "wholesale cabinet suppliers in Central Florida"
+							}),
+							" ",
+							"before choosing local stock, dealer supply, or a planned import package."
+						] }),
+						/* @__PURE__ */ jsxs("p", { children: [
+							"Not sure which supplier model fits your project? See our guide on",
+							" ",
+							/* @__PURE__ */ jsx(RouteLink, {
+								page: "supplier-guide",
+								navigate,
+								className: "copy-link",
+								children: "how to choose a wholesale cabinet supplier for contractors and developers"
+							}),
+							"."
+						] }),
 						/* @__PURE__ */ jsx(RouteLink, {
 							page: "cabinets",
 							navigate,
@@ -11674,6 +12148,919 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 			}),
 			/* @__PURE__ */ jsx(RelatedProjectPaths, {
 				currentPage: "multi-unit",
+				navigate
+			}),
+			/* @__PURE__ */ jsx(CTASection, { navigate })
+		]
+	});
+}
+function DealerCabinetSupplyPage({ navigate }) {
+	return /* @__PURE__ */ jsxs(PageShell, {
+		variant: "dealer-supply",
+		eyebrow: "Dealer + Distributor Supply",
+		title: "Cabinet Wholesale Supply for Dealers and Distributors in Florida",
+		copy: "Asina supplies Florida cabinet dealers, kitchen designers, and distributors with project-scale imported cabinets, quartz countertops, and furniture packages when the client scope has repeat volume and enough planning time.",
+		navigate,
+		actionPage: "review",
+		breadcrumb: [
+			{
+				label: "Home",
+				page: "home"
+			},
+			{
+				label: "Resources",
+				page: "importer-resources"
+			},
+			{ label: "Cabinet Wholesale Supply for Dealers" }
+		],
+		heroMeta: "Last updated June 2026 · Written by Chuck Tran, Asina Global LLC",
+		children: [
+			/* @__PURE__ */ jsxs("section", {
+				className: "commercial-workbench dealer-fit-workbench",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "commercial-copy",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Who This Is For"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "Who This Is For" }),
+						/* @__PURE__ */ jsx("p", { children: "This page is for cabinet dealers, kitchen designers, and distributors who resell to developer, commercial, or repeat-project clients. If the job is a single-family remodel that needs stock next week, a local RTA warehouse will usually be faster." }),
+						/* @__PURE__ */ jsx(RouteLink, {
+							page: "supplier-comparison",
+							navigate,
+							className: "button secondary",
+							children: "Compare local supplier models"
+						})
+					]
+				}), /* @__PURE__ */ jsx("div", {
+					className: "dealer-fit-grid",
+					"aria-label": "Dealer supply buyer fit",
+					children: [
+						["Cabinet dealers", "For dealers supplying developer or commercial clients who need an import source with QA and shipping coordination included."],
+						["Kitchen designers", "For designers with large project accounts who need container economics without managing overseas production alone."],
+						["Distributors", "For distributors who want an import cabinet source for their network without building their own factory QA process."]
+					].map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+						className: "dealer-fit-row",
+						delay: index * .04,
+						children: [
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("strong", { children: title }),
+							/* @__PURE__ */ jsx("p", { children: copy })
+						]
+					}, title))
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section dealer-supply-board",
+				"aria-label": "What Asina supplies to dealers",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Dealer-Scale Supply",
+					title: "What Asina Supplies to Dealers",
+					copy: "This model fits repeat client scope, container-scale planning, or mixed-SKU project volume, not a single small order that needs pickup this week."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "dealer-supply-grid",
+					children: [
+						["Cabinet collections", "Malibu, Monterey, Newport, Catalina, Laguna, and Jersey, with painted shaker and wood-tone finishes, 5/8-inch premium plywood where published, and soft-close hardware as the standard expectation."],
+						["Quartz countertops", "Exotic, Natural, and Grain quartz slabs organized by code, movement, size, thickness, edge needs, and cutouts."],
+						["Furniture packages", "Commercial furniture packages for restaurants, hospitality, franchise, outdoor, and repeat-location projects."],
+						["Container planning", "Full or near-full 40ft equivalent volume is where value is strongest. Mixed-SKU containers can be reviewed when cabinets, slabs, and furniture are planned together."],
+						["Custom sizing", "Reviewed when commercial drawings need cabinet dimensions a stock distributor does not carry."]
+					].map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+						className: "dealer-supply-row",
+						delay: index * .035,
+						children: [
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("h3", { children: title }),
+							/* @__PURE__ */ jsx("p", { children: copy })
+						]
+					}, title))
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section dealer-model-board",
+				"aria-label": "Dealer wholesale supply model",
+				children: [/* @__PURE__ */ jsxs(Reveal, {
+					className: "dealer-model-media",
+					children: [/* @__PURE__ */ jsx(ResponsiveImage, {
+						src: heroAssets.cabinetRoom,
+						alt: "Cabinet package room reviewed for dealer wholesale supply",
+						sizes: "(max-width: 920px) 92vw, 44vw",
+						preferredWidth: 960
+					}), /* @__PURE__ */ jsxs("div", {
+						className: "proof-media-ticket",
+						children: [/* @__PURE__ */ jsx("span", { children: "Dealer model" }), /* @__PURE__ */ jsx("strong", { children: "Client protected, project reviewed" })]
+					})]
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "dealer-model-ledger",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "How It Works"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "How the Dealer Supply Model Works" }),
+						/* @__PURE__ */ jsx("p", { children: "Pricing is per project. There is no public dealer price list because specifications, quantities, mockup needs, packing, destination, and trade terms change the actual cost." }),
+						/* @__PURE__ */ jsx("div", {
+							className: "proof-step-list",
+							children: [
+								["Dealer brings the project", "Send the client scope, drawings, finish schedule, unit count, destination, and timeline."],
+								["Asina reviews fit", "Asina checks product fit, sizing, lead time, mockup needs, QA, packing, and shipping responsibility."],
+								["Mockup approval comes first", "A sample or mockup confirms sizing, finish, material direction, and details before a full run."],
+								["Dealer sells through", "The dealer marks up to the client. Asina does not quote around a dealer relationship brought to us."]
+							].map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+								className: "proof-step",
+								delay: index * .04,
+								children: [/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }), /* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("strong", { children: title }), /* @__PURE__ */ jsx("p", { children: copy })] })]
+							}, title))
+						})
+					]
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section dealer-advantage-board",
+				"aria-label": "Why dealers use an import source",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Why Dealers Use It",
+					title: "Why Dealers Use an Import Source",
+					copy: "A wholesale cabinet source for kitchen designers and dealers needs to protect the dealer relationship while still giving the project a serious QA path."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "dealer-advantage-grid",
+					children: [
+						["Container economics", "For dealers running 20 or more repeat units, container-scale review can change the per-unit cost picture."],
+						["Custom commercial sizing", "Project drawings sometimes need sizes that fixed stock distributors cannot supply."],
+						["One source path", "Cabinets, countertops, and furniture can move through one supply review when the dealer manages a broader project package."],
+						["QA ownership", "Asina's mockup, production QA, and packing review reduce the dealer's need to manage overseas oversight alone."]
+					].map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+						className: "dealer-advantage-item",
+						delay: index * .035,
+						children: [
+							/* @__PURE__ */ jsx(Check, { size: 17 }),
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("strong", { children: title }),
+							/* @__PURE__ */ jsx("p", { children: copy })
+						]
+					}, title))
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "dossier-grid quote-dossier",
+				children: [/* @__PURE__ */ jsx(WhatToSend, {
+					title: "What a dealer should send first",
+					items: [
+						"Client project type",
+						"Drawing set status",
+						"Finish schedule",
+						"Unit or room count",
+						"Destination",
+						"Timeline"
+					],
+					note: "Start with project basics. If the dealer-led scope fits, Asina requests drawings and specs by email after the first review.",
+					navigate
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "quote-proof-panel",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "document-tab",
+							children: "Dealer CTA"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "Bring the drawing set and project details." }),
+						/* @__PURE__ */ jsx("p", { children: "Asina reviews whether the dealer project has the scale, timing, and repeatability to justify imported supply. Smaller dealer orders can be reviewed case by case when they connect to future volume." }),
+						/* @__PURE__ */ jsxs("div", {
+							className: "inline-link-row",
+							children: [
+								/* @__PURE__ */ jsx(RouteLink, {
+									page: "rfq",
+									navigate,
+									children: "RFQ prep"
+								}),
+								/* @__PURE__ */ jsx(RouteLink, {
+									page: "qa",
+									navigate,
+									children: "QA + shipping"
+								}),
+								/* @__PURE__ */ jsx(RouteLink, {
+									page: "review",
+									navigate,
+									children: "Start review"
+								})
+							]
+						})
+					]
+				})]
+			}),
+			/* @__PURE__ */ jsx(PageFAQ, {
+				title: "Frequently Asked Questions",
+				items: pageFaqs["dealer-supply"]
+			}),
+			/* @__PURE__ */ jsx(RelatedProjectPaths, {
+				currentPage: "dealer-supply",
+				navigate
+			}),
+			/* @__PURE__ */ jsx(CTASection, { navigate })
+		]
+	});
+}
+function WholesaleCabinetSupplierGuidePage({ navigate }) {
+	return /* @__PURE__ */ jsxs(PageShell, {
+		variant: "supplier-guide",
+		eyebrow: "Wholesale Cabinet Supplier Guide",
+		title: "How to Choose a Wholesale Cabinet Supplier for Contractors and Developers (2026)",
+		copy: "Match the supplier model to order size, lead time, service level, and project fit before asking for a cabinet quote.",
+		navigate,
+		actionPage: "review",
+		breadcrumb: [
+			{
+				label: "Home",
+				page: "home"
+			},
+			{
+				label: "Resources",
+				page: "importer-resources"
+			},
+			{ label: "How to Choose a Wholesale Cabinet Supplier" }
+		],
+		heroMeta: "Last updated June 2026 · Written by Chuck Tran, Asina Global LLC",
+		heroDisclosure: "Disclosure: Asina Global is a wholesale cabinet supplier. This guide is written for buyers evaluating any source, including us.",
+		children: [
+			/* @__PURE__ */ jsxs("section", {
+				className: "section guide-jump-board",
+				"aria-label": "Wholesale cabinet supplier guide quick navigation",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "guide-jump-copy",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Scan The Guide"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "Pick the answer you need first." }),
+						/* @__PURE__ */ jsx("p", { children: "Use the model list for sourcing strategy, the table for fast project fit, or the questions section before a supplier quote becomes a commitment." })
+					]
+				}), /* @__PURE__ */ jsx("nav", {
+					className: "guide-jump-list",
+					"aria-label": "Supplier guide sections",
+					children: [
+						[
+							"#supplier-models",
+							"Supplier models",
+							"RTA, stock, showroom, import, dealer"
+						],
+						[
+							"#supplier-project-table",
+							"Project fit table",
+							"Match project type to model"
+						],
+						[
+							"#supplier-questions",
+							"Questions to ask",
+							"Check risk before committing"
+						],
+						[
+							"#supplier-faq",
+							"FAQ",
+							"Lead time, tariffs, containers"
+						]
+					].map(([href, label, copy], index) => /* @__PURE__ */ jsxs("a", {
+						href,
+						children: [
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("strong", { children: label }),
+							/* @__PURE__ */ jsx("em", { children: copy })
+						]
+					}, href))
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section comparison-direct-answer",
+				"aria-label": "Wholesale cabinet supplier guide introduction",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "comparison-answer-copy",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Project Fit"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "Choosing the wrong model costs time and money." }),
+						/* @__PURE__ */ jsx("p", { children: "This guide maps the five supplier models that exist in Central Florida, explains which fits which project, and gives you the questions to ask before committing to any source." })
+					]
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "comparison-disclosure-card",
+					children: [
+						/* @__PURE__ */ jsx("span", { children: "Guide scope" }),
+						/* @__PURE__ */ jsx("strong", { children: "Five supplier models, five project types." }),
+						/* @__PURE__ */ jsx("p", { children: "Compare order size, lead time, service level, project fit, and who owns the review." })
+					]
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				id: "supplier-models",
+				className: "section supplier-profile-stack",
+				"aria-label": "The five wholesale cabinet supplier models",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Supplier Models",
+					title: "The Five Wholesale Cabinet Supplier Models",
+					copy: "Each model can be useful. The right answer depends on project type, order scale, lead time, and how much review support the buyer needs."
+				}), [
+					{
+						title: "1. RTA Warehouse Suppliers",
+						intro: "What they are: Wholesale warehouses that stock ready-to-assemble (RTA) cabinet boxes. You pick up or receive delivery and your crew assembles on site.",
+						bestFor: "Best for: Remodelers, small contractors, and restoration companies that need fast in-stock inventory and handle their own assembly.",
+						leadTime: "Lead time: Days to a few weeks, depending on in-stock availability.",
+						gap: "What they don't offer: Drawing review, custom sizing, production QA, countertop or furniture packages, or project coordination services. You buy a box. What happens after is on you.",
+						fit: "Right fit if: Your jobs are single-family or light multi-unit, you assemble on site, and turnaround speed matters more than custom specs or service depth."
+					},
+					{
+						title: "2. Assembled Stock Wholesalers (Dealer Model)",
+						intro: "What they are: Wholesale suppliers that sell pre-assembled cabinets primarily to cabinet dealers and resellers. Pricing and access are structured for dealers who mark up to their own clients.",
+						bestFor: "Best for: Cabinet dealers, kitchen designers with repeat residential clients, and remodelers who want assembled product without a showroom markup.",
+						leadTime: "Lead time: Often same-day to one week for in-stock items.",
+						gap: "What they don't offer: Drawing-to-production services, custom sizing, or project-level coordination. Product is stock dimensions from a fixed catalog.",
+						fit: "Right fit if: You're a dealer reselling to clients, or a contractor who wants assembled stock without the retail premium."
+					},
+					{
+						title: "3. Showroom Chains",
+						intro: "What they are: National or regional showroom brands that sell cabinets with a design consultation experience. Primarily retail-oriented, with some contractor programs.",
+						bestFor: "Best for: Homeowners, house flippers, and small contractors whose clients want to walk in, see the product, and get a kitchen design.",
+						leadTime: "Lead time: Stock items typically ship within 10 days. Made-to-order items take longer.",
+						gap: "What they don't offer: Container-scale economics, multi-unit procurement workflows, or project-level drawing review.",
+						fit: "Right fit if: Your client is a homeowner or small investor who wants a design consultation and fast delivery on a single kitchen."
+					},
+					{
+						title: "4. Import Project Suppliers",
+						intro: "What they are: Wholesale suppliers who source cabinets directly from overseas manufacturers, coordinate production to a drawing set, and manage QA and shipping before the product reaches the US. This is Asina Global's model.",
+						bestFor: "Best for: Multi-unit developers, commercial contractors, franchise rollout buyers, and procurement teams who work from a drawing set and need container-scale quantities with production oversight included.",
+						leadTime: "Lead time: 8-14 weeks from drawing approval and deposit.",
+						gap: "What they offer that others don't: Drawing review before production, custom sizing for commercial applications, mockup approval before the full run, QA and packing inspection before the container loads, shipping coordination with Incoterms planning, and countertop and furniture packages from the same supplier.",
+						fit: "Right fit if: Your project has a drawing set, a finish schedule, 10 or more units, and a timeline that accommodates import lead times."
+					},
+					{
+						title: "5. Cabinet Dealer Supply (Supplier to Suppliers)",
+						intro: "What they are: A subset of import project suppliers, like Asina Global, who also supply Florida cabinet dealers and distributors who in turn supply developer or commercial clients.",
+						bestFor: "Best for: Cabinet dealers in Florida who supply larger project accounts and want container-scale import pricing without managing their own overseas QA.",
+						leadTime: "How it works: The dealer manages the client relationship. The import supplier quotes, produces, inspects, and ships. The dealer marks up to their client. The import supplier does not contact the dealer's clients directly.",
+						gap: "Right fit if: You're a dealer whose client base includes developers or commercial buyers, and stock distributor pricing is eating your margin on larger jobs.",
+						fit: null,
+						dealerLink: true
+					}
+				].map((model, index) => /* @__PURE__ */ jsxs(Reveal, {
+					className: `supplier-profile supplier-profile-${index + 1}`,
+					delay: index * .04,
+					children: [
+						/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+						/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("h2", { children: model.title }), /* @__PURE__ */ jsx("p", { children: model.intro })] }),
+						/* @__PURE__ */ jsxs("dl", { children: [
+							/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Best for" }), /* @__PURE__ */ jsx("dd", { children: model.bestFor.replace(/^Best for:\s*/, "") })] }),
+							/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Lead time" }), /* @__PURE__ */ jsx("dd", { children: model.leadTime.replace(/^Lead time:\s*/, "") })] }),
+							/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Fit signal" }), /* @__PURE__ */ jsx("dd", { children: model.fit ? model.fit.replace(/^Right fit if:\s*/, "") : model.gap.replace(/^Right fit if:\s*/, "") })] })
+						] }),
+						/* @__PURE__ */ jsx("p", { children: model.gap }),
+						model.dealerLink && /* @__PURE__ */ jsxs("p", { children: [
+							"Dealers who supply larger project accounts can",
+							" ",
+							/* @__PURE__ */ jsx(RouteLink, {
+								page: "dealer-supply",
+								navigate,
+								className: "copy-link",
+								children: "review Asina's dealer supply model here"
+							}),
+							"."
+						] })
+					]
+				}, model.title))]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				id: "supplier-project-table",
+				className: "section comparison-table-section",
+				"aria-label": "Supplier model versus project type",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Quick Reference",
+					title: "Quick Reference: Supplier Model vs Project Type",
+					copy: "Use this as the first filter before asking any supplier for a quote."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "supplier-comparison-table-scroll",
+					role: "region",
+					"aria-label": "Supplier model versus project type table",
+					tabIndex: 0,
+					children: /* @__PURE__ */ jsxs("table", {
+						className: "supplier-comparison-table",
+						children: [/* @__PURE__ */ jsx("thead", { children: /* @__PURE__ */ jsxs("tr", { children: [/* @__PURE__ */ jsx("th", {
+							scope: "col",
+							children: "Your project"
+						}), /* @__PURE__ */ jsx("th", {
+							scope: "col",
+							children: "Best supplier model"
+						})] }) }), /* @__PURE__ */ jsx("tbody", { children: [
+							["Single-family remodel, 1-3 kitchens", "RTA warehouse or showroom chain"],
+							["Multi-unit build, 10-200 units", "Import project supplier"],
+							["Commercial renovation: restaurant, franchise, hospitality", "Import project supplier"],
+							["Cabinet dealer supplying residential clients", "Assembled stock wholesaler"],
+							["Cabinet dealer supplying developer / commercial clients", "Import project supplier (dealer supply model)"],
+							["Fast restocking for active remodel business", "RTA warehouse"],
+							["Homeowner or flip with design consultation need", "Showroom chain"]
+						].map(([project, model]) => /* @__PURE__ */ jsxs("tr", { children: [/* @__PURE__ */ jsx("th", {
+							scope: "row",
+							children: project
+						}), /* @__PURE__ */ jsx("td", { children: model })] }, project)) })]
+					})
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				id: "supplier-questions",
+				className: "section importer-question-matrix seo-guide-matrix",
+				"aria-label": "Questions to ask wholesale cabinet suppliers",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Before Committing",
+					title: "Questions to Ask Any Wholesale Cabinet Supplier Before Committing",
+					copy: "The questions below separate catalog sellers from project suppliers before the schedule is at risk."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "importer-question-grid",
+					children: [
+						["1. Do you review drawings before I place an order?", "RTA warehouses and showroom chains sell from a catalog. There is no drawing review. Import project suppliers like Asina Global review your drawing set before production to confirm fit, sizing, and lead time. If your project has a drawing set, this matters."],
+						["2. What is your lead time from order placement to delivery at my site?", "Stock suppliers quote days to two weeks. Import suppliers quote weeks to months. Make sure the lead time fits your project schedule before you commit. For multi-unit developments, plan cabinet delivery 2-3 weeks ahead of installation start."],
+						["3. Do you offer mockup approval before the full production run?", "Only import project suppliers typically offer this. A mockup lets you verify finish direction, construction quality, and sizing before the full container runs. If a mistake is caught at mockup, it costs a few weeks. If it is caught on delivery, it costs months."],
+						["4. Who handles QA at the factory?", "With RTA warehouses and stock distributors, QA is the manufacturer's process. You have no visibility into it. With Asina Global's model, QA is a step we manage on your behalf before the container is packed."],
+						["5. What are your shipping terms and who handles US-side delivery?", "Incoterms such as FOB, CIF, DAP, and DDP define where responsibility transfers. Know which terms you want before you sign a proposal."],
+						["6. Can you supply countertops and furniture from the same order?", "Most cabinet-only suppliers cannot. If your project needs cabinets, quartz countertop slabs, and custom furniture packages, sourcing all three from one supplier reduces coordination overhead significantly."],
+						["7. What is the minimum order size for your pricing to make sense?", "RTA warehouses have no stated minimum. Import project suppliers are most economical at container scale. If your project is below that threshold, import pricing may not beat local stock alternatives. A good supplier will tell you this honestly."]
+					].map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+						className: "importer-question-card",
+						delay: index * .035,
+						children: [
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("h3", { children: title }),
+							/* @__PURE__ */ jsx("p", { children: copy }),
+							index === 4 && /* @__PURE__ */ jsx(RouteLink, {
+								page: "shipping-responsibility",
+								navigate,
+								className: "copy-link",
+								children: "Read the shipping responsibility guide"
+							})
+						]
+					}, title))
+				})]
+			}),
+			/* @__PURE__ */ jsx("section", {
+				className: "section comparison-summary-board",
+				"aria-label": "Central Florida sourcing market",
+				children: /* @__PURE__ */ jsxs("div", {
+					className: "comparison-summary-copy",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Central Florida Market"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "What Makes Central Florida a Distinct Sourcing Market" }),
+						/* @__PURE__ */ jsx("p", { children: "Central Florida has a concentration of RTA warehouse operations serving the residential remodel market. For developers and commercial buyers, the picture is different. The import project supply model, drawing review, mockup approval, and container-scale QA, is less represented locally." }),
+						/* @__PURE__ */ jsx("p", { children: "Asina Global is based in Longwood, FL and operates the import project supply model locally: a Florida point of contact for projects that ship from overseas." })
+					]
+				})
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section comparison-choice-board",
+				"aria-label": "Wholesale cabinet supplier guide summary",
+				children: [
+					/* @__PURE__ */ jsx(SectionIntro, {
+						eyebrow: "Summary",
+						title: "No supplier model is right for every project.",
+						copy: "The right question is not which supplier is cheapest. It is which model matches the project workflow."
+					}),
+					/* @__PURE__ */ jsx("div", {
+						className: "comparison-choice-grid",
+						children: [
+							"RTA warehouse: fast, in-stock, you assemble. Right for remodelers and light contractors.",
+							"Assembled stock wholesaler: assembled product, dealer pricing. Right for dealers and residential contractors.",
+							"Showroom chain: design experience, retail model. Right for homeowners and small flips.",
+							"Import project supplier: drawing review, QA, container scale. Right for developers and commercial buyers.",
+							"Dealer supply model: import pricing for dealers whose clients run projects."
+						].map((item, index) => /* @__PURE__ */ jsxs(Reveal, {
+							className: "comparison-choice-row",
+							delay: index * .035,
+							children: [
+								/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+								/* @__PURE__ */ jsx("strong", { children: item.split(":")[0] }),
+								/* @__PURE__ */ jsx("p", { children: item.slice(item.indexOf(":") + 1).trim() })
+							]
+						}, item))
+					}),
+					/* @__PURE__ */ jsxs("p", { children: [
+						"If your project fits the import project supplier model,",
+						" ",
+						/* @__PURE__ */ jsx(RouteLink, {
+							page: "review",
+							navigate,
+							className: "copy-link",
+							children: "start a project review with Asina Global"
+						}),
+						" ",
+						"and bring your drawing set."
+					] })
+				]
+			}),
+			/* @__PURE__ */ jsx(PageFAQ, {
+				id: "supplier-faq",
+				title: "Frequently Asked Questions",
+				items: pageFaqs["supplier-guide"]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section comparison-related-pages",
+				"aria-label": "Related resources",
+				children: [
+					/* @__PURE__ */ jsx(SectionIntro, {
+						eyebrow: "Related Resources",
+						title: "Keep the sourcing decision connected to project details.",
+						copy: "Use these pages after the supplier model is clear enough to prepare drawings, quantities, lead-time questions, and quote inputs."
+					}),
+					/* @__PURE__ */ jsx("div", {
+						className: "pathway-ledger related-path-ledger",
+						children: [
+							[
+								"multi-unit",
+								"Multi-unit cabinet packages",
+								"how Asina structures cabinet supply for repeatable rooms and phased builds"
+							],
+							[
+								"import-vs-domestic",
+								"Import vs domestic cabinets: cost comparison",
+								"full breakdown of per-unit cost picture"
+							],
+							[
+								"landed-cost",
+								"Landed cost for imported cabinets",
+								"what landed cost actually includes beyond FOB product price"
+							],
+							[
+								"shipping-responsibility",
+								"Cabinet import shipping responsibility",
+								"FOB, CIF, DAP, DDP explained"
+							],
+							[
+								"container-economics",
+								"How many kitchens fit in a 40ft container",
+								"container loading and order scale planning"
+							],
+							[
+								"review",
+								"Start a project review",
+								"bring your drawing set, unit count, and timeline"
+							]
+						].map(([page, label, copy], index) => /* @__PURE__ */ jsx(Reveal, {
+							className: "pathway-row related-path-row",
+							delay: index * .035,
+							children: /* @__PURE__ */ jsxs(RouteLink, {
+								page,
+								navigate,
+								children: [
+									/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+									/* @__PURE__ */ jsx(FileText, { size: 20 }),
+									/* @__PURE__ */ jsx("strong", { children: label }),
+									/* @__PURE__ */ jsx("p", { children: copy }),
+									/* @__PURE__ */ jsx("em", { children: "Related resource" }),
+									/* @__PURE__ */ jsx(ArrowRight, { size: 17 })
+								]
+							})
+						}, page))
+					}),
+					/* @__PURE__ */ jsx("p", {
+						className: "page-footer-note",
+						children: "Page last reviewed: June 2026. Written by Chuck Tran, Asina Global LLC, Longwood, FL."
+					})
+				]
+			}),
+			/* @__PURE__ */ jsx(RelatedProjectPaths, {
+				currentPage: "supplier-guide",
+				navigate
+			}),
+			/* @__PURE__ */ jsx(CTASection, { navigate })
+		]
+	});
+}
+function WholesaleCabinetSupplierComparisonPage({ navigate }) {
+	const supplierRows = [
+		{
+			supplier: "Asina Global LLC",
+			profileTitle: "Project-Scale Import Wholesale (Longwood, FL)",
+			model: "Project-scale import wholesale",
+			fit: "Developers, contractors, dealers, and commercial buyers with repeat scope.",
+			lead: "Import timeline, reviewed by project and approval path.",
+			note: "Best fit when mockup approval, QA, packing review, and supplier-of-record support matter."
+		},
+		{
+			supplier: "ELLIE Cabinetry and More",
+			profileTitle: "RTA Wholesale Warehouse (Orlando, FL)",
+			model: "RTA wholesale warehouse",
+			fit: "Contractors who need local cabinet stock or faster warehouse access.",
+			lead: "Confirm stock and pickup timing directly.",
+			note: "Good comparison point for Orlando RTA wholesale cabinet searches."
+		},
+		{
+			supplier: "KitchenCrest Cabinets",
+			profileTitle: "RTA Warehouse (Orlando, FL)",
+			model: "RTA warehouse",
+			fit: "Contractors, remodelers, and local buyers comparing stock RTA cabinet options.",
+			lead: "Confirm inventory and lead time directly.",
+			note: "Useful when speed and local availability matter more than import planning."
+		},
+		{
+			supplier: "ROC Cabinetry",
+			profileTitle: "Assembled Wholesale (Tampa, FL)",
+			model: "Assembled wholesale cabinet supply",
+			fit: "Buyers comparing assembled cabinet supply around the Tampa/Central Florida market.",
+			lead: "Confirm current program and delivery timing directly.",
+			note: "A relevant alternative when assembled supply is the main buying requirement."
+		},
+		{
+			supplier: "Cabinets To Go",
+			profileTitle: "Showroom Retail with Contractor Program (FL Showrooms)",
+			model: "Showroom retail with contractor program",
+			fit: "Contractors or buyers who want showroom access and a national retail footprint.",
+			lead: "Confirm contractor terms and location timing directly.",
+			note: "Better fit for retail showroom browsing than container-scale project import review."
+		}
+	];
+	return /* @__PURE__ */ jsxs(PageShell, {
+		variant: "supplier-comparison",
+		eyebrow: "Central Florida Supplier Comparison",
+		title: "Wholesale Cabinet Suppliers in Central Florida — Compared for Contractors (2026)",
+		copy: "Compare five supplier models before choosing a cabinet path for contractor, developer, dealer, or repeat commercial work.",
+		navigate,
+		actionPage: "review",
+		breadcrumb: [
+			{
+				label: "Home",
+				page: "home"
+			},
+			{
+				label: "Resources",
+				page: "importer-resources"
+			},
+			{ label: "Wholesale Cabinet Suppliers in Central Florida" }
+		],
+		heroMeta: "Last updated June 2026 · Written by Chuck Tran, Asina Global LLC",
+		heroDisclosure: "Disclosure: Asina Global LLC is one of the five suppliers compared on this page.",
+		children: [
+			/* @__PURE__ */ jsxs("section", {
+				className: "section comparison-direct-answer",
+				"aria-label": "Wholesale cabinet supplier comparison direct answer",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "comparison-answer-copy",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Quick Answer"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "Choose the buying model before you compare price." }),
+						/* @__PURE__ */ jsx("p", { children: "Local RTA warehouses can be the faster choice for stock and small orders. Asina Global LLC fits repeat projects that need import planning, mockup approval, QA, packing review, and supplier-of-record accountability. A contractor comparing ELLIE Cabinetry vs Asina Global, KitchenCrest alternatives Florida, or ROC Cabinetry alternatives Florida should start with project type and timeline before asking for a price." })
+					]
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "comparison-disclosure-card",
+					children: [
+						/* @__PURE__ */ jsx("span", { children: "Fair-use note" }),
+						/* @__PURE__ */ jsx("strong", { children: "No fabricated pricing." }),
+						/* @__PURE__ */ jsx("p", { children: "Competitor pricing, inventory, and lead times change. Confirm current terms directly with each supplier." })
+					]
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section comparison-table-section",
+				"aria-label": "Quick comparison table",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Supplier Models",
+					title: "Quick Comparison Table",
+					copy: "Five supplier models are compared by best-fit buyer, lead-time signal, and where each option tends to make sense."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "supplier-comparison-table-scroll",
+					role: "region",
+					"aria-label": "Wholesale cabinet suppliers Central Florida comparison",
+					tabIndex: 0,
+					children: /* @__PURE__ */ jsxs("table", {
+						className: "supplier-comparison-table",
+						children: [/* @__PURE__ */ jsx("thead", { children: /* @__PURE__ */ jsxs("tr", { children: [
+							/* @__PURE__ */ jsx("th", {
+								scope: "col",
+								children: "Supplier"
+							}),
+							/* @__PURE__ */ jsx("th", {
+								scope: "col",
+								children: "Model"
+							}),
+							/* @__PURE__ */ jsx("th", {
+								scope: "col",
+								children: "Best fit"
+							}),
+							/* @__PURE__ */ jsx("th", {
+								scope: "col",
+								children: "Lead-time signal"
+							}),
+							/* @__PURE__ */ jsx("th", {
+								scope: "col",
+								children: "Project note"
+							})
+						] }) }), /* @__PURE__ */ jsx("tbody", { children: supplierRows.map((row) => /* @__PURE__ */ jsxs("tr", { children: [
+							/* @__PURE__ */ jsx("th", {
+								scope: "row",
+								children: row.supplier
+							}),
+							/* @__PURE__ */ jsx("td", { children: row.model }),
+							/* @__PURE__ */ jsx("td", { children: row.fit }),
+							/* @__PURE__ */ jsx("td", { children: row.lead }),
+							/* @__PURE__ */ jsx("td", { children: row.note })
+						] }, row.supplier)) })]
+					})
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "commercial-workbench comparison-audience-workbench",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "commercial-copy",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Who This Is For"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "Who This Comparison Is For" }),
+						/* @__PURE__ */ jsx("p", { children: "This guide is for project buyers comparing wholesale cabinet suppliers in Central Florida, including Orlando contractor cabinet searches, bulk cabinet supplier Central Florida searches, and wholesale cabinet supply Florida contractor research." }),
+						/* @__PURE__ */ jsx("p", { children: "This is not a ranking of who is cheapest. It is a model comparison: stock speed, warehouse access, assembled supply, showroom support, and project-scale import review." })
+					]
+				}), /* @__PURE__ */ jsx("div", {
+					className: "input-check-grid comparison-fit-grid",
+					children: [
+						"Contractor order",
+						"Developer package",
+						"Dealer resale",
+						"Commercial repeat rooms"
+					].map((item, index) => /* @__PURE__ */ jsxs(Reveal, {
+						className: "input-check comparison-fit-check",
+						delay: index * .035,
+						children: [
+							/* @__PURE__ */ jsx(Check, { size: 16 }),
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("strong", { children: item })
+						]
+					}, item))
+				})]
+			}),
+			/* @__PURE__ */ jsx("section", {
+				className: "section supplier-profile-stack",
+				"aria-label": "Central Florida wholesale cabinet supplier profiles",
+				children: supplierRows.map((row, index) => /* @__PURE__ */ jsxs(Reveal, {
+					className: `supplier-profile supplier-profile-${index + 1}`,
+					delay: index * .04,
+					children: [
+						/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+						/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsxs("h2", { children: [
+							index + 1,
+							". ",
+							row.supplier,
+							" — ",
+							row.profileTitle
+						] }), /* @__PURE__ */ jsx("p", { children: row.note })] }),
+						/* @__PURE__ */ jsxs("dl", { children: [
+							/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Model" }), /* @__PURE__ */ jsx("dd", { children: row.model })] }),
+							/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Best fit" }), /* @__PURE__ */ jsx("dd", { children: row.fit })] }),
+							/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Lead-time signal" }), /* @__PURE__ */ jsx("dd", { children: row.lead })] })
+						] })
+					]
+				}, row.supplier))
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section comparison-choice-board",
+				"aria-label": "How to choose based on project type",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "How To Choose Based On Project Type",
+					title: "How to Choose Based on Project Type",
+					copy: "The right lane changes when the project moves from stock availability to repeat volume, mockup approval, or dealer-led resale."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "comparison-choice-grid",
+					children: [
+						[
+							"Urgent single job",
+							"Local stock or showroom route",
+							"Speed matters more than container economics."
+						],
+						[
+							"Small contractor order",
+							"RTA or assembled local supplier",
+							"The order may not justify import overhead."
+						],
+						[
+							"20+ repeat units",
+							"Asina project review or other project-scale path",
+							"Repeat volume can support mockup, QA, packing, and freight planning."
+						],
+						[
+							"Dealer-managed client project",
+							"Dealer supply route",
+							"The dealer needs client protection and one import source to answer for the path."
+						],
+						[
+							"Multi-category package",
+							"Asina mixed-scope review",
+							"Cabinets, slabs, furniture, QA, and shipping can sit in one review."
+						]
+					].map(([project, likely, reason], index) => /* @__PURE__ */ jsxs(Reveal, {
+						className: "comparison-choice-row",
+						delay: index * .035,
+						children: [
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("strong", { children: project }),
+							/* @__PURE__ */ jsx("p", { children: likely }),
+							/* @__PURE__ */ jsx("em", { children: reason })
+						]
+					}, project))
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section comparison-summary-board",
+				"aria-label": "Wholesale cabinet supplier comparison summary",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "comparison-summary-copy",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Summary"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "Summary" }),
+						/* @__PURE__ */ jsx("p", { children: "A local RTA warehouse, an assembled cabinet wholesaler, a showroom program, and a project-scale import supplier solve different problems. If the work is urgent or small, local stock may win. If the work repeats across units, rooms, stores, or phases, compare local wholesale cabinet suppliers against the full cost picture: approvals, QA, packing, freight, responsibility, and who owns the review." })
+					]
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "inline-link-row",
+					children: [
+						/* @__PURE__ */ jsx(RouteLink, {
+							page: "dealer-supply",
+							navigate,
+							children: "Dealer supply"
+						}),
+						/* @__PURE__ */ jsx(RouteLink, {
+							page: "multi-unit",
+							navigate,
+							children: "Multi-unit cabinets"
+						}),
+						/* @__PURE__ */ jsx(RouteLink, {
+							page: "import-vs-domestic",
+							navigate,
+							children: "Import vs domestic"
+						}),
+						/* @__PURE__ */ jsx(RouteLink, {
+							page: "review",
+							navigate,
+							children: "Start review"
+						})
+					]
+				})]
+			}),
+			/* @__PURE__ */ jsx(PageFAQ, {
+				title: "Frequently Asked Questions",
+				items: pageFaqs["supplier-comparison"]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section comparison-related-pages",
+				"aria-label": "Related pages on Asina Global",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Related Pages On Asina Global",
+					title: "Continue from comparison into the right project path.",
+					copy: "Use these pages when the supplier model is clear enough to prepare project details."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "pathway-ledger related-path-ledger",
+					children: [
+						[
+							"dealer-supply",
+							"Wholesale cabinet supply for dealers",
+							"Dealer-led import supply for resellers, designers, and distributors."
+						],
+						[
+							"multi-unit",
+							"Multi-unit cabinet packages",
+							"Repeatable cabinet runs for developers, builders, and apartment projects."
+						],
+						[
+							"import-vs-domestic",
+							"Import vs domestic cabinet cost",
+							"Compare speed, scale, landed cost, QA, and responsibility."
+						],
+						[
+							"commercial-mixed",
+							"Commercial cabinet + countertop supply",
+							"Review cabinets and slabs together when the project scope overlaps."
+						]
+					].map(([page, label, copy], index) => /* @__PURE__ */ jsx(Reveal, {
+						className: "pathway-row related-path-row",
+						delay: index * .035,
+						children: /* @__PURE__ */ jsxs(RouteLink, {
+							page,
+							navigate,
+							children: [
+								/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+								/* @__PURE__ */ jsx(FileText, { size: 20 }),
+								/* @__PURE__ */ jsx("strong", { children: label }),
+								/* @__PURE__ */ jsx("p", { children: copy }),
+								/* @__PURE__ */ jsx("em", { children: "Next path" }),
+								/* @__PURE__ */ jsx(ArrowRight, { size: 17 })
+							]
+						})
+					}, page))
+				})]
+			}),
+			/* @__PURE__ */ jsx(RelatedProjectPaths, {
+				currentPage: "supplier-comparison",
 				navigate
 			}),
 			/* @__PURE__ */ jsx(CTASection, { navigate })
@@ -11971,6 +13358,29 @@ function ProjectSupplyImporterResourcesPage({ navigate }) {
 						/* @__PURE__ */ jsx("h2", { children: "The strongest quote starts before a line item is priced." }),
 						/* @__PURE__ */ jsx("p", { children: "Builders, developers, procurement teams, restaurant groups, franchise buyers, and commercial project teams rarely get a useful quote from a product number alone. The first review needs the cost picture, order size, container fit, lead time, quality path, packing plan, damage documentation, and shipping responsibility." }),
 						/* @__PURE__ */ jsx("p", { children: "This is not a legal or tax guide. It is a practical checklist for sending better project basics so Asina can review fit, request the right files by email, and prepare a cleaner Project Supply Review." }),
+						/* @__PURE__ */ jsxs("p", { children: [
+							"If the first question is who to call locally, start with",
+							" ",
+							/* @__PURE__ */ jsx(RouteLink, {
+								page: "supplier-comparison",
+								navigate,
+								className: "copy-link",
+								children: "wholesale cabinet suppliers in Central Florida"
+							}),
+							" ",
+							"before narrowing the project to import planning, local stock, or dealer supply."
+						] }),
+						/* @__PURE__ */ jsxs("p", { children: [
+							"See also:",
+							" ",
+							/* @__PURE__ */ jsx(RouteLink, {
+								page: "supplier-guide",
+								navigate,
+								className: "copy-link",
+								children: "how to choose a wholesale cabinet supplier"
+							}),
+							", with five supplier models compared by project type and lead time."
+						] }),
 						/* @__PURE__ */ jsx(RouteLink, {
 							page: "rfq",
 							navigate,
@@ -12282,6 +13692,11 @@ function BuyerQuestionGuidePage({ guideId, navigate }) {
 									navigate,
 									children: "Buyer guide"
 								}),
+								guideId === "import-vs-domestic" && /* @__PURE__ */ jsx(RouteLink, {
+									page: "supplier-comparison",
+									navigate,
+									children: "Compare local wholesale cabinet suppliers"
+								}),
 								/* @__PURE__ */ jsx(RouteLink, {
 									page: "rfq",
 									navigate,
@@ -12310,7 +13725,7 @@ function BuyerQuestionGuidePage({ guideId, navigate }) {
 					}, title))
 				})]
 			}),
-			guideId === "import-vs-domestic" && /* @__PURE__ */ jsx(ImportVsDomesticCostSection, {}),
+			guideId === "import-vs-domestic" && /* @__PURE__ */ jsx(ImportVsDomesticCostSection, { navigate }),
 			/* @__PURE__ */ jsxs("section", {
 				className: "section importer-question-matrix seo-guide-matrix",
 				"aria-label": `${guide.eyebrow} buyer questions`,
@@ -12747,6 +14162,11 @@ function CommercialIntentPage({ pageId, navigate }) {
 									page: "qa",
 									navigate,
 									children: "QA + shipping"
+								}),
+								pageId === "commercial-mixed" && /* @__PURE__ */ jsx(RouteLink, {
+									page: "supplier-comparison",
+									navigate,
+									children: "See how local suppliers compare"
 								})
 							]
 						})
@@ -13528,8 +14948,9 @@ function ProjectReviewPage({ originPage = "home", navigate }) {
 		})]
 	});
 }
-function PageFAQ({ title, items }) {
+function PageFAQ({ title, items, id }) {
 	return /* @__PURE__ */ jsxs("section", {
+		id,
 		className: "section page-faq",
 		children: [/* @__PURE__ */ jsx("h2", { children: title }), /* @__PURE__ */ jsx("div", {
 			className: "faq-grid",
@@ -13677,6 +15098,7 @@ function Footer({ activePage, navigate }) {
 							"commercial-countertops",
 							"multifamily-supply",
 							"hospitality-ffe",
+							"dealer-supply",
 							"multi-unit",
 							"restaurant-furniture",
 							"orlando"
@@ -13687,6 +15109,7 @@ function Footer({ activePage, navigate }) {
 						links: [
 							"rfq",
 							"importer-resources",
+							"supplier-comparison",
 							"container-economics",
 							"landed-cost",
 							"shipping-responsibility",
