@@ -6454,7 +6454,7 @@ var handleRovingOptionKeyDown = (event, count, activeIndex, onSelect) => {
 		(container?.querySelectorAll("[data-roving-option]"))?.[nextIndex]?.focus();
 	});
 };
-var isolateAppRoot$1 = () => {
+var isolateAppRoot = () => {
 	if (typeof document === "undefined") return () => {};
 	const root = document.getElementById("root");
 	if (!root) return () => {};
@@ -6736,7 +6736,7 @@ function SlabZoomOverlay$1({ slab, onClose }) {
 		if (!slab) return void 0;
 		const previousOverflow = document.body.style.overflow;
 		const previousFocus = document.activeElement;
-		const restoreAppRoot = isolateAppRoot$1();
+		const restoreAppRoot = isolateAppRoot();
 		const handleKeyDown = (event) => {
 			if (event.key === "Escape") {
 				onClose();
