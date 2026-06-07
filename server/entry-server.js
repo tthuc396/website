@@ -459,6 +459,12 @@ var pages = [
 		description: "Asina Global supplies multi-unit and multifamily cabinet packages for developers and contractors in Florida. Drawing review, mockup approval, QA, and shipping coordination for 10–200 unit builds.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for multi-unit project supply review.",
+		articleHeadline: "Multi-Unit Cabinet Packages for Developers and Contractors in Florida",
+		datePublished: "2026-01-01",
+		dateModified: "2026-06-05",
+		articleAuthor: "Kim Nguyen",
+		articleAuthorTitle: "Co-Founder, Asina Global",
+		articleAuthorUrl: "https://asinaglobal.com/about/",
 		serviceType: "Multi-unit cabinet package supply",
 		keywords: [
 			"multi-unit cabinet supplier",
@@ -799,6 +805,12 @@ var pages = [
 		schemaDescription: "Asina Global supplies commercial cabinet and countertop packages for Florida contractors, developers, and franchise buyers. Drawing review, QA, and shipping coordination included.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Commercial cabinet and countertop supply packet prepared for Florida project review.",
+		articleHeadline: "Commercial Cabinet and Countertop Supply in Florida",
+		datePublished: "2026-01-01",
+		dateModified: "2026-06-05",
+		articleAuthor: "Kim Nguyen",
+		articleAuthorTitle: "Co-Founder, Asina Global",
+		articleAuthorUrl: "https://asinaglobal.com/about/",
 		serviceType: "Commercial cabinet and countertop supply",
 		keywords: [
 			"commercial cabinet and countertop supplier Florida",
@@ -2435,8 +2447,9 @@ function App({ initialPage = "home", routeComponents = {} }) {
 		}
 		const canonicalUrl = getCanonicalUrlForPage(activePage);
 		const socialImage = getSocialImageForPage(activePage);
+		const hasArticleMeta = Boolean(activeMeta.articleHeadline);
 		canonical.setAttribute("href", canonicalUrl);
-		setHeadMeta("meta[property=\"og:type\"]", "property", "og:type", "website");
+		setHeadMeta("meta[property=\"og:type\"]", "property", "og:type", hasArticleMeta ? "article" : "website");
 		setHeadMeta("meta[property=\"og:site_name\"]", "property", "og:site_name", siteDetails.name);
 		setHeadMeta("meta[property=\"og:title\"]", "property", "og:title", activeMeta.title);
 		setHeadMeta("meta[property=\"og:description\"]", "property", "og:description", activeMeta.description);
@@ -2448,7 +2461,7 @@ function App({ initialPage = "home", routeComponents = {} }) {
 		setHeadMeta("meta[name=\"twitter:description\"]", "name", "twitter:description", activeMeta.description);
 		setHeadMeta("meta[name=\"twitter:image\"]", "name", "twitter:image", socialImage);
 		setHeadMeta("meta[name=\"keywords\"]", "name", "keywords", (activeMeta.keywords ?? []).join(", "));
-		setHeadMeta("meta[name=\"author\"]", "name", "author", siteDetails.name);
+		setHeadMeta("meta[name=\"author\"]", "name", "author", activeMeta.articleAuthor ?? (hasArticleMeta ? siteDetails.authorName : siteDetails.name));
 		setHeadMeta("meta[name=\"publisher\"]", "name", "publisher", siteDetails.name);
 	}, [activeMeta, activePage]);
 	useEffect(() => {
@@ -5902,7 +5915,9 @@ var buyerQuestionGuides = {
 	"import-vs-domestic": {
 		eyebrow: "Cabinet Cost Planning",
 		title: "Import vs. Domestic Cabinets: Cost Guide for Florida Contractors",
-		copy: "Compare speed, project scale, total cost picture, QA, repeatability, and supplier accountability before choosing how to source cabinets.",
+		heroLeadLabel: "The short answer:",
+		copy: "For Florida contractors running 10+ repeat rooms, imported cabinets typically land 20–30% below comparable domestic distributor pricing at full container scale — but only when production, QA, packing, and freight are managed. Domestic stock makes more sense for urgent jobs, small one-off orders, or projects where schedule doesn't support an 8–14 week lead time.",
+		heroExtraCopy: ["The real comparison isn't unit price. It's total landed cost — product + packing + freight + delivery + QA accountability — set against your project timeline and repeat volume. A $200 domestic box and a $140 imported box are not the same decision when one requires 12 weeks of planning and verified origin documentation.", "This guide breaks down both supply paths by speed, scale, cost structure, consistency, and quality risk — so you can match the source to the project, not the other way around."],
 		artifactTitle: "Import or domestic fit",
 		answerTitle: "Domestic and imported supply solve different project problems.",
 		answerCopy: "Planned import supply usually means 40 to 50 days of production, 22 to 30 days of West Coast transit or 40 to 50 days East Coast, and about 700 to 800 cabinet boxes in a 40HC container. Domestic stock is often better for urgent or small needs.",
@@ -7936,7 +7951,8 @@ function ModeSwitch({ mode, setMode, scope }) {
 		}, item))
 	});
 }
-function PageShell({ variant, eyebrow, title, copy, actionPage, navigate, breadcrumb, heroMeta, heroDisclosure, children }) {
+function PageShell({ variant, eyebrow, title, copy, heroLeadLabel, heroExtraCopy, heroByline, actionPage, navigate, breadcrumb, heroMeta, heroDisclosure, children }) {
+	const heroParagraphs = [copy, ...heroExtraCopy ?? []].filter(Boolean);
 	return /* @__PURE__ */ jsxs(Fragment, { children: [
 		/* @__PURE__ */ jsxs("section", {
 			className: `page-hero ${variant ? `page-hero-${variant}` : ""}`,
@@ -7960,6 +7976,7 @@ function PageShell({ variant, eyebrow, title, copy, actionPage, navigate, breadc
 						children: eyebrow
 					}),
 					/* @__PURE__ */ jsx("h1", { children: title }),
+					heroByline,
 					heroMeta && /* @__PURE__ */ jsx("p", {
 						className: "page-hero-meta",
 						children: heroMeta
@@ -7968,7 +7985,7 @@ function PageShell({ variant, eyebrow, title, copy, actionPage, navigate, breadc
 						className: "page-hero-disclosure",
 						children: heroDisclosure
 					}),
-					/* @__PURE__ */ jsx("p", { children: copy }),
+					heroParagraphs.map((paragraph, index) => /* @__PURE__ */ jsxs("p", { children: [index === 0 && heroLeadLabel && /* @__PURE__ */ jsxs(Fragment, { children: [/* @__PURE__ */ jsx("strong", { children: heroLeadLabel }), " "] }), paragraph] }, `${variant ?? "page"}-hero-copy-${index}`)),
 					actionPage && navigate && /* @__PURE__ */ jsxs(RouteLink, {
 						page: actionPage,
 						navigate,
@@ -8771,23 +8788,65 @@ function CollectionComparison({ collections }) {
 	});
 }
 function ResourceByline({ pageId, navigate }) {
+	const page = getPageById(pageId);
+	const authorName = page.articleAuthor ?? siteDetails.authorName;
+	const publishedDate = formatArticleDate(page.datePublished ?? "2026-06-03");
+	const modifiedDate = formatArticleDate(page.dateModified ?? "2026-06-03");
 	return /* @__PURE__ */ jsxs("aside", {
 		className: "resource-byline",
-		"aria-label": `${getPageById(pageId).label} author and update details`,
+		"aria-label": `${page.label} author and update details`,
 		children: [
 			/* @__PURE__ */ jsxs("span", { children: [
 				/* @__PURE__ */ jsx(Building2, { size: 16 }),
 				"Prepared by",
 				" ",
-				/* @__PURE__ */ jsx(RouteLink, {
+				page.articleAuthorUrl ? /* @__PURE__ */ jsx("a", {
+					href: page.articleAuthorUrl,
+					children: authorName
+				}) : /* @__PURE__ */ jsx(RouteLink, {
 					page: "about",
 					navigate,
-					children: siteDetails.authorName
+					children: authorName
 				})
 			] }),
-			/* @__PURE__ */ jsxs("span", { children: [/* @__PURE__ */ jsx(CalendarDays, { size: 16 }), "Published June 3, 2026"] }),
-			/* @__PURE__ */ jsxs("span", { children: [/* @__PURE__ */ jsx(Clock$1, { size: 16 }), "Updated June 3, 2026"] })
+			/* @__PURE__ */ jsxs("span", { children: [
+				/* @__PURE__ */ jsx(CalendarDays, { size: 16 }),
+				"Published ",
+				publishedDate
+			] }),
+			/* @__PURE__ */ jsxs("span", { children: [
+				/* @__PURE__ */ jsx(Clock$1, { size: 16 }),
+				"Updated ",
+				modifiedDate
+			] })
 		]
+	});
+}
+function ArticleByline({ name = "Kim Nguyen", title = "Co-Founder", note = "25+ years builder experience", image = "/assets/supporting/team/kim-nguyen.jpeg" }) {
+	return /* @__PURE__ */ jsxs("div", {
+		className: "article-byline",
+		children: [/* @__PURE__ */ jsx("img", {
+			src: image,
+			alt: name,
+			width: 32,
+			height: 32
+		}), /* @__PURE__ */ jsxs("span", { children: [
+			"By ",
+			/* @__PURE__ */ jsx("strong", { children: name }),
+			", ",
+			title,
+			" · ",
+			note
+		] })]
+	});
+}
+function formatArticleDate(value) {
+	const date = /* @__PURE__ */ new Date(`${value}T00:00:00`);
+	if (Number.isNaN(date.getTime())) return value;
+	return date.toLocaleDateString("en-US", {
+		month: "long",
+		day: "numeric",
+		year: "numeric"
 	});
 }
 function ImportVsDomesticCostSection({ navigate }) {
@@ -12710,6 +12769,7 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 		eyebrow: "Multi-Unit Cabinet Packages",
 		title: "Multi-Unit Cabinet Packages for Developers and Contractors in Florida",
 		copy: "For developers building 10 to 200 units, Asina Global reviews cabinet packages from drawing set through mockup approval, production QA, and shipping coordination. Multifamily projects, phased builds, and repeat-room commercial work are the primary use case.",
+		heroByline: /* @__PURE__ */ jsx(ArticleByline, {}),
 		navigate,
 		actionPage: "review",
 		children: [
@@ -14361,6 +14421,8 @@ function BuyerQuestionGuidePage({ guideId, navigate }) {
 		eyebrow: guide.eyebrow,
 		title: guide.title,
 		copy: guide.copy,
+		heroLeadLabel: guide.heroLeadLabel,
+		heroExtraCopy: guide.heroExtraCopy,
 		navigate,
 		actionPage: "review",
 		children: [
@@ -14729,6 +14791,7 @@ function CommercialIntentPage({ pageId, navigate }) {
 		eyebrow: page.eyebrow,
 		title: page.title,
 		copy: page.copy,
+		heroByline: pageId === "commercial-mixed" ? /* @__PURE__ */ jsx(ArticleByline, {}) : null,
 		navigate,
 		actionPage: "review",
 		children: [
