@@ -5919,6 +5919,7 @@ var buyerQuestionGuides = {
 		copy: "For Florida contractors running 10+ repeat rooms, imported cabinets typically land 20–30% below comparable domestic distributor pricing at full container scale — but only when production, QA, packing, and freight are managed. Domestic stock makes more sense for urgent jobs, small one-off orders, or projects where schedule doesn't support an 8–14 week lead time.",
 		heroExtraCopy: ["The real comparison isn't unit price. It's total landed cost — product + packing + freight + delivery + QA accountability — set against your project timeline and repeat volume. A $200 domestic box and a $140 imported box are not the same decision when one requires 12 weeks of planning and verified origin documentation.", "This guide breaks down both supply paths by speed, scale, cost structure, consistency, and quality risk — so you can match the source to the project, not the other way around."],
 		artifactTitle: "Import or domestic fit",
+		artifactCopy: "20-30% savings can appear at container scale when QA, packing, freight, and origin review stay managed. Domestic stock stays better for urgent or small work.",
 		answerTitle: "Domestic and imported supply solve different project problems.",
 		answerCopy: "Planned import supply usually means 40 to 50 days of production, 22 to 30 days of West Coast transit or 40 to 50 days East Coast, and about 700 to 800 cabinet boxes in a 40HC container. Domestic stock is often better for urgent or small needs.",
 		checks: [
@@ -8084,7 +8085,7 @@ function PageHeroArtifact({ variant }) {
 					children: [
 						/* @__PURE__ */ jsx("span", { children: guide.eyebrow }),
 						/* @__PURE__ */ jsx("strong", { children: guide.artifactTitle }),
-						/* @__PURE__ */ jsx("p", { children: guide.copy })
+						/* @__PURE__ */ jsx("p", { children: guide.artifactCopy ?? guide.copy })
 					]
 				}),
 				/* @__PURE__ */ jsx("div", {
@@ -13099,6 +13100,11 @@ function DealerCabinetSupplyPage({ navigate }) {
 									children: "QA + shipping"
 								}),
 								/* @__PURE__ */ jsx(RouteLink, {
+									page: "restaurant-furniture",
+									navigate,
+									children: "Restaurant + franchise furniture"
+								}),
+								/* @__PURE__ */ jsx(RouteLink, {
 									page: "review",
 									navigate,
 									children: "Start review"
@@ -13453,6 +13459,16 @@ function WholesaleCabinetSupplierGuidePage({ navigate }) {
 								"FOB, CIF, DAP, DDP explained"
 							],
 							[
+								"imported-quality",
+								"Imported cabinet quality and QA",
+								"how quality is managed through mockup, production checks, and packing review"
+							],
+							[
+								"supplier-comparison",
+								"Wholesale cabinet suppliers in Central Florida",
+								"compare local supplier models before choosing a cabinet path"
+							],
+							[
 								"container-economics",
 								"How many kitchens fit in a 40ft container",
 								"container loading and order scale planning"
@@ -13795,6 +13811,21 @@ function WholesaleCabinetSupplierComparisonPage({ navigate }) {
 							"import-vs-domestic",
 							"Import vs domestic cabinet cost",
 							"Compare speed, scale, landed cost, QA, and responsibility."
+						],
+						[
+							"shipping-responsibility",
+							"Cabinet import shipping responsibility",
+							"FOB, CIF, DAP, DDP — know Incoterms before committing to a supplier."
+						],
+						[
+							"imported-quality",
+							"Imported cabinet quality and QA",
+							"Mockup approval, production checks, and packing review before the container loads."
+						],
+						[
+							"restaurant-furniture",
+							"Restaurant and franchise furniture packages",
+							"Commercial furniture for restaurants, hospitality, and franchise rollout projects."
 						],
 						[
 							"commercial-mixed",
