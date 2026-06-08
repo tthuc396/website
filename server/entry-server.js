@@ -212,12 +212,14 @@ var Component = () => {
 };
 //#endregion
 //#region src/siteRoutes.js
+var defaultSocialImage = "/assets/supporting/brand/asina-global-social-card.png";
+var isRasterSocialImage = (value = "") => /\.(?:jpe?g|png)(?:[?#].*)?$/i.test(value);
 var pages = [
 	{
 		id: "home",
 		label: "Home",
 		path: "/",
-		title: "Wholesale Cabinets, Countertops and Furniture | Asina Global",
+		title: "Wholesale Cabinets & Countertops for Contractors | Longwood, FL | Asina Global",
 		description: "Asina Global supplies project-scale cabinets, countertops, and furniture packages with drawing review, mockup approval, QA, packing, and shipping coordination.",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
 		imageAlt: "Asina Global project supply dossier for cabinets, countertops, furniture, QA, and shipping coordination.",
@@ -455,12 +457,12 @@ var pages = [
 		label: "Multi-Unit Cabinets",
 		path: "/multi-unit-cabinet-packages/",
 		showInHeader: false,
-		title: "Multi-Unit Cabinet Packages for Developers & Contractors in Florida | Asina Global",
+		title: "Multi-Unit Cabinets for Florida Developers | Asina Global",
 		description: "Asina Global supplies multi-unit and multifamily cabinet packages for developers and contractors in Florida. Drawing review, mockup approval, QA, and shipping coordination for 10–200 unit builds.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for multi-unit project supply review.",
 		articleHeadline: "Multi-Unit Cabinet Packages for Developers and Contractors in Florida",
-		datePublished: "2026-01-01",
+		datePublished: "2026-06-05",
 		dateModified: "2026-06-05",
 		articleAuthor: "Kim Nguyen",
 		articleAuthorTitle: "Co-Founder, Asina Global",
@@ -480,10 +482,10 @@ var pages = [
 		label: "Dealer Cabinet Supply",
 		path: "/wholesale-cabinet-supply-for-dealers/",
 		showInHeader: false,
-		title: "Cabinet Wholesale Supply for Dealers & Distributors in Florida | Asina Global",
+		title: "Cabinet Supply for Florida Dealers | Asina Global",
 		description: "Asina Global supplies Florida cabinet dealers, kitchen designers, and distributors with project-scale imported cabinets, quartz countertops, and furniture packages. Container quantities, QA included. Dealer client relationships protected.",
 		ogDescription: "Asina Global supplies Florida cabinet dealers, kitchen designers, and distributors with project-scale imported cabinets, quartz countertops, and furniture packages. Container quantities, QA included.",
-		socialImage: "/assets/supporting/brand/asina-global-logo.svg",
+		socialImage: defaultSocialImage,
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for dealer and distributor wholesale supply review.",
 		articleHeadline: "Cabinet Wholesale Supply for Dealers and Distributors in Florida",
@@ -569,14 +571,14 @@ var pages = [
 		label: "Wholesale Cabinet Supplier Guide",
 		path: "/how-to-choose-wholesale-cabinet-supplier/",
 		showInHeader: false,
-		title: "How to Choose a Wholesale Cabinet Supplier for Contractors & Developers (2026)",
+		title: "Wholesale Cabinet Supplier Guide | Asina Global",
 		schemaBreadcrumbLabel: "How to Choose a Wholesale Cabinet Supplier",
 		description: "Five supplier models, five project types. A contractor's guide to choosing the right wholesale cabinet source in Central Florida by order size, lead time, service level, and project fit.",
 		twitterDescription: "Five supplier models, five project types. A contractor's guide to choosing the right wholesale cabinet source in Central Florida.",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
 		imageAlt: "Asina Global guide for choosing a wholesale cabinet supplier in Central Florida.",
 		articleHeadline: "How to Choose a Wholesale Cabinet Supplier for Contractors and Developers (2026)",
-		datePublished: "2026-01-01",
+		datePublished: "2026-06-05",
 		dateModified: "2026-06-05",
 		keywords: [
 			"how to choose a wholesale cabinet supplier",
@@ -598,7 +600,7 @@ var pages = [
 		label: "Supplier Comparison",
 		path: "/wholesale-cabinet-suppliers-central-florida/",
 		showInHeader: false,
-		title: "Wholesale Cabinet Suppliers in Central Florida: Compared for Contractors (2026)",
+		title: "Wholesale Cabinet Suppliers Central FL | Asina Global",
 		description: "Compare wholesale cabinet suppliers in Central Florida by model, lead time, supply path, project fit, contractor needs, and developer-scale buying needs.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for Central Florida wholesale cabinet supplier comparison.",
@@ -720,10 +722,10 @@ var pages = [
 		label: "Import vs Domestic",
 		path: "/import-vs-domestic-cabinets-cost/",
 		showInHeader: false,
-		title: "Import vs. Domestic Cabinets: Cost Guide for Florida Contractors | Asina Global",
+		title: "Import vs Domestic Cabinets Cost | Asina Global",
 		schemaBreadcrumbLabel: "Import vs. Domestic Cabinets: Cost Guide",
 		articleHeadline: "Import vs. Domestic Cabinets: Cost Guide for Florida Contractors",
-		datePublished: "2026-01-01",
+		datePublished: "2026-06-05",
 		dateModified: "2026-06-05",
 		description: "Compare import vs. domestic cabinet costs for Florida contractors — landed cost breakdown, Section 232 tariff impact, container-scale savings, lead times, QA, and repeatability.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
@@ -800,13 +802,13 @@ var pages = [
 		label: "Commercial Cabinet + Countertop Supply",
 		path: "/commercial-cabinet-countertop-supply-florida/",
 		showInHeader: false,
-		title: "Commercial Cabinet & Countertop Supply in Florida | Asina Global",
+		title: "Florida Cabinet & Countertop Supply | Asina Global",
 		description: "Asina Global supplies commercial cabinet and countertop packages for Florida contractors, developers, and franchise buyers. Drawing review, QA, and shipping coordination included. Cabinets and quartz countertops from one supplier.",
 		schemaDescription: "Asina Global supplies commercial cabinet and countertop packages for Florida contractors, developers, and franchise buyers. Drawing review, QA, and shipping coordination included.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Commercial cabinet and countertop supply packet prepared for Florida project review.",
 		articleHeadline: "Commercial Cabinet and Countertop Supply in Florida",
-		datePublished: "2026-01-01",
+		datePublished: "2026-06-05",
 		dateModified: "2026-06-05",
 		articleAuthor: "Kim Nguyen",
 		articleAuthorTitle: "Co-Founder, Asina Global",
@@ -1360,6 +1362,7 @@ var siteDetails = {
 		addressCountry: "US"
 	},
 	logo: "/assets/supporting/brand/asina-global-logo.svg",
+	socialImage: defaultSocialImage,
 	mark: "/assets/supporting/brand/asina-mark.svg",
 	foundingDate: "2026-04-13",
 	priceRange: "$$",
@@ -1463,7 +1466,11 @@ var getPageById = (id) => pages.find((page) => page.id === id) ?? pages[0];
 var getPathForPage = (id) => getPageById(id).path;
 var getCanonicalUrlForPage = (id) => new URL(getPathForPage(id), siteOrigin).toString();
 var getAbsoluteUrl = (value = "/") => new URL(value, siteOrigin).toString();
-var getSocialImageForPage = (id) => getAbsoluteUrl(getPageById(id).socialImage ?? getPageById(id).image ?? siteDetails.logo);
+var getSocialImageForPage = (id) => {
+	const page = getPageById(id);
+	const candidate = page.socialImage ?? page.image;
+	return getAbsoluteUrl(isRasterSocialImage(candidate) ? candidate : siteDetails.socialImage);
+};
 var normalizePath = (pathname = "/") => {
 	return pathname.split("?")[0].split("#")[0].replace(/\/+$/, "") || "/";
 };
@@ -1745,7 +1752,7 @@ var contactDetails = {
 	googleBusinessProfile: siteDetails.googleBusinessProfile,
 	hours: siteDetails.businessHours.label,
 	appointmentText: siteDetails.appointmentText,
-	mapEmbedUrl: `https://www.google.com/maps?q=${encodeURIComponent(formattedOfficeAddress)}&output=embed`
+	mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.549835518365!2d-81.41994612315483!3d28.703109780869784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e773c9915d7561%3A0x6206daa65955a029!2sAsina%20Global%20LLC!5e0!3m2!1sen!2sus!4v1780928963994!5m2!1sen!2sus"
 };
 var getPageFromLocation = (fallback = "home") => {
 	if (typeof window === "undefined") return fallback;
@@ -4985,7 +4992,7 @@ function ProjectReviewForm({ originDossier }) {
 }
 var image_manifest_default = {
 	format: "webp",
-	images: /* @__PURE__ */ JSON.parse("{\"assets/catalog/cabinets/optimized/page-05-img-01-obj-1839.jpg\":[1600,1200,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-07-img-02-obj-1858.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-08-img-01-obj-1865.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-08-img-04-obj-2663.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-09-img-04-obj-1882.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-09-img-05-obj-1883.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-10-img-06-obj-1897.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-10-img-07-obj-1898.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-11-img-04-obj-1909.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-11-img-05-obj-1910.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-12-img-02-obj-1919.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-13-img-08-obj-1937.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-13-img-09-obj-1938.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-14-img-11-obj-1957.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-14-img-12-obj-1958.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-17-img-02-obj-1981.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-18-img-15-obj-2005.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-19-img-16-obj-2031.jpg\":[1600,914,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-19-img-17-obj-2032.jpg\":[1600,914,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-20-img-03-obj-2042.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-21-img-02-obj-2053.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-21-img-03-obj-2054.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-22-img-04-obj-2066.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-22-img-05-obj-2067.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-23-img-04-obj-2077.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-24-img-06-obj-2092.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-25-img-04-obj-2102.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-26-img-08-obj-2120.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/countertops/curated/exotic/exotic-borghini-premium-9143-edge-clean.jpg\":[1584,920,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-alpharetta-9125-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-bella-9126-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-black-no-01-9104-logo-crop.jpg\":[559,398,[160,240,320,480,559]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-black-no-2-9111-logo-crop.jpg\":[1109,740,[160,240,320,480,640,768,960,1109]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-classique-9140-copy.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-duo-9116-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-gold-9139-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-grey-no-2-9110-logo-crop.jpg\":[1212,794,[160,240,320,480,640,768,960,1212]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-lilac-9119-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-ocean-9105-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-old-stain-9115-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-oro-9133-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-rio-light-9108-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-roma-9121-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-stella-9132-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-storm-9101-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-storm-gold-9102-logo-crop.jpg\":[1208,794,[160,240,320,480,640,768,960,1208]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-unique-9117-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-fantasy-gold-9174-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-gray-ottoman-9170-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-luxe-blue-9171-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-marquina-grey-9106-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-nero-marquina-9134-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-seren-blue-9169-copy.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/curated/exotic/exotic-seren-gold-9165-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-siberia-gold-9177-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-tranquility-gold-9131-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/grain/grain-black-sparkle-1206-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-blue-sparkle-1209-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-cemento-1105-logo-crop.jpg\":[1183,794,[160,240,320,480,640,768,960,1183]],\"assets/catalog/countertops/curated/grain/grain-dark-grey-sparkle-1205-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-diamond-white-1201-logo-crop.jpg\":[1226,794,[160,240,320,480,640,768,960,1226]],\"assets/catalog/countertops/curated/grain/grain-iced-white-1301-logo-crop.jpg\":[1203,794,[160,240,320,480,640,768,960,1203]],\"assets/catalog/countertops/curated/grain/grain-light-grey-1203-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-mirror-white-1204-logo-crop.jpg\":[1133,794,[160,240,320,480,640,768,960,1133]],\"assets/catalog/countertops/curated/grain/grain-moon-white-1102-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-pure-white-1101-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-super-white-1103-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-white-sparkle-1202-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/natural/natural-avenza-venatino-8114-logo-crop.jpg\":[1299,751,[160,240,320,480,640,768,960,1280,1299]],\"assets/catalog/countertops/curated/natural/natural-black-carrara-7105-logo-crop.jpg\":[1136,740,[160,240,320,480,640,768,960,1136]],\"assets/catalog/countertops/curated/natural/natural-carrara-abraba-7107-logo-crop.jpg\":[666,777,[160,240,320,480,640,666]],\"assets/catalog/countertops/curated/natural/natural-carrara-alto-8104-logo-crop.jpg\":[1283,794,[160,240,320,480,640,768,960,1280,1283]],\"assets/catalog/countertops/curated/natural/natural-carrara-alto-gold-8101-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-bianca-gold-8106-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-classic-blue-8111-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-cloudy-7112-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-line-8109-logo-crop.jpg\":[1187,740,[160,240,320,480,640,768,960,1187]],\"assets/catalog/countertops/curated/natural/natural-carrara-lyskamm-7102-logo-crop.jpg\":[1090,794,[160,240,320,480,640,768,960,1090]],\"assets/catalog/countertops/curated/natural/natural-carrara-venatino-8102-logo-crop.jpg\":[1147,794,[160,240,320,480,640,768,960,1147]],\"assets/catalog/countertops/curated/natural/natural-carrara-venato-7103-logo-crop.jpg\":[1136,740,[160,240,320,480,640,768,960,1136]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-closeup.jpg\":[1200,772,[160,240,320,480,640,768,960,1200]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-hero-prop.jpg\":[1080,840,[160,240,320,480,640,768,960,1080]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-logo-crop.jpg\":[1053,758,[160,240,320,480,640,768,960,1053]],\"assets/catalog/countertops/curated/natural/natural-classic-8108-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/extracted/page-06-img-01-obj-1756.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-01.jpg\":[1414,1800,[160,240,320,480,640,768,960,1280,1414]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-02.jpg\":[2000,1520,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-03.jpg\":[2000,1516,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-04.jpg\":[2000,1284,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-05.jpg\":[2000,1460,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-01.jpg\":[2000,1334,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-03.jpg\":[2000,1306,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-04.jpg\":[1500,1002,[160,240,320,480,640,768,960,1280,1500]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-05.jpg\":[800,534,[160,240,320,480,640,768,800]],\"assets/catalog/countertops/lifestyle/natural/natural-lifestyle-01.jpg\":[2000,1250,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/natural/natural-lifestyle-02.jpg\":[2000,1250,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/slabs/exotic/001-da-00200.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/004-alaska-blue-9205-full-slab.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/007-da-00455.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/008-da-00083.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/010-9202.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/012-picasso-gold-9179.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/015-miami-white-9180.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/016-moon-sandquartz-countertop-designs.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/019-da-00581.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/022-da-00573.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/023-da-00157.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/027-da-00105.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/035-rocky-gold-no-background.jpg\":[1584,788,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/037-da-00622.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/102-9137-quartz-full-slab.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/9204-imperial-gold-full-slab-no-logo.jpg\":[2560,1463,[160,240,320,480,640,768,960,1280,1600,2560]],\"assets/catalog/countertops/slabs/grain/020-1303-pepper-white.jpg\":[1280,732,[160,240,320,480,640,768,960,1280]],\"assets/catalog/countertops/slabs/natural/002-sea-flower-8201-full-slab.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/005-8202-san-flower-crop-full.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/006-da-00325.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/natural/010-8115-mystic-white.jpg\":[876,500,[160,240,320,480,640,768,876]],\"assets/catalog/countertops/slabs/natural/012-8121.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/051-quartz-model.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/natural/053-quartz-collections.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/pdf-extracted/countertops/exotic/9114-calacatta-storm-black-pdf-slab.jpg\":[1544,436,[160,240,320,480,640,768,960,1280,1544]],\"assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-detail.jpg\":[330,438,[160,240,320,330]],\"assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-slab.jpg\":[509,1005,[160,240,320,480,509]],\"assets/supporting/brand/asina-global-logo.jpg\":[2667,2500,[160,240,320,480,640,768,960,1280,1600,2667]],\"assets/supporting/brand/asina-global-logo.png\":[1600,800,[160,240,320,480,640,768,960,1280,1600]],\"assets/supporting/furniture/osos/base-frasca-maxi-fix.jpg\":[600,600,[160,240,320,480,600]],\"assets/supporting/furniture/osos/ghe-volos-chair.jpg\":[519,600,[160,240,320,480,519]],\"assets/supporting/furniture/velit/lounge-group.jpeg\":[1531,1372,[160,240,320,480,640,768,960,1280,1531]],\"assets/supporting/furniture/velit/marina-dining.jpeg\":[1245,1759,[160,240,320,480,640,768,960,1245]],\"assets/supporting/furniture/velit/sunset-dining.jpeg\":[1245,1759,[160,240,320,480,640,768,960,1245]],\"assets/supporting/furniture/velit/terrace-lounge.jpeg\":[1243,1759,[160,240,320,480,640,768,960,1243]],\"assets/supporting/team/andy-pham.jpg\":[2048,2046,[160,240,320,480,640,768,960,1280,1600,2048]],\"assets/supporting/team/chuck-tran.jpg\":[960,960,[160,240,320,480,640,768,960]],\"assets/supporting/team/hai-ho.jpg\":[512,512,[160,240,320,480,512]],\"assets/supporting/team/kim-nguyen.jpeg\":[200,200,[160,200]]}")
+	images: /* @__PURE__ */ JSON.parse("{\"assets/catalog/cabinets/optimized/page-05-img-01-obj-1839.jpg\":[1600,1200,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-07-img-02-obj-1858.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-08-img-01-obj-1865.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-08-img-04-obj-2663.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-09-img-04-obj-1882.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-09-img-05-obj-1883.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-10-img-06-obj-1897.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-10-img-07-obj-1898.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-11-img-04-obj-1909.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-11-img-05-obj-1910.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-12-img-02-obj-1919.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-13-img-08-obj-1937.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-13-img-09-obj-1938.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-14-img-11-obj-1957.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-14-img-12-obj-1958.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-17-img-02-obj-1981.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-18-img-15-obj-2005.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-19-img-16-obj-2031.jpg\":[1600,914,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-19-img-17-obj-2032.jpg\":[1600,914,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-20-img-03-obj-2042.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-21-img-02-obj-2053.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-21-img-03-obj-2054.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-22-img-04-obj-2066.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-22-img-05-obj-2067.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-23-img-04-obj-2077.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-24-img-06-obj-2092.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-25-img-04-obj-2102.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-26-img-08-obj-2120.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/countertops/curated/exotic/exotic-borghini-premium-9143-edge-clean.jpg\":[1584,920,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-alpharetta-9125-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-bella-9126-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-black-no-01-9104-logo-crop.jpg\":[559,398,[160,240,320,480,559]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-black-no-2-9111-logo-crop.jpg\":[1109,740,[160,240,320,480,640,768,960,1109]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-classique-9140-copy.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-duo-9116-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-gold-9139-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-grey-no-2-9110-logo-crop.jpg\":[1212,794,[160,240,320,480,640,768,960,1212]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-lilac-9119-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-ocean-9105-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-old-stain-9115-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-oro-9133-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-rio-light-9108-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-roma-9121-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-stella-9132-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-storm-9101-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-storm-gold-9102-logo-crop.jpg\":[1208,794,[160,240,320,480,640,768,960,1208]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-unique-9117-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-fantasy-gold-9174-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-gray-ottoman-9170-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-luxe-blue-9171-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-marquina-grey-9106-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-nero-marquina-9134-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-seren-blue-9169-copy.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/curated/exotic/exotic-seren-gold-9165-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-siberia-gold-9177-edge-clean.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-tranquility-gold-9131-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/grain/grain-black-sparkle-1206-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-blue-sparkle-1209-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-cemento-1105-logo-crop.jpg\":[1183,794,[160,240,320,480,640,768,960,1183]],\"assets/catalog/countertops/curated/grain/grain-dark-grey-sparkle-1205-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-diamond-white-1201-logo-crop.jpg\":[1226,794,[160,240,320,480,640,768,960,1226]],\"assets/catalog/countertops/curated/grain/grain-iced-white-1301-logo-crop.jpg\":[1203,794,[160,240,320,480,640,768,960,1203]],\"assets/catalog/countertops/curated/grain/grain-light-grey-1203-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-mirror-white-1204-logo-crop.jpg\":[1133,794,[160,240,320,480,640,768,960,1133]],\"assets/catalog/countertops/curated/grain/grain-moon-white-1102-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-pure-white-1101-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-super-white-1103-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-white-sparkle-1202-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/curated/natural/natural-avenza-venatino-8114-logo-crop.jpg\":[1299,751,[160,240,320,480,640,768,960,1280,1299]],\"assets/catalog/countertops/curated/natural/natural-black-carrara-7105-logo-crop.jpg\":[1136,740,[160,240,320,480,640,768,960,1136]],\"assets/catalog/countertops/curated/natural/natural-carrara-abraba-7107-logo-crop.jpg\":[666,777,[160,240,320,480,640,666]],\"assets/catalog/countertops/curated/natural/natural-carrara-alto-8104-logo-crop.jpg\":[1283,794,[160,240,320,480,640,768,960,1280,1283]],\"assets/catalog/countertops/curated/natural/natural-carrara-alto-gold-8101-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-bianca-gold-8106-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-classic-blue-8111-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-cloudy-7112-logo-crop.jpg\":[688,466,[160,240,320,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-line-8109-logo-crop.jpg\":[1187,740,[160,240,320,480,640,768,960,1187]],\"assets/catalog/countertops/curated/natural/natural-carrara-lyskamm-7102-logo-crop.jpg\":[1090,794,[160,240,320,480,640,768,960,1090]],\"assets/catalog/countertops/curated/natural/natural-carrara-venatino-8102-logo-crop.jpg\":[1147,794,[160,240,320,480,640,768,960,1147]],\"assets/catalog/countertops/curated/natural/natural-carrara-venato-7103-logo-crop.jpg\":[1136,740,[160,240,320,480,640,768,960,1136]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-closeup.jpg\":[1200,772,[160,240,320,480,640,768,960,1200]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-hero-prop.jpg\":[1080,840,[160,240,320,480,640,768,960,1080]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-logo-crop.jpg\":[1053,758,[160,240,320,480,640,768,960,1053]],\"assets/catalog/countertops/curated/natural/natural-classic-8108-logo-crop.jpg\":[1164,794,[160,240,320,480,640,768,960,1164]],\"assets/catalog/countertops/extracted/page-06-img-01-obj-1756.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg\":[1600,900,[160,240,320,480,640,768,960,1280,1600]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-01.jpg\":[1414,1800,[160,240,320,480,640,768,960,1280,1414]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-02.jpg\":[2000,1520,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-03.jpg\":[2000,1516,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-04.jpg\":[2000,1284,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-05.jpg\":[2000,1460,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-01.jpg\":[2000,1334,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-03.jpg\":[2000,1306,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-04.jpg\":[1500,1002,[160,240,320,480,640,768,960,1280,1500]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-05.jpg\":[800,534,[160,240,320,480,640,768,800]],\"assets/catalog/countertops/lifestyle/natural/natural-lifestyle-01.jpg\":[2000,1250,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/natural/natural-lifestyle-02.jpg\":[2000,1250,[160,240,320,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/slabs/exotic/001-da-00200.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/004-alaska-blue-9205-full-slab.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/007-da-00455.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/008-da-00083.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/010-9202.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/012-picasso-gold-9179.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/015-miami-white-9180.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/016-moon-sandquartz-countertop-designs.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/019-da-00581.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/022-da-00573.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/023-da-00157.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/027-da-00105.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/035-rocky-gold-no-background.jpg\":[1584,788,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/037-da-00622.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/102-9137-quartz-full-slab.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/9204-imperial-gold-full-slab-no-logo.jpg\":[2560,1463,[160,240,320,480,640,768,960,1280,1600,2560]],\"assets/catalog/countertops/slabs/grain/020-1303-pepper-white.jpg\":[1280,732,[160,240,320,480,640,768,960,1280]],\"assets/catalog/countertops/slabs/natural/002-sea-flower-8201-full-slab.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/005-8202-san-flower-crop-full.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/006-da-00325.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/natural/010-8115-mystic-white.jpg\":[876,500,[160,240,320,480,640,768,876]],\"assets/catalog/countertops/slabs/natural/012-8121.jpg\":[1584,906,[160,240,320,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/051-quartz-model.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/natural/053-quartz-collections.jpg\":[1384,924,[160,240,320,480,640,768,960,1280,1384]],\"assets/pdf-extracted/countertops/exotic/9114-calacatta-storm-black-pdf-slab.jpg\":[1544,436,[160,240,320,480,640,768,960,1280,1544]],\"assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-detail.jpg\":[330,438,[160,240,320,330]],\"assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-slab.jpg\":[509,1005,[160,240,320,480,509]],\"assets/supporting/brand/asina-global-logo.jpg\":[2667,2500,[160,240,320,480,640,768,960,1280,1600,2667]],\"assets/supporting/brand/asina-global-logo.png\":[1600,800,[160,240,320,480,640,768,960,1280,1600]],\"assets/supporting/brand/asina-global-social-card.png\":[1200,630,[160,240,320,480,640,768,960,1200]],\"assets/supporting/furniture/osos/base-frasca-maxi-fix.jpg\":[600,600,[160,240,320,480,600]],\"assets/supporting/furniture/osos/ghe-volos-chair.jpg\":[519,600,[160,240,320,480,519]],\"assets/supporting/furniture/velit/lounge-group.jpeg\":[1531,1372,[160,240,320,480,640,768,960,1280,1531]],\"assets/supporting/furniture/velit/marina-dining.jpeg\":[1245,1759,[160,240,320,480,640,768,960,1245]],\"assets/supporting/furniture/velit/sunset-dining.jpeg\":[1245,1759,[160,240,320,480,640,768,960,1245]],\"assets/supporting/furniture/velit/terrace-lounge.jpeg\":[1243,1759,[160,240,320,480,640,768,960,1243]],\"assets/supporting/team/andy-pham.jpg\":[2048,2046,[160,240,320,480,640,768,960,1280,1600,2048]],\"assets/supporting/team/chuck-tran.jpg\":[960,960,[160,240,320,480,640,768,960]],\"assets/supporting/team/hai-ho.jpg\":[512,512,[160,240,320,480,512]],\"assets/supporting/team/kim-nguyen.jpeg\":[200,200,[160,200]]}")
 };
 //#endregion
 //#region src/pageShared.jsx
@@ -10178,6 +10185,7 @@ function FAQPreview() {
 }
 //#endregion
 //#region src/pages/cabinetPages.jsx
+var cabinetCollectionPageByKey = Object.fromEntries(Object.entries(cabinetCollectionRouteMap).map(([pageId, key]) => [key, pageId]));
 function CabinetsPage({ navigate }) {
 	const collections = cabinets_default.collections;
 	const [collectionKey, setCollectionKey] = useState$1(collections[0].key);
@@ -10246,6 +10254,37 @@ function CabinetsPage({ navigate }) {
 							]
 						})
 					] })]
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section cabinet-collection-directory",
+				"aria-label": "Cabinet collection pages",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Cabinet Collection Pages",
+					title: "Open each cabinet collection before pricing.",
+					copy: "Use these collection pages to review finish families, construction facts, and quote inputs before starting a cabinet package review."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "cabinet-collection-directory-grid",
+					children: collections.map((collection, index) => /* @__PURE__ */ jsx(Reveal, {
+						className: "cabinet-collection-directory-card",
+						delay: index * .025,
+						children: /* @__PURE__ */ jsxs(RouteLink, {
+							page: cabinetCollectionPageByKey[collection.key],
+							navigate,
+							children: [
+								/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+								/* @__PURE__ */ jsxs("strong", { children: [collection.name, " cabinet collection"] }),
+								/* @__PURE__ */ jsx("p", { children: collection.hero.headline }),
+								/* @__PURE__ */ jsxs("em", { children: [
+									collection.panel_thickness,
+									" / ",
+									collection.finishes.length,
+									" finishes"
+								] }),
+								/* @__PURE__ */ jsx(ArrowRight$1, { size: 16 })
+							]
+						})
+					}, collection.key))
 				})]
 			}),
 			/* @__PURE__ */ jsxs("section", {
@@ -10659,6 +10698,7 @@ function CabinetMaterialGuide() {
 }
 //#endregion
 //#region src/pages/countertopPages.jsx
+var countertopCollectionPageByKey = Object.fromEntries(Object.entries(countertopCollectionRouteMap).map(([pageId, key]) => [key, pageId]));
 function CountertopsPage({ navigate }) {
 	const collections = countertops_default.collections;
 	const [collectionKey, setCollectionKey] = useState$1(collections[0].key);
@@ -10773,6 +10813,50 @@ function CountertopsPage({ navigate }) {
 						}, collection.key))
 					})
 				] })]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section countertop-collection-directory",
+				"aria-label": "Countertop slab and collection pages",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Countertop Collection Pages",
+					title: "Open slab codes and countertop collections before quoting.",
+					copy: "Use these pages to review slab codes, movement behavior, collection facts, and quote inputs before starting a countertop package review."
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "countertop-collection-directory-grid",
+					children: [/* @__PURE__ */ jsx(Reveal, {
+						className: "countertop-collection-directory-card featured",
+						delay: 0,
+						children: /* @__PURE__ */ jsxs(RouteLink, {
+							page: "countertop-quartz-codes",
+							navigate,
+							children: [
+								/* @__PURE__ */ jsx("span", { children: "01" }),
+								/* @__PURE__ */ jsx("strong", { children: "Quartz slab visual code gallery" }),
+								/* @__PURE__ */ jsx("p", { children: "Review all slab codes in one gallery when a specific surface needs project review." }),
+								/* @__PURE__ */ jsxs("em", { children: [allSlabDossiers.length, " slab codes / visual gallery"] }),
+								/* @__PURE__ */ jsx(ArrowRight$1, { size: 16 })
+							]
+						})
+					}), collections.map((collection, index) => /* @__PURE__ */ jsx(Reveal, {
+						className: "countertop-collection-directory-card",
+						delay: (index + 1) * .025,
+						children: /* @__PURE__ */ jsxs(RouteLink, {
+							page: countertopCollectionPageByKey[collection.key],
+							navigate,
+							children: [
+								/* @__PURE__ */ jsx("span", { children: String(index + 2).padStart(2, "0") }),
+								/* @__PURE__ */ jsxs("strong", { children: [countertopCollectionLabel(collection), " quartz slabs"] }),
+								/* @__PURE__ */ jsx("p", { children: collection.hero.headline }),
+								/* @__PURE__ */ jsxs("em", { children: [
+									collection.slabs.length,
+									" slabs / ",
+									collection.facts[0]?.label ?? "Collection facts"
+								] }),
+								/* @__PURE__ */ jsx(ArrowRight$1, { size: 16 })
+							]
+						})
+					}, collection.key))]
+				})]
 			}),
 			/* @__PURE__ */ jsxs("section", {
 				className: "slab-inspector-section",
@@ -12260,6 +12344,7 @@ function ContactPage({ navigate }) {
 					children: [/* @__PURE__ */ jsx("iframe", {
 						title: "Map showing Asina Global LLC office in Longwood, Florida",
 						src: contactDetails.mapEmbedUrl,
+						allowFullScreen: true,
 						loading: "lazy",
 						referrerPolicy: "no-referrer-when-downgrade"
 					}), /* @__PURE__ */ jsxs("div", {
@@ -12267,7 +12352,13 @@ function ContactPage({ navigate }) {
 						children: [
 							/* @__PURE__ */ jsx("span", { children: "Longwood, Florida" }),
 							/* @__PURE__ */ jsx("strong", { children: "151 Sabal Palm Dr" }),
-							/* @__PURE__ */ jsx("p", { children: contactDetails.hours })
+							/* @__PURE__ */ jsx("p", { children: contactDetails.hours }),
+							/* @__PURE__ */ jsx("a", {
+								href: contactDetails.googleBusinessProfile,
+								target: "_blank",
+								rel: "noopener noreferrer",
+								children: "Open Google Maps"
+							})
 						]
 					})]
 				})]
@@ -14981,6 +15072,13 @@ function CommercialIntentPage({ pageId, navigate }) {
 }
 //#endregion
 //#region src/pages/collectionPages.jsx
+var getCabinetCollectionHeroAlt = (collection) => `${collection.name} ${collection.style_family.toLowerCase()} cabinet collection with ${collection.panel_thickness}`;
+var getCountertopCollectionHeroAlt = (collection) => {
+	const codeFromHeroImage = collection.hero.image.match(/(?:^|[-_])(\d{4})(?:[-_.]|$)/)?.[1];
+	const heroSlab = collection.slabs?.find((slab) => slab.code === codeFromHeroImage);
+	if (heroSlab) return `${heroSlab.name} ${collection.name.toLowerCase()} quartz slab ${heroSlab.code} hero view`;
+	return collection.lifestyle_images?.find((image) => image.image === collection.hero.image)?.alt ?? `${collection.name} quartz slab collection with ${collection.behavior.toLowerCase()}`;
+};
 function CabinetCollectionSeoPage({ pageId, navigate }) {
 	const collectionKey = cabinetCollectionRouteMap[pageId];
 	const collection = cabinets_default.collections.find((item) => item.key === collectionKey);
@@ -15025,7 +15123,7 @@ function CabinetCollectionSeoPage({ pageId, navigate }) {
 					children: [/* @__PURE__ */ jsx(ResponsiveImage, {
 						className: "collection-portrait-image",
 						src: collection.hero.image,
-						alt: `${collection.name} cabinet collection review image`,
+						alt: getCabinetCollectionHeroAlt(collection),
 						sizes: "(max-width: 920px) 92vw, 34vw",
 						preferredWidth: 1280
 					}), /* @__PURE__ */ jsxs("div", {
@@ -15462,44 +15560,53 @@ function QuartzSlabCodesPage({ navigate }) {
 					title: "Use the image and code when you want Asina to review a specific slab.",
 					copy: "A code is easier to review when the movement is visible. Pair the slab code with square footage, edge needs, cutouts, destination, and timeline."
 				}), /* @__PURE__ */ jsx("div", {
-					className: "slab-preview-grid",
-					children: allSlabs.map(({ collection, slab }, index) => /* @__PURE__ */ jsxs(Reveal, {
-						className: "slab-preview-card",
-						delay: index % 12 * .014,
-						children: [/* @__PURE__ */ jsxs("button", {
-							type: "button",
-							className: "slab-preview-media-button",
-							onClick: () => openCodeSlabZoom(slab, collection),
-							"aria-label": `Zoom ${collection.name} slab ${slab.code} ${slab.name}`,
-							children: [/* @__PURE__ */ jsx(ResponsiveImage, {
-								className: "slab-portrait-image",
-								src: slab.image,
-								alt: slab.alt ?? `${collection.name} quartz slab ${slab.name}, ${slab.code}`,
-								sizes: "(max-width: 760px) 86vw, (max-width: 1180px) 42vw, 24vw",
-								preferredWidth: 1280
-							}), /* @__PURE__ */ jsx("span", {
-								className: "zoom-cue compact",
-								"aria-hidden": "true",
-								children: /* @__PURE__ */ jsx(Maximize2, { size: 13 })
-							})]
-						}), /* @__PURE__ */ jsxs("div", { children: [
-							/* @__PURE__ */ jsxs("span", { children: [
-								collection.name,
-								" / ",
-								slab.code
-							] }),
-							/* @__PURE__ */ jsx("h3", { children: slab.name }),
-							/* @__PURE__ */ jsx("p", { children: slab.asset_description ?? collection.behavior }),
-							/* @__PURE__ */ jsxs("strong", {
-								className: "slab-review-note",
-								children: [
-									"Use code ",
-									slab.code,
-									" in Project Review."
-								]
-							})
-						] })]
-					}, `${collection.key}-${slab.code}`))
+					className: "slab-preview-grid slab-preview-grid-coded",
+					children: allSlabs.map(({ collection, slab }, index) => {
+						return [index === 0 || allSlabs[index - 1].collection.key !== collection.key ? /* @__PURE__ */ jsxs("div", {
+							className: "slab-preview-collection-break",
+							children: [
+								/* @__PURE__ */ jsx("span", { children: collection.name }),
+								/* @__PURE__ */ jsxs("strong", { children: [collection.slabs.length, " visible codes"] }),
+								/* @__PURE__ */ jsx("p", { children: collection.behavior })
+							]
+						}, `break-${collection.key}`) : null, /* @__PURE__ */ jsxs(Reveal, {
+							className: "slab-preview-card",
+							delay: index % 12 * .014,
+							children: [/* @__PURE__ */ jsxs("button", {
+								type: "button",
+								className: "slab-preview-media-button",
+								onClick: () => openCodeSlabZoom(slab, collection),
+								"aria-label": `Zoom ${collection.name} slab ${slab.code} ${slab.name}`,
+								children: [/* @__PURE__ */ jsx(ResponsiveImage, {
+									className: "slab-portrait-image",
+									src: slab.image,
+									alt: slab.alt ?? `${collection.name} quartz slab ${slab.name}, ${slab.code}`,
+									sizes: "(max-width: 760px) 86vw, (max-width: 1180px) 42vw, 24vw",
+									preferredWidth: 1280
+								}), /* @__PURE__ */ jsx("span", {
+									className: "zoom-cue compact",
+									"aria-hidden": "true",
+									children: /* @__PURE__ */ jsx(Maximize2, { size: 13 })
+								})]
+							}), /* @__PURE__ */ jsxs("div", { children: [
+								/* @__PURE__ */ jsxs("span", { children: [
+									collection.name,
+									" / ",
+									slab.code
+								] }),
+								/* @__PURE__ */ jsx("h3", { children: slab.name }),
+								/* @__PURE__ */ jsx("p", { children: slab.asset_description ?? collection.behavior }),
+								/* @__PURE__ */ jsxs("strong", {
+									className: "slab-review-note",
+									children: [
+										"Use code ",
+										slab.code,
+										" in Project Review."
+									]
+								})
+							] })]
+						}, `${collection.key}-${slab.code}`)];
+					})
 				})]
 			}),
 			/* @__PURE__ */ jsxs("section", {
@@ -15593,7 +15700,7 @@ function CountertopCollectionSeoPage({ pageId, navigate }) {
 					children: [/* @__PURE__ */ jsx(ResponsiveImage, {
 						className: "collection-portrait-image",
 						src: collection.hero.image,
-						alt: `${collection.name} quartz collection review image`,
+						alt: getCountertopCollectionHeroAlt(collection),
 						sizes: "(max-width: 920px) 92vw, 34vw",
 						preferredWidth: 1280
 					}), /* @__PURE__ */ jsxs("div", {
