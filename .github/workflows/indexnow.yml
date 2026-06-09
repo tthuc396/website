@@ -1,0 +1,53 @@
+name: Submit IndexNow
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  submit-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Wait for production deploy
+        run: sleep 90
+      - name: Submit sitemap URLs to IndexNow
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const siteOrigin = 'https://asinaglobal.com';
+          const host = new URL(siteOrigin).host;
+          const main = async () => {
+            const key = fs.readFileSync('indexnow.txt', 'utf8').trim();
+            const sitemap = fs.readFileSync('sitemap.xml', 'utf8');
+            const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
+            urls.push(new URL('/sitemap.xml', siteOrigin).toString());
+            if (fs.existsSync('sitemap-images.xml')) {
+              urls.push(new URL('/sitemap-images.xml', siteOrigin).toString());
+            }
+            const urlList = [...new Set(urls)].filter((url) => new URL(url).host === host);
+            const response = await fetch('https://api.indexnow.org/indexnow', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json; charset=utf-8' },
+              body: JSON.stringify({
+                host,
+                key,
+                keyLocation: new URL('/indexnow.txt', siteOrigin).toString(),
+                urlList,
+              }),
+            });
+            const body = await response.text();
+            if (!response.ok) {
+              throw new Error('IndexNow failed with ' + response.status + ': ' + body);
+            }
+            console.log('Submitted ' + urlList.length + ' URLs to IndexNow.');
+          };
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          NODE

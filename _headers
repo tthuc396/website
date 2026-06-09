@@ -5,6 +5,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
   Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net; frame-src 'self' https://www.google.com https://maps.google.com; base-uri 'self'; frame-ancestors 'none'; form-action 'self'
+  X-IndexNow-Key: 6210a8e58e76a04a681e13a1e96c8343
   Link: </assets/index-DJtjByAe.css>; rel=preload; as=style
 
 
@@ -23,7 +24,12 @@
 /llms.txt
   Cache-Control: public, max-age=3600
 
+/indexnow.txt
+  X-IndexNow-Key: 6210a8e58e76a04a681e13a1e96c8343
+  Cache-Control: public, max-age=3600
+
 /6210a8e58e76a04a681e13a1e96c8343.txt
+  X-IndexNow-Key: 6210a8e58e76a04a681e13a1e96c8343
   Cache-Control: public, max-age=3600
 
 /google34903b7c0d871605.html
