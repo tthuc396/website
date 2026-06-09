@@ -14,6 +14,11 @@
       <image:title>Cabinet finish sample under review</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/lounge-group-240.webp</image:loc>
+      <image:caption>Furniture package example with lounge seating</image:caption>
+      <image:title>Furniture package example with lounge seating</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://asinaglobal.com/assets/generated/catalog/countertops/lifestyle/exotic/exotic-lifestyle-05-640.webp</image:loc>
       <image:caption>Countertops material reference</image:caption>
       <image:title>Countertops material reference</image:title>
@@ -22,6 +27,11 @@
       <image:loc>https://asinaglobal.com/assets/generated/catalog/cabinets/optimized/page-18-img-14-obj-2004-768.webp</image:loc>
       <image:caption>Cabinets material reference</image:caption>
       <image:title>Cabinets material reference</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/terrace-lounge-640.webp</image:loc>
+      <image:caption>Furniture Packages material reference</image:caption>
+      <image:title>Furniture Packages material reference</image:title>
     </image:image>
     <image:image>
       <image:loc>https://asinaglobal.com/assets/generated/catalog/countertops/extracted/page-06-img-01-obj-1756-960.webp</image:loc>
@@ -143,6 +153,43 @@
     </image:image>
   </url>
   <url>
+    <loc>https://asinaglobal.com/custom-furniture-packages/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/lounge-group-960.webp</image:loc>
+      <image:caption>Furniture rollout package seating reference</image:caption>
+      <image:title>Furniture rollout package seating reference</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/terrace-lounge-960.webp</image:loc>
+      <image:caption>Commercial furniture package example</image:caption>
+      <image:title>Commercial furniture package example</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/marina-dining-960.webp</image:loc>
+      <image:caption>Restaurant packet furniture package</image:caption>
+      <image:title>Restaurant packet furniture package</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://asinaglobal.com/process/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/supporting/brand/asina-global-social-card.png</image:loc>
+      <image:caption>Drawing To Production</image:caption>
+      <image:title>Drawing To Production</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://asinaglobal.com/qa-shipping-import-risk/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-detail.jpg</image:loc>
+      <image:caption>Import Risk, QA and Shipping Review</image:caption>
+      <image:title>Import Risk, QA and Shipping Review</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://asinaglobal.com/about/</loc>
     <lastmod>2026-06-04</lastmod>
     <image:image>
@@ -150,14 +197,57 @@
       <image:caption>Installed cabinet room used for Asina project accountability and supply review</image:caption>
       <image:title>Installed cabinet room used for Asina project accountability and supply review</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/team/chuck-tran-960.webp</image:loc>
+      <image:caption>Chuck Tran, Founder at Asina Global</image:caption>
+      <image:title>Chuck Tran, Founder at Asina Global</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/team/hai-ho-512.webp</image:loc>
+      <image:caption>Hai Ho, Co-Founder at Asina Global</image:caption>
+      <image:title>Hai Ho, Co-Founder at Asina Global</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/team/kim-nguyen-200.webp</image:loc>
+      <image:caption>Kim Nguyen, Co-Founder at Asina Global</image:caption>
+      <image:title>Kim Nguyen, Co-Founder at Asina Global</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/team/andy-pham-2048.webp</image:loc>
+      <image:caption>Andy Pham, Co-Founder at Asina Global</image:caption>
+      <image:title>Andy Pham, Co-Founder at Asina Global</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://asinaglobal.com/design-to-production-support/</loc>
     <lastmod>2026-06-04</lastmod>
     <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/terrace-lounge-768.webp</image:loc>
+      <image:caption>Outdoor furniture setting reviewed for room intent, layout, and finish direction</image:caption>
+      <image:title>Outdoor furniture setting reviewed for room intent, layout, and finish direction</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://asinaglobal.com/assets/generated/catalog/cabinets/optimized/page-18-img-14-obj-2004-960.webp</image:loc>
       <image:caption>Installed cabinet room prepared for production-detail and mockup approval review</image:caption>
       <image:title>Installed cabinet room prepared for production-detail and mockup approval review</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://asinaglobal.com/project-review/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/supporting/brand/asina-global-social-card.png</image:loc>
+      <image:caption>Request Project Supply Review</image:caption>
+      <image:title>Request Project Supply Review</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://asinaglobal.com/buyer-paths/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg</image:loc>
+      <image:caption>Buyer Paths For Project Supply</image:caption>
+      <image:title>Buyer Paths For Project Supply</image:title>
     </image:image>
   </url>
   <url>
@@ -176,6 +266,30 @@
       <image:loc>https://asinaglobal.com/assets/generated/catalog/cabinets/optimized/page-18-img-14-obj-2004-960.webp</image:loc>
       <image:caption>Cabinet package room prepared for dealer and distributor wholesale supply review</image:caption>
       <image:title>Cabinet package room prepared for dealer and distributor wholesale supply review</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://asinaglobal.com/restaurant-franchise-furniture-packages/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/lounge-group-960.webp</image:loc>
+      <image:caption>Commercial seating package reviewed for restaurant and franchise rollout</image:caption>
+      <image:title>Commercial seating package reviewed for restaurant and franchise rollout</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/marina-dining-960.webp</image:loc>
+      <image:caption>Restaurant packet furniture package reference</image:caption>
+      <image:title>Restaurant packet furniture package reference</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/lounge-group-640.webp</image:loc>
+      <image:caption>Franchise repeat kit furniture package reference</image:caption>
+      <image:title>Franchise repeat kit furniture package reference</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/terrace-lounge-640.webp</image:loc>
+      <image:caption>Commercial outdoor set furniture package reference</image:caption>
+      <image:title>Commercial outdoor set furniture package reference</image:title>
     </image:image>
   </url>
   <url>
@@ -308,6 +422,15 @@
       <image:loc>https://asinaglobal.com/assets/generated/pdf-extracted/countertops/exotic/9114-calacatta-storm-black-pdf-slab-960.webp</image:loc>
       <image:caption>Quartz slab prepared for Orlando commercial countertop supply review</image:caption>
       <image:title>Quartz slab prepared for Orlando commercial countertop supply review</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://asinaglobal.com/hospitality-ffe-furniture-packages-florida/</loc>
+    <lastmod>2026-06-03</lastmod>
+    <image:image>
+      <image:loc>https://asinaglobal.com/assets/generated/supporting/furniture/velit/terrace-lounge-960.webp</image:loc>
+      <image:caption>Hospitality furniture package reference prepared for FF&amp;E review</image:caption>
+      <image:title>Hospitality furniture package reference prepared for FF&amp;E review</image:title>
     </image:image>
   </url>
   <url>
