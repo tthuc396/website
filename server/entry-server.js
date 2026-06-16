@@ -461,9 +461,9 @@ var pages = [
 		description: "Multi-unit and multifamily cabinet packages for Florida developers and contractors, with drawing review, mockup approval, QA, and shipping coordination.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for multi-unit project supply review.",
-		articleHeadline: "Multi-Unit Cabinet Packages for Developers and Contractors in Florida",
+		articleHeadline: "Multi-Unit and Multifamily Cabinet Packages for Florida Developers and Contractors",
 		datePublished: "2026-06-05",
-		dateModified: "2026-06-05",
+		dateModified: "2026-06-16",
 		articleAuthor: "Kim Nguyen",
 		articleAuthorTitle: "Co-Founder, Asina Global",
 		articleAuthorUrl: "https://asinaglobal.com/about/",
@@ -1173,10 +1173,11 @@ var pageFaqs = {
 		["Are drawings uploaded on this page?", "No. Start with basics. Asina requests drawings and specs by email after checking whether the project is a fit."]
 	],
 	"multi-unit": [
-		["What makes a cabinet order a fit?", "A strong fit is a repeatable room, unit, phase, venue, or builder package where Asina can review finish direction, cabinet run, and quantity together."],
-		["Do you publish multi-unit pricing?", "No. Pricing depends on drawings, quantities, finishes, construction details, packing, shipping, and agreed project terms."],
-		["Can Asina review cabinet collections before drawings?", "Yes. Start with the category, room type, finish direction, unit count, location, and timeline. Asina requests drawings by email after the first review."],
-		["How does mockup approval help?", "A mockup or sample confirms measurements, color, finish, materials, and details before repeat production begins."]
+		["What multifamily projects are the best fit?", "The strongest fit is 10 to 200 repeat units, phased apartment buildings, townhome groups, build-to-rent communities, hospitality rooms, or commercial spaces where cabinet runs and finish schedules repeat."],
+		["When should a multifamily buyer start cabinet review?", "Start before production timing becomes urgent. Asina needs time for project basics, drawing review, finish direction, mockup or sample approval, production QA, packing review, and shipping coordination."],
+		["Can one cabinet package cover mirrored units or multiple room types?", "Yes, when the drawings and labels make the differences clear. Asina reviews mirrored units, kitchens, vanities, laundry rooms, and room groups so production and packing can follow the approved references."],
+		["Do you publish multi-unit pricing?", "No. Pricing depends on drawings, quantities, finishes, construction details, packing, shipping, destination, receiving conditions, and agreed project terms."],
+		["How does mockup approval help a multifamily project?", "A mockup or sample confirms measurements, color, finish, materials, hardware behavior, and details before repeat production begins. It is cheaper to correct an approval sample than to correct a full phase after delivery."]
 	],
 	"dealer-supply": [
 		["Does Asina compete with my direct clients?", "No. Asina is a wholesale supplier — we work through dealers, not around them. We do not contact dealer clients directly or quote to the same buyer a dealer has brought to us."],
@@ -12899,6 +12900,7 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 							}),
 							"."
 						] }),
+						/* @__PURE__ */ jsx("p", { children: "A repeatable cabinet package is different from buying cabinets one kitchen at a time. The goal is to approve one dependable package, then keep that package consistent across buildings, phases, or room groups. That means the first review has to answer scope, quantity, finish, construction, QA, packing, freight, and receiving questions before a production slot is treated as real." }),
 						/* @__PURE__ */ jsx(RouteLink, {
 							page: "cabinets",
 							navigate,
@@ -12918,6 +12920,31 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 							/* @__PURE__ */ jsx("strong", { children: item })
 						]
 					}, item))
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section dealer-supply-board",
+				"aria-label": "Multi-unit and multifamily cabinet right fit criteria",
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Right Fit Criteria",
+					title: "What projects qualify for a managed multifamily cabinet package?",
+					copy: "The best candidates have repeatable rooms, enough lead time, and one accountable review path before production. Speed-only work belongs with local stock. Planned repeat work can use a more controlled supply process."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "dealer-supply-grid",
+					children: [
+						["Best fit", "10 to 200 repeat units, phased multifamily buildings, apartment turns with one finish schedule, townhome packages, build-to-rent communities, hospitality rooms, and commercial spaces with repeat room logic."],
+						["Sometimes fit", "Model units, first buildings in a larger phase, dealer-led developer work, or smaller trial orders when the next phase is already visible and the schedule can support import planning."],
+						["Poor fit", "Emergency replacements, single kitchens, owner-selected retail remodels, projects without a finish direction, or jobs where cabinets must be installed before drawing review and mockup approval can happen."],
+						["Information needed", "Unit count, room types, cabinet elevations, appliance assumptions, finish schedule, hardware direction, destination, floor access, receiving plan, and the date cabinets need to be ready for installation."]
+					].map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+						className: "dealer-supply-row",
+						delay: index * .035,
+						children: [
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("h3", { children: title }),
+							/* @__PURE__ */ jsx("p", { children: copy })
+						]
+					}, title))
 				})]
 			}),
 			/* @__PURE__ */ jsxs("section", {
@@ -12945,13 +12972,54 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 						/* @__PURE__ */ jsx("div", {
 							className: "proof-step-list",
 							children: [
-								["Project fit", "Apartments, developments, builder packages, and repeat commercial rooms."],
-								["Construction review", "Framed vs frameless cabinets, cabinet face material, cabinet panel thickness, and finish family stay easy to check before pricing."],
-								["Mockup approval", "A sample or mockup confirms measurements, color, finish, materials, and detail direction before repeat production."],
-								["Container planning", "Asina reviews container-scale planning without public pricing or savings guarantees."]
+								["Project fit", "Apartments, townhome phases, build-to-rent groups, student housing, hospitality rooms, and repeat commercial rooms are reviewed when the cabinet package repeats."],
+								["Construction review", "Framed vs frameless cabinets, cabinet face material, cabinet panel thickness, drawer boxes, hardware, and finish family stay easy to check before pricing."],
+								["Mockup approval", "A sample or mockup confirms measurements, color, finish, materials, door behavior, drawer behavior, and detail direction before repeat production."],
+								["Container planning", "Asina reviews whether the project scale supports container planning, phased shipping, receiving windows, and site-ready timing without public pricing or savings guarantees."]
 							].map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
 								className: "proof-step",
 								delay: index * .04,
+								children: [/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }), /* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("strong", { children: title }), /* @__PURE__ */ jsx("p", { children: copy })] })]
+							}, title))
+						})
+					]
+				})]
+			}),
+			/* @__PURE__ */ jsxs("section", {
+				className: "section dealer-model-board",
+				"aria-label": "Week by week multi-unit cabinet production walkthrough",
+				children: [/* @__PURE__ */ jsxs(Reveal, {
+					className: "dealer-model-media",
+					children: [/* @__PURE__ */ jsx(ResponsiveImage, {
+						src: heroAssets.cabinetRoom,
+						alt: "Cabinet package room used for week by week multifamily production planning",
+						sizes: "(max-width: 920px) 92vw, 44vw",
+						preferredWidth: 960
+					}), /* @__PURE__ */ jsxs("div", {
+						className: "proof-media-ticket",
+						children: [/* @__PURE__ */ jsx("span", { children: "Week-by-week path" }), /* @__PURE__ */ jsx("strong", { children: "Drawing, mockup, QA, packing, delivery" })]
+					})]
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "dealer-model-ledger",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Process Walkthrough"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "From drawing set to delivery, the schedule is managed in stages." }),
+						/* @__PURE__ */ jsx("p", { children: "Multifamily cabinet procurement works best when the cabinet schedule is treated as a production calendar, not a last-minute purchase order. The exact timing changes by product, factory capacity, port conditions, and destination, but the review normally follows this order." }),
+						/* @__PURE__ */ jsx("div", {
+							className: "proof-step-list",
+							children: [
+								["Week 1", "Project basics and fit check. Asina reviews unit count, location, room types, timeline, and whether the project looks repeatable enough for a managed cabinet package."],
+								["Weeks 2-3", "Drawing review and scope cleanup. Cabinet runs, elevations, finish direction, appliance assumptions, island needs, vanity needs, and special conditions are organized before anything moves toward production."],
+								["Weeks 3-4", "Mockup or sample approval. A sample door, finish sample, cabinet box detail, or full mockup confirms the reference for dimensions, material direction, finish tone, and hardware expectations."],
+								["Weeks 5-11", "Production and production QA. Factory production typically runs 40 to 50 days after approved details. Asina watches for consistency across repeat rooms, approved construction, labels, and packing direction."],
+								["Weeks 10-12", "Packing review and shipping plan. Carton labeling, room grouping, damage-control packing, container loading, destination, Incoterms, and receiving responsibilities are checked before the order leaves."],
+								["Weeks 13-20", "Transit and delivery planning. West Coast DAP planning is commonly 22 to 30 days. East Coast planning is commonly 40 to 50 days. Site receiving should be scheduled around the longer East Coast window when the destination is Florida."]
+							].map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+								className: "proof-step",
+								delay: index * .035,
 								children: [/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }), /* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("strong", { children: title }), /* @__PURE__ */ jsx("p", { children: copy })] })]
 							}, title))
 						})
@@ -12974,6 +13042,8 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 						}),
 						/* @__PURE__ */ jsx("h2", { children: "From cabinet direction to repeat production." }),
 						/* @__PURE__ */ jsx("p", { children: "Collection facts, finish direction, unit count, and room logic feed the mockup path. Approved details then become the reference for production QA, packing review, and shipping responsibility." }),
+						/* @__PURE__ */ jsx("p", { children: "For multifamily work, the most important detail is not only the cabinet style. It is whether the same cabinet package can be repeated without confusing the installer, receiver, or site superintendent. A good package has clear room labels, finish labels, cabinet run references, phase references, and replacement logic before the first container or truck arrives." }),
+						/* @__PURE__ */ jsx("p", { children: "Asina does not treat a 40-unit project as 40 unrelated kitchens. The review looks for patterns: which rooms repeat, which units are mirrored, which appliance assumptions change, which vanities can be grouped, and where site access could affect delivery. Those details decide whether the project should move as one package, several phases, or a first approval followed by a larger repeat run." }),
 						/* @__PURE__ */ jsxs("div", {
 							className: "inline-link-row",
 							children: [/* @__PURE__ */ jsx(RouteLink, {
@@ -12990,13 +13060,8 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 				})]
 			}),
 			/* @__PURE__ */ jsx(PageFAQ, {
-				title: "Multi-Unit Cabinet FAQ",
-				items: [
-					["What makes a cabinet order a fit?", "A strong fit is a repeatable room, unit, phase, venue, or builder package where Asina can review finish direction, cabinet run, and quantity together."],
-					["Do you publish multi-unit pricing?", "No. Pricing depends on drawings, quantities, finishes, construction details, packing, shipping, and agreed project terms."],
-					["Can Asina review cabinet collections before drawings?", "Yes. Start with the category, room type, finish direction, unit count, location, and timeline. Asina requests drawings by email after the first review."],
-					["How does mockup approval help?", "A mockup or sample confirms measurements, color, finish, materials, and details before repeat production begins."]
-				]
+				title: "Multi-Unit and Multifamily Cabinet FAQ",
+				items: pageFaqs["multi-unit"]
 			}),
 			/* @__PURE__ */ jsx(RelatedProjectPaths, {
 				currentPage: "multi-unit",
