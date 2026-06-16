@@ -458,7 +458,7 @@ var pages = [
 		path: "/multi-unit-cabinet-packages/",
 		showInHeader: false,
 		title: "Multi-Unit Cabinets for Florida Developers | Asina Global",
-		description: "Asina Global supplies multi-unit and multifamily cabinet packages for developers and contractors in Florida. Drawing review, mockup approval, QA, and shipping coordination for 10–200 unit builds.",
+		description: "Multi-unit and multifamily cabinet packages for Florida developers and contractors, with drawing review, mockup approval, QA, and shipping coordination.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for multi-unit project supply review.",
 		articleHeadline: "Multi-Unit Cabinet Packages for Developers and Contractors in Florida",
