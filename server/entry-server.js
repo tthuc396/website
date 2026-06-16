@@ -2201,7 +2201,7 @@ function Footer({ activePage, navigate }) {
 				children: [/* @__PURE__ */ jsxs("div", {
 					className: "footer-brand-panel",
 					children: [
-						/* @__PURE__ */ jsx("h2", { children: "Start with the right project review." }),
+						/* @__PURE__ */ jsx("h3", { children: "Start with the right project review." }),
 						/* @__PURE__ */ jsx("p", { children: "Asina reviews cabinets, countertops, and furniture packages for fit, QA, packing, and shipping responsibility before drawings move by email." }),
 						/* @__PURE__ */ jsxs("div", {
 							className: "footer-cta-row",
