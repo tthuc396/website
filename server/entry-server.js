@@ -571,7 +571,7 @@ var pages = [
 		label: "Wholesale Cabinet Supplier Guide",
 		path: "/how-to-choose-wholesale-cabinet-supplier/",
 		showInHeader: false,
-		title: "Wholesale Cabinet Supplier Guide | Asina Global",
+		title: "How to Choose a Wholesale Cabinet Supplier | Contractor Guide 2026 | Asina Global",
 		schemaBreadcrumbLabel: "How to Choose a Wholesale Cabinet Supplier",
 		description: "Compare five wholesale cabinet supplier models for contractors in Central Florida by order size, lead time, service level, project fit, and QA ownership.",
 		twitterDescription: "Five supplier models, five project types. A contractor's guide to choosing the right wholesale cabinet source in Central Florida.",
