@@ -8130,6 +8130,7 @@ function PageHeroArtifact({ variant }) {
 					src: cabinetCollection.hero.image,
 					alt: `${cabinetCollection.name} cabinet finish wall`,
 					loading: "eager",
+					fetchPriority: "high",
 					sizes: "(max-width: 920px) 88vw, 30vw",
 					preferredWidth: 960
 				}), /* @__PURE__ */ jsx("div", { children: cabinetFinishes.map((finish) => /* @__PURE__ */ jsxs("span", { children: [/* @__PURE__ */ jsx("i", { style: { background: finish.swatches?.[0]?.color } }), finish.name] }, finish.name)) })]
@@ -8148,6 +8149,7 @@ function PageHeroArtifact({ variant }) {
 					src: randomSlab.image,
 					alt: randomSlab.alt,
 					loading: "eager",
+					fetchPriority: "high",
 					sizes: "(max-width: 920px) 72vw, 24vw",
 					preferredWidth: 960
 				}), /* @__PURE__ */ jsx("span", { children: randomSlab.code })]
@@ -8166,6 +8168,7 @@ function PageHeroArtifact({ variant }) {
 				src: heroAssets.furnitureCutout,
 				alt: "Furniture rollout package seating reference",
 				loading: "eager",
+				fetchPriority: "high",
 				sizes: "(max-width: 920px) 70vw, 28vw",
 				preferredWidth: 960
 			}), /* @__PURE__ */ jsx("div", {
@@ -10248,6 +10251,7 @@ function CabinetsPage({ navigate }) {
 						src: active.hero.image,
 						alt: `${active.name} cabinet collection`,
 						loading: "eager",
+						fetchPriority: "high",
 						sizes: "(max-width: 920px) 92vw, 52vw",
 						preferredWidth: 960
 					}), /* @__PURE__ */ jsxs("div", { children: [
@@ -10790,6 +10794,7 @@ function CountertopsPage({ navigate }) {
 						src: heroAssets.slab,
 						alt: "Calacatta Storm Black slab",
 						loading: "eager",
+						fetchPriority: "high",
 						sizes: "(max-width: 920px) 92vw, 50vw",
 						preferredWidth: 960
 					}), /* @__PURE__ */ jsx("span", {
