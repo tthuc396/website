@@ -219,7 +219,7 @@ var pages = [
 		id: "home",
 		label: "Home",
 		path: "/",
-		title: "Wholesale Cabinets & Countertops for Contractors | Longwood, FL | Asina Global",
+		title: "Wholesale Cabinets & Countertops for Contractors | Asina Global",
 		description: "Asina Global supplies project-scale cabinets, countertops, and furniture packages with drawing review, mockup approval, QA, packing, and shipping coordination.",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
 		imageAlt: "Asina Global project supply dossier for cabinets, countertops, furniture, QA, and shipping coordination.",
