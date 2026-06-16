@@ -9562,7 +9562,7 @@ function SupplyRouter({ navigate }) {
 		className: "section",
 		children: [/* @__PURE__ */ jsx(SectionIntro, {
 			eyebrow: "Supply Paths",
-			title: "Wholesale cabinets, countertops, and furniture start with the right category.",
+			title: "What Project Types Qualify for Import Cabinet, Countertop, or Furniture Supply?",
 			copy: "Each category shows what buyers can inspect and what Asina needs before pricing."
 		}), /* @__PURE__ */ jsx("div", {
 			className: "supply-router",
@@ -9611,7 +9611,7 @@ function BuyerPathTeaser({ navigate }) {
 					className: "section-label",
 					children: "Buyer Paths"
 				}),
-				/* @__PURE__ */ jsx("h2", { children: "Find the right cabinet, countertop, or furniture starting point." }),
+				/* @__PURE__ */ jsx("h2", { children: "Which Supply Path Fits Your Cabinet, Countertop, or Furniture Project?" }),
 				/* @__PURE__ */ jsx("p", { children: "Buyers who need a specific route can open the full directory for product categories, commercial use cases, RFQ preparation, QA, shipping, and collection detail." }),
 				/* @__PURE__ */ jsxs(RouteLink, {
 					page: "buyer-paths",
@@ -10108,7 +10108,7 @@ function EconomicsShipping({ navigate }) {
 					className: "ledger-caption",
 					children: "Wholesale Economics"
 				}),
-				/* @__PURE__ */ jsx("h2", { children: "Wholesale cabinet value usually starts at container scale." }),
+				/* @__PURE__ */ jsx("h2", { children: "When Does Wholesale Cabinet Value Start at Container Scale?" }),
 				/* @__PURE__ */ jsx("p", { children: "A 40ft container load usually gives builders and developers the best cost advantage. Asina can discuss smaller trial runs when they point to future wholesale or repeat-project volume." }),
 				/* @__PURE__ */ jsx("p", { children: "Cabinet orders typically move in 20-foot or 40-foot containers. A 40HC container can typically fit about 700 to 800 cabinet boxes; a 20-foot container can typically fit about 370 boxes, depending on the final mix." })
 			]
