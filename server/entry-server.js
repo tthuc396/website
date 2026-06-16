@@ -12859,7 +12859,7 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 	return /* @__PURE__ */ jsxs(PageShell, {
 		variant: "multi-unit",
 		eyebrow: "Multi-Unit Cabinet Packages",
-		title: "Multi-Unit Cabinet Packages for Developers and Contractors in Florida",
+		title: "Multi-Unit and Multifamily Cabinet Packages for Florida Developers and Contractors",
 		copy: "For developers building 10 to 200 units, Asina Global reviews cabinet packages from drawing set through mockup approval, production QA, and shipping coordination. Multifamily projects, phased builds, and repeat-room commercial work are the primary use case.",
 		heroByline: /* @__PURE__ */ jsx(ArticleByline, {}),
 		navigate,
