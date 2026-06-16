@@ -2317,7 +2317,7 @@ function Footer({ activePage, navigate }) {
 						links: [
 							"rfq",
 							"importer-resources",
-							"supplier-comparison",
+							"supplier-guide",
 							"container-economics",
 							"landed-cost",
 							"shipping-responsibility",
@@ -5474,7 +5474,7 @@ var buyerPathEntries = [
 		Icon: FileText$1
 	},
 	{
-		page: "supplier-comparison",
+		page: "supplier-guide",
 		label: "Central Florida supplier comparison",
 		copy: "Compare local stock, showroom, assembled supply, and project-scale import models.",
 		meta: "Supplier models / Central Florida",
@@ -7419,7 +7419,7 @@ var relatedRouteGroups = {
 		copy: "Use these pages to compare supplier models, prepare quote inputs, review QA controls, and check whether import supply fits the dealer-led project.",
 		links: [
 			{
-				page: "supplier-comparison",
+				page: "supplier-guide",
 				label: "Central Florida supplier comparison",
 				copy: "Compare local stock, showroom, assembled, and project-scale import supplier models.",
 				meta: "Comparison / local suppliers",
@@ -9729,7 +9729,7 @@ function BuyerPathsPage({ navigate }) {
 							"Buyers comparing local sourcing can also see",
 							" ",
 							/* @__PURE__ */ jsx(RouteLink, {
-								page: "supplier-comparison",
+								page: "supplier-guide",
 								navigate,
 								className: "copy-link",
 								children: "how Asina compares to local suppliers"
@@ -12880,7 +12880,7 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 							"For cabinet supplier for apartment development Florida work, or wholesale cabinets for a 40-unit build Florida buyers can actually schedule, compare",
 							" ",
 							/* @__PURE__ */ jsx(RouteLink, {
-								page: "supplier-comparison",
+								page: "supplier-guide",
 								navigate,
 								className: "copy-link",
 								children: "wholesale cabinet suppliers in Central Florida"
@@ -13039,7 +13039,7 @@ function DealerCabinetSupplyPage({ navigate }) {
 						/* @__PURE__ */ jsx("h2", { children: "Who This Is For" }),
 						/* @__PURE__ */ jsx("p", { children: "This page is for cabinet dealers, kitchen designers, and distributors who resell to developer, commercial, or repeat-project clients. If the job is a single-family remodel that needs stock next week, a local RTA warehouse will usually be faster." }),
 						/* @__PURE__ */ jsx(RouteLink, {
-							page: "supplier-comparison",
+							page: "supplier-guide",
 							navigate,
 							className: "button secondary",
 							children: "Compare local supplier models"
@@ -13555,9 +13555,9 @@ function WholesaleCabinetSupplierGuidePage({ navigate }) {
 								"how quality is managed through mockup, production checks, and packing review"
 							],
 							[
-								"supplier-comparison",
-								"Wholesale cabinet suppliers in Central Florida",
-								"compare local supplier models before choosing a cabinet path"
+								"dealer-supply",
+								"Cabinet wholesale supply for dealers",
+								"dealer supply model for project-scale cabinet accounts"
 							],
 							[
 								"container-economics",
@@ -14244,7 +14244,7 @@ function ProjectSupplyImporterResourcesPage({ navigate }) {
 							"If the first question is who to call locally, start with",
 							" ",
 							/* @__PURE__ */ jsx(RouteLink, {
-								page: "supplier-comparison",
+								page: "supplier-guide",
 								navigate,
 								className: "copy-link",
 								children: "wholesale cabinet suppliers in Central Florida"
@@ -14577,7 +14577,7 @@ function BuyerQuestionGuidePage({ guideId, navigate }) {
 									children: "Buyer guide"
 								}),
 								guideId === "import-vs-domestic" && /* @__PURE__ */ jsx(RouteLink, {
-									page: "supplier-comparison",
+									page: "supplier-guide",
 									navigate,
 									children: "Compare local wholesale cabinet suppliers"
 								}),
@@ -15049,7 +15049,7 @@ function CommercialIntentPage({ pageId, navigate }) {
 									children: "QA + shipping"
 								}),
 								pageId === "commercial-mixed" && /* @__PURE__ */ jsx(RouteLink, {
-									page: "supplier-comparison",
+									page: "supplier-guide",
 									navigate,
 									children: "See how local suppliers compare"
 								})
