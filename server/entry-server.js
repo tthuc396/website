@@ -338,13 +338,15 @@ var pages = [
 		path: "/about/",
 		aliases: ["/about.html"],
 		title: "About Asina Global | Project Supply Accountability",
-		description: "Meet Asina Global founder-led team supporting builders, developers, procurement teams, and rollout buyers with project review, QA, and shipping support.",
+		description: "Meet Asina Global LLC in Longwood, Seminole County, supporting builders, developers, and procurement teams with project review, QA, and shipping support.",
+		dateModified: "2026-06-16",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
-		imageAlt: "Asina Global identity for project supply accountability.",
+		imageAlt: "Asina Global LLC project supply accountability in Longwood, Seminole County.",
 		serviceType: "Project supply accountability",
 		keywords: [
 			"Asina Global",
 			"project supply accountability",
+			"Seminole County project supply",
 			"procurement support",
 			"builder supply review",
 			"developer supply partner"
@@ -397,24 +399,33 @@ var pages = [
 		path: "/contact/",
 		showInHeader: false,
 		title: "Contact Asina Global LLC | Longwood Project Supply",
-		description: "Contact Asina Global LLC in Longwood, Florida for cabinet, countertop, and furniture package project review, phone support, NAP details, and follow-up.",
+		description: "Contact Asina Global LLC in Longwood, Seminole County, Florida for cabinet, countertop, and furniture package project review, phone support, NAP details, and follow-up.",
+		dateModified: "2026-06-16",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
-		imageAlt: "Asina Global LLC contact details for project supply review in Longwood, Florida.",
+		imageAlt: "Asina Global LLC contact details for project supply review in Longwood, Seminole County, Florida.",
 		serviceType: "Project supply contact",
 		keywords: [
 			"Asina Global contact",
 			"Longwood project supply",
+			"Seminole County project supply",
 			"cabinet supplier contact Florida",
 			"countertop supplier contact Florida",
 			"commercial furniture package contact"
 		],
-		areaServed: [{
-			"@type": "AdministrativeArea",
-			name: "Florida"
-		}, {
-			"@type": "Country",
-			name: "United States"
-		}]
+		areaServed: [
+			{
+				"@type": "AdministrativeArea",
+				name: "Seminole County"
+			},
+			{
+				"@type": "AdministrativeArea",
+				name: "Florida"
+			},
+			{
+				"@type": "Country",
+				name: "United States"
+			}
+		]
 	},
 	{
 		id: "privacy",
@@ -1144,7 +1155,7 @@ var pageFaqs = {
 		["Does Asina disclose private production sources?", "No. Asina acts as supplier of record and does not disclose private production sources or supplier relationships."],
 		["Can one project include multiple categories?", "Yes. Asina can review cabinets, countertops, and custom furniture together when one coordinated supply review makes the scope clearer."],
 		["What happens after project basics are sent?", "Asina reviews the details and follows up by email within 1-2 business days. If the project is a fit, Asina requests drawings or specs next."],
-		["Where is Asina Global LLC based?", "Asina Global LLC is based in Longwood, Florida, in the Greater Orlando market, and can coordinate qualified project work nationwide."]
+		["Where is Asina Global LLC based?", "Asina Global LLC is based in Longwood, Seminole County, Florida, in the Greater Orlando market, and can coordinate qualified project work nationwide."]
 	],
 	design: [
 		["Is this interior design?", "Not as a standalone decorating service. This is production support for projects that need layout, finish, custom sizing, or brand intent translated into supply-review detail."],
@@ -1157,7 +1168,7 @@ var pageFaqs = {
 	contact: [
 		["What is the best first step?", "Start with the project basics form. If the project fits the supply model, Asina follows up by email or phone and requests detailed files by email."],
 		["Can I call Asina Global LLC?", "Yes. Call 407-743-7473 during business hours for project supply questions, or use the form when you want the details organized before follow-up."],
-		["Where is the office located?", "Asina Global LLC lists its office in Longwood, Florida at 151 Sabal Palm Dr, Longwood, FL 32779."],
+		["Where is the office located?", "Asina Global LLC lists its office in Longwood, Seminole County, Florida at 151 Sabal Palm Dr, Longwood, FL 32779."],
 		["Do you accept public file uploads?", "No. Asina requests drawings, plans, specs, brand standards, and furniture files by email after the first project fit check."]
 	],
 	privacy: [
@@ -1379,6 +1390,10 @@ var siteDetails = {
 		{
 			"@type": "City",
 			name: "Longwood"
+		},
+		{
+			"@type": "AdministrativeArea",
+			name: "Seminole County"
 		},
 		{
 			"@type": "State",
@@ -12284,7 +12299,7 @@ function ContactPage({ navigate }) {
 			Icon: Phone$1
 		},
 		{
-			label: "Office located in Longwood",
+			label: "Office located in Longwood, Seminole County",
 			value: contactDetails.address,
 			Icon: MapPin$1
 		},
@@ -12316,8 +12331,8 @@ function ContactPage({ navigate }) {
 							className: "ledger-caption",
 							children: "Our Office"
 						}),
-						/* @__PURE__ */ jsx("h2", { children: "Reach Asina Global LLC directly in Longwood." }),
-						/* @__PURE__ */ jsx("p", { children: "Asina Global LLC is based in Longwood, Florida and supports qualified project buyers in Florida and nationwide. Start with project basics first; the team follows up with the right next step by email or phone." }),
+						/* @__PURE__ */ jsx("h2", { children: "Reach Asina Global LLC directly in Longwood, Seminole County." }),
+						/* @__PURE__ */ jsx("p", { children: "Asina Global LLC is based in Longwood, Seminole County, Florida and supports qualified project buyers in Florida and nationwide. Start with project basics first; the team follows up with the right next step by email or phone." }),
 						/* @__PURE__ */ jsx("div", {
 							className: "contact-method-grid",
 							children: rows.map(({ label, value, href, external, Icon }) => {
@@ -12343,7 +12358,7 @@ function ContactPage({ navigate }) {
 					className: "contact-map-panel",
 					"aria-label": "Asina Global office map",
 					children: [/* @__PURE__ */ jsx("iframe", {
-						title: "Map showing Asina Global LLC office in Longwood, Florida",
+						title: "Map showing Asina Global LLC office in Longwood, Seminole County, Florida",
 						src: contactDetails.mapEmbedUrl,
 						allowFullScreen: true,
 						loading: "lazy",
@@ -12351,7 +12366,7 @@ function ContactPage({ navigate }) {
 					}), /* @__PURE__ */ jsxs("div", {
 						className: "map-ticket",
 						children: [
-							/* @__PURE__ */ jsx("span", { children: "Longwood, Florida" }),
+							/* @__PURE__ */ jsx("span", { children: "Longwood, Seminole County, Florida" }),
 							/* @__PURE__ */ jsx("strong", { children: "151 Sabal Palm Dr" }),
 							/* @__PURE__ */ jsx("p", { children: contactDetails.hours }),
 							/* @__PURE__ */ jsx("a", {
@@ -12378,7 +12393,7 @@ function ContactPage({ navigate }) {
 				items: [
 					["What is the best first step?", "Start with the project basics form. If the project fits the supply model, Asina follows up by email or phone and requests detailed files by email."],
 					["Can I call Asina Global LLC?", `Yes. Call ${contactDetails.phone} during business hours for project supply questions, or use the form when you want the details organized before follow-up.`],
-					["Where is the office located?", "Asina Global LLC lists its office in Longwood, Florida at 151 Sabal Palm Dr, Longwood, FL 32779."],
+					["Where is the office located?", "Asina Global LLC lists its office in Longwood, Seminole County, Florida at 151 Sabal Palm Dr, Longwood, FL 32779."],
 					["Do you accept public file uploads?", "No. Asina requests drawings, plans, specs, brand standards, and furniture files by email after the first project fit check."]
 				]
 			}),
@@ -12547,7 +12562,7 @@ function AboutPage({ navigate }) {
 							children: "How Asina Works"
 						}),
 						/* @__PURE__ */ jsx("h2", { children: "One clear first review for project-scale supply." }),
-						/* @__PURE__ */ jsx("p", { children: "Asina Global LLC is based in Longwood, Florida, within the Greater Orlando market, and coordinates qualified project work nationwide. The useful first conversation is not an ordinary contact request. It is a structured review of category, scale, location, timeline, drawings, finish direction, QA concerns, packing needs, and shipping responsibility." }),
+						/* @__PURE__ */ jsx("p", { children: "Asina Global LLC is based in Longwood, Seminole County, Florida, within the Greater Orlando market, and coordinates qualified project work nationwide. The useful first conversation is not an ordinary contact request. It is a structured review of category, scale, location, timeline, drawings, finish direction, QA concerns, packing needs, and shipping responsibility." }),
 						/* @__PURE__ */ jsxs("dl", { children: [
 							/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Base" }), /* @__PURE__ */ jsx("dd", { children: contactDetails.address })] }),
 							/* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("dt", { children: "Email" }), /* @__PURE__ */ jsx("dd", { children: /* @__PURE__ */ jsx("a", {
@@ -12597,7 +12612,7 @@ function AboutPage({ navigate }) {
 						className: "about-team-meta",
 						children: [
 							/* @__PURE__ */ jsx("span", { children: "Founder-led" }),
-							/* @__PURE__ */ jsx("span", { children: "Longwood, FL" }),
+							/* @__PURE__ */ jsx("span", { children: "Longwood, Seminole County" }),
 							/* @__PURE__ */ jsx("span", { children: "Email-first review" })
 						]
 					})]
@@ -12722,7 +12737,7 @@ function AboutPage({ navigate }) {
 					["Does Asina disclose private production sources?", "No. Asina acts as supplier of record and does not disclose private production sources or supplier relationships."],
 					["Can one project include multiple categories?", "Yes. Asina can review cabinets, countertops, and custom furniture packages together when one coordinated supply review helps the scope."],
 					["What happens after project basics are sent?", "Asina reviews the details and follows up by email within 1-2 business days. If the project is a fit, Asina requests drawings or specs next."],
-					["Where is Asina Global LLC based?", "Asina Global LLC is based in Longwood, Florida, in the Greater Orlando market, and can coordinate qualified project work nationwide."]
+					["Where is Asina Global LLC based?", "Asina Global LLC is based in Longwood, Seminole County, Florida, in the Greater Orlando market, and can coordinate qualified project work nationwide."]
 				]
 			}),
 			/* @__PURE__ */ jsx(RelatedProjectPaths, {
