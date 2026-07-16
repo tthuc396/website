@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useEffect as useEffect$1, useLayoutEffect, useRef, useRef as useRef$1, useState, useState as useState$1 } from "react";
+import React, { Suspense, useEffect, useEffect as useEffect$1, useLayoutEffect, useLayoutEffect as useLayoutEffect$1, useRef, useRef as useRef$1, useState, useState as useState$1 } from "react";
 import { renderToString } from "react-dom/server";
 import { AnimatePresence, AnimatePresence as AnimatePresence$1, LayoutGroup, MotionConfig, motion, motion as motion$1, useMotionValueEvent, useReducedMotion, useReducedMotion as useReducedMotion$1, useScroll, useTransform } from "motion/react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
@@ -236,7 +236,7 @@ var pages = [
 		id: "cabinets",
 		label: "Cabinets",
 		path: "/cabinets/",
-		title: "Commercial and Multi-Unit Cabinets | Asina Global",
+		title: "Commercial Cabinet Supply for Builders | Asina Global",
 		description: "Compare Asina cabinet packages for builders and developers by finish, construction, panel platform, unit count, quote inputs, mockup, QA, and shipping.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet project room used for wholesale cabinet collection review.",
@@ -254,8 +254,8 @@ var pages = [
 		label: "Countertops",
 		path: "/countertops/",
 		title: "Wholesale Quartz Countertop Supply in Florida | Asina Global",
-		description: "Wholesale quartz countertop supply in Florida. Review slab codes by collection, movement, size, thickness, edge profile, and cutout requirements. Countertops sourced and coordinated alongside cabinet packages.",
-		schemaDescription: "Wholesale quartz countertop supply in Florida. Review slab codes by collection, movement, size, thickness, edge profile, and cutout requirements. Coordinated alongside cabinet packages.",
+		description: "Wholesale quartz countertop supply in Florida. Review slab codes, size, thickness, edge profile, cutouts, and cabinet coordination before project pricing.",
+		schemaDescription: "Wholesale quartz countertop supply in Florida. Review slab codes, size, thickness, edge profile, cutouts, and cabinet coordination before project pricing.",
 		image: "/assets/pdf-extracted/countertops/exotic/9114-calacatta-storm-black-pdf-slab.jpg",
 		imageAlt: "Calacatta Storm Black quartz slab prepared for Asina Global countertop project review.",
 		serviceType: "Wholesale countertop supply",
@@ -293,7 +293,7 @@ var pages = [
 		id: "process",
 		label: "Process",
 		path: "/process/",
-		title: "Drawing To Production | Asina Global",
+		title: "Cabinet Import Process: Drawing to Delivery | Asina Global",
 		description: "See the Asina Global process from project basics and emailed drawings to mockup approval, production QA, packing review, and shipping coordination path.",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
 		imageAlt: "Asina Global drawing to production process for project supply review.",
@@ -339,7 +339,7 @@ var pages = [
 		aliases: ["/about.html"],
 		title: "About Asina Global | Project Supply Accountability",
 		description: "Meet Asina Global LLC in Longwood, Seminole County, supporting builders, developers, and procurement teams with project review, QA, and shipping support.",
-		dateModified: "2026-06-16",
+		dateModified: "2026-07-15",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
 		imageAlt: "Asina Global LLC project supply accountability in Longwood, Seminole County.",
 		serviceType: "Project supply accountability",
@@ -362,7 +362,7 @@ var pages = [
 			"/design-help/",
 			"/consult-design/"
 		],
-		title: "Design To Production Support | Asina Global",
+		title: "Cabinet Design to Production Support | Asina Global",
 		description: "Turn layouts, finish direction, custom sizing, brand standards, and room intent into production details before mockup approval and repeat production support.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Interior finish and material direction prepared for design to production support.",
@@ -380,7 +380,7 @@ var pages = [
 		label: "Project Review",
 		path: "/project-review/",
 		aliases: ["/review/", "/start-project-review/"],
-		title: "Request Project Supply Review | Asina Global",
+		title: "Cabinet Project Review for Builders | Asina Global",
 		description: "Request an Asina Global project supply review with basic scope, location, scale, and timeline. Asina requests drawings by email after the first review.",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
 		imageAlt: "Asina Global project review intake for builders, developers, and procurement teams.",
@@ -399,8 +399,8 @@ var pages = [
 		path: "/contact/",
 		showInHeader: false,
 		title: "Contact Asina Global LLC | Longwood Project Supply",
-		description: "Contact Asina Global LLC in Longwood, Seminole County, Florida for cabinet, countertop, and furniture package project review, phone support, NAP details, and follow-up.",
-		dateModified: "2026-06-16",
+		description: "Contact Asina Global LLC in Longwood, Florida for cabinet, countertop, and furniture package project review, phone support, NAP details, and follow-up.",
+		dateModified: "2026-07-15",
 		image: "/assets/supporting/brand/asina-global-logo.svg",
 		imageAlt: "Asina Global LLC contact details for project supply review in Longwood, Seminole County, Florida.",
 		serviceType: "Project supply contact",
@@ -450,7 +450,7 @@ var pages = [
 		label: "Buyer Paths",
 		path: "/buyer-paths/",
 		showInHeader: false,
-		title: "Buyer Paths For Project Supply | Asina Global",
+		title: "Wholesale Cabinet Buyer Paths for Projects | Asina Global",
 		description: "Choose the right Asina Global route for cabinets, countertops, furniture packages, RFQ prep, QA, shipping, commercial use, and project review planning.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Asina Global buyer path directory prepared for project supply review.",
@@ -468,13 +468,13 @@ var pages = [
 		label: "Multi-Unit Cabinets",
 		path: "/multi-unit-cabinet-packages/",
 		showInHeader: false,
-		title: "Multi-Unit Cabinets for Florida Developers | Asina Global",
+		title: "Multi-Unit Multifamily Cabinet Supply | Asina Global",
 		description: "Multi-unit and multifamily cabinet packages for Florida developers and contractors, with drawing review, mockup approval, QA, and shipping coordination.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for multi-unit project supply review.",
 		articleHeadline: "Multi-Unit and Multifamily Cabinet Packages for Florida Developers and Contractors",
 		datePublished: "2026-06-05",
-		dateModified: "2026-06-16",
+		dateModified: "2026-07-15",
 		articleAuthor: "Kim Nguyen",
 		articleAuthorTitle: "Co-Founder, Asina Global",
 		articleAuthorUrl: "https://asinaglobal.com/about/",
@@ -494,8 +494,8 @@ var pages = [
 		path: "/wholesale-cabinet-supply-for-dealers/",
 		showInHeader: false,
 		title: "Cabinet Supply for Florida Dealers | Asina Global",
-		description: "Asina Global supplies Florida cabinet dealers, kitchen designers, and distributors with project-scale imported cabinets, quartz countertops, and furniture packages. Container quantities, QA included. Dealer client relationships protected.",
-		ogDescription: "Asina Global supplies Florida cabinet dealers, kitchen designers, and distributors with project-scale imported cabinets, quartz countertops, and furniture packages. Container quantities, QA included.",
+		description: "Asina Global supplies Florida cabinet dealers with imported cabinets, quartz countertops, furniture packages, QA, and protected client relationships.",
+		ogDescription: "Asina Global supplies Florida cabinet dealers with imported cabinets, quartz countertops, furniture packages, QA, and protected client relationships.",
 		socialImage: defaultSocialImage,
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Cabinet package room prepared for dealer and distributor wholesale supply review.",
@@ -539,7 +539,7 @@ var pages = [
 		label: "RFQ Resources",
 		path: "/rfq-procurement-resources/",
 		showInHeader: false,
-		title: "RFQ Checklist For Project Supply | Asina Global",
+		title: "Cabinet RFQ Checklist for Project Buyers | Asina Global",
 		description: "Prepare cabinet, countertop, and furniture package RFQs with project basics, quote inputs, lead-time factors, and drawings requested by email after review.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Project supply desk prepared for cabinet, countertop, and furniture RFQ review.",
@@ -582,7 +582,7 @@ var pages = [
 		label: "Wholesale Cabinet Supplier Guide",
 		path: "/how-to-choose-wholesale-cabinet-supplier/",
 		showInHeader: false,
-		title: "How to Choose a Wholesale Cabinet Supplier | Contractor Guide 2026 | Asina Global",
+		title: "How to Choose a Wholesale Cabinet Supplier | Asina Global",
 		schemaBreadcrumbLabel: "How to Choose a Wholesale Cabinet Supplier",
 		description: "Compare five wholesale cabinet supplier models for contractors in Central Florida by order size, lead time, service level, project fit, and QA ownership.",
 		twitterDescription: "Five supplier models, five project types. A contractor's guide to choosing the right wholesale cabinet source in Central Florida.",
@@ -590,7 +590,7 @@ var pages = [
 		imageAlt: "Asina Global guide for choosing a wholesale cabinet supplier in Central Florida.",
 		articleHeadline: "How to Choose a Wholesale Cabinet Supplier for Contractors and Developers (2026)",
 		datePublished: "2026-06-05",
-		dateModified: "2026-06-16",
+		dateModified: "2026-07-15",
 		keywords: [
 			"how to choose a wholesale cabinet supplier",
 			"wholesale cabinet supplier for contractors",
@@ -714,10 +714,13 @@ var pages = [
 		label: "Lead Times",
 		path: "/cabinet-lead-times-builders-import-stock/",
 		showInHeader: false,
-		title: "Cabinet Lead Times For Builders | Asina Global",
-		description: "Plan cabinet lead times for builder projects by reviewing drawings, mockup approval, production, QA, freight, site readiness, and phasing needs before orders.",
+		title: "Cabinet Lead Times for Builders: Import vs Stock | Asina Global",
+		description: "Guide to cabinet lead times for builders by project type, stock vs import supply, drawing review, mockup approval, production, QA, freight, and phased delivery.",
 		image: "/assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 		imageAlt: "Installed cabinet package used for builder lead time and phased delivery planning.",
+		articleHeadline: "Cabinet Lead Times for Builders: Import vs. Stock Project Guide",
+		datePublished: "2026-06-05",
+		dateModified: "2026-07-15",
 		serviceType: "Builder cabinet lead time planning",
 		keywords: [
 			"cabinet lead time contractor",
@@ -737,8 +740,8 @@ var pages = [
 		schemaBreadcrumbLabel: "Import vs. Domestic Cabinets: Cost Guide",
 		articleHeadline: "Import vs. Domestic Cabinets: Cost Guide for Florida Contractors",
 		datePublished: "2026-06-05",
-		dateModified: "2026-06-05",
-		description: "Compare import vs. domestic cabinet costs for Florida contractors — landed cost breakdown, Section 232 tariff impact, container-scale savings, lead times, QA, and repeatability.",
+		dateModified: "2026-07-15",
+		description: "Compare import vs. domestic cabinet costs for Florida contractors by landed cost, tariff exposure, container-scale value, lead time, QA, and repeatability.",
 		image: "/assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg",
 		imageAlt: "Project supply environment used for import versus domestic cabinet planning.",
 		serviceType: "Import versus domestic cabinet planning",
@@ -820,7 +823,7 @@ var pages = [
 		imageAlt: "Commercial cabinet and countertop supply packet prepared for Florida project review.",
 		articleHeadline: "Commercial Cabinet and Countertop Supply in Florida",
 		datePublished: "2026-06-05",
-		dateModified: "2026-06-05",
+		dateModified: "2026-07-15",
 		articleAuthor: "Kim Nguyen",
 		articleAuthorTitle: "Co-Founder, Asina Global",
 		articleAuthorUrl: "https://asinaglobal.com/about/",
@@ -1224,7 +1227,7 @@ var pageFaqs = {
 	"supplier-guide": [
 		["What is the difference between RTA and assembled cabinets for a multi-unit project?", "RTA cabinets require on-site assembly before installation — your crew boxes and builds each cabinet. Assembled cabinets arrive as complete units ready to hang. For multi-unit projects with tight installation schedules, assembled cabinets reduce on-site labor. Asina Global supplies assembled cabinets built to a drawing set, not flat-pack RTA boxes."],
 		["How many units do I need for import cabinet pricing to make sense?", "Container-scale orders — enough to fill or nearly fill a 40ft container — are where per-unit import economics are strongest. Projects under 10 units may find that local stock suppliers are more practical given import lead times. A standard 40ft container holds approximately 15–22 complete kitchens depending on door style and cabinet count."],
-		["Are imported cabinets subject to tariffs in 2026?", "Yes. Imported kitchen cabinets can be subject to Section 232 tariffs in 2026, so contractors should treat tariff review as part of landed cost, not as a footnote. The practical answer is that the rate depends on the product classification, country of origin, entry date, and any trade agreement or exclusion that applies when the goods enter the United States. Cabinet and vanity tariffs were announced at 25% in October 2025, with a scheduled increase to 50% by January 2026 unless modified by later trade action. That means an old quote, an overseas factory price, or a supplier's catalog price may not represent the real cost that lands at the port or jobsite. For a contractor, the question is not only \"is there a tariff?\" It is: who verifies HTS classification, who confirms origin documentation, who states whether duties are included, and who owns the cost if the rate changes before entry? Ask every supplier to show whether Section 232, Section 301, AD/CVD, brokerage, inland freight, and delivery are inside or outside the proposal. Asina reviews tariff exposure during the project quote stage, but final duty treatment should be confirmed against the current customs entry path and broker guidance before committing."],
+		["Are imported cabinets subject to tariffs in 2026?", "Yes. Imported kitchen cabinets can be subject to Section 232 tariffs in 2026, so contractors should treat tariff review as part of landed cost, not as a footnote. As of July 2026, covered imported kitchen cabinets and bathroom vanities should be planned around a 25% Section 232 duty; the previously scheduled increase to 50% was delayed to January 1, 2027. Treat that rate as a planning assumption only, because final duty exposure depends on the HTS classification, country of origin, entry date, trade agreement or exclusion status, and any other applicable duty stack. Verify the current tariff line through the USITC Harmonized Tariff Schedule at https://hts.usitc.gov/ and confirm classification or binding-ruling issues through CBP resources such as CROSS at https://rulings.cbp.gov/. Ask every supplier to show whether Section 232, Section 301, AD/CVD, brokerage, inland freight, and delivery are inside or outside the proposal. Asina reviews tariff exposure during the project quote stage, but final duty treatment should be confirmed against the current customs entry path and broker guidance before committing."],
 		["Can one supplier handle cabinets, countertops, and furniture for a commercial project?", "Most cabinet suppliers cannot. Asina Global supplies cabinet packages, quartz countertop slabs, and custom commercial furniture packages from the same project review, which reduces procurement coordination for commercial projects that need all three categories."],
 		["What lead time should I communicate to my GC for imported cabinets?", "Plan for 8–14 weeks from drawing approval and deposit to US delivery. Add 2–3 weeks of buffer for schedule uncertainty. Communicate the full timeline to your GC before drawings are finalized."]
 	],
@@ -1260,10 +1263,13 @@ var pageFaqs = {
 		["How does mockup approval help?", "A sample or mockup gives the project a reference for measurements, material direction, finish, color, and details before repeat production."]
 	],
 	"lead-times": [
-		["How far ahead should builders plan cabinet supply?", "Plan as early as possible once unit count, finish direction, construction timing, and phase needs are known."],
-		["Are imported cabinets faster than local stock?", "Not for urgent one-off needs. Imported supply usually makes sense when the project has enough planning time and repeat volume to justify the longer path."],
-		["What affects cabinet lead time?", "Drawings, mockup approval, production capacity, order complexity, QA, packing, freight timing, site readiness, and phased delivery needs can all affect timing."],
-		["Can deliveries be phased?", "Asina can review phasing when the project has clear milestones, room groups, unit counts, destination details, and a written quote path."]
+		["How long do cabinets take for a builder project?", "Stock cabinets can sometimes be available in days or a few weeks when the exact product is already in inventory. Domestic made-to-order cabinets often require several weeks. A planned imported cabinet package commonly needs 8 to 14 weeks from approved drawings and deposit to US delivery because the schedule includes review, mockup approval, production, QA, packing, freight, and receiving."],
+		["How far ahead should builders order cabinets?", "For a single stock kitchen, builders should confirm inventory before demolition or framing reaches the cabinet stage. For multifamily, commercial, franchise, or repeat-room projects, start cabinet planning as soon as unit count, finish direction, drawings, and first installation milestones are known. The safer target is to begin review 12 to 16 weeks before the cabinets are needed on site."],
+		["Are imported cabinets faster than local stock?", "No. Imported cabinets are usually not faster than local stock for urgent one-off needs. Import supply is useful when the project has repeat volume, enough planning time, and a controlled approval path. Local stock is better when the schedule cannot wait for production and freight."],
+		["What affects cabinet lead time the most?", "The biggest drivers are drawing readiness, finish decisions, custom sizing, mockup requirements, factory capacity, order quantity, QA time, packing complexity, freight route, customs or port timing, destination access, and whether delivery needs to be phased across buildings, units, or stores."],
+		["Can cabinet deliveries be phased?", "Yes, when the project has clear milestones, room groups, unit counts, destination details, and a written quote path. Phasing should be planned before production, not after the container is packed, because packing order, labeling, release timing, receiving, and installer sequencing all affect the result."],
+		["What lead time should I give my GC for imported cabinets?", "For a planned import package, communicate 8 to 14 weeks from approved drawings and deposit to US delivery, then add a project buffer based on installation schedule, site access, inspection timing, and receiving capacity. If the first install date is fixed, the cabinet package should be reviewed before the rest of the schedule depends on it."],
+		["What is the fastest way to reduce cabinet lead time risk?", "Lock the finish direction, send complete drawings, name the unit or room count, identify the first installation milestone, approve the mockup quickly, and decide who owns freight, receiving, and damage documentation before production release."]
 	],
 	"import-vs-domestic": [
 		["What savings should commercial buyers realistically expect from imported cabinets?", "At full container scale with verified non-China origin product, net savings of 20 to 30 percent below comparable domestic distributor pricing can be realistic. The exact gap depends on spec, quantity, construction, freight, duties, QA, and agreed terms."],
@@ -1285,10 +1291,14 @@ var pageFaqs = {
 		["Can cabinets, countertops, and furniture be reviewed together?", "Yes. Mixed-category projects can start through the same Project Review when one coordinated review makes sense."]
 	],
 	"commercial-mixed": [
-		["What projects fit this page?", "Florida builders, developers, hospitality buyers, restaurant groups, and procurement teams with cabinet and countertop scope are usually the best fit."],
-		["Is this a retail showroom page?", "No. Asina reviews project-scale supply, quote inputs, mockup approval, QA, packing, and shipping responsibility before pricing."],
-		["Can cabinets and countertops be reviewed together?", "Yes. Mixed-category projects can start in one Project Review when one organized review would make the scope clearer."],
-		["When are drawings requested?", "Project basics come first. Asina requests drawings or specs by email after the first review when the project is a fit."]
+		["What commercial projects fit this page?", "Florida builders, developers, hospitality buyers, restaurant groups, franchise teams, and procurement teams with cabinet and countertop scope are usually the best fit. Strong use cases include multifamily units, build-to-rent phases, restaurant interiors, hotel or amenity areas, tenant improvements, and repeat commercial rooms where finish consistency and delivery timing matter."],
+		["Is this a retail showroom page?", "No. Asina reviews project-scale supply, quote inputs, mockup approval, QA, packing, and shipping responsibility before pricing. The page is not for one-off retail browsing, discount cabinet shopping, or public price lists."],
+		["Can cabinets and countertops be reviewed together?", "Yes. Mixed-category projects can start in one Project Review when one organized review would make the scope clearer. This helps buyers compare cabinet finish direction, slab code, square footage, edge details, cutouts, destination, timeline, and responsibility in the same supply conversation."],
+		["What makes Asina different from a cabinet warehouse or countertop showroom?", "A warehouse is useful when the right product is already in stock. A showroom is useful for browsing finishes. Asina is built for planned commercial supply, where drawings, quantities, finishes, mockups, production checks, packing, shipping responsibility, and total project fit need to be reviewed before the buyer commits."],
+		["When are drawings requested?", "Project basics come first. Asina requests drawings, specs, plans, or brand files by email after the first review when the project is a fit. That keeps public upload risk off the website while still giving the team the documents needed for a serious quote review."],
+		["What should a buyer send first?", "Start with product categories, project location, unit, store, or room count, cabinet finish direction, slab code or surface direction, timeline, and any known receiving constraints. If the project fits, Asina follows up for drawings or specs by email."],
+		["Does every project need a mockup?", "Not every project needs the same mockup path, but repeat rooms, franchise packages, multifamily work, and high-visibility commercial spaces often benefit from a sample or mockup before volume production. The point is to confirm measurements, finish, color, construction, and quality expectations before copying the package across units or locations."],
+		["Can Asina review projects outside Florida?", "Yes. The company is based in Longwood, Florida, and can review qualified nationwide commercial projects when the scope, quantity, timeline, and shipping path fit the supply model."]
 	],
 	"commercial-countertops": [
 		["What commercial countertop projects fit?", "Asina can review restaurants, hotels, apartments, bars, amenity spaces, and repeat commercial interiors when slab and scope details are clear."],
@@ -1303,10 +1313,14 @@ var pageFaqs = {
 		["When is a sample useful?", "A sample or mockup is useful when dimensions, color, finish, material, durability, or brand consistency needs confirmation before repeat production."]
 	],
 	"multifamily-supply": [
-		["What multifamily projects fit?", "Apartments, phased developments, repeat rooms, model units, and amenity spaces are strong fits when unit count and finish direction are clear."],
-		["What should a developer send first?", "Send unit count, finish schedule, cabinet run, slab direction, phase timing, destination, and whether a model unit or mockup is planned."],
-		["Can domestic stock make more sense?", "Yes. Urgent or small work may fit domestic stock better. Asina reviews whether import planning is practical for the actual schedule and volume."],
-		["How does repeatability reduce risk?", "The approved sample or mockup gives later units and phases a reference for QA, packing, and shipping responsibility."]
+		["What multifamily projects fit?", "Apartments, phased developments, repeat rooms, model units, build-to-rent communities, townhome phases, student housing, workforce housing, and amenity spaces are strong fits when unit count, phase timing, and finish direction are clear."],
+		["What should a developer send first?", "Send unit count, room types, finish schedule, cabinet run, slab direction, square footage if known, phase timing, destination, site constraints, and whether a model unit or mockup is planned."],
+		["How should phase timing be planned?", "Start with the model unit or first approval date, then separate first building needs, later building releases, delivery windows, receiving constraints, and installation targets. A multifamily quote is cleaner when production, QA, packing, freight, and site readiness are tied to real phase milestones."],
+		["Can countertops and cabinets be reviewed together?", "Yes. Multifamily packages often need cabinet finish direction, vanity dimensions, slab direction, square footage, edge profile, cutouts, and delivery timing reviewed together because one category can change the other."],
+		["Can domestic stock make more sense?", "Yes. Urgent, small, or replacement work may fit domestic stock better. Asina reviews whether import planning is practical for the actual schedule, quantity, phase timing, and receiving path."],
+		["How does repeatability reduce risk?", "The approved sample, mockup, or model unit gives later units and phases a reference for measurements, finish color, cabinet construction, countertop direction, QA, packing labels, freight planning, and shipping responsibility."],
+		["Does every phase need the same finish package?", "Not always. Some developments have multiple finish packages, premium units, amenity areas, or different room types. Those differences should be separated before pricing so the buyer can see what repeats and what needs its own approval path."],
+		["When are drawings or specs requested?", "Project basics come first. If the multifamily project fits, Asina follows up by email for drawings, plans, finish schedules, slab direction, or other specs needed to create a serious supply review."]
 	],
 	"cabinet-malibu": [
 		["What is Malibu best for?", "Malibu fits painted shaker cabinet projects that need a bright, familiar face with repeatable finish direction."],
@@ -1703,6 +1717,41 @@ var routeDossiers = {
 		stage: 2
 	}
 };
+var developerScopeCtaPages = new Set([
+	"home",
+	"multi-unit",
+	"multifamily-supply",
+	"commercial-mixed",
+	"orlando",
+	"lead-times"
+]);
+var vendorQualificationCtaPages = new Set([
+	"buyer-paths",
+	"dealer-supply",
+	"rfq",
+	"importer-resources",
+	"supplier-guide",
+	"supplier-comparison",
+	"container-economics",
+	"landed-cost",
+	"shipping-responsibility",
+	"imported-quality",
+	"import-vs-domestic",
+	"qa",
+	"about",
+	"design"
+]);
+var furniturePackageCtaPages = new Set([
+	"furniture",
+	"restaurant-furniture",
+	"hospitality-ffe"
+]);
+var getReviewCtaLabel = (pageId = "home") => {
+	if (vendorQualificationCtaPages.has(pageId)) return "Request Vendor Qualification Package";
+	if (furniturePackageCtaPages.has(pageId)) return "Submit Furniture Package Scope";
+	if (developerScopeCtaPages.has(pageId)) return "Submit Developer Scope";
+	return "Submit GC Project Basics";
+};
 var processSteps = [
 	{
 		title: "Submit Project Basics",
@@ -1887,7 +1936,7 @@ function Header({ activePage, mobileOpen, setMobileOpen, navigate }) {
 						page: "review",
 						navigate,
 						className: "button primary compact cta",
-						children: "Start Project Review"
+						children: getReviewCtaLabel(activePage)
 					}),
 					/* @__PURE__ */ jsx("button", {
 						ref: triggerRef,
@@ -2027,7 +2076,11 @@ function Header({ activePage, mobileOpen, setMobileOpen, navigate }) {
 							navigate,
 							onNavigate: () => setMobileOpen(false),
 							className: "button primary cta",
-							children: ["Start Project Review ", /* @__PURE__ */ jsx(ArrowRight, { size: 17 })]
+							children: [
+								getReviewCtaLabel(activePage),
+								" ",
+								/* @__PURE__ */ jsx(ArrowRight, { size: 17 })
+							]
 						})]
 					})
 				]
@@ -2202,7 +2255,11 @@ function MobileStickyCTA({ activePage, navigate }) {
 			page: "review",
 			navigate,
 			className: "button primary",
-			children: ["Start Project Review ", /* @__PURE__ */ jsx(ArrowRight, { size: 17 })]
+			children: [
+				getReviewCtaLabel(activePage),
+				" ",
+				/* @__PURE__ */ jsx(ArrowRight, { size: 17 })
+			]
 		})
 	});
 }
@@ -2225,7 +2282,11 @@ function Footer({ activePage, navigate }) {
 								navigate,
 								className: "button primary",
 								"aria-current": activePage === "review" ? "page" : void 0,
-								children: ["Start Project Review ", /* @__PURE__ */ jsx(ArrowRight, { size: 17 })]
+								children: [
+									getReviewCtaLabel(activePage),
+									" ",
+									/* @__PURE__ */ jsx(ArrowRight, { size: 17 })
+								]
 							}), /* @__PURE__ */ jsxs(RouteLink, {
 								page: "buyer-paths",
 								navigate,
@@ -2459,6 +2520,59 @@ function App({ initialPage = "home", routeComponents = {} }) {
 	const reducedMotion = useReducedMotion();
 	const activeMeta = getPageById(activePage);
 	const activeDossier = routeDossiers[activePage] ?? routeDossiers.home;
+	useLayoutEffect(() => {
+		if (typeof window === "undefined" || window.location.hash) return void 0;
+		let cancelled = false;
+		const frameIds = [];
+		const timeoutIds = [];
+		const resetRouteScroll = () => {
+			if (cancelled) return;
+			document.documentElement.scrollTop = 0;
+			document.body.scrollTop = 0;
+			window.scrollTo({
+				top: 0,
+				left: 0,
+				behavior: "auto"
+			});
+		};
+		resetRouteScroll();
+		frameIds.push(window.requestAnimationFrame(resetRouteScroll));
+		frameIds.push(window.requestAnimationFrame(() => {
+			frameIds.push(window.requestAnimationFrame(resetRouteScroll));
+		}));
+		[
+			80,
+			220,
+			520
+		].forEach((delay) => {
+			timeoutIds.push(window.setTimeout(resetRouteScroll, delay));
+		});
+		return () => {
+			cancelled = true;
+			frameIds.forEach((frameId) => window.cancelAnimationFrame(frameId));
+			timeoutIds.forEach((timeoutId) => window.clearTimeout(timeoutId));
+		};
+	}, [activePage]);
+	useEffect(() => {
+		if (typeof window === "undefined") return void 0;
+		const previousScrollRestoration = "scrollRestoration" in window.history ? window.history.scrollRestoration : null;
+		if (previousScrollRestoration !== null) window.history.scrollRestoration = "manual";
+		if (!window.location.hash) window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: "auto"
+		});
+		return () => {
+			if (previousScrollRestoration !== null) window.history.scrollRestoration = previousScrollRestoration;
+		};
+	}, []);
+	useEffect(() => {
+		if (typeof window !== "undefined" && !window.location.hash) window.scrollTo({
+			top: 0,
+			left: 0,
+			behavior: "auto"
+		});
+	}, [activePage]);
 	useEffect(() => {
 		document.title = activeMeta.title;
 		document.querySelector("meta[name=\"description\"]")?.setAttribute("content", activeMeta.description);
@@ -4994,7 +5108,7 @@ function ProjectReviewForm({ originDossier }) {
 											duration: reducedMotion ? 0 : .16,
 											ease: motionEase$1
 										},
-										children: submitted ? "Review Received" : loading ? "Sending Basics" : "Start Project Review"
+										children: submitted ? "Review Received" : loading ? "Sending Basics" : "Submit Project Basics"
 									}, submitted ? "done" : loading ? "loading" : "default")
 								}),
 								!submitted && /* @__PURE__ */ jsx(Send, { size: 17 })
@@ -5008,7 +5122,7 @@ function ProjectReviewForm({ originDossier }) {
 }
 var image_manifest_default = {
 	format: "webp",
-	images: /* @__PURE__ */ JSON.parse("{\"assets/catalog/cabinets/optimized/page-05-img-01-obj-1839.jpg\":[1600,1200,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-07-img-02-obj-1858.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-08-img-01-obj-1865.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-08-img-04-obj-2663.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-09-img-04-obj-1882.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-09-img-05-obj-1883.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-10-img-06-obj-1897.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-10-img-07-obj-1898.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-11-img-04-obj-1909.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-11-img-05-obj-1910.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-12-img-02-obj-1919.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-13-img-08-obj-1937.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-13-img-09-obj-1938.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-14-img-11-obj-1957.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-14-img-12-obj-1958.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-17-img-02-obj-1981.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-18-img-15-obj-2005.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-19-img-16-obj-2031.jpg\":[1600,914,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-19-img-17-obj-2032.jpg\":[1600,914,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-20-img-03-obj-2042.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-21-img-02-obj-2053.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-21-img-03-obj-2054.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-22-img-04-obj-2066.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-22-img-05-obj-2067.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-23-img-04-obj-2077.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-24-img-06-obj-2092.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-25-img-04-obj-2102.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-26-img-08-obj-2120.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/countertops/curated/exotic/exotic-borghini-premium-9143-edge-clean.jpg\":[1584,920,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-alpharetta-9125-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-bella-9126-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-black-no-01-9104-logo-crop.jpg\":[559,398,[160,240,320,384,480,559]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-black-no-2-9111-logo-crop.jpg\":[1109,740,[160,240,320,384,480,640,768,960,1109]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-classique-9140-copy.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-duo-9116-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-gold-9139-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-grey-no-2-9110-logo-crop.jpg\":[1212,794,[160,240,320,384,480,640,768,960,1212]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-lilac-9119-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-ocean-9105-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-old-stain-9115-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-oro-9133-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-rio-light-9108-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-roma-9121-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-stella-9132-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-storm-9101-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-storm-gold-9102-logo-crop.jpg\":[1208,794,[160,240,320,384,480,640,768,960,1208]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-unique-9117-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-fantasy-gold-9174-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-gray-ottoman-9170-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-luxe-blue-9171-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-marquina-grey-9106-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-nero-marquina-9134-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-seren-blue-9169-copy.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/curated/exotic/exotic-seren-gold-9165-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-siberia-gold-9177-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-tranquility-gold-9131-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/grain/grain-black-sparkle-1206-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-blue-sparkle-1209-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-cemento-1105-logo-crop.jpg\":[1183,794,[160,240,320,384,480,640,768,960,1183]],\"assets/catalog/countertops/curated/grain/grain-dark-grey-sparkle-1205-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-diamond-white-1201-logo-crop.jpg\":[1226,794,[160,240,320,384,480,640,768,960,1226]],\"assets/catalog/countertops/curated/grain/grain-iced-white-1301-logo-crop.jpg\":[1203,794,[160,240,320,384,480,640,768,960,1203]],\"assets/catalog/countertops/curated/grain/grain-light-grey-1203-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-mirror-white-1204-logo-crop.jpg\":[1133,794,[160,240,320,384,480,640,768,960,1133]],\"assets/catalog/countertops/curated/grain/grain-moon-white-1102-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-pure-white-1101-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-super-white-1103-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-white-sparkle-1202-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/natural/natural-avenza-venatino-8114-logo-crop.jpg\":[1299,751,[160,240,320,384,480,640,768,960,1280,1299]],\"assets/catalog/countertops/curated/natural/natural-black-carrara-7105-logo-crop.jpg\":[1136,740,[160,240,320,384,480,640,768,960,1136]],\"assets/catalog/countertops/curated/natural/natural-carrara-abraba-7107-logo-crop.jpg\":[666,777,[160,240,320,384,480,640,666]],\"assets/catalog/countertops/curated/natural/natural-carrara-alto-8104-logo-crop.jpg\":[1283,794,[160,240,320,384,480,640,768,960,1280,1283]],\"assets/catalog/countertops/curated/natural/natural-carrara-alto-gold-8101-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-bianca-gold-8106-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-classic-blue-8111-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-cloudy-7112-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-line-8109-logo-crop.jpg\":[1187,740,[160,240,320,384,480,640,768,960,1187]],\"assets/catalog/countertops/curated/natural/natural-carrara-lyskamm-7102-logo-crop.jpg\":[1090,794,[160,240,320,384,480,640,768,960,1090]],\"assets/catalog/countertops/curated/natural/natural-carrara-venatino-8102-logo-crop.jpg\":[1147,794,[160,240,320,384,480,640,768,960,1147]],\"assets/catalog/countertops/curated/natural/natural-carrara-venato-7103-logo-crop.jpg\":[1136,740,[160,240,320,384,480,640,768,960,1136]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-closeup.jpg\":[1200,772,[160,240,320,384,480,640,768,960,1200]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-hero-prop.jpg\":[1080,840,[160,240,320,384,480,640,768,960,1080]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-logo-crop.jpg\":[1053,758,[160,240,320,384,480,640,768,960,1053]],\"assets/catalog/countertops/curated/natural/natural-classic-8108-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/extracted/page-06-img-01-obj-1756.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-01.jpg\":[1414,1800,[160,240,320,384,480,640,768,960,1280,1414]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-02.jpg\":[2000,1520,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-03.jpg\":[2000,1516,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-04.jpg\":[2000,1284,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-05.jpg\":[2000,1460,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-01.jpg\":[2000,1334,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-03.jpg\":[2000,1306,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-04.jpg\":[1500,1002,[160,240,320,384,480,640,768,960,1280,1500]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-05.jpg\":[800,534,[160,240,320,384,480,640,768,800]],\"assets/catalog/countertops/lifestyle/natural/natural-lifestyle-01.jpg\":[2000,1250,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/natural/natural-lifestyle-02.jpg\":[2000,1250,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/slabs/exotic/001-da-00200.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/004-alaska-blue-9205-full-slab.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/007-da-00455.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/008-da-00083.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/010-9202.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/012-picasso-gold-9179.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/015-miami-white-9180.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/016-moon-sandquartz-countertop-designs.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/019-da-00581.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/022-da-00573.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/023-da-00157.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/027-da-00105.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/035-rocky-gold-no-background.jpg\":[1584,788,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/037-da-00622.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/102-9137-quartz-full-slab.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/9204-imperial-gold-full-slab-no-logo.jpg\":[2560,1463,[160,240,320,384,480,640,768,960,1280,1600,2560]],\"assets/catalog/countertops/slabs/grain/020-1303-pepper-white.jpg\":[1280,732,[160,240,320,384,480,640,768,960,1280]],\"assets/catalog/countertops/slabs/natural/002-sea-flower-8201-full-slab.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/005-8202-san-flower-crop-full.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/006-da-00325.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/natural/010-8115-mystic-white.jpg\":[876,500,[160,240,320,384,480,640,768,876]],\"assets/catalog/countertops/slabs/natural/012-8121.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/051-quartz-model.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/natural/053-quartz-collections.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/pdf-extracted/countertops/exotic/9114-calacatta-storm-black-pdf-slab.jpg\":[1544,436,[160,240,320,384,480,640,768,960,1280,1544]],\"assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-detail.jpg\":[330,438,[160,240,320,330]],\"assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-slab.jpg\":[509,1005,[160,240,320,384,480,509]],\"assets/supporting/brand/asina-global-logo.jpg\":[2667,2500,[160,240,320,384,480,640,768,960,1280,1600,2667]],\"assets/supporting/brand/asina-global-logo.png\":[1600,800,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/supporting/furniture/osos/base-frasca-maxi-fix.jpg\":[600,600,[160,240,320,384,480,600]],\"assets/supporting/furniture/osos/ghe-volos-chair.jpg\":[519,600,[160,240,320,384,480,519]],\"assets/supporting/furniture/velit/lounge-group.jpeg\":[1531,1372,[160,240,320,384,480,640,768,960,1280,1531]],\"assets/supporting/furniture/velit/marina-dining.jpeg\":[1245,1759,[160,240,320,384,480,640,768,960,1245]],\"assets/supporting/furniture/velit/sunset-dining.jpeg\":[1245,1759,[160,240,320,384,480,640,768,960,1245]],\"assets/supporting/furniture/velit/terrace-lounge.jpeg\":[1243,1759,[160,240,320,384,480,640,768,960,1243]],\"assets/supporting/team/andy-pham.jpg\":[2048,2046,[160,240,320,384,480,640,768,960,1280,1600,2048]],\"assets/supporting/team/chuck-tran.jpg\":[960,960,[160,240,320,384,480,640,768,960]],\"assets/supporting/team/hai-ho.jpg\":[512,512,[160,240,320,384,480,512]],\"assets/supporting/team/kim-nguyen.jpeg\":[200,200,[160,200]]}")
+	images: /* @__PURE__ */ JSON.parse("{\"assets/catalog/cabinets/optimized/page-05-img-01-obj-1839.jpg\":[1600,1200,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-07-img-02-obj-1858.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-08-img-01-obj-1865.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-08-img-04-obj-2663.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-09-img-04-obj-1882.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-09-img-05-obj-1883.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-10-img-06-obj-1897.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-10-img-07-obj-1898.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-11-img-04-obj-1909.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-11-img-05-obj-1910.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-12-img-02-obj-1919.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-13-img-08-obj-1937.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-13-img-09-obj-1938.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-14-img-11-obj-1957.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-14-img-12-obj-1958.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-17-img-02-obj-1981.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-18-img-15-obj-2005.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-19-img-16-obj-2031.jpg\":[1600,914,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-19-img-17-obj-2032.jpg\":[1600,914,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-20-img-03-obj-2042.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-21-img-02-obj-2053.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-21-img-03-obj-2054.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-22-img-04-obj-2066.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-22-img-05-obj-2067.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-23-img-04-obj-2077.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-24-img-06-obj-2092.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-25-img-04-obj-2102.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/cabinets/optimized/page-26-img-08-obj-2120.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/countertops/curated/exotic/exotic-borghini-premium-9143-edge-clean.jpg\":[1584,920,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-alpharetta-9125-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-bella-9126-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-black-no-01-9104-logo-crop.jpg\":[559,398,[160,240,320,384,480,559]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-black-no-2-9111-logo-crop.jpg\":[1109,740,[160,240,320,384,480,640,768,960,1109]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-classique-9140-copy.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-duo-9116-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-gold-9139-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-grey-no-2-9110-logo-crop.jpg\":[1212,794,[160,240,320,384,480,640,768,960,1212]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-lilac-9119-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-ocean-9105-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-old-stain-9115-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-oro-9133-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-rio-light-9108-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-roma-9121-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-stella-9132-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-storm-9101-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-storm-gold-9102-logo-crop.jpg\":[1208,794,[160,240,320,384,480,640,768,960,1208]],\"assets/catalog/countertops/curated/exotic/exotic-calacatta-unique-9117-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-fantasy-gold-9174-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-gray-ottoman-9170-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-luxe-blue-9171-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-marquina-grey-9106-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/exotic/exotic-nero-marquina-9134-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/exotic/exotic-seren-blue-9169-copy.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/curated/exotic/exotic-seren-gold-9165-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-siberia-gold-9177-edge-clean.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/curated/exotic/exotic-tranquility-gold-9131-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/grain/grain-black-sparkle-1206-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-blue-sparkle-1209-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-cemento-1105-logo-crop.jpg\":[1183,794,[160,240,320,384,480,640,768,960,1183]],\"assets/catalog/countertops/curated/grain/grain-dark-grey-sparkle-1205-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-diamond-white-1201-logo-crop.jpg\":[1226,794,[160,240,320,384,480,640,768,960,1226]],\"assets/catalog/countertops/curated/grain/grain-iced-white-1301-logo-crop.jpg\":[1203,794,[160,240,320,384,480,640,768,960,1203]],\"assets/catalog/countertops/curated/grain/grain-light-grey-1203-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-mirror-white-1204-logo-crop.jpg\":[1133,794,[160,240,320,384,480,640,768,960,1133]],\"assets/catalog/countertops/curated/grain/grain-moon-white-1102-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-pure-white-1101-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-super-white-1103-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/grain/grain-white-sparkle-1202-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/curated/natural/natural-avenza-venatino-8114-logo-crop.jpg\":[1299,751,[160,240,320,384,480,640,768,960,1280,1299]],\"assets/catalog/countertops/curated/natural/natural-black-carrara-7105-logo-crop.jpg\":[1136,740,[160,240,320,384,480,640,768,960,1136]],\"assets/catalog/countertops/curated/natural/natural-carrara-abraba-7107-logo-crop.jpg\":[666,777,[160,240,320,384,480,640,666]],\"assets/catalog/countertops/curated/natural/natural-carrara-alto-8104-logo-crop.jpg\":[1283,794,[160,240,320,384,480,640,768,960,1280,1283]],\"assets/catalog/countertops/curated/natural/natural-carrara-alto-gold-8101-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-bianca-gold-8106-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-classic-blue-8111-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-cloudy-7112-logo-crop.jpg\":[688,466,[160,240,320,384,480,640,688]],\"assets/catalog/countertops/curated/natural/natural-carrara-line-8109-logo-crop.jpg\":[1187,740,[160,240,320,384,480,640,768,960,1187]],\"assets/catalog/countertops/curated/natural/natural-carrara-lyskamm-7102-logo-crop.jpg\":[1090,794,[160,240,320,384,480,640,768,960,1090]],\"assets/catalog/countertops/curated/natural/natural-carrara-venatino-8102-logo-crop.jpg\":[1147,794,[160,240,320,384,480,640,768,960,1147]],\"assets/catalog/countertops/curated/natural/natural-carrara-venato-7103-logo-crop.jpg\":[1136,740,[160,240,320,384,480,640,768,960,1136]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-closeup.jpg\":[1200,772,[160,240,320,384,480,640,768,960,1200]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-hero-prop.jpg\":[1080,840,[160,240,320,384,480,640,768,960,1080]],\"assets/catalog/countertops/curated/natural/natural-carrara-white-7101-logo-crop.jpg\":[1053,758,[160,240,320,384,480,640,768,960,1053]],\"assets/catalog/countertops/curated/natural/natural-classic-8108-logo-crop.jpg\":[1164,794,[160,240,320,384,480,640,768,960,1164]],\"assets/catalog/countertops/extracted/page-06-img-01-obj-1756.jpg\":[1600,900,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/catalog/countertops/extracted/page-08-img-03-obj-1770.jpg\":[1600,900,[160,240,320,380,384,400,480,640,768,960,1280,1600]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-01.jpg\":[1414,1800,[160,240,320,384,480,640,768,960,1280,1414]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-02.jpg\":[2000,1520,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-03.jpg\":[2000,1516,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-04.jpg\":[2000,1284,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/exotic/exotic-lifestyle-05.jpg\":[2000,1460,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-01.jpg\":[2000,1334,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-03.jpg\":[2000,1306,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-04.jpg\":[1500,1002,[160,240,320,384,480,640,768,960,1280,1500]],\"assets/catalog/countertops/lifestyle/grain/grain-lifestyle-05.jpg\":[800,534,[160,240,320,384,480,640,768,800]],\"assets/catalog/countertops/lifestyle/natural/natural-lifestyle-01.jpg\":[2000,1250,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/lifestyle/natural/natural-lifestyle-02.jpg\":[2000,1250,[160,240,320,384,480,640,768,960,1280,1600,2000]],\"assets/catalog/countertops/slabs/exotic/001-da-00200.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/004-alaska-blue-9205-full-slab.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/007-da-00455.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/008-da-00083.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/010-9202.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/012-picasso-gold-9179.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/015-miami-white-9180.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/016-moon-sandquartz-countertop-designs.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/019-da-00581.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/022-da-00573.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/023-da-00157.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/027-da-00105.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/035-rocky-gold-no-background.jpg\":[1584,788,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/037-da-00622.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/exotic/102-9137-quartz-full-slab.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/exotic/9204-imperial-gold-full-slab-no-logo.jpg\":[2560,1463,[160,240,320,384,480,640,768,960,1280,1600,2560]],\"assets/catalog/countertops/slabs/grain/020-1303-pepper-white.jpg\":[1280,732,[160,240,320,384,480,640,768,960,1280]],\"assets/catalog/countertops/slabs/natural/002-sea-flower-8201-full-slab.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/005-8202-san-flower-crop-full.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/006-da-00325.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/natural/010-8115-mystic-white.jpg\":[876,500,[160,240,320,384,480,640,768,876]],\"assets/catalog/countertops/slabs/natural/012-8121.jpg\":[1584,906,[160,240,320,384,480,640,768,960,1280,1584]],\"assets/catalog/countertops/slabs/natural/051-quartz-model.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/catalog/countertops/slabs/natural/053-quartz-collections.jpg\":[1384,924,[160,240,320,384,480,640,768,960,1280,1384]],\"assets/pdf-extracted/countertops/exotic/9114-calacatta-storm-black-pdf-slab.jpg\":[1544,436,[160,240,320,384,480,640,768,960,1280,1544]],\"assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-detail.jpg\":[330,438,[160,240,320,330]],\"assets/pdf-extracted/countertops/exotic/9137-rainforest-pdf-slab.jpg\":[509,1005,[160,240,320,384,480,509]],\"assets/supporting/brand/asina-global-logo.jpg\":[2667,2500,[160,240,320,384,480,640,768,960,1280,1600,2667]],\"assets/supporting/brand/asina-global-logo.png\":[1600,800,[160,240,320,384,480,640,768,960,1280,1600]],\"assets/supporting/furniture/osos/base-frasca-maxi-fix.jpg\":[600,600,[160,240,320,384,480,600]],\"assets/supporting/furniture/osos/ghe-volos-chair.jpg\":[519,600,[160,240,320,384,480,519]],\"assets/supporting/furniture/velit/lounge-group.jpeg\":[1531,1372,[160,240,320,384,480,640,768,960,1280,1531]],\"assets/supporting/furniture/velit/marina-dining.jpeg\":[1245,1759,[160,240,320,384,480,640,768,960,1245]],\"assets/supporting/furniture/velit/sunset-dining.jpeg\":[1245,1759,[160,240,320,384,480,640,768,960,1245]],\"assets/supporting/furniture/velit/terrace-lounge.jpeg\":[1243,1759,[160,240,320,380,384,400,480,640,768,960,1243]],\"assets/supporting/team/andy-pham.jpg\":[2048,2046,[160,240,320,384,480,640,768,960,1280,1600,2048]],\"assets/supporting/team/chuck-tran.jpg\":[960,960,[160,240,320,384,480,640,768,960]],\"assets/supporting/team/hai-ho.jpg\":[512,512,[160,240,320,384,480,512]],\"assets/supporting/team/kim-nguyen.jpeg\":[200,200,[160,200]]}")
 };
 //#endregion
 //#region src/pageShared.jsx
@@ -5188,6 +5302,7 @@ var heroAssets = {
 	cabinet: "assets/catalog/cabinets/optimized/page-11-img-05-obj-1910.jpg",
 	cabinetRoom: "assets/catalog/cabinets/optimized/page-18-img-14-obj-2004.jpg",
 	furniture: "assets/supporting/furniture/velit/terrace-lounge.jpeg",
+	furnitureDining: "assets/supporting/furniture/velit/marina-dining.jpeg",
 	furnitureCutout: "assets/supporting/furniture/velit/lounge-group.jpeg",
 	logo: "assets/supporting/brand/asina-global-logo.svg?v=20260525-8"
 };
@@ -5261,6 +5376,13 @@ var commercialIntentPages = {
 		introEyebrow: "Mixed Scope Fit",
 		introTitle: "Wholesale Cabinet and Countertop Supply for Florida Commercial Projects",
 		introCopy: "This page answers commercial cabinet and countertop supplier searches without turning the site into a retail showroom. Asina checks scope, scale, timeline, and approvals before drawings or specs move by email.",
+		introDetails: ["Commercial cabinet and countertop buying usually breaks down when the cabinet package is quoted in one conversation, the surface package is quoted somewhere else, and nobody owns the handoff between finish selection, field measurements, packing, freight, and delivery timing. Asina is built for buyers who need those decisions organized before production starts.", "The best fit is a project with repeat rooms, a clear destination, and enough lead time to review drawings, approve a sample or mockup, confirm slab direction, and plan shipping responsibility. Smaller trial projects can be reviewed when they connect to future work, but the strongest economics usually come from container-scale or repeat-location planning."],
+		projectTypes: [
+			["Multifamily and build-to-rent", "Apartment units, townhome phases, amenity rooms, leasing offices, clubhouses, and repeat kitchen or bath layouts where consistency matters across many rooms."],
+			["Restaurant and franchise interiors", "Back bars, service counters, POS stations, banquettes, restroom vanities, tabletops, and brand-driven finishes that need to repeat across new stores or remodel phases."],
+			["Hospitality and commercial rooms", "Hotel vanities, lobby millwork support, quartz surfaces, staff areas, amenity counters, and furniture-adjacent scope where durability and presentation both matter."],
+			["Developer and contractor packages", "Commercial shells, tenant improvements, model units, phased developments, and procurement packages where scope, timing, QA, and receiving responsibility need one accountable review."]
+		],
 		scopes: [
 			["Cabinet packages", "Finish choice, room type, cabinet run, unit count, and mockup needs."],
 			["Countertop supply", "Slab code, square footage, edge profile, cutouts, destination, and timeline."],
@@ -5292,6 +5414,12 @@ var commercialIntentPages = {
 			["Warehouse or discount page", "Helpful for in-stock needs. It often leaves QA, packing, and responsibility for later."],
 			["Asina project review", "Brings cabinet and countertop decisions into the same review with drawings, mockup approval, QA, packing, and shipping."]
 		],
+		differentiators: [
+			["One mixed-scope review", "Cabinets, countertops, and related commercial package decisions can be reviewed together so the buyer is not forced to reconcile separate quotes after the fact."],
+			["Builder-facing inputs", "Asina starts with project basics, unit or room count, finish direction, destination, and timeline. Drawings and specs move by email after the first fit check."],
+			["Mockup before volume", "When the scope calls for it, a sample or mockup gives the buyer a reference for measurements, finish, construction, color, and expected production quality before repeat work scales."],
+			["QA and packing visibility", "The review does not stop at price. Factory-level checks, finish review, defect screening, packing expectations, and shipping responsibility are part of the conversation before release."]
+		],
 		whatItems: [
 			"Product categories",
 			"Project location",
@@ -5301,7 +5429,7 @@ var commercialIntentPages = {
 			"Timeline and shipping needs"
 		],
 		handoffTitle: "Use one review when the rooms need one coordinated answer.",
-		handoffCopy: "Asina can review cabinet and countertop scope together when a buyer needs one answer for quote inputs, approvals, QA, packing, and delivery responsibility."
+		handoffCopy: "Asina can review cabinet and countertop scope together when a buyer needs one answer for quote inputs, approvals, QA, packing, and delivery responsibility. The goal is not to push a retail catalog. The goal is to decide whether the project has the scale, clarity, and schedule for a managed supply path, then define what has to be confirmed before production or shipping responsibility is accepted."
 	},
 	"commercial-countertops": {
 		eyebrow: "Commercial Countertop Supply Orlando",
@@ -5417,6 +5545,13 @@ var commercialIntentPages = {
 		introEyebrow: "Developer Fit",
 		introTitle: "Repeat units need one approved reference.",
 		introCopy: "Apartments, phased developments, model units, amenity spaces, and repeat room types need cabinet runs, slab direction, phase timing, QA, and packing tied to the same approval reference.",
+		introDetails: ["Multifamily procurement is different from buying a single kitchen. A developer may need the same cabinet finish, vanity configuration, countertop direction, and packing method repeated across dozens of units while the jobsite opens in phases. If those details are not locked early, each building or floor can become a separate problem.", "Asina reviews the package as a development sequence: what the model unit should prove, which cabinet and countertop details repeat, which areas need separate treatment, when each phase must be ready, and how shipping responsibility should be documented before release."],
+		projectTypes: [
+			["Garden-style apartments", "Repeat kitchen and bath packages can be grouped by building, floor, finish package, and receiving window so the first approval protects later units."],
+			["Townhome and build-to-rent phases", "Cabinet runs, vanity packages, island needs, and countertop selections are reviewed against model homes, release groups, and phase timing."],
+			["Student housing and workforce housing", "Durable finishes, repeatable room layouts, controlled packing, and predictable replacement logic matter when the same unit plan repeats many times."],
+			["Amenity and leasing spaces", "Clubhouses, leasing counters, staff kitchens, restroom vanities, and shared amenities can be reviewed alongside unit packages when the schedule overlaps."]
+		],
 		scopes: [
 			["Unit packages", "Repeat kitchens, baths, vanities, cabinet runs, and countertop direction."],
 			["Model unit", "A first approved room can anchor finish, sizing, and production details."],
@@ -5448,6 +5583,12 @@ var commercialIntentPages = {
 			["Repeatability", "Finish, sizing, cabinet run, slab direction, and packing decisions remain visible by phase."],
 			["Responsibility", "QA, packing review, freight planning, and damage documentation are discussed before release."]
 		],
+		differentiators: [
+			["Phase timing comes first", "Asina separates model unit timing, first building needs, later building releases, and final delivery windows so the supply path is not planned around one unrealistic date."],
+			["Cabinets and surfaces stay connected", "Cabinet finish direction, vanity sizes, countertop slab direction, edge profile, cutouts, and square footage are reviewed together when one decision affects the other."],
+			["Model-unit approval protects later units", "The first approved room can become the reference for measurements, finish, construction, countertop direction, packing, and QA checks before the package repeats across a phase."],
+			["Receiving risk is part of the quote conversation", "Delivery location, floor access, site readiness, container or truck timing, packing labels, and damage documentation are reviewed before buyers treat the price as complete."]
+		],
 		whatItems: [
 			"Unit count",
 			"Finish schedule",
@@ -5457,7 +5598,7 @@ var commercialIntentPages = {
 			"Destination and site needs"
 		],
 		handoffTitle: "Use the first approved unit to protect the later ones.",
-		handoffCopy: "Asina reviews cabinet and countertop details before the development moves into repeat production, QA, packing, and shipping."
+		handoffCopy: "Asina reviews cabinet and countertop details before the development moves into repeat production, QA, packing, and shipping. For multifamily projects, the important question is not only whether the cabinet style looks right. The package also has to survive repeated installation, phased receiving, unit-by-unit consistency checks, countertop coordination, and responsibility decisions when product moves from production to the jobsite."
 	}
 };
 var buyerPathEntries = [
@@ -5867,11 +6008,11 @@ var buyerQuestionGuides = {
 	},
 	"lead-times": {
 		eyebrow: "Lead Time Planning",
-		title: "How should builders plan cabinet lead times?",
-		copy: "Compare urgent stock needs with planned import supply, then review drawings, mockup approval, production, QA, freight, and phasing.",
+		title: "Cabinet Lead Times for Builders: Import vs. Stock Project Guide",
+		copy: "Plan cabinet lead times by project type, order scale, drawing readiness, mockup approval, production, QA, freight, site readiness, and phased delivery.",
 		artifactTitle: "Lead time and phasing",
 		answerTitle: "Lead time planning starts before the quote is approved.",
-		answerCopy: "Imported cabinet production usually takes 40 to 50 days after approved details. Under DAP planning, transit is typically 22 to 30 days to the West Coast and 40 to 50 days to the East Coast. Domestic stock can be better for urgent one-off work.",
+		answerCopy: "Most builder cabinet delays happen before production begins. Drawings are incomplete, finish decisions are still moving, field dimensions change, or the project calendar assumes cabinets can be sourced like local stock. For urgent one-off work, domestic stock may be the practical path. For repeat rooms, multifamily phases, franchise locations, and commercial projects, a planned import package usually needs 8 to 14 weeks from approved drawings and deposit to US delivery, with time reserved for mockup approval, production, QA, packing, freight, and receiving.",
 		checks: [
 			["Drawings", "Room plans, cabinet runs, and project specs need time for review."],
 			["Mockup", "A sample or mockup can confirm measurements, finish, materials, and details."],
@@ -6370,7 +6511,7 @@ var routeProofDossiers = {
 	},
 	"commercial-mixed": {
 		eyebrow: "Mixed Scope Review",
-		title: "Wholesale Cabinet and Countertop Supply for Florida Commercial Projects",
+		title: "Cabinet, slab, and responsibility checks stay in one review.",
 		items: [
 			[
 				"Cabinet facts",
@@ -7854,7 +7995,7 @@ function CollectionInternalLinks({ type, currentPage, navigate }) {
 		...peerLinks,
 		{
 			page: "review",
-			label: "Start Project Review",
+			label: getReviewCtaLabel(currentPage),
 			copy: `Send the basics when ${collectionLabel} is ready for Asina review.`,
 			meta: "Next step"
 		}
@@ -7892,7 +8033,72 @@ function CollectionInternalLinks({ type, currentPage, navigate }) {
 		})]
 	});
 }
-function CTASection({ navigate }) {
+var developerCtaPages = new Set([
+	"home",
+	"multi-unit",
+	"multifamily-supply",
+	"commercial-mixed",
+	"orlando",
+	"lead-times"
+]);
+var vendorCtaPages = new Set([
+	"buyer-paths",
+	"dealer-supply",
+	"rfq",
+	"importer-resources",
+	"supplier-guide",
+	"supplier-comparison",
+	"container-economics",
+	"landed-cost",
+	"shipping-responsibility",
+	"imported-quality",
+	"import-vs-domestic",
+	"qa",
+	"about",
+	"design"
+]);
+var furnitureCtaPages = new Set([
+	"furniture",
+	"restaurant-furniture",
+	"hospitality-ffe"
+]);
+var countertopCtaPages = new Set([
+	"countertops",
+	"countertop-exotic",
+	"countertop-natural",
+	"countertop-grain",
+	"commercial-countertops"
+]);
+var getCtaProofItems = (pageId = "home") => {
+	if (furnitureCtaPages.has(pageId)) return [
+		"Brand standards",
+		"Minimums",
+		"Prototype path"
+	];
+	if (countertopCtaPages.has(pageId)) return [
+		"Slab code",
+		"Cutout details",
+		"Packing plan"
+	];
+	if (vendorCtaPages.has(pageId)) return [
+		"QA controls",
+		"Shipping responsibility",
+		"Supplier fit"
+	];
+	if (developerCtaPages.has(pageId)) return [
+		"Unit count",
+		"Phase timing",
+		"Mockup approval"
+	];
+	return [
+		"Drawings by email",
+		"Timeline check",
+		"Quote path"
+	];
+};
+function CTASection({ navigate, currentPage = "home", label }) {
+	const ctaLabel = label ?? getReviewCtaLabel(currentPage);
+	const proofItems = getCtaProofItems(currentPage);
 	return /* @__PURE__ */ jsxs("section", {
 		className: "cta-section",
 		children: [
@@ -7900,13 +8106,22 @@ function CTASection({ navigate }) {
 				className: "section-label center",
 				children: "Project Basics Only"
 			}),
-			/* @__PURE__ */ jsx("h2", { children: "Start with the project. Drawings come by email after review." }),
+			/* @__PURE__ */ jsx("h2", { children: "Is your project a fit before drawings move?" }),
 			/* @__PURE__ */ jsx("p", { children: "Share the basics first so Asina can check fit. If the project makes sense for the supply model, the team follows up in 1-2 business days to request drawings or specs by email." }),
+			/* @__PURE__ */ jsx("div", {
+				className: "cta-proof-strip",
+				"aria-label": "Project review checkpoints",
+				children: proofItems.map((item) => /* @__PURE__ */ jsx("span", { children: item }, item))
+			}),
 			/* @__PURE__ */ jsxs(RouteLink, {
 				page: "review",
 				navigate,
 				className: "button primary",
-				children: ["Start Project Review ", /* @__PURE__ */ jsx(ArrowRight$1, { size: 18 })]
+				children: [
+					ctaLabel,
+					" ",
+					/* @__PURE__ */ jsx(ArrowRight$1, { size: 18 })
+				]
 			})
 		]
 	});
@@ -7975,8 +8190,9 @@ function ModeSwitch({ mode, setMode, scope }) {
 		}, item))
 	});
 }
-function PageShell({ variant, eyebrow, title, copy, heroLeadLabel, heroExtraCopy, heroByline, actionPage, navigate, breadcrumb, heroMeta, heroDisclosure, children }) {
+function PageShell({ variant, eyebrow, title, copy, heroLeadLabel, heroExtraCopy, heroByline, actionPage, navigate, breadcrumb, heroMeta, heroDisclosure, actionLabel, children }) {
 	const heroParagraphs = [copy, ...heroExtraCopy ?? []].filter(Boolean);
+	const heroActionLabel = actionLabel ?? getReviewCtaLabel(variant);
 	return /* @__PURE__ */ jsxs(Fragment, { children: [
 		/* @__PURE__ */ jsxs("section", {
 			className: `page-hero ${variant ? `page-hero-${variant}` : ""}`,
@@ -8014,7 +8230,11 @@ function PageShell({ variant, eyebrow, title, copy, heroLeadLabel, heroExtraCopy
 						page: actionPage,
 						navigate,
 						className: "button primary",
-						children: ["Start Project Review ", /* @__PURE__ */ jsx(ArrowRight$1, { size: 18 })]
+						children: [
+							heroActionLabel,
+							" ",
+							/* @__PURE__ */ jsx(ArrowRight$1, { size: 18 })
+						]
 					})
 				]
 			}), variant && /* @__PURE__ */ jsx(PageHeroArtifact, { variant })]
@@ -8165,8 +8385,8 @@ function PageHeroArtifact({ variant }) {
 			className: "hero-artifact furniture-artifact",
 			"aria-label": "Furniture rollout package proof",
 			children: [/* @__PURE__ */ jsx(ResponsiveImage, {
-				src: heroAssets.furnitureCutout,
-				alt: "Furniture rollout package seating reference",
+				src: heroAssets.furniture,
+				alt: "Outdoor commercial lounge furniture arranged for a hospitality rollout reference",
 				loading: "eager",
 				fetchPriority: "high",
 				sizes: "(max-width: 920px) 70vw, 28vw",
@@ -8398,8 +8618,8 @@ function PageHeroArtifact({ variant }) {
 			className: "hero-artifact furniture-artifact",
 			"aria-label": "Restaurant and franchise furniture rollout packet proof",
 			children: [/* @__PURE__ */ jsx(ResponsiveImage, {
-				src: heroAssets.furnitureCutout,
-				alt: "Commercial seating package reviewed for restaurant and franchise rollout",
+				src: heroAssets.furnitureDining,
+				alt: "Restaurant dining furniture arranged beside a waterfront venue",
 				loading: "eager",
 				fetchPriority: "high",
 				sizes: "(max-width: 920px) 70vw, 28vw",
@@ -8726,11 +8946,12 @@ function DossierProofRail({ variant }) {
 		})]
 	});
 }
-function WhatToSend({ title, items, note, navigate }) {
+function WhatToSend({ title, items, note, navigate, currentPage = "cabinets", ctaLabel }) {
 	const [open, setOpen] = useState$1(() => {
 		if (typeof window === "undefined") return true;
 		return !window.matchMedia("(max-width: 760px)").matches;
 	});
+	const reviewLabel = ctaLabel ?? getReviewCtaLabel(currentPage);
 	return /* @__PURE__ */ jsx("aside", {
 		className: "what-to-send",
 		children: /* @__PURE__ */ jsxs("details", {
@@ -8748,7 +8969,7 @@ function WhatToSend({ title, items, note, navigate }) {
 						page: "review",
 						navigate,
 						className: "button primary",
-						children: "Start Project Review"
+						children: reviewLabel
 					})
 				]
 			})]
@@ -8817,34 +9038,58 @@ function CollectionComparison({ collections }) {
 function ResourceByline({ pageId, navigate }) {
 	const page = getPageById(pageId);
 	const authorName = page.articleAuthor ?? siteDetails.authorName;
-	const publishedDate = formatArticleDate(page.datePublished ?? "2026-06-03");
-	const modifiedDate = formatArticleDate(page.dateModified ?? "2026-06-03");
+	const publishedDateValue = page.datePublished ?? "2026-06-03";
+	const modifiedDateValue = page.dateModified ?? "2026-06-03";
+	const publishedDate = formatArticleDate(publishedDateValue);
+	const modifiedDate = formatArticleDate(modifiedDateValue);
 	return /* @__PURE__ */ jsxs("aside", {
 		className: "resource-byline",
 		"aria-label": `${page.label} author and update details`,
+		itemScope: true,
+		itemType: "https://schema.org/Article",
 		children: [
-			/* @__PURE__ */ jsxs("span", { children: [
-				/* @__PURE__ */ jsx(Building2, { size: 16 }),
-				"Prepared by",
-				" ",
-				page.articleAuthorUrl ? /* @__PURE__ */ jsx("a", {
-					href: page.articleAuthorUrl,
-					children: authorName
-				}) : /* @__PURE__ */ jsx(RouteLink, {
-					page: "about",
-					navigate,
-					children: authorName
-				})
-			] }),
+			/* @__PURE__ */ jsxs("span", {
+				itemProp: "author",
+				itemScope: true,
+				itemType: "https://schema.org/Person",
+				children: [
+					/* @__PURE__ */ jsx(Building2, { size: 16 }),
+					"Written by",
+					" ",
+					page.articleAuthorUrl ? /* @__PURE__ */ jsx("a", {
+						href: page.articleAuthorUrl,
+						itemProp: "url",
+						children: /* @__PURE__ */ jsx("span", {
+							itemProp: "name",
+							children: authorName
+						})
+					}) : /* @__PURE__ */ jsx(RouteLink, {
+						page: "about",
+						navigate,
+						children: /* @__PURE__ */ jsx("span", {
+							itemProp: "name",
+							children: authorName
+						})
+					})
+				]
+			}),
 			/* @__PURE__ */ jsxs("span", { children: [
 				/* @__PURE__ */ jsx(CalendarDays, { size: 16 }),
 				"Published ",
-				publishedDate
+				/* @__PURE__ */ jsx("time", {
+					itemProp: "datePublished",
+					dateTime: publishedDateValue,
+					children: publishedDate
+				})
 			] }),
 			/* @__PURE__ */ jsxs("span", { children: [
 				/* @__PURE__ */ jsx(Clock$1, { size: 16 }),
 				"Updated ",
-				modifiedDate
+				/* @__PURE__ */ jsx("time", {
+					itemProp: "dateModified",
+					dateTime: modifiedDateValue,
+					children: modifiedDate
+				})
 			] })
 		]
 	});
@@ -9197,6 +9442,7 @@ function HomePage({ navigate }) {
 	return /* @__PURE__ */ jsxs(Fragment, { children: [
 		/* @__PURE__ */ jsx(Hero, { navigate }),
 		/* @__PURE__ */ jsx(DossierSnapshot, {}),
+		/* @__PURE__ */ jsx(LocalServiceSection, { navigate }),
 		/* @__PURE__ */ jsx(SupplyRouter, { navigate }),
 		/* @__PURE__ */ jsx(BuyerPathTeaser, { navigate }),
 		/* @__PURE__ */ jsx(ProcessPreview, { navigate }),
@@ -9215,7 +9461,8 @@ function HomePage({ navigate }) {
 					"Notes on materials, finishes, budget, or shipping needs"
 				],
 				note: "Start with the basics. If the project looks like a fit, Asina requests drawings and specs by email.",
-				navigate
+				navigate,
+				currentPage: "home"
 			}), /* @__PURE__ */ jsxs("div", {
 				className: "quote-proof-panel",
 				children: [
@@ -9223,14 +9470,150 @@ function HomePage({ navigate }) {
 						className: "document-tab",
 						children: "First Handoff"
 					}),
-					/* @__PURE__ */ jsx("h2", { children: "Start with basics, then move into drawings and specs." }),
+					/* @__PURE__ */ jsx("h2", { children: "Can Asina check project fit before drawings are sent?" }),
 					/* @__PURE__ */ jsx("p", { children: "Builders, developers, procurement teams, and rollout buyers get a focused first step, not a public file drop or a retail shopping flow. If the project fits Asina's supply model, the team follows up by email for the drawings and specs." })
 				]
 			})]
 		}),
 		/* @__PURE__ */ jsx(FAQPreview, {}),
-		/* @__PURE__ */ jsx(CTASection, { navigate })
+		/* @__PURE__ */ jsx(CTASection, {
+			navigate,
+			currentPage: "home"
+		})
 	] });
+}
+function LocalServiceSection({ navigate }) {
+	return /* @__PURE__ */ jsxs("section", {
+		className: "section local-service-section",
+		"aria-labelledby": "homepage-local-service-title",
+		children: [/* @__PURE__ */ jsxs("div", {
+			className: "local-service-copy",
+			children: [
+				/* @__PURE__ */ jsx("p", {
+					className: "section-label",
+					children: "Central Florida Office"
+				}),
+				/* @__PURE__ */ jsx("h2", {
+					id: "homepage-local-service-title",
+					children: "Serving Central Florida from Longwood, FL"
+				}),
+				/* @__PURE__ */ jsx("p", { children: "Asina Global LLC is based in Longwood, Seminole County, within the Greater Orlando market. Builders, developers, contractors, dealers, and commercial buyers use Asina as a Florida point of contact for cabinet, countertop, and custom furniture supply review." }),
+				/* @__PURE__ */ jsxs("dl", {
+					className: "local-nap-list",
+					"aria-label": "Asina Global local contact details",
+					children: [
+						/* @__PURE__ */ jsxs("div", { children: [
+							/* @__PURE__ */ jsx(MapPin$1, {
+								size: 18,
+								"aria-hidden": "true"
+							}),
+							/* @__PURE__ */ jsx("dt", { children: "Office" }),
+							/* @__PURE__ */ jsx("dd", { children: contactDetails.address })
+						] }),
+						/* @__PURE__ */ jsxs("div", { children: [
+							/* @__PURE__ */ jsx(Phone$1, {
+								size: 18,
+								"aria-hidden": "true"
+							}),
+							/* @__PURE__ */ jsx("dt", { children: "Phone" }),
+							/* @__PURE__ */ jsx("dd", { children: /* @__PURE__ */ jsx("a", {
+								href: contactDetails.phoneHref,
+								children: contactDetails.phone
+							}) })
+						] }),
+						/* @__PURE__ */ jsxs("div", { children: [
+							/* @__PURE__ */ jsx(Mail, {
+								size: 18,
+								"aria-hidden": "true"
+							}),
+							/* @__PURE__ */ jsx("dt", { children: "Email" }),
+							/* @__PURE__ */ jsx("dd", { children: /* @__PURE__ */ jsx("a", {
+								href: `mailto:${contactDetails.email}`,
+								children: contactDetails.email
+							}) })
+						] }),
+						/* @__PURE__ */ jsxs("div", { children: [
+							/* @__PURE__ */ jsx(Clock$1, {
+								size: 18,
+								"aria-hidden": "true"
+							}),
+							/* @__PURE__ */ jsx("dt", { children: "Hours" }),
+							/* @__PURE__ */ jsx("dd", { children: contactDetails.hours })
+						] })
+					]
+				}),
+				/* @__PURE__ */ jsxs("div", {
+					className: "button-row",
+					children: [/* @__PURE__ */ jsxs(RouteLink, {
+						page: "contact",
+						navigate,
+						className: "button primary",
+						children: ["Contact Asina ", /* @__PURE__ */ jsx(ArrowRight$1, { size: 18 })]
+					}), /* @__PURE__ */ jsxs("a", {
+						className: "button secondary",
+						href: contactDetails.googleBusinessProfile,
+						target: "_blank",
+						rel: "noopener noreferrer",
+						children: ["Open Business Profile ", /* @__PURE__ */ jsx(MapPin$1, { size: 18 })]
+					})]
+				})
+			]
+		}), /* @__PURE__ */ jsxs("div", {
+			className: "local-map-panel",
+			"aria-label": "Asina Global Longwood office map and Central Florida service area",
+			children: [
+				/* @__PURE__ */ jsxs("div", {
+					className: "local-map-summary",
+					children: [/* @__PURE__ */ jsxs("div", {
+						className: "local-map-fallback",
+						"aria-hidden": "true",
+						children: [
+							/* @__PURE__ */ jsx("span", { children: "Longwood, FL" }),
+							/* @__PURE__ */ jsx("strong", { children: contactDetails.address }),
+							/* @__PURE__ */ jsx("small", { children: "Central Florida project supply point" })
+						]
+					}), /* @__PURE__ */ jsxs("a", {
+						className: "local-map-profile-link",
+						href: contactDetails.googleBusinessProfile,
+						target: "_blank",
+						rel: "noopener noreferrer",
+						children: ["Open Business Profile ", /* @__PURE__ */ jsx(MapPin$1, {
+							size: 16,
+							"aria-hidden": "true"
+						})]
+					})]
+				}),
+				/* @__PURE__ */ jsx("div", {
+					className: "local-map-canvas",
+					children: /* @__PURE__ */ jsx("iframe", {
+						title: "Map showing Asina Global LLC office in Longwood, Seminole County, Florida",
+						src: contactDetails.mapEmbedUrl,
+						allowFullScreen: true,
+						loading: "lazy",
+						referrerPolicy: "no-referrer-when-downgrade"
+					})
+				}),
+				/* @__PURE__ */ jsx("div", {
+					className: "local-city-callouts",
+					"aria-label": "Central Florida cities served",
+					children: [
+						"Longwood",
+						"Orlando",
+						"Lake Mary",
+						"Altamonte Springs",
+						"Sanford",
+						"Winter Park",
+						"Maitland",
+						"Apopka",
+						"Oviedo",
+						"Kissimmee",
+						"Clermont",
+						"Daytona Beach"
+					].map((city) => /* @__PURE__ */ jsx("span", { children: city }, city))
+				})
+			]
+		})]
+	});
 }
 function DossierSnapshot() {
 	const reducedMotion = useReducedMotion$1();
@@ -9299,10 +9682,10 @@ function Hero({ navigate }) {
 					className: "hero-label",
 					children: "Asina Global LLC"
 				}),
-				/* @__PURE__ */ jsx("h1", { children: "Wholesale Cabinets, Countertops & Furniture — Longwood, FL" }),
+				/* @__PURE__ */ jsx("h1", { children: "Wholesale Cabinet, Countertop & Furniture Supply in Longwood, FL" }),
 				/* @__PURE__ */ jsx("p", {
 					className: "hero-lede",
-					children: "Import pricing without the usual mistakes. Asina Global LLC supplies cabinets, countertops, and custom furniture packages with drawing review, mockup approval, production QA, packing checks, and shipping coordination."
+					children: "Cabinet, countertop, and furniture supply for Florida contractors and developers: volume orders, managed QA, and coordinated shipping."
 				}),
 				/* @__PURE__ */ jsxs("div", {
 					className: "local-trust-badge",
@@ -9318,7 +9701,7 @@ function Hero({ navigate }) {
 						page: "review",
 						navigate,
 						className: "button primary cta",
-						children: ["Start Project Review ", /* @__PURE__ */ jsx(ArrowRight$1, { size: 18 })]
+						children: ["Submit Developer Scope ", /* @__PURE__ */ jsx(ArrowRight$1, { size: 18 })]
 					}), /* @__PURE__ */ jsx(RouteLink, {
 						page: "process",
 						navigate,
@@ -9580,7 +9963,7 @@ function SupplyRouter({ navigate }) {
 		className: "section",
 		children: [/* @__PURE__ */ jsx(SectionIntro, {
 			eyebrow: "Supply Paths",
-			title: "What Project Types Qualify for Import Cabinet, Countertop, or Furniture Supply?",
+			title: "Does your project have enough scale for import supply?",
 			copy: "Each category shows what buyers can inspect and what Asina needs before pricing."
 		}), /* @__PURE__ */ jsx("div", {
 			className: "supply-router",
@@ -9629,7 +10012,7 @@ function BuyerPathTeaser({ navigate }) {
 					className: "section-label",
 					children: "Buyer Paths"
 				}),
-				/* @__PURE__ */ jsx("h2", { children: "Which Supply Path Fits Your Cabinet, Countertop, or Furniture Project?" }),
+				/* @__PURE__ */ jsx("h2", { children: "Which supply path fits your cabinet, countertop, or furniture project?" }),
 				/* @__PURE__ */ jsx("p", { children: "Buyers who need a specific route can open the full directory for product categories, commercial use cases, RFQ preparation, QA, shipping, and collection detail." }),
 				/* @__PURE__ */ jsxs(RouteLink, {
 					page: "buyer-paths",
@@ -9788,7 +10171,7 @@ function BuyerPathsPage({ navigate }) {
 							/* @__PURE__ */ jsxs(RouteLink, {
 								page: "review",
 								navigate,
-								children: ["Start Project Review ", /* @__PURE__ */ jsx(ArrowRight$1, { size: 16 })]
+								children: ["Request Vendor Qualification Package ", /* @__PURE__ */ jsx(ArrowRight$1, { size: 16 })]
 							})
 						]
 					})]
@@ -9835,7 +10218,10 @@ function BuyerPathsPage({ navigate }) {
 					["When do drawings move?", "Asina requests drawings, specs, plans, brand standards, and furniture files by email after checking the project basics."]
 				]
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "buyer-paths"
+			})
 		]
 	});
 }
@@ -9863,7 +10249,7 @@ function ProcessPreview({ navigate }) {
 						className: "ledger-caption",
 						children: "Drawing To Production"
 					}),
-					/* @__PURE__ */ jsx("h2", { children: "Project drawings become cabinet, countertop, and furniture production plans." }),
+					/* @__PURE__ */ jsx("h2", { children: "How do drawings become a production-ready cabinet package?" }),
 					/* @__PURE__ */ jsx("p", { children: "The sequence shows how basics and emailed drawings become supply review, mockup approval, production QA, packing, and shipping responsibility." }),
 					/* @__PURE__ */ jsx(RouteLink, {
 						page: "process",
@@ -10097,7 +10483,7 @@ function QAProofBand({ navigate }) {
 					className: "proof-label proof-label-light",
 					children: "QA Proof"
 				}),
-				/* @__PURE__ */ jsx("h2", { children: "Import pricing needs cabinet and countertop QA before shipping." }),
+				/* @__PURE__ */ jsx("h2", { children: "How does Asina protect import savings before shipment?" }),
 				/* @__PURE__ */ jsx("p", { children: "Many import problems happen before goods ship. Asina reduces that risk through drawing review, mockup confirmation, production QA, finish checks, and packing review." }),
 				/* @__PURE__ */ jsx("div", {
 					className: "stamp-row",
@@ -10126,7 +10512,7 @@ function EconomicsShipping({ navigate }) {
 					className: "ledger-caption",
 					children: "Wholesale Economics"
 				}),
-				/* @__PURE__ */ jsx("h2", { children: "When Does Wholesale Cabinet Value Start at Container Scale?" }),
+				/* @__PURE__ */ jsx("h2", { children: "When does a 40ft container create real project savings?" }),
 				/* @__PURE__ */ jsx("p", { children: "A 40ft container load usually gives builders and developers the best cost advantage. Asina can discuss smaller trial runs when they point to future wholesale or repeat-project volume." }),
 				/* @__PURE__ */ jsx("p", { children: "Cabinet orders typically move in 20-foot or 40-foot containers. A 40HC container can typically fit about 700 to 800 cabinet boxes; a 20-foot container can typically fit about 370 boxes, depending on the final mix." })
 			]
@@ -10144,7 +10530,7 @@ function EconomicsShipping({ navigate }) {
 					page: "review",
 					navigate,
 					className: "button secondary",
-					children: "Start Project Review"
+					children: "Submit Developer Scope"
 				})
 			]
 		})]
@@ -10158,7 +10544,7 @@ function SourceProtectionPanel({ navigate }) {
 				className: "ledger-caption",
 				children: "Source Protection + Accountability"
 			}),
-			/* @__PURE__ */ jsx("h2", { children: "Cabinet, countertop, and furniture buyers see the review path." }),
+			/* @__PURE__ */ jsx("h2", { children: "Can one supplier own QA, shipping, and source protection?" }),
 			/* @__PURE__ */ jsx("p", { children: "Asina is the supplier of record. Buyers see the review, QA, packing, and shipping process while private production sources stay protected." }),
 			/* @__PURE__ */ jsx(RouteLink, {
 				page: "qa",
@@ -10190,7 +10576,7 @@ function FAQPreview() {
 		className: "section faq-preview",
 		children: [/* @__PURE__ */ jsx(SectionIntro, {
 			eyebrow: "Buyer Questions",
-			title: "Answers before you send project basics.",
+			title: "What should buyers know before project review starts?",
 			copy: "Pricing, minimums, drawings, source protection, shipping, and QA all affect the buying decision."
 		}), /* @__PURE__ */ jsx("div", {
 			className: "faq-grid",
@@ -10465,7 +10851,8 @@ function CabinetsPage({ navigate }) {
 						"Timeline"
 					],
 					note: active.details.find((detail) => detail.label === "What to send")?.value,
-					navigate
+					navigate,
+					currentPage: "cabinets"
 				})]
 			}),
 			/* @__PURE__ */ jsx(CabinetDetailOverlay, {
@@ -10492,7 +10879,10 @@ function CabinetsPage({ navigate }) {
 				currentPage: "cabinets",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "cabinets"
+			})
 		]
 	});
 }
@@ -11285,7 +11675,8 @@ function CountertopsPage({ navigate }) {
 						"Destination and timeline"
 					],
 					note: "Edge profiles, cutouts, square footage, destination, and timeline determine quote readiness.",
-					navigate
+					navigate,
+					currentPage: "countertops"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -11327,7 +11718,10 @@ function CountertopsPage({ navigate }) {
 				currentPage: "countertops",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "countertops"
+			})
 		]
 	});
 }
@@ -11693,7 +12087,8 @@ function FurniturePage({ navigate }) {
 						"Timeline"
 					],
 					note: "Asina requests furniture files, look-and-feel references, and brand standards by email after the first review. Then Asina checks feasibility, mockup needs, minimums, and repeat rollout potential.",
-					navigate
+					navigate,
+					currentPage: "furniture"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -11723,7 +12118,10 @@ function FurniturePage({ navigate }) {
 				currentPage: "furniture",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "furniture"
+			})
 		]
 	});
 }
@@ -11823,7 +12221,8 @@ function ProcessPage({ navigate }) {
 						"Drawings or specs ready for email follow-up"
 					],
 					note: "The form starts with basics only. Asina requests drawings, specs, plans, and brand standards by email after checking project fit.",
-					navigate
+					navigate,
+					currentPage: "process"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -11840,7 +12239,10 @@ function ProcessPage({ navigate }) {
 				currentPage: "process",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "process"
+			})
 		]
 	});
 }
@@ -12053,7 +12455,8 @@ function QAPage({ navigate }) {
 						"Timeline"
 					],
 					note: "Asina reviews shipping options during consultation. Final risk, cost, responsibility, and delivery terms follow the agreed project quote.",
-					navigate
+					navigate,
+					currentPage: "qa"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -12083,7 +12486,10 @@ function QAPage({ navigate }) {
 				currentPage: "qa",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "qa"
+			})
 		]
 	});
 }
@@ -12406,7 +12812,10 @@ function ContactPage({ navigate }) {
 				currentPage: "contact",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "contact"
+			})
 		]
 	});
 }
@@ -12721,7 +13130,8 @@ function AboutPage({ navigate }) {
 						"Drawings ready for email follow-up"
 					],
 					note: "Start with project basics. Asina requests drawings, specs, plans, brand standards, or furniture files by email after the first review.",
-					navigate
+					navigate,
+					currentPage: "about"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -12749,7 +13159,10 @@ function AboutPage({ navigate }) {
 				currentPage: "about",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "about"
+			})
 		]
 	});
 }
@@ -12822,7 +13235,8 @@ function DesignSupportPage({ navigate }) {
 						"Timeline"
 					],
 					note: "Asina requests files by email after the first review. The form stays focused on project basics and fit.",
-					navigate
+					navigate,
+					currentPage: "design"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -12850,14 +13264,17 @@ function DesignSupportPage({ navigate }) {
 				currentPage: "design",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "design"
+			})
 		]
 	});
 }
 function ProjectReviewPage({ originPage = "home", navigate }) {
 	return /* @__PURE__ */ jsxs(PageShell, {
 		variant: "review",
-		eyebrow: "Start Project Review",
+		eyebrow: "Submit Project Basics",
 		title: "Project basics first. Drawings by email.",
 		copy: "This form collects basics only. If the project fits Asina's supply model, Asina requests drawings by email within 1-2 business days.",
 		children: [/* @__PURE__ */ jsx(ProjectReviewForm, { originDossier: routeDossiers[originPage] ?? routeDossiers.home }), /* @__PURE__ */ jsx(RelatedProjectPaths, {
@@ -13052,7 +13469,8 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 					title: "What to send for cabinet package review",
 					items: inputs,
 					note: "Asina starts with project basics, then requests drawings and cabinet runs by email after the first fit check.",
-					navigate
+					navigate,
+					currentPage: "multi-unit"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -13087,7 +13505,10 @@ function MultiUnitCabinetPackagesPage({ navigate }) {
 				currentPage: "multi-unit",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "multi-unit"
+			})
 		]
 	});
 }
@@ -13110,7 +13531,7 @@ function DealerCabinetSupplyPage({ navigate }) {
 			},
 			{ label: "Cabinet Wholesale Supply for Dealers" }
 		],
-		heroMeta: "Last updated June 2026 · Written by Chuck Tran, Asina Global LLC",
+		heroMeta: "Last updated July 2026 · Written by Chuck Tran, Asina Global LLC",
 		children: [
 			/* @__PURE__ */ jsxs("section", {
 				className: "commercial-workbench dealer-fit-workbench",
@@ -13252,7 +13673,8 @@ function DealerCabinetSupplyPage({ navigate }) {
 						"Timeline"
 					],
 					note: "Start with project basics. If the dealer-led scope fits, Asina requests drawings and specs by email after the first review.",
-					navigate
+					navigate,
+					currentPage: "dealer-supply"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -13298,7 +13720,10 @@ function DealerCabinetSupplyPage({ navigate }) {
 				currentPage: "dealer-supply",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "dealer-supply"
+			})
 		]
 	});
 }
@@ -13321,9 +13746,14 @@ function WholesaleCabinetSupplierGuidePage({ navigate }) {
 			},
 			{ label: "How to Choose a Wholesale Cabinet Supplier" }
 		],
-		heroMeta: "Last updated June 2026 · Written by Chuck Tran, Asina Global LLC",
+		heroMeta: "Last updated July 2026 · Written by Chuck Tran, Asina Global LLC",
 		heroDisclosure: "Disclosure: Asina Global is a wholesale cabinet supplier. This guide is written for buyers evaluating any source, including us.",
 		children: [
+			/* @__PURE__ */ jsx(AuthoritativeReferences, { pageId: "supplier-guide" }),
+			/* @__PURE__ */ jsx(ResourceByline, {
+				pageId: "supplier-guide",
+				navigate
+			}),
 			/* @__PURE__ */ jsxs("section", {
 				className: "section guide-jump-board",
 				"aria-label": "Wholesale cabinet supplier guide quick navigation",
@@ -13673,7 +14103,7 @@ function WholesaleCabinetSupplierGuidePage({ navigate }) {
 					}),
 					/* @__PURE__ */ jsx("p", {
 						className: "page-footer-note",
-						children: "Page last reviewed: June 2026. Written by Chuck Tran, Asina Global LLC, Longwood, FL."
+						children: "Page last reviewed: July 15, 2026. Written by Chuck Tran, Asina Global LLC, Longwood, FL."
 					})
 				]
 			}),
@@ -13681,7 +14111,10 @@ function WholesaleCabinetSupplierGuidePage({ navigate }) {
 				currentPage: "supplier-guide",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "supplier-guide"
+			})
 		]
 	});
 }
@@ -14030,7 +14463,10 @@ function WholesaleCabinetSupplierComparisonPage({ navigate }) {
 				currentPage: "supplier-comparison",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "supplier-comparison"
+			})
 		]
 	});
 }
@@ -14114,7 +14550,8 @@ function RestaurantFranchiseFurniturePackagesPage({ navigate }) {
 						"Timeline"
 					],
 					note: "Asina requests furniture files, detailed plans, and brand standards by email after the first fit check.",
-					navigate
+					navigate,
+					currentPage: "restaurant-furniture"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -14152,7 +14589,10 @@ function RestaurantFranchiseFurniturePackagesPage({ navigate }) {
 				currentPage: "restaurant-furniture",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "restaurant-furniture"
+			})
 		]
 	});
 }
@@ -14252,7 +14692,8 @@ function RFQProcurementResourcesPage({ navigate }) {
 						"Notes on shipping or packing needs"
 					],
 					note: "Keep the first request simple. If the project is a fit, Asina follows up by email for drawings and specs.",
-					navigate
+					navigate,
+					currentPage: "rfq"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -14296,7 +14737,10 @@ function RFQProcurementResourcesPage({ navigate }) {
 				currentPage: "rfq",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "rfq"
+			})
 		]
 	});
 }
@@ -14313,6 +14757,7 @@ function ProjectSupplyImporterResourcesPage({ navigate }) {
 				pageId: "importer-resources",
 				navigate
 			}),
+			/* @__PURE__ */ jsx(AuthoritativeReferences, { pageId: "importer-resources" }),
 			/* @__PURE__ */ jsxs("section", {
 				className: "commercial-workbench importer-planning-workbench",
 				children: [/* @__PURE__ */ jsxs("div", {
@@ -14563,7 +15008,8 @@ function ProjectSupplyImporterResourcesPage({ navigate }) {
 						"Packing or document requirements"
 					],
 					note: "Keep the first message practical. If the project is a fit, drawings, plans, specs, and supporting files move by email after initial review.",
-					navigate
+					navigate,
+					currentPage: "importer-resources"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -14615,7 +15061,10 @@ function ProjectSupplyImporterResourcesPage({ navigate }) {
 				currentPage: "importer-resources",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "importer-resources"
+			})
 		]
 	});
 }
@@ -14637,6 +15086,7 @@ function BuyerQuestionGuidePage({ guideId, navigate }) {
 				pageId: guideId,
 				navigate
 			}),
+			/* @__PURE__ */ jsx(AuthoritativeReferences, { pageId: guideId }),
 			/* @__PURE__ */ jsxs("section", {
 				className: "commercial-workbench seo-guide-workbench",
 				children: [/* @__PURE__ */ jsxs("div", {
@@ -14694,6 +15144,7 @@ function BuyerQuestionGuidePage({ guideId, navigate }) {
 					}, title))
 				})]
 			}),
+			guideId === "lead-times" && /* @__PURE__ */ jsx(LeadTimesGuideExpansion, { navigate }),
 			guideId === "import-vs-domestic" && /* @__PURE__ */ jsx(ImportVsDomesticCostSection, { navigate }),
 			/* @__PURE__ */ jsxs("section", {
 				className: "section importer-question-matrix seo-guide-matrix",
@@ -14760,7 +15211,8 @@ function BuyerQuestionGuidePage({ guideId, navigate }) {
 					title: guide.whatTitle,
 					items: guide.whatItems,
 					note: guide.whatNote,
-					navigate
+					navigate,
+					currentPage: guideId
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -14801,9 +15253,344 @@ function BuyerQuestionGuidePage({ guideId, navigate }) {
 				currentPage: "importer-resources",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: guideId
+			})
 		]
 	});
+}
+function LeadTimesGuideExpansion({ navigate }) {
+	const projectTypeRows = [
+		[
+			"Single-family stock replacement",
+			"A few days to 2 weeks if inventory is confirmed",
+			"Use local stock when the job cannot wait. Confirm the exact cabinet line, finish, box sizes, trim, fillers, and accessories before scheduling the installer."
+		],
+		[
+			"Single custom kitchen or domestic made-to-order",
+			"4 to 8+ weeks depending on vendor and finish",
+			"Good fit when local control, modification, or homeowner selection matters more than container economics."
+		],
+		[
+			"Model unit or first repeat room",
+			"8 to 14 weeks for a planned import path",
+			"Treat the first room as the reference package. The mockup should confirm finish, dimensions, hardware, accessories, and packing assumptions before repeat production."
+		],
+		[
+			"Multifamily or build-to-rent phase",
+			"8 to 14 weeks, often planned 12 to 16 weeks ahead",
+			"Start review as soon as unit mix, finish schedule, and first delivery window are known. Phasing matters as much as the product lead time."
+		],
+		[
+			"Restaurant, franchise, or hospitality rollout",
+			"8 to 14 weeks after approved details for import packages",
+			"Brand standards, repeated locations, and custom details should be locked early so the package can repeat without redesign each time."
+		],
+		[
+			"Dealer-supplied commercial account",
+			"Depends on drawing approval and container release timing",
+			"Dealers should communicate import timing clearly to their client and build margin into the project calendar before promising install dates."
+		]
+	];
+	const supplyPathRows = [
+		[
+			"RTA warehouse / local stock",
+			"Fastest when inventory exists",
+			"Limited sizing and finish flexibility",
+			"Urgent replacements, small remodels, crews that can assemble or adapt on site"
+		],
+		[
+			"Assembled domestic stock",
+			"Days to a few weeks when available",
+			"Fixed catalog and inventory dependent",
+			"Small contractor work, dealer stock pulls, speed-sensitive kitchens"
+		],
+		[
+			"Domestic made-to-order",
+			"Often several weeks or longer",
+			"Better local modification control, less container leverage",
+			"One-off custom work, local fabrication priority, special finish direction"
+		],
+		[
+			"Planned import package",
+			"Usually 8 to 14 weeks from approval to US delivery",
+			"Longer path, stronger repeat-project control",
+			"Developers, multifamily, franchise, hospitality, and commercial buyers with repeat scope"
+		]
+	];
+	const timelineRows = [
+		[
+			"Project basics",
+			"1 to 2 business days for initial fit review",
+			"Category, location, unit count, room count, timeline, destination, and notes on finish or shipping needs."
+		],
+		[
+			"Drawing and spec review",
+			"Several days to 2+ weeks depending on completeness",
+			"Incomplete drawings, open finish decisions, unclear room counts, and changing scope are common delay sources."
+		],
+		[
+			"Mockup or sample approval",
+			"1 to 3+ weeks depending on sample path and buyer response",
+			"This is where measurements, material direction, color, finish, hardware, and details are confirmed before repeat production."
+		],
+		[
+			"Production",
+			"Often 40 to 50 days after approved details",
+			"Capacity, custom sizing, order quantity, finish complexity, and accessory count can all affect timing."
+		],
+		[
+			"QA and packing review",
+			"Several days to 1+ week depending on order size",
+			"Finish checks, count checks, defect review, labeling, packing method, and container readiness should not be skipped for speed."
+		],
+		[
+			"Ocean freight and delivery planning",
+			"Often 22 to 30 days to the West Coast or 40 to 50 days to the East Coast under DAP-style planning",
+			"Actual terms, port route, destination, receiving needs, and agreed responsibility determine the final plan."
+		],
+		[
+			"Site receiving and installation buffer",
+			"1 to 3+ weeks depending on project size",
+			"Leave room for site access, count verification, damage documentation, elevator or loading constraints, and installer sequencing."
+		]
+	];
+	const riskRows = [
+		[
+			"Drawings are not final",
+			"The quote may move, production can pause, and the installer may receive a package that no longer matches the field.",
+			"Confirm room types, cabinet runs, ceiling constraints, appliance openings, and dimensions before production release."
+		],
+		[
+			"Finish schedule changes late",
+			"Samples, mockup approval, production slot, and cabinet counts can all shift.",
+			"Lock finish direction before mockup and keep approved references visible for the team."
+		],
+		[
+			"No delivery responsibility plan",
+			"The project may not know who owns freight, unloading, damage documentation, or missing-count escalation.",
+			"Decide the responsibility level and receiving workflow before the order ships."
+		],
+		[
+			"No phase map",
+			"The first building, store, or room group may not receive the right pieces first.",
+			"Pack and label around install sequence when phased delivery matters."
+		]
+	];
+	const Table = ({ caption, columns, rows }) => /* @__PURE__ */ jsx("div", {
+		className: "import-table-scroll",
+		role: "region",
+		"aria-label": caption,
+		tabIndex: 0,
+		children: /* @__PURE__ */ jsxs("table", {
+			className: "import-data-table",
+			children: [/* @__PURE__ */ jsx("thead", { children: /* @__PURE__ */ jsx("tr", { children: columns.map((column) => /* @__PURE__ */ jsx("th", {
+				scope: "col",
+				children: column
+			}, column)) }) }), /* @__PURE__ */ jsx("tbody", { children: rows.map((row) => /* @__PURE__ */ jsx("tr", { children: row.map((cell, index) => index === 0 ? /* @__PURE__ */ jsx("th", {
+				scope: "row",
+				children: cell
+			}, cell) : /* @__PURE__ */ jsx("td", { children: cell }, cell)) }, row.join("-"))) })]
+		})
+	});
+	return /* @__PURE__ */ jsxs(Fragment, { children: [
+		/* @__PURE__ */ jsxs("section", {
+			className: "section import-decision-workbench import-cost-guide",
+			"aria-label": "Cabinet lead times by project type",
+			children: [/* @__PURE__ */ jsx(SectionIntro, {
+				eyebrow: "Lead Times By Project Type",
+				title: "Cabinet lead time changes with the job type, not just the supplier.",
+				copy: "A builder asking for cabinet lead time needs more than one number. A stock replacement, a model unit, a 40-unit multifamily phase, and a restaurant rollout do not carry the same approval path, production risk, packing needs, or freight timing."
+			}), /* @__PURE__ */ jsxs("div", {
+				className: "import-cost-ledger",
+				children: [/* @__PURE__ */ jsxs(Reveal, {
+					className: "import-cost-panel import-cost-panel-wide",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Project Type Table"
+						}),
+						/* @__PURE__ */ jsx("h3", { children: "Use the project type before trusting a lead-time promise." }),
+						/* @__PURE__ */ jsx("p", { children: "Search results often answer cabinet lead time with a single estimate. That is useful for a homeowner, but it is incomplete for a builder. A contractor needs to know whether the cabinets are already stocked, whether the order needs production, whether a mockup is required, and whether the final package must arrive in phases. The table below separates the common project types before the quote conversation starts." }),
+						/* @__PURE__ */ jsx(Table, {
+							caption: "Cabinet lead times by builder project type",
+							columns: [
+								"Project type",
+								"Planning lead time",
+								"How to use the estimate"
+							],
+							rows: projectTypeRows
+						})
+					]
+				}), /* @__PURE__ */ jsxs(Reveal, {
+					className: "import-scale-panel",
+					delay: .06,
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Featured Snippet Answer"
+						}),
+						/* @__PURE__ */ jsx("h3", { children: "What is the typical cabinet lead time for builders?" }),
+						/* @__PURE__ */ jsx("p", { children: "For builders, cabinet lead time can range from a few days for confirmed local stock to 8 to 14 weeks for planned imported cabinet packages. The longer import path is not automatically worse. It can be the better business decision when the project has repeat rooms, container-scale quantity, mockup approval, QA, packing review, and enough calendar space to protect the result." }),
+						/* @__PURE__ */ jsx("p", { children: "The critical mistake is comparing a stock cabinet availability date with an import production schedule as if they solve the same job. Stock solves urgency. Import solves controlled repeatability and cost at scale. Builders should choose based on the project calendar, not the shortest advertised number." })
+					]
+				})]
+			})]
+		}),
+		/* @__PURE__ */ jsxs("section", {
+			className: "section import-decision-workbench import-cost-guide",
+			"aria-label": "Cabinet stock versus import lead time comparison",
+			children: [
+				/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Stock vs Import",
+					title: "Compare cabinet supply paths before setting the install date.",
+					copy: "The best cabinet source depends on whether the job needs speed, repeatability, custom sizing, cost control, or one accountable supplier for QA and freight."
+				}),
+				/* @__PURE__ */ jsx(Reveal, {
+					className: "import-decision-panel",
+					children: /* @__PURE__ */ jsx(Table, {
+						caption: "Cabinet lead time comparison by supply path",
+						columns: [
+							"Supply path",
+							"Lead-time strength",
+							"Tradeoff",
+							"Best fit"
+						],
+						rows: supplyPathRows
+					})
+				}),
+				/* @__PURE__ */ jsxs("div", {
+					className: "import-supply-paths",
+					"aria-label": "Lead time planning notes",
+					children: [
+						/* @__PURE__ */ jsxs(Reveal, {
+							className: "import-supply-path",
+							children: [
+								/* @__PURE__ */ jsx("span", { children: "01" }),
+								/* @__PURE__ */ jsx("h3", { children: "Stock is fastest when the exact product exists." }),
+								/* @__PURE__ */ jsx("p", { children: "Stock supply is only fast when the finish, size, accessory list, and quantity are actually available. Builders should verify inventory before promising a cabinet install date. If the warehouse has most of the package but not the fillers, panels, trim, or replacement parts, the lead time can still break the schedule." })
+							]
+						}),
+						/* @__PURE__ */ jsxs(Reveal, {
+							className: "import-supply-path",
+							delay: .04,
+							children: [
+								/* @__PURE__ */ jsx("span", { children: "02" }),
+								/* @__PURE__ */ jsx("h3", { children: "Import works when approvals happen early." }),
+								/* @__PURE__ */ jsx("p", { children: "Imported supply should be planned around approved drawings, finish direction, mockup review, and a receiving plan. The buyer gives up stock speed, but gains a controlled package for repeat rooms when the timeline supports production and freight." })
+							]
+						}),
+						/* @__PURE__ */ jsxs(Reveal, {
+							className: "import-supply-path",
+							delay: .08,
+							children: [
+								/* @__PURE__ */ jsx("span", { children: "03" }),
+								/* @__PURE__ */ jsx("h3", { children: "Phasing must be designed into the order." }),
+								/* @__PURE__ */ jsx("p", { children: "Multi-building and multi-store projects need more than an arrival date. They need packing and labels that match the first install area, the next phase, and the receiving team. If phasing is discussed after production, the project has fewer options." })
+							]
+						})
+					]
+				})
+			]
+		}),
+		/* @__PURE__ */ jsxs("section", {
+			className: "section import-decision-workbench import-cost-guide",
+			"aria-label": "Cabinet lead time schedule chain",
+			children: [
+				/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Schedule Chain",
+					title: "A cabinet schedule is seven linked decisions.",
+					copy: "Production days are only one part of the calendar. The schedule also includes intake, drawing review, approval, QA, packing, transit, receiving, and installation buffer."
+				}),
+				/* @__PURE__ */ jsx(Reveal, {
+					className: "import-decision-panel",
+					children: /* @__PURE__ */ jsx(Table, {
+						caption: "Cabinet lead time schedule chain",
+						columns: [
+							"Step",
+							"Typical planning range",
+							"What can slow it down"
+						],
+						rows: timelineRows
+					})
+				}),
+				/* @__PURE__ */ jsxs("div", {
+					className: "import-cost-ledger",
+					children: [/* @__PURE__ */ jsxs(Reveal, {
+						className: "import-cost-panel",
+						children: [
+							/* @__PURE__ */ jsx("p", {
+								className: "ledger-caption",
+								children: "Builder Planning Rule"
+							}),
+							/* @__PURE__ */ jsx("h3", { children: "Work backward from the first cabinet install date." }),
+							/* @__PURE__ */ jsx("p", { children: "Start with the first install milestone, then work backward through receiving, freight, QA, production, mockup approval, drawing review, and the initial quote. If the project needs cabinets on site by a fixed date, the buyer should not wait until framing is complete to begin supply review." }),
+							/* @__PURE__ */ jsx("p", { children: "A safe import review often starts 12 to 16 weeks before cabinets are needed on site. That does not mean every project uses the full window. It means the buyer has enough time to catch missing drawings, approve a sample, confirm packing, and adjust freight before the schedule becomes expensive." })
+						]
+					}), /* @__PURE__ */ jsxs(Reveal, {
+						className: "import-cost-panel",
+						delay: .06,
+						children: [
+							/* @__PURE__ */ jsx("p", {
+								className: "ledger-caption",
+								children: "Where Delays Start"
+							}),
+							/* @__PURE__ */ jsx("h3", { children: "The most common delay is not the factory." }),
+							/* @__PURE__ */ jsx("p", { children: "Many cabinet delays start with undefined project inputs. The finish is not final. The unit count is still changing. The installer has not confirmed field conditions. The buyer wants a faster lead time but has not approved the mockup. A good supplier can move quickly only after the required decisions are stable." }),
+							/* @__PURE__ */ jsx("p", { children: "This is why Asina asks for project category, destination, unit or room count, milestone dates, finish direction, and drawing status before turning a lead-time conversation into a quote path." })
+						]
+					})]
+				})
+			]
+		}),
+		/* @__PURE__ */ jsxs("section", {
+			className: "section import-decision-workbench import-cost-guide",
+			"aria-label": "Cabinet lead time risk controls",
+			children: [
+				/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Risk Controls",
+					title: "Use lead time to reduce risk, not just to chase speed.",
+					copy: "The fastest answer is not always the best answer for repeat builder work. The useful answer names the risks that must be controlled before cabinets reach the jobsite."
+				}),
+				/* @__PURE__ */ jsx(Reveal, {
+					className: "import-decision-panel",
+					children: /* @__PURE__ */ jsx(Table, {
+						caption: "Cabinet lead time risk controls",
+						columns: [
+							"Risk",
+							"Why it affects lead time",
+							"Control before release"
+						],
+						rows: riskRows
+					})
+				}),
+				/* @__PURE__ */ jsx("div", {
+					className: "page-footer-note",
+					children: /* @__PURE__ */ jsxs("p", { children: [
+						"Builders comparing cabinet lead times should also review",
+						" ",
+						/* @__PURE__ */ jsx(RouteLink, {
+							page: "import-vs-domestic",
+							navigate,
+							className: "copy-link",
+							children: "import versus domestic cabinet cost"
+						}),
+						" ",
+						"and the",
+						" ",
+						/* @__PURE__ */ jsx(RouteLink, {
+							page: "shipping-responsibility",
+							navigate,
+							className: "copy-link",
+							children: "cabinet import shipping responsibility guide"
+						}),
+						". Lead time, landed cost, QA, and shipping responsibility are part of the same buying decision."
+					] })
+				})
+			]
+		})
+	] });
 }
 function OrlandoCommercialProjectSupplyPage({ navigate }) {
 	return /* @__PURE__ */ jsxs(PageShell, {
@@ -14935,7 +15722,8 @@ function OrlandoCommercialProjectSupplyPage({ navigate }) {
 						"Shipping or delivery needs"
 					],
 					note: "Asina follows up by email when the project appears to fit the supply model.",
-					navigate
+					navigate,
+					currentPage: "orlando"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -14985,7 +15773,10 @@ function OrlandoCommercialProjectSupplyPage({ navigate }) {
 				currentPage: "orlando",
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "orlando"
+			})
 		]
 	});
 }
@@ -15013,6 +15804,7 @@ function CommercialIntentPage({ pageId, navigate }) {
 						}),
 						/* @__PURE__ */ jsx("h2", { children: page.introTitle }),
 						/* @__PURE__ */ jsx("p", { children: page.introCopy }),
+						page.introDetails?.map((copy) => /* @__PURE__ */ jsx("p", { children: copy }, copy)),
 						/* @__PURE__ */ jsxs("div", {
 							className: "inline-link-row",
 							children: [
@@ -15048,6 +15840,26 @@ function CommercialIntentPage({ pageId, navigate }) {
 					}, title))
 				})]
 			}),
+			page.projectTypes?.length ? /* @__PURE__ */ jsxs("section", {
+				className: "section dealer-supply-board",
+				"aria-label": `${page.eyebrow} project types`,
+				children: [/* @__PURE__ */ jsx(SectionIntro, {
+					eyebrow: "Project Types",
+					title: "Commercial supply works best when the rooms, stores, or phases repeat.",
+					copy: "The review is strongest when Asina can connect product category, finish direction, quantity, timeline, and receiving needs before a buyer asks for a final quote."
+				}), /* @__PURE__ */ jsx("div", {
+					className: "dealer-supply-grid",
+					children: page.projectTypes.map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+						className: "dealer-supply-row",
+						delay: index * .04,
+						children: [
+							/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }),
+							/* @__PURE__ */ jsx("h3", { children: title }),
+							/* @__PURE__ */ jsx("p", { children: copy })
+						]
+					}, title))
+				})]
+			}) : null,
 			/* @__PURE__ */ jsxs("section", {
 				className: "section quote-input-workbench",
 				"aria-label": `${page.eyebrow} quote inputs`,
@@ -15099,13 +15911,37 @@ function CommercialIntentPage({ pageId, navigate }) {
 					]
 				})]
 			}),
+			page.differentiators?.length ? /* @__PURE__ */ jsx("section", {
+				className: "section dealer-model-board intent-differentiator-board",
+				"aria-label": `${page.eyebrow} differentiation`,
+				children: /* @__PURE__ */ jsxs("div", {
+					className: "dealer-model-ledger",
+					children: [
+						/* @__PURE__ */ jsx("p", {
+							className: "ledger-caption",
+							children: "Why Asina Is Different"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: "The value is in the controlled handoff, not just the cabinet or slab number." }),
+						/* @__PURE__ */ jsx("p", { children: "Commercial buyers need a supplier who can translate the buying intent into a production-ready package. Asina separates what must be chosen, checked, mocked up, packed, shipped, and documented before the project moves." }),
+						/* @__PURE__ */ jsx("div", {
+							className: "proof-step-list",
+							children: page.differentiators.map(([title, copy], index) => /* @__PURE__ */ jsxs(Reveal, {
+								className: "proof-step",
+								delay: index * .04,
+								children: [/* @__PURE__ */ jsx("span", { children: String(index + 1).padStart(2, "0") }), /* @__PURE__ */ jsxs("div", { children: [/* @__PURE__ */ jsx("strong", { children: title }), /* @__PURE__ */ jsx("p", { children: copy })] })]
+							}, title))
+						})
+					]
+				})
+			}) : null,
 			/* @__PURE__ */ jsxs("section", {
 				className: "dossier-grid quote-dossier",
 				children: [/* @__PURE__ */ jsx(WhatToSend, {
 					title: `What to send for ${page.eyebrow.toLowerCase()}`,
 					items: page.whatItems,
 					note: "Start with project basics. Asina requests drawings, specs, plans, or brand files by email after the first fit check.",
-					navigate
+					navigate,
+					currentPage: pageId
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -15151,8 +15987,181 @@ function CommercialIntentPage({ pageId, navigate }) {
 				currentPage: pageId,
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate })
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: pageId
+			})
 		]
+	});
+}
+var authoritativeReferences = {
+	"importer-resources": [
+		[
+			"USITC Harmonized Tariff Schedule",
+			"https://hts.usitc.gov/",
+			"Check HTS classification before treating any duty or tariff estimate as final."
+		],
+		[
+			"CBP basic importing and exporting",
+			"https://www.cbp.gov/trade/basic-import-export",
+			"Review import entry, documentation, and customs process basics."
+		],
+		[
+			"ICC Incoterms® rules",
+			"https://iccwbo.org/business-solutions/incoterms-rules/",
+			"Use current Incoterms® 2020 definitions when assigning freight responsibility."
+		]
+	],
+	"supplier-guide": [
+		[
+			"USITC Harmonized Tariff Schedule",
+			"https://hts.usitc.gov/",
+			"Use the current HTS when comparing supplier quotes that include duty exposure."
+		],
+		[
+			"CBP CROSS rulings",
+			"https://rulings.cbp.gov/",
+			"Research classification and binding-ruling issues before relying on a tariff assumption."
+		],
+		[
+			"USTR Section 301 tariff actions",
+			"https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions",
+			"Check China Section 301 context when origin or component sourcing is part of the comparison."
+		]
+	],
+	"container-economics": [
+		[
+			"Federal Maritime Commission",
+			"https://www.fmc.gov/",
+			"Reference the U.S. ocean shipping regulator when reviewing container freight context."
+		],
+		[
+			"CBP basic importing and exporting",
+			"https://www.cbp.gov/trade/basic-import-export",
+			"Review import process basics before container-scale orders move."
+		],
+		[
+			"USITC Harmonized Tariff Schedule",
+			"https://hts.usitc.gov/",
+			"Classification still affects landed cost when the order reaches container scale."
+		]
+	],
+	"landed-cost": [
+		[
+			"USITC Harmonized Tariff Schedule",
+			"https://hts.usitc.gov/",
+			"Verify tariff classification before treating landed cost as complete."
+		],
+		[
+			"CBP determining duty rates",
+			"https://www.cbp.gov/trade/programs-administration/determining-duty-rates",
+			"Use CBP duty-rate guidance when reviewing import cost assumptions."
+		],
+		[
+			"U.S. AD/CVD resources",
+			"https://www.trade.gov/us-antidumping-and-countervailing-duties",
+			"Check Commerce trade-remedy context where AD/CVD could affect the duty stack."
+		]
+	],
+	"shipping-responsibility": [
+		[
+			"ICC Incoterms® rules",
+			"https://iccwbo.org/business-solutions/incoterms-rules/",
+			"Reference Incoterms® 2020 definitions before assigning cost, risk, and delivery responsibility."
+		],
+		[
+			"CBP basic importing and exporting",
+			"https://www.cbp.gov/trade/basic-import-export",
+			"Review import process basics when the buyer is involved in customs or delivery responsibility."
+		],
+		[
+			"Federal Maritime Commission",
+			"https://www.fmc.gov/",
+			"Use FMC resources for U.S. ocean shipping oversight context."
+		]
+	],
+	"imported-quality": [
+		[
+			"EPA TSCA Title VI formaldehyde standards",
+			"https://www.epa.gov/formaldehyde/formaldehyde-emission-standards-composite-wood-products",
+			"Review federal composite-wood formaldehyde rules where cabinet materials require compliance planning."
+		],
+		[
+			"CBP CROSS rulings",
+			"https://rulings.cbp.gov/",
+			"Research classification and ruling context when product details affect import treatment."
+		],
+		[
+			"U.S. AD/CVD resources",
+			"https://www.trade.gov/us-antidumping-and-countervailing-duties",
+			"Check trade-remedy context when cabinet origin or components may affect duty exposure."
+		]
+	],
+	"lead-times": [
+		[
+			"CBP basic importing and exporting",
+			"https://www.cbp.gov/trade/basic-import-export",
+			"Import process and entry requirements can affect the delivery timeline."
+		],
+		[
+			"Federal Maritime Commission",
+			"https://www.fmc.gov/",
+			"Ocean freight context matters when production timing connects to shipping windows."
+		],
+		[
+			"ICC Incoterms® rules",
+			"https://iccwbo.org/business-solutions/incoterms-rules/",
+			"Responsibility terms can change which party controls freight milestones."
+		]
+	],
+	"import-vs-domestic": [
+		[
+			"USITC Harmonized Tariff Schedule",
+			"https://hts.usitc.gov/",
+			"Classification is the starting point for comparing import and domestic landed cost."
+		],
+		[
+			"USTR Section 301 tariff actions",
+			"https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions",
+			"Check China Section 301 context when origin exposure affects the comparison."
+		],
+		[
+			"U.S. AD/CVD resources",
+			"https://www.trade.gov/us-antidumping-and-countervailing-duties",
+			"Review AD/CVD context before treating tariff exposure as a simple percentage."
+		]
+	]
+};
+function AuthoritativeReferences({ pageId }) {
+	const references = authoritativeReferences[pageId];
+	if (!references?.length) return null;
+	return /* @__PURE__ */ jsxs("section", {
+		className: "section authoritative-reference-board",
+		"aria-label": "Authoritative external references",
+		children: [/* @__PURE__ */ jsxs("div", {
+			className: "section-intro split",
+			children: [
+				/* @__PURE__ */ jsx("p", {
+					className: "section-label",
+					children: "References"
+				}),
+				/* @__PURE__ */ jsx("h2", { children: "Authoritative sources used for import, tariff, and freight planning context." }),
+				/* @__PURE__ */ jsx("p", { children: "These links support planning language only. Final classification, duty treatment, freight responsibility, and compliance decisions should be confirmed against the current project quote, customs entry path, and broker or legal guidance." })
+			]
+		}), /* @__PURE__ */ jsx("div", {
+			className: "authoritative-reference-grid",
+			children: references.map(([label, href, note]) => /* @__PURE__ */ jsxs("a", {
+				className: "authoritative-reference-card",
+				href,
+				target: "_blank",
+				rel: "noopener noreferrer",
+				children: [
+					/* @__PURE__ */ jsx("span", { children: "External source" }),
+					/* @__PURE__ */ jsx("strong", { children: label }),
+					/* @__PURE__ */ jsx("p", { children: note })
+				]
+			}, href))
+		})]
 	});
 }
 //#endregion
@@ -15324,7 +16333,8 @@ function CabinetCollectionSeoPage({ pageId, navigate }) {
 						"Timeline"
 					],
 					note: "Asina requests drawings and cabinet runs by email after the first fit check.",
-					navigate
+					navigate,
+					currentPage: pageId
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -15366,7 +16376,10 @@ function CabinetCollectionSeoPage({ pageId, navigate }) {
 				currentPage: pageId,
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate }),
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: pageId
+			}),
 			/* @__PURE__ */ jsx(FinishImageZoomOverlay, {
 				image: zoomImage,
 				onClose: () => setZoomImage(null)
@@ -15582,7 +16595,7 @@ function QuartzSlabCodesPage({ navigate }) {
 			facts: collection.facts
 		});
 	};
-	useLayoutEffect(() => {
+	useLayoutEffect$1(() => {
 		if (typeof window === "undefined" || typeof document === "undefined") return void 0;
 		const previousScrollRestoration = "scrollRestoration" in window.history ? window.history.scrollRestoration : null;
 		if (previousScrollRestoration) window.history.scrollRestoration = "manual";
@@ -15707,7 +16720,8 @@ function QuartzSlabCodesPage({ navigate }) {
 						"Timeline"
 					],
 					note: "Asina requests countertop drawings or specs by email after the first review when the project is a fit.",
-					navigate
+					navigate,
+					currentPage: "countertop-quartz-codes"
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -15744,7 +16758,10 @@ function QuartzSlabCodesPage({ navigate }) {
 				title: "Quartz Slab Code FAQ",
 				items: faqs
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate }),
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: "countertop-quartz-codes"
+			}),
 			/* @__PURE__ */ jsx(SlabZoomOverlay$1, {
 				slab: zoomSlab,
 				onClose: () => setZoomSlab(null)
@@ -15874,7 +16891,8 @@ function CountertopCollectionSeoPage({ pageId, navigate }) {
 						"Timeline"
 					],
 					note: "Asina requests countertop drawings or specs by email after the first fit check.",
-					navigate
+					navigate,
+					currentPage: pageId
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "quote-proof-panel",
 					children: [
@@ -15916,7 +16934,10 @@ function CountertopCollectionSeoPage({ pageId, navigate }) {
 				currentPage: pageId,
 				navigate
 			}),
-			/* @__PURE__ */ jsx(CTASection, { navigate }),
+			/* @__PURE__ */ jsx(CTASection, {
+				navigate,
+				currentPage: pageId
+			}),
 			/* @__PURE__ */ jsx(SlabZoomOverlay$1, {
 				slab: zoomSlab,
 				onClose: () => setZoomSlab(null)
