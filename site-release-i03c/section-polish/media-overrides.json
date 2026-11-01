@@ -1,0 +1,2275 @@
+{
+  "rooms": {
+    "kitchen": "assets/recovered/program-kitchen-clean.png",
+    "vanity": "assets/recovered/program-vanity-clean.png",
+    "closet": "assets/recovered/program-closet-clean.png",
+    "collections": [
+      "assets/recovered/contemporary-kitchen-clean.png",
+      "assets/recovered/traditional-kitchen-clean.png",
+      "assets/recovered/transitional-kitchen-clean.png"
+    ]
+  },
+  "profiles": {
+    "0": {
+      "image": "assets/recovered/profile-shaker.png"
+    },
+    "1": {
+      "image": "assets/recovered/profile-micro-shaker.png"
+    },
+    "2": {
+      "image": "assets/recovered/profile-slab.png"
+    },
+    "3": {
+      "image": "assets/recovered/profile-athabasca.png"
+    },
+    "4": {
+      "image": "assets/recovered/profile-beaded-shaker.png"
+    },
+    "5": {
+      "image": "assets/recovered/profile-dawson.png"
+    },
+    "6": {
+      "image": "assets/recovered/profile-essex.png"
+    },
+    "7": {
+      "image": "assets/recovered/profile-j-groove-shaker.png"
+    },
+    "8": {
+      "image": "assets/recovered/profile-j-groove-slab.png"
+    },
+    "9": {
+      "image": "assets/recovered/profile-joffre.png"
+    },
+    "10": {
+      "image": "assets/recovered/profile-logan.png"
+    },
+    "11": {
+      "image": "assets/recovered/profile-onyx.png"
+    },
+    "12": {
+      "image": "assets/recovered/profile-ac-shaker.png"
+    },
+    "13": {
+      "image": "assets/recovered/profile-sanford.png"
+    },
+    "14": {
+      "image": "assets/recovered/profile-seatle.png"
+    },
+    "15": {
+      "image": "assets/recovered/profile-temple.png"
+    },
+    "16": {
+      "image": "assets/recovered/profile-walsh.png"
+    }
+  },
+  "products": {
+    "0": {
+      "image": "assets/recovered/configuration-000-b1db.png",
+      "technicalImage": "assets/recovered/configuration-000-b1db-interior-reference.png",
+      "sourcePage": 2,
+      "sourceMaskRestored": true
+    },
+    "1": {
+      "image": "assets/recovered/configuration-001-b1dt.png",
+      "technicalImage": "assets/recovered/configuration-001-b1dt-interior-reference.png",
+      "sourcePage": 2,
+      "sourceMaskRestored": true
+    },
+    "2": {
+      "image": "assets/recovered/configuration-002-b1dt2r.png",
+      "technicalImage": "assets/recovered/configuration-002-b1dt2r-interior-reference.png",
+      "sourcePage": 2,
+      "sourceMaskRestored": true
+    },
+    "3": {
+      "image": "assets/recovered/configuration-003-b1dtand.png",
+      "technicalImage": "assets/recovered/configuration-003-b1dtand-interior-reference.png",
+      "sourcePage": 2,
+      "sourceMaskRestored": true
+    },
+    "4": {
+      "image": "assets/recovered/configuration-004-b1rfh.png",
+      "technicalImage": "assets/recovered/configuration-004-b1rfh-interior-reference.png",
+      "sourcePage": 3,
+      "sourceMaskRestored": true
+    },
+    "5": {
+      "image": "assets/recovered/configuration-005-b2sdt.png",
+      "technicalImage": "assets/recovered/configuration-005-b2sdt-interior-reference.png",
+      "sourcePage": 3,
+      "sourceMaskRestored": true
+    },
+    "6": {
+      "image": "assets/recovered/configuration-006-b3d.png",
+      "technicalImage": "assets/recovered/configuration-006-b3d-interior-reference.png",
+      "sourcePage": 3,
+      "sourceMaskRestored": true
+    },
+    "7": {
+      "image": "assets/recovered/configuration-007-b3de.png",
+      "technicalImage": "assets/recovered/configuration-007-b3de-interior-reference.png",
+      "sourcePage": 3,
+      "sourceMaskRestored": true
+    },
+    "8": {
+      "image": "assets/recovered/configuration-008-b3dp.png",
+      "technicalImage": "assets/recovered/configuration-008-b3dp-interior-reference.png",
+      "sourcePage": 3,
+      "sourceMaskRestored": true
+    },
+    "9": {
+      "image": "assets/recovered/configuration-009-b3rfh.png",
+      "technicalImage": "assets/recovered/configuration-009-b3rfh-interior-reference.png",
+      "sourcePage": 3,
+      "sourceMaskRestored": true
+    },
+    "10": {
+      "image": "assets/recovered/configuration-010-b4d.png",
+      "technicalImage": "assets/recovered/configuration-010-b4d-interior-reference.png",
+      "sourcePage": 3,
+      "sourceMaskRestored": true
+    },
+    "11": {
+      "image": "assets/recovered/configuration-011-b4sd.png",
+      "technicalImage": "assets/recovered/configuration-011-b4sd-interior-reference.png",
+      "sourcePage": 3,
+      "sourceMaskRestored": true
+    },
+    "12": {
+      "image": "assets/recovered/configuration-012-b5sd.png",
+      "technicalImage": "assets/recovered/configuration-012-b5sd-interior-reference.png",
+      "sourcePage": 4,
+      "sourceMaskRestored": true
+    },
+    "13": {
+      "image": "assets/recovered/configuration-013-ba2rd.png",
+      "technicalImage": "assets/recovered/configuration-013-ba2rd-interior-reference.png",
+      "sourcePage": 4,
+      "sourceMaskRestored": true
+    },
+    "14": {
+      "image": "assets/recovered/configuration-014-baas.png",
+      "technicalImage": "assets/recovered/configuration-014-baas-interior-reference.png",
+      "sourcePage": 4,
+      "sourceMaskRestored": true
+    },
+    "15": {
+      "image": "assets/recovered/configuration-015-bac.png",
+      "technicalImage": "assets/recovered/configuration-015-bac-interior-reference.png",
+      "sourcePage": 4,
+      "sourceMaskRestored": true
+    },
+    "16": {
+      "image": "assets/recovered/configuration-016-bads.png",
+      "technicalImage": "assets/recovered/configuration-016-bads-interior-reference.png",
+      "sourcePage": 4,
+      "sourceMaskRestored": true
+    },
+    "17": {
+      "image": "assets/recovered/configuration-017-bar1dt.png",
+      "technicalImage": "assets/recovered/configuration-017-bar1dt-interior-reference.png",
+      "sourcePage": 4,
+      "sourceMaskRestored": true
+    },
+    "18": {
+      "image": "assets/recovered/configuration-018-bars.png",
+      "technicalImage": "assets/recovered/configuration-018-bars-interior-reference.png",
+      "sourcePage": 4,
+      "sourceMaskRestored": true
+    },
+    "19": {
+      "image": "assets/recovered/configuration-019-bas.png",
+      "technicalImage": "assets/recovered/configuration-019-bas-interior-reference.png",
+      "sourcePage": 4,
+      "sourceMaskRestored": true
+    },
+    "20": {
+      "image": "assets/recovered/configuration-020-bbcl1dt.png",
+      "technicalImage": "assets/recovered/configuration-020-bbcl1dt-interior-reference.png",
+      "sourcePage": 5,
+      "sourceMaskRestored": true
+    },
+    "21": {
+      "image": "assets/recovered/configuration-021-bbcl.png",
+      "technicalImage": "assets/recovered/configuration-021-bbcl-interior-reference.png",
+      "sourcePage": 5,
+      "sourceMaskRestored": true
+    },
+    "22": {
+      "image": "assets/recovered/configuration-022-bbcla.png",
+      "technicalImage": "assets/recovered/configuration-022-bbcla-interior-reference.png",
+      "sourcePage": 5,
+      "sourceMaskRestored": true
+    },
+    "23": {
+      "image": "assets/recovered/configuration-023-bbcland.png",
+      "technicalImage": "assets/recovered/configuration-023-bbcland-interior-reference.png",
+      "sourcePage": 5,
+      "sourceMaskRestored": true
+    },
+    "24": {
+      "image": "assets/recovered/configuration-024-bbcr1dt.png",
+      "technicalImage": "assets/recovered/configuration-024-bbcr1dt-interior-reference.png",
+      "sourcePage": 5,
+      "sourceMaskRestored": true
+    },
+    "25": {
+      "image": "assets/recovered/configuration-025-bbcr.png",
+      "technicalImage": "assets/recovered/configuration-025-bbcr-interior-reference.png",
+      "sourcePage": 5,
+      "sourceMaskRestored": true
+    },
+    "26": {
+      "image": "assets/recovered/configuration-026-bbcra.png",
+      "technicalImage": "assets/recovered/configuration-026-bbcra-interior-reference.png",
+      "sourcePage": 5,
+      "sourceMaskRestored": true
+    },
+    "27": {
+      "image": "assets/recovered/configuration-027-bbcrand.png",
+      "technicalImage": "assets/recovered/configuration-027-bbcrand-interior-reference.png",
+      "sourcePage": 5,
+      "sourceMaskRestored": true
+    },
+    "28": {
+      "image": "assets/recovered/configuration-028-bcc.png",
+      "technicalImage": "assets/recovered/configuration-028-bcc-interior-reference.png",
+      "sourcePage": 6,
+      "sourceMaskRestored": true
+    },
+    "29": {
+      "image": "assets/recovered/configuration-029-bcca.png",
+      "technicalImage": "assets/recovered/configuration-029-bcca-interior-reference.png",
+      "sourcePage": 6,
+      "sourceMaskRestored": true
+    },
+    "30": {
+      "image": "assets/recovered/configuration-030-bct.png",
+      "technicalImage": "assets/recovered/configuration-030-bct-interior-reference.png",
+      "sourcePage": 6,
+      "sourceMaskRestored": true
+    },
+    "31": {
+      "image": "assets/recovered/configuration-031-bct1d.png",
+      "technicalImage": "assets/recovered/configuration-031-bct1d-interior-reference.png",
+      "sourcePage": 6,
+      "sourceMaskRestored": true
+    },
+    "32": {
+      "image": "assets/recovered/configuration-032-bct1db.png",
+      "technicalImage": "assets/recovered/configuration-032-bct1db-interior-reference.png",
+      "sourcePage": 6,
+      "sourceMaskRestored": true
+    },
+    "33": {
+      "image": "assets/recovered/configuration-033-bct2d.png",
+      "technicalImage": "assets/recovered/configuration-033-bct2d-interior-reference.png",
+      "sourcePage": 6,
+      "sourceMaskRestored": true
+    },
+    "34": {
+      "image": "assets/recovered/configuration-034-bctfh.png",
+      "technicalImage": "assets/recovered/configuration-034-bctfh-interior-reference.png",
+      "sourcePage": 6,
+      "sourceMaskRestored": true
+    },
+    "35": {
+      "image": "assets/recovered/configuration-035-bctsi2d.png",
+      "technicalImage": "assets/recovered/configuration-035-bctsi2d-interior-reference.png",
+      "sourcePage": 6,
+      "sourceMaskRestored": true
+    },
+    "36": {
+      "image": "assets/recovered/configuration-036-bctsifh.png",
+      "technicalImage": "assets/recovered/configuration-036-bctsifh-interior-reference.png",
+      "sourcePage": 7,
+      "sourceMaskRestored": true
+    },
+    "37": {
+      "image": "assets/recovered/configuration-037-bdb.png",
+      "technicalImage": "assets/recovered/configuration-037-bdb-interior-reference.png",
+      "sourcePage": 7,
+      "sourceMaskRestored": true
+    },
+    "38": {
+      "image": "assets/recovered/configuration-038-bffd.png",
+      "technicalImage": "assets/recovered/configuration-038-bffd-interior-reference.png",
+      "sourcePage": 7,
+      "sourceMaskRestored": true
+    },
+    "39": {
+      "image": "assets/recovered/configuration-039-bffs.png",
+      "technicalImage": "assets/recovered/configuration-039-bffs-interior-reference.png",
+      "sourcePage": 7,
+      "sourceMaskRestored": true
+    },
+    "40": {
+      "image": "assets/recovered/configuration-040-bfh.png",
+      "technicalImage": "assets/recovered/configuration-040-bfh-interior-reference.png",
+      "sourcePage": 7,
+      "sourceMaskRestored": true
+    },
+    "41": {
+      "image": "assets/recovered/configuration-041-bfhand.png",
+      "technicalImage": "assets/recovered/configuration-041-bfhand-interior-reference.png",
+      "sourcePage": 7,
+      "sourceMaskRestored": true
+    },
+    "42": {
+      "image": "assets/recovered/configuration-042-bfif.png",
+      "technicalImage": "assets/recovered/configuration-042-bfif-interior-reference.png",
+      "sourcePage": 7,
+      "sourceMaskRestored": true
+    },
+    "43": {
+      "image": "assets/recovered/configuration-043-bmwo.png",
+      "technicalImage": "assets/recovered/configuration-043-bmwo-interior-reference.png",
+      "sourcePage": 7,
+      "sourceMaskRestored": true
+    },
+    "44": {
+      "image": "assets/recovered/configuration-044-bo.png",
+      "technicalImage": "assets/recovered/configuration-044-bo-interior-reference.png",
+      "sourcePage": 8,
+      "sourceMaskRestored": true
+    },
+    "45": {
+      "image": "assets/recovered/configuration-045-bp4d.png",
+      "technicalImage": "assets/recovered/configuration-045-bp4d-interior-reference.png",
+      "sourcePage": 8,
+      "sourceMaskRestored": true
+    },
+    "46": {
+      "image": "assets/recovered/configuration-046-bp4rfh.png",
+      "technicalImage": "assets/recovered/configuration-046-bp4rfh-interior-reference.png",
+      "sourcePage": 8,
+      "sourceMaskRestored": true
+    },
+    "47": {
+      "image": "assets/recovered/configuration-047-bpa.png",
+      "technicalImage": "assets/recovered/configuration-047-bpa-interior-reference.png",
+      "sourcePage": 8,
+      "sourceMaskRestored": true
+    },
+    "48": {
+      "image": "assets/recovered/configuration-048-bpand.png",
+      "technicalImage": "assets/recovered/configuration-048-bpand-interior-reference.png",
+      "sourcePage": 8,
+      "sourceMaskRestored": true
+    },
+    "49": {
+      "image": "assets/recovered/configuration-049-bpas.png",
+      "technicalImage": "assets/recovered/configuration-049-bpas-interior-reference.png",
+      "sourcePage": 8,
+      "sourceMaskRestored": true
+    },
+    "50": {
+      "image": "assets/recovered/configuration-050-bpfh.png",
+      "technicalImage": "assets/recovered/configuration-050-bpfh-interior-reference.png",
+      "sourcePage": 8,
+      "sourceMaskRestored": true
+    },
+    "51": {
+      "image": "assets/recovered/configuration-051-bpfhand.png",
+      "technicalImage": "assets/recovered/configuration-051-bpfhand-interior-reference.png",
+      "sourcePage": 8,
+      "sourceMaskRestored": true
+    },
+    "52": {
+      "image": "assets/recovered/configuration-052-bpl2d.png",
+      "technicalImage": "assets/recovered/configuration-052-bpl2d-interior-reference.png",
+      "sourcePage": 9,
+      "sourceMaskRestored": true
+    },
+    "53": {
+      "image": "assets/recovered/configuration-053-bpp2d.png",
+      "technicalImage": "assets/recovered/configuration-053-bpp2d-interior-reference.png",
+      "sourcePage": 9,
+      "sourceMaskRestored": true
+    },
+    "54": {
+      "image": "assets/recovered/configuration-054-bs.png",
+      "technicalImage": "assets/recovered/configuration-054-bs-interior-reference.png",
+      "sourcePage": 9,
+      "sourceMaskRestored": true
+    },
+    "55": {
+      "image": "assets/recovered/configuration-055-bs1d.png",
+      "technicalImage": "assets/recovered/configuration-055-bs1d-interior-reference.png",
+      "sourcePage": 9,
+      "sourceMaskRestored": true
+    },
+    "56": {
+      "image": "assets/recovered/configuration-056-bs1db.png",
+      "technicalImage": "assets/recovered/configuration-056-bs1db-interior-reference.png",
+      "sourcePage": 9,
+      "sourceMaskRestored": true
+    },
+    "57": {
+      "image": "assets/recovered/configuration-057-bs1r.png",
+      "technicalImage": "assets/recovered/configuration-057-bs1r-interior-reference.png",
+      "sourcePage": 9,
+      "sourceMaskRestored": true
+    },
+    "58": {
+      "image": "assets/recovered/configuration-058-bs1rfh.png",
+      "technicalImage": "assets/recovered/configuration-058-bs1rfh-interior-reference.png",
+      "sourcePage": 9,
+      "sourceMaskRestored": true
+    },
+    "59": {
+      "image": "assets/recovered/configuration-059-bsasn.png",
+      "technicalImage": "assets/recovered/configuration-059-bsasn-interior-reference.png",
+      "sourcePage": 9,
+      "sourceMaskRestored": true
+    },
+    "60": {
+      "image": "assets/recovered/configuration-060-bsfh.png",
+      "technicalImage": "assets/recovered/configuration-060-bsfh-interior-reference.png",
+      "sourcePage": 10,
+      "sourceMaskRestored": true
+    },
+    "61": {
+      "image": "assets/recovered/configuration-061-bssifh.png",
+      "technicalImage": "assets/recovered/configuration-061-bssifh-interior-reference.png",
+      "sourcePage": 10,
+      "sourceMaskRestored": true
+    },
+    "62": {
+      "image": "assets/recovered/configuration-062-d2d1fd.png",
+      "technicalImage": "assets/recovered/configuration-062-d2d1fd-interior-reference.png",
+      "sourcePage": 10,
+      "sourceMaskRestored": true
+    },
+    "63": {
+      "image": "assets/recovered/configuration-063-d2fd.png",
+      "technicalImage": "assets/recovered/configuration-063-d2fd-interior-reference.png",
+      "sourcePage": 10,
+      "sourceMaskRestored": true
+    },
+    "64": {
+      "image": "assets/recovered/configuration-064-d4d.png",
+      "technicalImage": "assets/recovered/configuration-064-d4d-interior-reference.png",
+      "sourcePage": 10,
+      "sourceMaskRestored": true
+    },
+    "65": {
+      "image": "assets/recovered/configuration-065-b2rfh.png",
+      "technicalImage": "assets/recovered/configuration-065-b2rfh-interior-reference.png",
+      "sourcePage": 10,
+      "sourceMaskRestored": true
+    },
+    "66": {
+      "image": "assets/recovered/configuration-066-ba2r.png",
+      "technicalImage": "assets/recovered/configuration-066-ba2r-interior-reference.png",
+      "sourcePage": 10,
+      "sourceMaskRestored": true
+    },
+    "67": {
+      "image": "assets/recovered/configuration-067-babd.png",
+      "technicalImage": "assets/recovered/configuration-067-babd-interior-reference.png",
+      "sourcePage": 10,
+      "sourceMaskRestored": true
+    },
+    "68": {
+      "image": "assets/recovered/configuration-068-barfh.png",
+      "technicalImage": "assets/recovered/configuration-068-barfh-interior-reference.png",
+      "sourcePage": 11,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true
+    },
+    "69": {
+      "image": "assets/recovered/configuration-069-barsfh.png",
+      "technicalImage": "assets/recovered/configuration-069-barsfh-interior-reference.png",
+      "sourcePage": 11,
+      "sourceMaskRestored": true
+    },
+    "70": {
+      "image": "assets/recovered/configuration-070-bm1db.png",
+      "technicalImage": "assets/recovered/configuration-070-bm1db-interior-reference.png",
+      "sourcePage": 11,
+      "sourceMaskRestored": true
+    },
+    "71": {
+      "image": "assets/recovered/configuration-071-beo.png",
+      "technicalImage": "assets/recovered/configuration-071-beo-interior-reference.png",
+      "sourcePage": 11,
+      "sourceMaskRestored": true
+    },
+    "72": {
+      "image": "assets/recovered/configuration-072-beol.png",
+      "technicalImage": "assets/recovered/configuration-072-beol-interior-reference.png",
+      "sourcePage": 11,
+      "sourceMaskRestored": true
+    },
+    "73": {
+      "image": "assets/recovered/configuration-073-beor.png",
+      "technicalImage": "assets/recovered/configuration-073-beor-interior-reference.png",
+      "sourcePage": 11,
+      "sourceMaskRestored": true
+    },
+    "74": {
+      "image": "assets/recovered/configuration-074-bp3rfh.png",
+      "technicalImage": "assets/recovered/configuration-074-bp3rfh-interior-reference.png",
+      "sourcePage": 11,
+      "sourceMaskRestored": true
+    },
+    "75": {
+      "image": "assets/recovered/configuration-075-bpt.png",
+      "technicalImage": "assets/recovered/configuration-075-bpt-interior-reference.png",
+      "sourcePage": 11,
+      "sourceMaskRestored": true
+    },
+    "76": {
+      "image": "assets/recovered/configuration-076-bt.png",
+      "technicalImage": "assets/recovered/configuration-076-bt-interior-reference.png",
+      "sourcePage": 12,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true
+    },
+    "77": {
+      "image": "assets/recovered/configuration-077-bt1dffda.png",
+      "technicalImage": "assets/recovered/configuration-077-bt1dffda-interior-reference.png",
+      "sourcePage": 12,
+      "sourceMaskRestored": true
+    },
+    "78": {
+      "image": "assets/recovered/configuration-078-bt3dffsa.png",
+      "technicalImage": "assets/recovered/configuration-078-bt3dffsa-interior-reference.png",
+      "sourcePage": 12,
+      "sourceMaskRestored": true
+    },
+    "79": {
+      "image": "assets/recovered/configuration-079-btafh.png",
+      "technicalImage": "assets/recovered/configuration-079-btafh-interior-reference.png",
+      "sourcePage": 12,
+      "sourceMaskRestored": true
+    },
+    "80": {
+      "image": "assets/recovered/configuration-080-btcc.png",
+      "technicalImage": "assets/recovered/configuration-080-btcc-interior-reference.png",
+      "sourcePage": 12,
+      "sourceMaskRestored": true
+    },
+    "81": {
+      "image": "assets/recovered/configuration-081-btff.png",
+      "technicalImage": "assets/recovered/configuration-081-btff-interior-reference.png",
+      "sourcePage": 12,
+      "sourceMaskRestored": true
+    },
+    "82": {
+      "image": "assets/recovered/configuration-082-btfh.png",
+      "technicalImage": "assets/recovered/configuration-082-btfh-interior-reference.png",
+      "sourcePage": 12,
+      "sourceMaskRestored": true
+    },
+    "83": {
+      "image": "assets/recovered/configuration-083-i3d.png",
+      "technicalImage": "assets/recovered/configuration-083-i3d-interior-reference.png",
+      "sourcePage": 13,
+      "sourceMaskRestored": true
+    },
+    "84": {
+      "image": "assets/recovered/configuration-084-i3rd.png",
+      "technicalImage": "assets/recovered/configuration-084-i3rd-interior-reference.png",
+      "sourcePage": 13,
+      "sourceMaskRestored": true
+    },
+    "85": {
+      "image": "assets/recovered/configuration-085-i4d.png",
+      "technicalImage": "assets/recovered/configuration-085-i4d-interior-reference.png",
+      "sourcePage": 13,
+      "sourceMaskRestored": true
+    },
+    "86": {
+      "image": "assets/recovered/configuration-086-i4rd.png",
+      "technicalImage": "assets/recovered/configuration-086-i4rd-interior-reference.png",
+      "sourcePage": 13,
+      "sourceMaskRestored": true
+    },
+    "87": {
+      "image": "assets/recovered/configuration-087-ias.png",
+      "technicalImage": "assets/recovered/configuration-087-ias-interior-reference.png",
+      "sourcePage": 13,
+      "sourceMaskRestored": true
+    },
+    "88": {
+      "image": "assets/recovered/configuration-088-iass.png",
+      "technicalImage": "assets/recovered/configuration-088-iass-interior-reference.png",
+      "sourcePage": 13,
+      "sourceMaskRestored": true
+    },
+    "89": {
+      "image": "assets/recovered/configuration-089-v1db.png",
+      "technicalImage": "assets/recovered/configuration-089-v1db-interior-reference.png",
+      "sourcePage": 14,
+      "sourceMaskRestored": true
+    },
+    "90": {
+      "image": "assets/recovered/configuration-090-v1dt.png",
+      "technicalImage": "assets/recovered/configuration-090-v1dt-interior-reference.png",
+      "sourcePage": 14,
+      "sourceMaskRestored": true
+    },
+    "91": {
+      "image": "assets/recovered/configuration-091-v2d.png",
+      "technicalImage": "assets/recovered/configuration-091-v2d-interior-reference.png",
+      "sourcePage": 14,
+      "sourceMaskRestored": true
+    },
+    "92": {
+      "image": "assets/recovered/configuration-092-v3d.png",
+      "technicalImage": "assets/recovered/configuration-092-v3d-interior-reference.png",
+      "sourcePage": 14,
+      "sourceMaskRestored": true
+    },
+    "93": {
+      "image": "assets/recovered/configuration-093-v3rfh.png",
+      "technicalImage": "assets/recovered/configuration-093-v3rfh-interior-reference.png",
+      "sourcePage": 14,
+      "sourceMaskRestored": true
+    },
+    "94": {
+      "image": "assets/recovered/configuration-094-v4sd.png",
+      "technicalImage": "assets/recovered/configuration-094-v4sd-interior-reference.png",
+      "sourcePage": 14,
+      "sourceMaskRestored": true
+    },
+    "95": {
+      "image": "assets/recovered/configuration-095-va2rd.png",
+      "technicalImage": "assets/recovered/configuration-095-va2rd-interior-reference.png",
+      "sourcePage": 14,
+      "sourceMaskRestored": true
+    },
+    "96": {
+      "image": "assets/recovered/configuration-096-vc2dl.png",
+      "technicalImage": "assets/recovered/configuration-096-vc2dl-interior-reference.png",
+      "sourcePage": 14,
+      "sourceMaskRestored": true
+    },
+    "97": {
+      "image": "assets/recovered/configuration-097-vc2dr.png",
+      "technicalImage": "assets/recovered/configuration-097-vc2dr-interior-reference.png",
+      "sourcePage": 15,
+      "sourceMaskRestored": true
+    },
+    "98": {
+      "image": "assets/recovered/configuration-098-vf1db.png",
+      "technicalImage": "assets/recovered/configuration-098-vf1db-interior-reference.png",
+      "sourcePage": 15,
+      "sourceMaskRestored": true
+    },
+    "99": {
+      "image": "assets/recovered/configuration-099-vf1dt.png",
+      "technicalImage": "assets/recovered/configuration-099-vf1dt-interior-reference.png",
+      "sourcePage": 15,
+      "sourceMaskRestored": true
+    },
+    "100": {
+      "image": "assets/recovered/configuration-100-vf2d.png",
+      "technicalImage": "assets/recovered/configuration-100-vf2d-interior-reference.png",
+      "sourcePage": 15,
+      "sourceMaskRestored": true
+    },
+    "101": {
+      "image": "assets/recovered/configuration-101-vf2rfh.png",
+      "technicalImage": "assets/recovered/configuration-101-vf2rfh-interior-reference.png",
+      "sourcePage": 15,
+      "sourceMaskRestored": true
+    },
+    "102": {
+      "image": "assets/recovered/configuration-102-vfa1rd.png",
+      "technicalImage": "assets/recovered/configuration-102-vfa1rd-interior-reference.png",
+      "sourcePage": 15,
+      "sourceMaskRestored": true
+    },
+    "103": {
+      "image": "assets/recovered/configuration-103-vffh.png",
+      "technicalImage": "assets/recovered/configuration-103-vffh-interior-reference.png",
+      "sourcePage": 15,
+      "sourceMaskRestored": true
+    },
+    "104": {
+      "image": "assets/recovered/configuration-104-vfh.png",
+      "technicalImage": "assets/recovered/configuration-104-vfh-interior-reference.png",
+      "sourcePage": 15,
+      "sourceMaskRestored": true
+    },
+    "105": {
+      "image": "assets/recovered/configuration-105-vfs.png",
+      "technicalImage": "assets/recovered/configuration-105-vfs-interior-reference.png",
+      "sourcePage": 16,
+      "sourceMaskRestored": true
+    },
+    "106": {
+      "image": "assets/recovered/configuration-106-vfs1d.png",
+      "technicalImage": "assets/recovered/configuration-106-vfs1d-interior-reference.png",
+      "sourcePage": 16,
+      "sourceMaskRestored": true
+    },
+    "107": {
+      "image": "assets/recovered/configuration-107-vfs1db.png",
+      "technicalImage": "assets/recovered/configuration-107-vfs1db-interior-reference.png",
+      "sourcePage": 16,
+      "sourceMaskRestored": true
+    },
+    "108": {
+      "image": "assets/recovered/configuration-108-vfs1rfh.png",
+      "technicalImage": "assets/recovered/configuration-108-vfs1rfh-interior-reference.png",
+      "sourcePage": 16,
+      "sourceMaskRestored": true
+    },
+    "109": {
+      "image": "assets/recovered/configuration-109-vfs2nd.png",
+      "technicalImage": "assets/recovered/configuration-109-vfs2nd-interior-reference.png",
+      "sourcePage": 16,
+      "sourceMaskRestored": true
+    },
+    "110": {
+      "image": "assets/recovered/configuration-110-vfsfh.png",
+      "technicalImage": "assets/recovered/configuration-110-vfsfh-interior-reference.png",
+      "sourcePage": 16,
+      "sourceMaskRestored": true
+    },
+    "111": {
+      "image": "assets/recovered/configuration-111-vs.png",
+      "technicalImage": "assets/recovered/configuration-111-vs-interior-reference.png",
+      "sourcePage": 16,
+      "sourceMaskRestored": true
+    },
+    "112": {
+      "image": "assets/recovered/configuration-112-vs1d.png",
+      "technicalImage": "assets/recovered/configuration-112-vs1d-interior-reference.png",
+      "sourcePage": 16,
+      "sourceMaskRestored": true
+    },
+    "113": {
+      "image": "assets/recovered/configuration-113-vs1db.png",
+      "technicalImage": "assets/recovered/configuration-113-vs1db-interior-reference.png",
+      "sourcePage": 17,
+      "sourceMaskRestored": true
+    },
+    "114": {
+      "image": "assets/recovered/configuration-114-vs1r.png",
+      "technicalImage": "assets/recovered/configuration-114-vs1r-interior-reference.png",
+      "sourcePage": 17,
+      "sourceMaskRestored": true
+    },
+    "115": {
+      "image": "assets/recovered/configuration-115-vs1rfh.png",
+      "technicalImage": "assets/recovered/configuration-115-vs1rfh-interior-reference.png",
+      "sourcePage": 17,
+      "sourceMaskRestored": true
+    },
+    "116": {
+      "image": "assets/recovered/configuration-116-vs2d.png",
+      "technicalImage": "assets/recovered/configuration-116-vs2d-interior-reference.png",
+      "sourcePage": 17,
+      "sourceMaskRestored": true
+    },
+    "117": {
+      "image": "assets/recovered/configuration-117-vsfh.png",
+      "technicalImage": "assets/recovered/configuration-117-vsfh-interior-reference.png",
+      "sourcePage": 17,
+      "sourceMaskRestored": true
+    },
+    "118": {
+      "image": "assets/recovered/configuration-118-adas.png",
+      "technicalImage": "assets/recovered/configuration-118-adas-interior-reference.png",
+      "sourcePage": 17,
+      "sourceMaskRestored": true
+    },
+    "119": {
+      "image": "assets/recovered/configuration-119-mmasl.png",
+      "technicalImage": "assets/recovered/configuration-119-mmasl-interior-reference.png",
+      "sourcePage": 17,
+      "sourceMaskRestored": true
+    },
+    "120": {
+      "image": "assets/recovered/configuration-120-mmasr.png",
+      "technicalImage": "assets/recovered/configuration-120-mmasr-interior-reference.png",
+      "sourcePage": 17,
+      "sourceMaskRestored": true
+    },
+    "121": {
+      "image": "assets/recovered/configuration-121-mimed.png",
+      "technicalImage": "assets/recovered/configuration-121-mimed-interior-reference.png",
+      "sourcePage": 18,
+      "sourceMaskRestored": false
+    },
+    "122": {
+      "image": "assets/recovered/configuration-122-aefh.png",
+      "technicalImage": "assets/recovered/configuration-122-aefh-interior-reference.png",
+      "sourcePage": 18,
+      "sourceMaskRestored": true
+    },
+    "123": {
+      "image": "assets/recovered/configuration-123-aeo.png",
+      "technicalImage": "assets/recovered/configuration-123-aeo-interior-reference.png",
+      "sourcePage": 18,
+      "sourceMaskRestored": true
+    },
+    "124": {
+      "image": "assets/recovered/configuration-124-db.png",
+      "technicalImage": "assets/recovered/configuration-124-db-interior-reference.png",
+      "sourcePage": 18,
+      "sourceMaskRestored": true
+    },
+    "125": {
+      "image": "assets/recovered/configuration-125-fab.png",
+      "technicalImage": "assets/recovered/configuration-125-fab-interior-reference.png",
+      "sourcePage": 18,
+      "sourceMaskRestored": true
+    },
+    "126": {
+      "image": "assets/recovered/configuration-126-ffd.png",
+      "technicalImage": "assets/recovered/configuration-126-ffd-interior-reference.png",
+      "sourcePage": 19,
+      "sourceMaskRestored": true
+    },
+    "127": {
+      "image": "assets/recovered/configuration-127-ffs.png",
+      "technicalImage": "assets/recovered/configuration-127-ffs-interior-reference.png",
+      "sourcePage": 19,
+      "sourceMaskRestored": true
+    },
+    "128": {
+      "image": "assets/recovered/configuration-128-ha.png",
+      "technicalImage": "assets/recovered/configuration-128-ha-interior-reference.png",
+      "sourcePage": 19,
+      "sourceMaskRestored": true
+    },
+    "129": {
+      "image": "assets/recovered/configuration-129-has.png",
+      "technicalImage": "assets/recovered/configuration-129-has-interior-reference.png",
+      "sourcePage": 19,
+      "sourceMaskRestored": true
+    },
+    "130": {
+      "image": "assets/recovered/configuration-130-hfh.png",
+      "technicalImage": "assets/recovered/configuration-130-hfh-interior-reference.png",
+      "sourcePage": 19,
+      "sourceMaskRestored": true
+    },
+    "131": {
+      "image": "assets/recovered/configuration-131-hph.png",
+      "technicalImage": "assets/recovered/configuration-131-hph-interior-reference.png",
+      "sourcePage": 19,
+      "sourceMaskRestored": true
+    },
+    "132": {
+      "image": "assets/recovered/configuration-132-hsr.png",
+      "technicalImage": "assets/recovered/configuration-132-hsr-interior-reference.png",
+      "sourcePage": 19,
+      "sourceMaskRestored": true
+    },
+    "133": {
+      "image": "assets/recovered/configuration-133-med.png",
+      "technicalImage": "assets/recovered/configuration-133-med-interior-reference.png",
+      "sourcePage": 19,
+      "sourceMaskRestored": true
+    },
+    "134": {
+      "image": "assets/recovered/configuration-134-oj.png",
+      "technicalImage": "assets/recovered/configuration-134-oj-interior-reference.png",
+      "sourcePage": 20,
+      "sourceMaskRestored": true
+    },
+    "135": {
+      "image": "assets/recovered/configuration-135-vph.png",
+      "technicalImage": "assets/recovered/configuration-135-vph-interior-reference.png",
+      "sourcePage": 20,
+      "sourceMaskRestored": true
+    },
+    "136": {
+      "image": "assets/recovered/configuration-136-wac.png",
+      "technicalImage": "assets/recovered/configuration-136-wac-interior-reference.png",
+      "sourcePage": 20,
+      "sourceMaskRestored": true
+    },
+    "137": {
+      "image": "assets/recovered/configuration-137-wachv.png",
+      "technicalImage": "assets/recovered/configuration-137-wachv-interior-reference.png",
+      "sourcePage": 20,
+      "sourceMaskRestored": true
+    },
+    "138": {
+      "image": "assets/recovered/configuration-138-wbcl.png",
+      "technicalImage": "assets/recovered/configuration-138-wbcl-interior-reference.png",
+      "sourcePage": 20,
+      "sourceMaskRestored": true
+    },
+    "139": {
+      "image": "assets/recovered/configuration-139-wbcr.png",
+      "technicalImage": "assets/recovered/configuration-139-wbcr-interior-reference.png",
+      "sourcePage": 20,
+      "sourceMaskRestored": true
+    },
+    "140": {
+      "image": "assets/recovered/configuration-140-wbf.png",
+      "technicalImage": "assets/recovered/configuration-140-wbf-interior-reference.png",
+      "sourcePage": 20,
+      "sourceMaskRestored": true
+    },
+    "141": {
+      "image": "assets/recovered/configuration-141-wcc.png",
+      "technicalImage": "assets/recovered/configuration-141-wcc-interior-reference.png",
+      "sourcePage": 21,
+      "sourceMaskRestored": true
+    },
+    "142": {
+      "image": "assets/recovered/configuration-142-wcchv.png",
+      "technicalImage": "assets/recovered/configuration-142-wcchv-interior-reference.png",
+      "sourcePage": 21,
+      "sourceMaskRestored": true
+    },
+    "143": {
+      "image": "assets/recovered/configuration-143-wdfso.png",
+      "technicalImage": "assets/recovered/configuration-143-wdfso-interior-reference.png",
+      "sourcePage": 21,
+      "sourceMaskRestored": true
+    },
+    "144": {
+      "image": "assets/recovered/configuration-144-wfu.png",
+      "technicalImage": "assets/recovered/configuration-144-wfu-interior-reference.png",
+      "sourcePage": 21,
+      "sourceMaskRestored": true
+    },
+    "145": {
+      "image": "assets/recovered/configuration-145-whf.png",
+      "technicalImage": "assets/recovered/configuration-145-whf-interior-reference.png",
+      "sourcePage": 21,
+      "sourceMaskRestored": true
+    },
+    "146": {
+      "image": "assets/recovered/configuration-146-whffu.png",
+      "technicalImage": "assets/recovered/configuration-146-whffu-interior-reference.png",
+      "sourcePage": 21,
+      "sourceMaskRestored": true
+    },
+    "147": {
+      "image": "assets/recovered/configuration-147-whflu.png",
+      "technicalImage": "assets/recovered/configuration-147-whflu-interior-reference.png",
+      "sourcePage": 21,
+      "sourceMaskRestored": true
+    },
+    "148": {
+      "image": "assets/recovered/configuration-148-whv.png",
+      "technicalImage": "assets/recovered/configuration-148-whv-interior-reference.png",
+      "sourcePage": 21,
+      "sourceMaskRestored": true
+    },
+    "149": {
+      "image": "assets/recovered/configuration-149-whva.png",
+      "technicalImage": "assets/recovered/configuration-149-whva-interior-reference.png",
+      "sourcePage": 22,
+      "sourceMaskRestored": true
+    },
+    "150": {
+      "image": "assets/recovered/configuration-150-whvabcl.png",
+      "technicalImage": "assets/recovered/configuration-150-whvabcl-interior-reference.png",
+      "sourcePage": 22,
+      "sourceMaskRestored": true
+    },
+    "151": {
+      "image": "assets/recovered/configuration-151-whvabcr.png",
+      "technicalImage": "assets/recovered/configuration-151-whvabcr-interior-reference.png",
+      "sourcePage": 22,
+      "sourceMaskRestored": true
+    },
+    "152": {
+      "image": "assets/recovered/configuration-152-whvbccl.png",
+      "technicalImage": "assets/recovered/configuration-152-whvbccl-interior-reference.png",
+      "sourcePage": 22,
+      "sourceMaskRestored": true
+    },
+    "153": {
+      "image": "assets/recovered/configuration-153-whvbccr.png",
+      "technicalImage": "assets/recovered/configuration-153-whvbccr-interior-reference.png",
+      "sourcePage": 22,
+      "sourceMaskRestored": true
+    },
+    "154": {
+      "image": "assets/recovered/configuration-154-whvbcl.png",
+      "technicalImage": "assets/recovered/configuration-154-whvbcl-interior-reference.png",
+      "sourcePage": 22,
+      "sourceMaskRestored": true
+    },
+    "155": {
+      "image": "assets/recovered/configuration-155-whvbcr.png",
+      "technicalImage": "assets/recovered/configuration-155-whvbcr-interior-reference.png",
+      "sourcePage": 22,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true
+    },
+    "156": {
+      "image": "assets/recovered/configuration-156-whvbf.png",
+      "technicalImage": "assets/recovered/configuration-156-whvbf-interior-reference.png",
+      "sourcePage": 22,
+      "sourceMaskRestored": true
+    },
+    "157": {
+      "image": "assets/recovered/configuration-157-whvc.png",
+      "technicalImage": "assets/recovered/configuration-157-whvc-interior-reference.png",
+      "sourcePage": 23,
+      "sourceMaskRestored": true
+    },
+    "158": {
+      "image": "assets/recovered/configuration-158-whvfu.png",
+      "technicalImage": "assets/recovered/configuration-158-whvfu-interior-reference.png",
+      "sourcePage": 23,
+      "sourceMaskRestored": true
+    },
+    "159": {
+      "image": "assets/recovered/configuration-159-wlr.png",
+      "technicalImage": "assets/recovered/configuration-159-wlr-interior-reference.png",
+      "sourcePage": 23,
+      "sourceMaskRestored": false
+    },
+    "160": {
+      "image": "assets/recovered/configuration-160-wlu.png",
+      "technicalImage": "assets/recovered/configuration-160-wlu-interior-reference.png",
+      "sourcePage": 23,
+      "sourceMaskRestored": true
+    },
+    "161": {
+      "image": "assets/recovered/configuration-161-wmw.png",
+      "technicalImage": "assets/recovered/configuration-161-wmw-interior-reference.png",
+      "sourcePage": 23,
+      "sourceMaskRestored": true
+    },
+    "162": {
+      "image": "assets/recovered/configuration-162-wo.png",
+      "technicalImage": "assets/recovered/configuration-162-wo-interior-reference.png",
+      "sourcePage": 23,
+      "sourceMaskRestored": true
+    },
+    "163": {
+      "image": "assets/recovered/configuration-163-wvp.png",
+      "technicalImage": "assets/recovered/configuration-163-wvp-interior-reference.png",
+      "sourcePage": 23,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true
+    },
+    "164": {
+      "image": "assets/recovered/configuration-164-waefh.png",
+      "technicalImage": "assets/recovered/configuration-164-waefh-interior-reference.png",
+      "sourcePage": 23,
+      "sourceMaskRestored": true
+    },
+    "165": {
+      "image": "assets/recovered/configuration-165-waeo.png",
+      "technicalImage": "assets/recovered/configuration-165-waeo-interior-reference.png",
+      "sourcePage": 24,
+      "sourceMaskRestored": true
+    },
+    "166": {
+      "image": "assets/recovered/configuration-166-wfda.png",
+      "technicalImage": "assets/recovered/configuration-166-wfda-interior-reference.png",
+      "sourcePage": 24,
+      "sourceMaskRestored": true
+    },
+    "167": {
+      "image": "assets/recovered/configuration-167-wffda.png",
+      "technicalImage": "assets/recovered/configuration-167-wffda-interior-reference.png",
+      "sourcePage": 24,
+      "sourceMaskRestored": true
+    },
+    "168": {
+      "image": "assets/recovered/configuration-168-wffsa.png",
+      "technicalImage": "assets/recovered/configuration-168-wffsa-interior-reference.png",
+      "sourcePage": 24,
+      "sourceMaskRestored": true
+    },
+    "169": {
+      "image": "assets/recovered/configuration-169-wfsa.png",
+      "technicalImage": "assets/recovered/configuration-169-wfsa-interior-reference.png",
+      "sourcePage": 24,
+      "sourceMaskRestored": true
+    },
+    "170": {
+      "image": "assets/recovered/configuration-170-was.png",
+      "technicalImage": "assets/recovered/configuration-170-was-interior-reference.png",
+      "sourcePage": 25,
+      "sourceMaskRestored": true
+    },
+    "171": {
+      "image": "assets/recovered/configuration-171-was4d.png",
+      "technicalImage": "assets/recovered/configuration-171-was4d-interior-reference.png",
+      "sourcePage": 25,
+      "sourceMaskRestored": true
+    },
+    "172": {
+      "image": "assets/recovered/configuration-172-wasa.png",
+      "technicalImage": "assets/recovered/configuration-172-wasa-interior-reference.png",
+      "sourcePage": 25,
+      "sourceMaskRestored": true
+    },
+    "173": {
+      "image": "assets/recovered/configuration-173-wasalb.png",
+      "technicalImage": "assets/recovered/configuration-173-wasalb-interior-reference.png",
+      "sourcePage": 25,
+      "sourceMaskRestored": true
+    },
+    "174": {
+      "image": "assets/recovered/configuration-174-waslb.png",
+      "technicalImage": "assets/recovered/configuration-174-waslb-interior-reference.png",
+      "sourcePage": 25,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true
+    },
+    "175": {
+      "image": "assets/recovered/configuration-175-wass.png",
+      "technicalImage": "assets/recovered/configuration-175-wass-interior-reference.png",
+      "sourcePage": 25,
+      "sourceMaskRestored": true
+    },
+    "176": {
+      "image": "assets/recovered/configuration-176-wassr.png",
+      "technicalImage": "assets/recovered/configuration-176-wassr-interior-reference.png",
+      "sourcePage": 25,
+      "sourceMaskRestored": true
+    },
+    "177": {
+      "image": "assets/recovered/configuration-177-wdr.png",
+      "technicalImage": "assets/recovered/configuration-177-wdr-interior-reference.png",
+      "sourcePage": 25,
+      "sourceMaskRestored": true
+    },
+    "178": {
+      "image": "assets/recovered/configuration-178-wsr.png",
+      "technicalImage": "assets/recovered/configuration-178-wsr-interior-reference.png",
+      "sourcePage": 26,
+      "sourceMaskRestored": true
+    },
+    "179": {
+      "image": "assets/recovered/configuration-179-wsr4d.png",
+      "technicalImage": "assets/recovered/configuration-179-wsr4d-interior-reference.png",
+      "sourcePage": 26,
+      "sourceMaskRestored": true
+    },
+    "180": {
+      "image": "assets/recovered/configuration-180-wsra.png",
+      "technicalImage": "assets/recovered/configuration-180-wsra-interior-reference.png",
+      "sourcePage": 26,
+      "sourceMaskRestored": true
+    },
+    "181": {
+      "image": "assets/recovered/configuration-181-wsralb.png",
+      "technicalImage": "assets/recovered/configuration-181-wsralb-interior-reference.png",
+      "sourcePage": 26,
+      "sourceMaskRestored": true
+    },
+    "182": {
+      "image": "assets/recovered/configuration-182-wsras.png",
+      "technicalImage": "assets/recovered/configuration-182-wsras-interior-reference.png",
+      "sourcePage": 26,
+      "sourceMaskRestored": true
+    },
+    "183": {
+      "image": "assets/recovered/configuration-183-wsrlb.png",
+      "technicalImage": "assets/recovered/configuration-183-wsrlb-interior-reference.png",
+      "sourcePage": 26,
+      "sourceMaskRestored": true
+    },
+    "184": {
+      "image": "assets/recovered/configuration-184-cas4r.png",
+      "technicalImage": "assets/recovered/configuration-184-cas4r-interior-reference.png",
+      "sourcePage": 27,
+      "sourceMaskRestored": true
+    },
+    "185": {
+      "image": "assets/recovered/configuration-185-casa.png",
+      "technicalImage": "assets/recovered/configuration-185-casa-interior-reference.png",
+      "sourcePage": 27,
+      "sourceMaskRestored": true
+    },
+    "186": {
+      "image": "assets/recovered/configuration-186-casalb.png",
+      "technicalImage": "assets/recovered/configuration-186-casalb-interior-reference.png",
+      "sourcePage": 27,
+      "sourceMaskRestored": true
+    },
+    "187": {
+      "image": "assets/recovered/configuration-187-casfh.png",
+      "technicalImage": "assets/recovered/configuration-187-casfh-interior-reference.png",
+      "sourcePage": 27,
+      "sourceMaskRestored": true
+    },
+    "188": {
+      "image": "assets/recovered/configuration-188-caslb.png",
+      "technicalImage": "assets/recovered/configuration-188-caslb-interior-reference.png",
+      "sourcePage": 27,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true
+    },
+    "189": {
+      "image": "assets/recovered/configuration-189-casrsss.png",
+      "technicalImage": "assets/recovered/configuration-189-casrsss-interior-reference.png",
+      "sourcePage": 27,
+      "sourceMaskRestored": true
+    },
+    "190": {
+      "image": "assets/recovered/configuration-190-casrsts.png",
+      "technicalImage": "assets/recovered/configuration-190-casrsts-interior-reference.png",
+      "sourcePage": 27,
+      "sourceMaskRestored": true
+    },
+    "191": {
+      "image": "assets/recovered/configuration-191-cassfh.png",
+      "technicalImage": "assets/recovered/configuration-191-cassfh-interior-reference.png",
+      "sourcePage": 27,
+      "sourceMaskRestored": true
+    },
+    "192": {
+      "image": "assets/recovered/configuration-192-cassr.png",
+      "technicalImage": "assets/recovered/configuration-192-cassr-interior-reference.png",
+      "sourcePage": 28,
+      "sourceMaskRestored": true
+    },
+    "193": {
+      "image": "assets/recovered/configuration-193-cdr.png",
+      "technicalImage": "assets/recovered/configuration-193-cdr-interior-reference.png",
+      "sourcePage": 28,
+      "sourceMaskRestored": true
+    },
+    "194": {
+      "image": "assets/recovered/configuration-194-cdrbcl.png",
+      "technicalImage": "assets/recovered/configuration-194-cdrbcl-interior-reference.png",
+      "sourcePage": 28,
+      "sourceMaskRestored": true
+    },
+    "195": {
+      "image": "assets/recovered/configuration-195-cdrbcr.png",
+      "technicalImage": "assets/recovered/configuration-195-cdrbcr-interior-reference.png",
+      "sourcePage": 28,
+      "sourceMaskRestored": true
+    },
+    "196": {
+      "image": "assets/recovered/configuration-196-ci4d.png",
+      "technicalImage": "assets/recovered/configuration-196-ci4d-interior-reference.png",
+      "sourcePage": 28,
+      "sourceMaskRestored": true
+    },
+    "197": {
+      "image": "assets/recovered/configuration-197-cias.png",
+      "technicalImage": "assets/recovered/configuration-197-cias-interior-reference.png",
+      "sourcePage": 28,
+      "sourceMaskRestored": true
+    },
+    "198": {
+      "image": "assets/recovered/configuration-198-ciass.png",
+      "technicalImage": "assets/recovered/configuration-198-ciass-interior-reference.png",
+      "sourcePage": 28,
+      "sourceMaskRestored": true
+    },
+    "199": {
+      "image": "assets/recovered/configuration-199-csr.png",
+      "technicalImage": "assets/recovered/configuration-199-csr-interior-reference.png",
+      "sourcePage": 28,
+      "sourceMaskRestored": true
+    },
+    "200": {
+      "image": "assets/recovered/configuration-200-csr4r.png",
+      "technicalImage": "assets/recovered/configuration-200-csr4r-interior-reference.png",
+      "sourcePage": 29,
+      "sourceMaskRestored": true
+    },
+    "201": {
+      "image": "assets/recovered/configuration-201-csra.png",
+      "technicalImage": "assets/recovered/configuration-201-csra-interior-reference.png",
+      "sourcePage": 29,
+      "sourceMaskRestored": true
+    },
+    "202": {
+      "image": "assets/recovered/configuration-202-csralb.png",
+      "technicalImage": "assets/recovered/configuration-202-csralb-interior-reference.png",
+      "sourcePage": 29,
+      "sourceMaskRestored": true
+    },
+    "203": {
+      "image": "assets/recovered/configuration-203-csras.png",
+      "technicalImage": "assets/recovered/configuration-203-csras-interior-reference.png",
+      "sourcePage": 29,
+      "sourceMaskRestored": true
+    },
+    "204": {
+      "image": "assets/recovered/configuration-204-csrlb.png",
+      "technicalImage": "assets/recovered/configuration-204-csrlb-interior-reference.png",
+      "sourcePage": 29,
+      "sourceMaskRestored": true
+    },
+    "205": {
+      "image": "assets/recovered/configuration-205-acrm.png",
+      "technicalImage": "assets/recovered/configuration-205-acrm-interior-reference.png",
+      "sourcePage": 29,
+      "sourceMaskRestored": true
+    },
+    "206": {
+      "image": "assets/recovered/configuration-206-acrmss.png",
+      "technicalImage": "assets/recovered/configuration-206-acrmss-interior-reference.png",
+      "sourcePage": 29,
+      "sourceMaskRestored": true
+    },
+    "207": {
+      "image": "assets/recovered/configuration-207-crm.png",
+      "technicalImage": "assets/recovered/configuration-207-crm-interior-reference.png",
+      "sourcePage": 29,
+      "sourceMaskRestored": true
+    },
+    "208": {
+      "image": "assets/recovered/configuration-208-crmss.png",
+      "technicalImage": "assets/recovered/configuration-208-crmss-interior-reference.png",
+      "sourcePage": 30,
+      "sourceMaskRestored": true
+    },
+    "209": {
+      "image": "assets/recovered/configuration-209-drawer.png",
+      "technicalImage": "assets/recovered/configuration-209-drawer-interior-reference.png",
+      "sourcePage": 30,
+      "sourceMaskRestored": true
+    },
+    "210": {
+      "image": "assets/recovered/configuration-210-rotd.png",
+      "technicalImage": "assets/recovered/configuration-210-rotd-interior-reference.png",
+      "sourcePage": 30,
+      "sourceMaskRestored": true
+    },
+    "211": {
+      "image": "assets/recovered/configuration-211-rotdn.png",
+      "technicalImage": "assets/recovered/configuration-211-rotdn-interior-reference.png",
+      "sourcePage": 30,
+      "sourceMaskRestored": true
+    },
+    "212": {
+      "image": "assets/recovered/configuration-212-cvsp.png",
+      "technicalImage": "assets/recovered/configuration-212-cvsp-interior-reference.png",
+      "sourcePage": 31,
+      "sourceMaskRestored": true
+    },
+    "213": {
+      "image": "assets/recovered/configuration-213-adapog.png",
+      "technicalImage": null,
+      "sourcePage": 31,
+      "sourceMaskRestored": true
+    },
+    "214": {
+      "image": "assets/recovered/configuration-214-adjs.png",
+      "technicalImage": "assets/recovered/configuration-214-adjs-interior-reference.png",
+      "sourcePage": 31,
+      "sourceMaskRestored": true
+    },
+    "215": {
+      "image": "assets/recovered/configuration-215-ap.png",
+      "technicalImage": "assets/recovered/configuration-215-ap-interior-reference.png",
+      "sourcePage": 31,
+      "sourceMaskRestored": true
+    },
+    "216": {
+      "image": "assets/recovered/configuration-216-arch.png",
+      "technicalImage": "assets/recovered/configuration-216-arch-interior-reference.png",
+      "sourcePage": 31,
+      "sourceMaskRestored": true
+    },
+    "217": {
+      "image": "assets/recovered/configuration-217-bdp.png",
+      "technicalImage": "assets/recovered/configuration-217-bdp-interior-reference.png",
+      "sourcePage": 31,
+      "sourceMaskRestored": true
+    },
+    "218": {
+      "image": "assets/recovered/configuration-218-bibpog.png",
+      "technicalImage": "assets/recovered/configuration-218-bibpog-interior-reference.png",
+      "sourcePage": 31,
+      "sourceMaskRestored": true
+    },
+    "219": {
+      "image": "assets/recovered/configuration-219-bpog.png",
+      "technicalImage": "assets/recovered/configuration-219-bpog-interior-reference.png",
+      "sourcePage": 32,
+      "sourceMaskRestored": true
+    },
+    "220": {
+      "image": "assets/recovered/configuration-220-bpogt.png",
+      "technicalImage": "assets/recovered/configuration-220-bpogt-interior-reference.png",
+      "sourcePage": 32,
+      "sourceMaskRestored": true
+    },
+    "221": {
+      "image": "assets/recovered/configuration-221-cd.png",
+      "technicalImage": "assets/recovered/configuration-221-cd-interior-reference.png",
+      "sourcePage": 32,
+      "sourceMaskRestored": true
+    },
+    "222": {
+      "image": "assets/recovered/configuration-222-cf.png",
+      "technicalImage": "assets/recovered/configuration-222-cf-interior-reference.png",
+      "sourcePage": 32,
+      "sourceMaskRestored": true
+    },
+    "223": {
+      "image": "assets/recovered/configuration-223-cp.png",
+      "technicalImage": "assets/recovered/configuration-223-cp-interior-reference.png",
+      "sourcePage": 32,
+      "sourceMaskRestored": true
+    },
+    "224": {
+      "image": "assets/recovered/configuration-224-dfr.png",
+      "technicalImage": "assets/recovered/configuration-224-dfr-interior-reference.png",
+      "sourcePage": 32,
+      "sourceMaskRestored": true
+    },
+    "225": {
+      "image": "assets/recovered/configuration-225-dp.png",
+      "technicalImage": "assets/recovered/configuration-225-dp-interior-reference.png",
+      "sourcePage": 32,
+      "sourceMaskRestored": true
+    },
+    "226": {
+      "image": "assets/recovered/configuration-226-fil.png",
+      "technicalImage": "assets/recovered/configuration-226-fil-interior-reference.png",
+      "sourcePage": 32,
+      "sourceMaskRestored": true
+    },
+    "227": {
+      "image": "assets/recovered/configuration-227-filt.png",
+      "technicalImage": "assets/recovered/configuration-227-filt-interior-reference.png",
+      "sourcePage": 33,
+      "sourceMaskRestored": true
+    },
+    "228": {
+      "image": "assets/recovered/configuration-228-fk.png",
+      "technicalImage": "assets/recovered/configuration-228-fk-interior-reference.png",
+      "sourcePage": 33,
+      "sourceMaskRestored": true
+    },
+    "229": {
+      "image": "assets/recovered/configuration-229-fs.png",
+      "technicalImage": "assets/recovered/configuration-229-fs-interior-reference.png",
+      "sourcePage": 33,
+      "sourceMaskRestored": true
+    },
+    "230": {
+      "image": "assets/recovered/configuration-230-hfc.png",
+      "technicalImage": "assets/recovered/configuration-230-hfc-interior-reference.png",
+      "sourcePage": 33,
+      "sourceMaskRestored": true
+    },
+    "231": {
+      "image": "assets/recovered/configuration-231-kbr.png",
+      "technicalImage": "assets/recovered/configuration-231-kbr-interior-reference.png",
+      "sourcePage": 33,
+      "sourceMaskRestored": true
+    },
+    "232": {
+      "image": "assets/recovered/configuration-232-mf.png",
+      "technicalImage": "assets/recovered/configuration-232-mf-interior-reference.png",
+      "sourcePage": 33,
+      "sourceMaskRestored": true
+    },
+    "233": {
+      "image": "assets/recovered/configuration-233-pog.png",
+      "technicalImage": "assets/recovered/configuration-233-pog-interior-reference.png",
+      "sourcePage": 33,
+      "sourceMaskRestored": true
+    },
+    "234": {
+      "image": "assets/recovered/configuration-234-ventp.png",
+      "technicalImage": "assets/recovered/configuration-234-ventp-interior-reference.png",
+      "sourcePage": 33,
+      "sourceMaskRestored": true
+    },
+    "235": {
+      "image": "assets/recovered/configuration-235-zfs.png",
+      "technicalImage": "assets/recovered/configuration-235-zfs-interior-reference.png",
+      "sourcePage": 34,
+      "sourceMaskRestored": true
+    },
+    "236": {
+      "image": "assets/recovered/configuration-236-postcon-map.png",
+      "technicalImage": "assets/recovered/configuration-236-postcon-map-interior-reference.png",
+      "sourcePage": 34,
+      "sourceMaskRestored": true
+    },
+    "237": {
+      "image": "assets/recovered/configuration-237-postogee-map.png",
+      "technicalImage": "assets/recovered/configuration-237-postogee-map-interior-reference.png",
+      "sourcePage": 34,
+      "sourceMaskRestored": true
+    },
+    "238": {
+      "image": "assets/recovered/configuration-238-postcon-wal.png",
+      "technicalImage": "assets/recovered/configuration-238-postcon-wal-interior-reference.png",
+      "sourcePage": 34,
+      "sourceMaskRestored": true
+    },
+    "239": {
+      "image": "assets/recovered/configuration-239-postogee-wal.png",
+      "technicalImage": "assets/recovered/configuration-239-postogee-wal-interior-reference.png",
+      "sourcePage": 34,
+      "sourceMaskRestored": true
+    },
+    "240": {
+      "image": "assets/recovered/configuration-240-postslab.png",
+      "technicalImage": "assets/recovered/configuration-240-postslab-interior-reference.png",
+      "sourcePage": 35,
+      "sourceMaskRestored": true
+    },
+    "241": {
+      "image": "assets/recovered/configuration-241-brk-ogee-map.png",
+      "technicalImage": "assets/recovered/configuration-241-brk-ogee-map-interior-reference.png",
+      "sourcePage": 35,
+      "sourceMaskRestored": true
+    },
+    "242": {
+      "image": "assets/recovered/configuration-242-brk-groove-map.png",
+      "technicalImage": "assets/recovered/configuration-242-brk-groove-map-interior-reference.png",
+      "sourcePage": 35,
+      "sourceMaskRestored": true
+    },
+    "243": {
+      "image": "assets/recovered/configuration-243-brk-shaker-map.png",
+      "technicalImage": "assets/recovered/configuration-243-brk-shaker-map-interior-reference.png",
+      "sourcePage": 35,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true,
+      "duplicateSourceIndices": [
+        243,
+        251
+      ]
+    },
+    "244": {
+      "image": "assets/recovered/configuration-244-brk-ogee-wal.png",
+      "technicalImage": "assets/recovered/configuration-244-brk-ogee-wal-interior-reference.png",
+      "sourcePage": 35,
+      "sourceMaskRestored": true
+    },
+    "245": {
+      "image": "assets/recovered/configuration-245-brk-groove-wal.png",
+      "technicalImage": "assets/recovered/configuration-245-brk-groove-wal-interior-reference.png",
+      "sourcePage": 35,
+      "sourceMaskRestored": true
+    },
+    "246": {
+      "image": "assets/recovered/configuration-246-brk-shaker-wal.png",
+      "technicalImage": "assets/recovered/configuration-246-brk-shaker-wal-interior-reference.png",
+      "sourcePage": 35,
+      "sourceMaskRestored": true
+    },
+    "247": {
+      "image": "assets/recovered/configuration-247-barbracket.png",
+      "technicalImage": "assets/recovered/configuration-247-barbracket-interior-reference.png",
+      "sourcePage": 35,
+      "sourceMaskRestored": false
+    },
+    "248": {
+      "image": "assets/recovered/configuration-248-brk-acrylic.png",
+      "technicalImage": "assets/recovered/configuration-248-brk-acrylic-interior-reference.png",
+      "sourcePage": 36,
+      "sourceMaskRestored": true
+    },
+    "249": {
+      "image": "assets/recovered/configuration-249-brk-ev.png",
+      "technicalImage": "assets/recovered/configuration-249-brk-ev-interior-reference.png",
+      "sourcePage": 36,
+      "sourceMaskRestored": true
+    },
+    "250": {
+      "image": "assets/recovered/configuration-250-brk-hpl.png",
+      "technicalImage": "assets/recovered/configuration-250-brk-hpl-interior-reference.png",
+      "sourcePage": 36,
+      "sourceMaskRestored": true
+    },
+    "251": {
+      "image": "assets/recovered/configuration-251-brk-shaker-map.png",
+      "technicalImage": "assets/recovered/configuration-251-brk-shaker-map-interior-reference.png",
+      "sourcePage": 36,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true,
+      "duplicateSourceIndices": [
+        243,
+        251
+      ]
+    },
+    "252": {
+      "image": "assets/recovered/configuration-252-c-cc2-map.png",
+      "technicalImage": "assets/recovered/configuration-252-c-cc2-map-interior-reference.png",
+      "sourcePage": 36,
+      "sourceMaskRestored": true
+    },
+    "253": {
+      "image": "assets/recovered/configuration-253-c-e6-map.png",
+      "technicalImage": "assets/recovered/configuration-253-c-e6-map-interior-reference.png",
+      "sourcePage": 36,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true,
+      "duplicateSourceIndices": [
+        253,
+        261
+      ]
+    },
+    "254": {
+      "image": "assets/recovered/configuration-254-c-166150-map.png",
+      "technicalImage": "assets/recovered/configuration-254-c-166150-map-interior-reference.png",
+      "sourcePage": 36,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true,
+      "duplicateSourceIndices": [
+        254,
+        263
+      ]
+    },
+    "255": {
+      "image": "assets/recovered/configuration-255-c-k15000215-map.png",
+      "technicalImage": "assets/recovered/configuration-255-c-k15000215-map-interior-reference.png",
+      "sourcePage": 36,
+      "sourceMaskRestored": true
+    },
+    "256": {
+      "image": "assets/recovered/configuration-256-c-k15000715-map.png",
+      "technicalImage": "assets/recovered/configuration-256-c-k15000715-map-interior-reference.png",
+      "sourcePage": 37,
+      "sourceMaskRestored": true
+    },
+    "257": {
+      "image": "assets/recovered/configuration-257-c-k15071515-map.png",
+      "technicalImage": "assets/recovered/configuration-257-c-k15071515-map-interior-reference.png",
+      "sourcePage": 37,
+      "sourceMaskRestored": true
+    },
+    "258": {
+      "image": "assets/recovered/configuration-258-c-k1501641508-map.png",
+      "technicalImage": "assets/recovered/configuration-258-c-k1501641508-map-interior-reference.png",
+      "sourcePage": 37,
+      "sourceMaskRestored": true
+    },
+    "259": {
+      "image": "assets/recovered/configuration-259-c-cc1-map.png",
+      "technicalImage": "assets/recovered/configuration-259-c-cc1-map-interior-reference.png",
+      "sourcePage": 37,
+      "sourceMaskRestored": true
+    },
+    "260": {
+      "image": "assets/recovered/configuration-260-c-e4-map.png",
+      "technicalImage": "assets/recovered/configuration-260-c-e4-map-interior-reference.png",
+      "sourcePage": 37,
+      "sourceMaskRestored": true
+    },
+    "261": {
+      "image": "assets/recovered/configuration-261-c-e6-map.png",
+      "technicalImage": "assets/recovered/configuration-261-c-e6-map-interior-reference.png",
+      "sourcePage": 37,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true,
+      "duplicateSourceIndices": [
+        253,
+        261
+      ]
+    },
+    "262": {
+      "image": "assets/recovered/configuration-262-c-e10-map.png",
+      "technicalImage": "assets/recovered/configuration-262-c-e10-map-interior-reference.png",
+      "sourcePage": 37,
+      "sourceMaskRestored": true
+    },
+    "263": {
+      "image": "assets/recovered/configuration-263-c-166150-map.png",
+      "technicalImage": "assets/recovered/configuration-263-c-166150-map-interior-reference.png",
+      "sourcePage": 37,
+      "sourceMaskRestored": true,
+      "sharedSourceVisual": true,
+      "duplicateSourceIndices": [
+        254,
+        263
+      ]
+    },
+    "264": {
+      "image": "assets/recovered/configuration-264-c-k13043815-map.png",
+      "technicalImage": "assets/recovered/configuration-264-c-k13043815-map-interior-reference.png",
+      "sourcePage": 38,
+      "sourceMaskRestored": true
+    },
+    "265": {
+      "image": "assets/recovered/configuration-265-c-k13143815-map.png",
+      "technicalImage": "assets/recovered/configuration-265-c-k13143815-map-interior-reference.png",
+      "sourcePage": 38,
+      "sourceMaskRestored": true
+    },
+    "266": {
+      "image": "assets/recovered/configuration-266-c-e3-map.png",
+      "technicalImage": "assets/recovered/configuration-266-c-e3-map-interior-reference.png",
+      "sourcePage": 38,
+      "sourceMaskRestored": true
+    },
+    "267": {
+      "image": "assets/recovered/configuration-267-c-e5-map.png",
+      "technicalImage": "assets/recovered/configuration-267-c-e5-map-interior-reference.png",
+      "sourcePage": 38,
+      "sourceMaskRestored": true
+    },
+    "268": {
+      "image": "assets/recovered/configuration-268-c-e12-map.png",
+      "technicalImage": "assets/recovered/configuration-268-c-e12-map-interior-reference.png",
+      "sourcePage": 38,
+      "sourceMaskRestored": true
+    },
+    "269": {
+      "image": "assets/recovered/configuration-269-c-e13-map.png",
+      "technicalImage": "assets/recovered/configuration-269-c-e13-map-interior-reference.png",
+      "sourcePage": 38,
+      "sourceMaskRestored": true
+    },
+    "270": {
+      "image": "assets/recovered/configuration-270-c-e14-map.png",
+      "technicalImage": "assets/recovered/configuration-270-c-e14-map-interior-reference.png",
+      "sourcePage": 38,
+      "sourceMaskRestored": true
+    },
+    "271": {
+      "image": "assets/recovered/configuration-271-c-f3-map.png",
+      "technicalImage": "assets/recovered/configuration-271-c-f3-map-interior-reference.png",
+      "sourcePage": 38,
+      "sourceMaskRestored": true
+    },
+    "272": {
+      "image": "assets/recovered/configuration-272-c-f15-map.png",
+      "technicalImage": "assets/recovered/configuration-272-c-f15-map-interior-reference.png",
+      "sourcePage": 39,
+      "sourceMaskRestored": true
+    },
+    "273": {
+      "image": "assets/recovered/configuration-273-c-g3-map.png",
+      "technicalImage": "assets/recovered/configuration-273-c-g3-map-interior-reference.png",
+      "sourcePage": 39,
+      "sourceMaskRestored": true
+    },
+    "274": {
+      "image": "assets/recovered/configuration-274-c-valance-map.png",
+      "technicalImage": "assets/recovered/configuration-274-c-valance-map-interior-reference.png",
+      "sourcePage": 39,
+      "sourceMaskRestored": true
+    },
+    "275": {
+      "image": "assets/recovered/configuration-275-c-d11-map.png",
+      "technicalImage": "assets/recovered/configuration-275-c-d11-map-interior-reference.png",
+      "sourcePage": 39,
+      "sourceMaskRestored": true
+    },
+    "276": {
+      "image": "assets/recovered/configuration-276-c-d14-map.png",
+      "technicalImage": "assets/recovered/configuration-276-c-d14-map-interior-reference.png",
+      "sourcePage": 39,
+      "sourceMaskRestored": true
+    },
+    "277": {
+      "image": "assets/recovered/configuration-277-c-f7-map.png",
+      "technicalImage": "assets/recovered/configuration-277-c-f7-map-interior-reference.png",
+      "sourcePage": 39,
+      "sourceMaskRestored": true
+    },
+    "278": {
+      "image": "assets/recovered/configuration-278-c-f8-map.png",
+      "technicalImage": "assets/recovered/configuration-278-c-f8-map-interior-reference.png",
+      "sourcePage": 39,
+      "sourceMaskRestored": true
+    },
+    "279": {
+      "image": "assets/recovered/configuration-279-c-cc2-wal.png",
+      "technicalImage": "assets/recovered/configuration-279-c-cc2-wal-interior-reference.png",
+      "sourcePage": 39,
+      "sourceMaskRestored": true
+    },
+    "280": {
+      "image": "assets/recovered/configuration-280-c-cc1-wal.png",
+      "technicalImage": "assets/recovered/configuration-280-c-cc1-wal-interior-reference.png",
+      "sourcePage": 40,
+      "sourceMaskRestored": true
+    },
+    "281": {
+      "image": "assets/recovered/configuration-281-c-e4-wal.png",
+      "technicalImage": "assets/recovered/configuration-281-c-e4-wal-interior-reference.png",
+      "sourcePage": 40,
+      "sourceMaskRestored": true
+    },
+    "282": {
+      "image": "assets/recovered/configuration-282-c-e6-wal.png",
+      "technicalImage": "assets/recovered/configuration-282-c-e6-wal-interior-reference.png",
+      "sourcePage": 40,
+      "sourceMaskRestored": true
+    },
+    "283": {
+      "image": "assets/recovered/configuration-283-c-e10-wal.png",
+      "technicalImage": "assets/recovered/configuration-283-c-e10-wal-interior-reference.png",
+      "sourcePage": 40,
+      "sourceMaskRestored": true
+    },
+    "284": {
+      "image": "assets/recovered/configuration-284-c-e3-wal.png",
+      "technicalImage": "assets/recovered/configuration-284-c-e3-wal-interior-reference.png",
+      "sourcePage": 40,
+      "sourceMaskRestored": true
+    },
+    "285": {
+      "image": "assets/recovered/configuration-285-c-e5-wal.png",
+      "technicalImage": "assets/recovered/configuration-285-c-e5-wal-interior-reference.png",
+      "sourcePage": 40,
+      "sourceMaskRestored": true
+    },
+    "286": {
+      "image": "assets/recovered/configuration-286-c-e12-wal.png",
+      "technicalImage": "assets/recovered/configuration-286-c-e12-wal-interior-reference.png",
+      "sourcePage": 40,
+      "sourceMaskRestored": true
+    },
+    "287": {
+      "image": "assets/recovered/configuration-287-c-e13-wal.png",
+      "technicalImage": "assets/recovered/configuration-287-c-e13-wal-interior-reference.png",
+      "sourcePage": 40,
+      "sourceMaskRestored": true
+    },
+    "288": {
+      "image": "assets/recovered/configuration-288-c-e14-wal.png",
+      "technicalImage": "assets/recovered/configuration-288-c-e14-wal-interior-reference.png",
+      "sourcePage": 41,
+      "sourceMaskRestored": true
+    },
+    "289": {
+      "image": "assets/recovered/configuration-289-c-f3-wal.png",
+      "technicalImage": "assets/recovered/configuration-289-c-f3-wal-interior-reference.png",
+      "sourcePage": 41,
+      "sourceMaskRestored": true
+    },
+    "290": {
+      "image": "assets/recovered/configuration-290-c-f15-wal.png",
+      "technicalImage": "assets/recovered/configuration-290-c-f15-wal-interior-reference.png",
+      "sourcePage": 41,
+      "sourceMaskRestored": true
+    },
+    "291": {
+      "image": "assets/recovered/configuration-291-c-g3-wal.png",
+      "technicalImage": "assets/recovered/configuration-291-c-g3-wal-interior-reference.png",
+      "sourcePage": 41,
+      "sourceMaskRestored": true
+    },
+    "292": {
+      "image": "assets/recovered/configuration-292-c-valance-wal.png",
+      "technicalImage": "assets/recovered/configuration-292-c-valance-wal-interior-reference.png",
+      "sourcePage": 41,
+      "sourceMaskRestored": true
+    },
+    "293": {
+      "image": "assets/recovered/configuration-293-c-d11-wal.png",
+      "technicalImage": "assets/recovered/configuration-293-c-d11-wal-interior-reference.png",
+      "sourcePage": 41,
+      "sourceMaskRestored": true
+    },
+    "294": {
+      "image": "assets/recovered/configuration-294-c-d14-wal.png",
+      "technicalImage": "assets/recovered/configuration-294-c-d14-wal-interior-reference.png",
+      "sourcePage": 41,
+      "sourceMaskRestored": true
+    },
+    "295": {
+      "image": "assets/recovered/configuration-295-c-f7-wal.png",
+      "technicalImage": "assets/recovered/configuration-295-c-f7-wal-interior-reference.png",
+      "sourcePage": 41,
+      "sourceMaskRestored": true
+    },
+    "296": {
+      "image": "assets/recovered/configuration-296-c-f8-wal.png",
+      "technicalImage": "assets/recovered/configuration-296-c-f8-wal-interior-reference.png",
+      "sourcePage": 42,
+      "sourceMaskRestored": true
+    },
+    "297": {
+      "image": "assets/recovered/configuration-297-c-cc2-ald.png",
+      "technicalImage": "assets/recovered/configuration-297-c-cc2-ald-interior-reference.png",
+      "sourcePage": 42,
+      "sourceMaskRestored": true
+    },
+    "298": {
+      "image": "assets/recovered/configuration-298-c-cc1-ald.png",
+      "technicalImage": "assets/recovered/configuration-298-c-cc1-ald-interior-reference.png",
+      "sourcePage": 42,
+      "sourceMaskRestored": true
+    },
+    "299": {
+      "image": "assets/recovered/configuration-299-c-e4-ald.png",
+      "technicalImage": "assets/recovered/configuration-299-c-e4-ald-interior-reference.png",
+      "sourcePage": 42,
+      "sourceMaskRestored": true
+    },
+    "300": {
+      "image": "assets/recovered/configuration-300-c-e6-ald.png",
+      "technicalImage": "assets/recovered/configuration-300-c-e6-ald-interior-reference.png",
+      "sourcePage": 42,
+      "sourceMaskRestored": true
+    },
+    "301": {
+      "image": "assets/recovered/configuration-301-c-e10-ald.png",
+      "technicalImage": "assets/recovered/configuration-301-c-e10-ald-interior-reference.png",
+      "sourcePage": 42,
+      "sourceMaskRestored": true
+    },
+    "302": {
+      "image": "assets/recovered/configuration-302-c-e3-ald.png",
+      "technicalImage": "assets/recovered/configuration-302-c-e3-ald-interior-reference.png",
+      "sourcePage": 42,
+      "sourceMaskRestored": true
+    },
+    "303": {
+      "image": "assets/recovered/configuration-303-c-e5-ald.png",
+      "technicalImage": "assets/recovered/configuration-303-c-e5-ald-interior-reference.png",
+      "sourcePage": 42,
+      "sourceMaskRestored": true
+    },
+    "304": {
+      "image": "assets/recovered/configuration-304-c-e12-ald.png",
+      "technicalImage": "assets/recovered/configuration-304-c-e12-ald-interior-reference.png",
+      "sourcePage": 43,
+      "sourceMaskRestored": true
+    },
+    "305": {
+      "image": "assets/recovered/configuration-305-c-e13-ald.png",
+      "technicalImage": "assets/recovered/configuration-305-c-e13-ald-interior-reference.png",
+      "sourcePage": 43,
+      "sourceMaskRestored": true
+    },
+    "306": {
+      "image": "assets/recovered/configuration-306-c-e14-ald.png",
+      "technicalImage": "assets/recovered/configuration-306-c-e14-ald-interior-reference.png",
+      "sourcePage": 43,
+      "sourceMaskRestored": true
+    },
+    "307": {
+      "image": "assets/recovered/configuration-307-c-f3-ald.png",
+      "technicalImage": "assets/recovered/configuration-307-c-f3-ald-interior-reference.png",
+      "sourcePage": 43,
+      "sourceMaskRestored": true
+    },
+    "308": {
+      "image": "assets/recovered/configuration-308-c-f15-ald.png",
+      "technicalImage": "assets/recovered/configuration-308-c-f15-ald-interior-reference.png",
+      "sourcePage": 43,
+      "sourceMaskRestored": true
+    },
+    "309": {
+      "image": "assets/recovered/configuration-309-c-g3-ald.png",
+      "technicalImage": "assets/recovered/configuration-309-c-g3-ald-interior-reference.png",
+      "sourcePage": 43,
+      "sourceMaskRestored": true
+    },
+    "310": {
+      "image": "assets/recovered/configuration-310-c-valance-ald.png",
+      "technicalImage": "assets/recovered/configuration-310-c-valance-ald-interior-reference.png",
+      "sourcePage": 43,
+      "sourceMaskRestored": true
+    },
+    "311": {
+      "image": "assets/recovered/configuration-311-c-d11-ald.png",
+      "technicalImage": "assets/recovered/configuration-311-c-d11-ald-interior-reference.png",
+      "sourcePage": 43,
+      "sourceMaskRestored": true
+    },
+    "312": {
+      "image": "assets/recovered/configuration-312-c-d14-ald.png",
+      "technicalImage": "assets/recovered/configuration-312-c-d14-ald-interior-reference.png",
+      "sourcePage": 44,
+      "sourceMaskRestored": true
+    },
+    "313": {
+      "image": "assets/recovered/configuration-313-c-f7-ald.png",
+      "technicalImage": "assets/recovered/configuration-313-c-f7-ald-interior-reference.png",
+      "sourcePage": 44,
+      "sourceMaskRestored": true
+    },
+    "314": {
+      "image": "assets/recovered/configuration-314-c-f8-ald.png",
+      "technicalImage": "assets/recovered/configuration-314-c-f8-ald-interior-reference.png",
+      "sourcePage": 44,
+      "sourceMaskRestored": true
+    },
+    "315": {
+      "image": "assets/recovered/configuration-315-c-cc2-che.png",
+      "technicalImage": "assets/recovered/configuration-315-c-cc2-che-interior-reference.png",
+      "sourcePage": 44,
+      "sourceMaskRestored": true
+    },
+    "316": {
+      "image": "assets/recovered/configuration-316-c-k15071508-che.png",
+      "technicalImage": "assets/recovered/configuration-316-c-k15071508-che-interior-reference.png",
+      "sourcePage": 44,
+      "sourceMaskRestored": true
+    },
+    "317": {
+      "image": "assets/recovered/configuration-317-c-cc1-che.png",
+      "technicalImage": "assets/recovered/configuration-317-c-cc1-che-interior-reference.png",
+      "sourcePage": 44,
+      "sourceMaskRestored": true
+    },
+    "318": {
+      "image": "assets/recovered/configuration-318-c-e4-che.png",
+      "technicalImage": "assets/recovered/configuration-318-c-e4-che-interior-reference.png",
+      "sourcePage": 44,
+      "sourceMaskRestored": true
+    },
+    "319": {
+      "image": "assets/recovered/configuration-319-c-e6-che.png",
+      "technicalImage": "assets/recovered/configuration-319-c-e6-che-interior-reference.png",
+      "sourcePage": 44,
+      "sourceMaskRestored": true
+    },
+    "320": {
+      "image": "assets/recovered/configuration-320-c-e10-che.png",
+      "technicalImage": "assets/recovered/configuration-320-c-e10-che-interior-reference.png",
+      "sourcePage": 45,
+      "sourceMaskRestored": true
+    },
+    "321": {
+      "image": "assets/recovered/configuration-321-c-k13043808-che.png",
+      "technicalImage": "assets/recovered/configuration-321-c-k13043808-che-interior-reference.png",
+      "sourcePage": 45,
+      "sourceMaskRestored": true
+    },
+    "322": {
+      "image": "assets/recovered/configuration-322-c-k13143808-che.png",
+      "technicalImage": "assets/recovered/configuration-322-c-k13143808-che-interior-reference.png",
+      "sourcePage": 45,
+      "sourceMaskRestored": true
+    },
+    "323": {
+      "image": "assets/recovered/configuration-323-c-e3-che.png",
+      "technicalImage": "assets/recovered/configuration-323-c-e3-che-interior-reference.png",
+      "sourcePage": 45,
+      "sourceMaskRestored": true
+    },
+    "324": {
+      "image": "assets/recovered/configuration-324-c-e5-che.png",
+      "technicalImage": "assets/recovered/configuration-324-c-e5-che-interior-reference.png",
+      "sourcePage": 45,
+      "sourceMaskRestored": true
+    },
+    "325": {
+      "image": "assets/recovered/configuration-325-c-e12-che.png",
+      "technicalImage": "assets/recovered/configuration-325-c-e12-che-interior-reference.png",
+      "sourcePage": 45,
+      "sourceMaskRestored": true
+    },
+    "326": {
+      "image": "assets/recovered/configuration-326-c-e13-che.png",
+      "technicalImage": "assets/recovered/configuration-326-c-e13-che-interior-reference.png",
+      "sourcePage": 45,
+      "sourceMaskRestored": true
+    },
+    "327": {
+      "image": "assets/recovered/configuration-327-c-e14-che.png",
+      "technicalImage": "assets/recovered/configuration-327-c-e14-che-interior-reference.png",
+      "sourcePage": 45,
+      "sourceMaskRestored": true
+    },
+    "328": {
+      "image": "assets/recovered/configuration-328-c-f3-che.png",
+      "technicalImage": "assets/recovered/configuration-328-c-f3-che-interior-reference.png",
+      "sourcePage": 46,
+      "sourceMaskRestored": true
+    },
+    "329": {
+      "image": "assets/recovered/configuration-329-c-f15-che.png",
+      "technicalImage": "assets/recovered/configuration-329-c-f15-che-interior-reference.png",
+      "sourcePage": 46,
+      "sourceMaskRestored": true
+    },
+    "330": {
+      "image": "assets/recovered/configuration-330-c-g3-che.png",
+      "technicalImage": "assets/recovered/configuration-330-c-g3-che-interior-reference.png",
+      "sourcePage": 46,
+      "sourceMaskRestored": true
+    },
+    "331": {
+      "image": "assets/recovered/configuration-331-c-valance-che.png",
+      "technicalImage": "assets/recovered/configuration-331-c-valance-che-interior-reference.png",
+      "sourcePage": 46,
+      "sourceMaskRestored": true
+    },
+    "332": {
+      "image": "assets/recovered/configuration-332-c-d11-che.png",
+      "technicalImage": "assets/recovered/configuration-332-c-d11-che-interior-reference.png",
+      "sourcePage": 46,
+      "sourceMaskRestored": true
+    },
+    "333": {
+      "image": "assets/recovered/configuration-333-c-d14-che.png",
+      "technicalImage": "assets/recovered/configuration-333-c-d14-che-interior-reference.png",
+      "sourcePage": 46,
+      "sourceMaskRestored": true
+    },
+    "334": {
+      "image": "assets/recovered/configuration-334-c-f7-che.png",
+      "technicalImage": "assets/recovered/configuration-334-c-f7-che-interior-reference.png",
+      "sourcePage": 46,
+      "sourceMaskRestored": true
+    },
+    "335": {
+      "image": "assets/recovered/configuration-335-c-f8-che.png",
+      "technicalImage": "assets/recovered/configuration-335-c-f8-che-interior-reference.png",
+      "sourcePage": 46,
+      "sourceMaskRestored": true
+    },
+    "336": {
+      "image": "assets/recovered/configuration-336-c-cc2-oak.png",
+      "technicalImage": "assets/recovered/configuration-336-c-cc2-oak-interior-reference.png",
+      "sourcePage": 47,
+      "sourceMaskRestored": true
+    },
+    "337": {
+      "image": "assets/recovered/configuration-337-c-k15000225-oak.png",
+      "technicalImage": "assets/recovered/configuration-337-c-k15000225-oak-interior-reference.png",
+      "sourcePage": 47,
+      "sourceMaskRestored": true
+    },
+    "338": {
+      "image": "assets/recovered/configuration-338-c-k15071525-oak.png",
+      "technicalImage": "assets/recovered/configuration-338-c-k15071525-oak-interior-reference.png",
+      "sourcePage": 47,
+      "sourceMaskRestored": true
+    },
+    "339": {
+      "image": "assets/recovered/configuration-339-c-cc1-oak.png",
+      "technicalImage": "assets/recovered/configuration-339-c-cc1-oak-interior-reference.png",
+      "sourcePage": 47,
+      "sourceMaskRestored": true
+    },
+    "340": {
+      "image": "assets/recovered/configuration-340-c-e4-oak.png",
+      "technicalImage": "assets/recovered/configuration-340-c-e4-oak-interior-reference.png",
+      "sourcePage": 47,
+      "sourceMaskRestored": true
+    },
+    "341": {
+      "image": "assets/recovered/configuration-341-c-e6-oak.png",
+      "technicalImage": "assets/recovered/configuration-341-c-e6-oak-interior-reference.png",
+      "sourcePage": 47,
+      "sourceMaskRestored": true
+    },
+    "342": {
+      "image": "assets/recovered/configuration-342-c-e10-oak.png",
+      "technicalImage": "assets/recovered/configuration-342-c-e10-oak-interior-reference.png",
+      "sourcePage": 47,
+      "sourceMaskRestored": true
+    },
+    "343": {
+      "image": "assets/recovered/configuration-343-c-e3-oak.png",
+      "technicalImage": "assets/recovered/configuration-343-c-e3-oak-interior-reference.png",
+      "sourcePage": 47,
+      "sourceMaskRestored": true
+    },
+    "344": {
+      "image": "assets/recovered/configuration-344-c-e5-oak.png",
+      "technicalImage": "assets/recovered/configuration-344-c-e5-oak-interior-reference.png",
+      "sourcePage": 48,
+      "sourceMaskRestored": true
+    },
+    "345": {
+      "image": "assets/recovered/configuration-345-c-e12-oak.png",
+      "technicalImage": "assets/recovered/configuration-345-c-e12-oak-interior-reference.png",
+      "sourcePage": 48,
+      "sourceMaskRestored": true
+    },
+    "346": {
+      "image": "assets/recovered/configuration-346-c-e13-oak.png",
+      "technicalImage": "assets/recovered/configuration-346-c-e13-oak-interior-reference.png",
+      "sourcePage": 48,
+      "sourceMaskRestored": true
+    },
+    "347": {
+      "image": "assets/recovered/configuration-347-c-e14-oak.png",
+      "technicalImage": "assets/recovered/configuration-347-c-e14-oak-interior-reference.png",
+      "sourcePage": 48,
+      "sourceMaskRestored": true
+    },
+    "348": {
+      "image": "assets/recovered/configuration-348-c-f3-oak.png",
+      "technicalImage": "assets/recovered/configuration-348-c-f3-oak-interior-reference.png",
+      "sourcePage": 48,
+      "sourceMaskRestored": true
+    },
+    "349": {
+      "image": "assets/recovered/configuration-349-c-f15-oak.png",
+      "technicalImage": "assets/recovered/configuration-349-c-f15-oak-interior-reference.png",
+      "sourcePage": 48,
+      "sourceMaskRestored": true
+    },
+    "350": {
+      "image": "assets/recovered/configuration-350-c-g3-oak.png",
+      "technicalImage": "assets/recovered/configuration-350-c-g3-oak-interior-reference.png",
+      "sourcePage": 48,
+      "sourceMaskRestored": true
+    },
+    "351": {
+      "image": "assets/recovered/configuration-351-c-valance-oak.png",
+      "technicalImage": "assets/recovered/configuration-351-c-valance-oak-interior-reference.png",
+      "sourcePage": 48,
+      "sourceMaskRestored": true
+    },
+    "352": {
+      "image": "assets/recovered/configuration-352-c-d11-oak.png",
+      "technicalImage": "assets/recovered/configuration-352-c-d11-oak-interior-reference.png",
+      "sourcePage": 49,
+      "sourceMaskRestored": true
+    },
+    "353": {
+      "image": "assets/recovered/configuration-353-c-d14-oak.png",
+      "technicalImage": "assets/recovered/configuration-353-c-d14-oak-interior-reference.png",
+      "sourcePage": 49,
+      "sourceMaskRestored": true
+    },
+    "354": {
+      "image": "assets/recovered/configuration-354-c-f7-oak.png",
+      "technicalImage": "assets/recovered/configuration-354-c-f7-oak-interior-reference.png",
+      "sourcePage": 49,
+      "sourceMaskRestored": true
+    },
+    "355": {
+      "image": "assets/recovered/configuration-355-c-f8-oak.png",
+      "technicalImage": "assets/recovered/configuration-355-c-f8-oak-interior-reference.png",
+      "sourcePage": 49,
+      "sourceMaskRestored": true
+    },
+    "356": {
+      "image": "assets/recovered/configuration-356-c-g3-acr.png",
+      "technicalImage": "assets/recovered/configuration-356-c-g3-acr-interior-reference.png",
+      "sourcePage": 49,
+      "sourceMaskRestored": true
+    },
+    "357": {
+      "image": "assets/recovered/configuration-357-c-g3-ev.png",
+      "technicalImage": "assets/recovered/configuration-357-c-g3-ev-interior-reference.png",
+      "sourcePage": 49,
+      "sourceMaskRestored": true
+    },
+    "358": {
+      "image": "assets/recovered/configuration-358-c-g3-hpl.png",
+      "technicalImage": "assets/recovered/configuration-358-c-g3-hpl-interior-reference.png",
+      "sourcePage": 49,
+      "sourceMaskRestored": true
+    },
+    "359": {
+      "image": "assets/recovered/configuration-359-c-g3-mdf.png",
+      "technicalImage": "assets/recovered/configuration-359-c-g3-mdf-interior-reference.png",
+      "sourcePage": 49,
+      "sourceMaskRestored": true
+    },
+    "360": {
+      "image": "assets/recovered/configuration-360-c-g3-mfc.png",
+      "technicalImage": "assets/recovered/configuration-360-c-g3-mfc-interior-reference.png",
+      "sourcePage": 50,
+      "sourceMaskRestored": true
+    },
+    "361": {
+      "image": "assets/recovered/configuration-361-c-g3-uv.png",
+      "technicalImage": "assets/recovered/configuration-361-c-g3-uv-interior-reference.png",
+      "sourcePage": 50,
+      "sourceMaskRestored": true
+    }
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://asinaglobal.com/sitemap.xml

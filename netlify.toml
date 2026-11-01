@@ -1,5 +1,6 @@
-[[redirects]]
-  from = "/wholesale-cabinet-suppliers-central-florida/"
-  to = "/how-to-choose-wholesale-cabinet-supplier/"
-  status = 301
-  force = true
+[build]
+  command = "node scripts/netlify-context.mjs"
+  publish = "site-release-i03c"
+
+[build.environment]
+  NODE_VERSION = "22"

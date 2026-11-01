@@ -23,10 +23,10 @@ jobs:
           const host = new URL(siteOrigin).host;
           const main = async () => {
             const key = fs.readFileSync('indexnow.txt', 'utf8').trim();
-            const sitemap = fs.readFileSync('sitemap.xml', 'utf8');
+            const sitemap = fs.readFileSync('site-release-i03c/sitemap.xml', 'utf8');
             const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
             urls.push(new URL('/sitemap.xml', siteOrigin).toString());
-            if (fs.existsSync('sitemap-images.xml')) {
+            if (fs.existsSync('site-release-i03c/sitemap-images.xml')) {
               urls.push(new URL('/sitemap-images.xml', siteOrigin).toString());
             }
             const urlList = [...new Set(urls)].filter((url) => new URL(url).host === host);

@@ -1,0 +1,1549 @@
+{
+  "contentModel": {
+    "principle": "Use the Asina Global Catalogue as the narrative spine, then enrich each step with Quick Book codes, TFL detail, manufacturing-partner proof, and current website service content.",
+    "routePolicy": "Keep the site compact. Reuse current routes and place catalog libraries as sections and filters instead of creating one page per catalog category.",
+    "primaryRoutes": [
+      {
+        "path": "/",
+        "role": "Brand story, lookbook entry, catalog overview, proof, and consultation."
+      },
+      {
+        "path": "/cabinets/",
+        "role": "Unified catalog experience following the printed catalogue order."
+      },
+      {
+        "path": "/design-to-production-support/",
+        "role": "Selection help, custom requests, drawings, codes, and approval path."
+      },
+      {
+        "path": "/process/",
+        "role": "Drawing, technical review, production, QA, packing, and logistics sequence."
+      },
+      {
+        "path": "/qa-shipping-import-risk/",
+        "role": "Manufacturing-partner capability, QA, packing, and project-specific shipping responsibility."
+      },
+      {
+        "path": "/about/",
+        "role": "Asina Global team, Florida base, and transparent manufacturing-partner relationship."
+      },
+      {
+        "path": "/project-review/",
+        "role": "Consultation intake using catalog-aware fields."
+      }
+    ],
+    "cabinetPageFlow": [
+      "Lookbook: four before-and-after transformations",
+      "Kitchen design direction: Contemporary, Traditional, Transitional",
+      "Technical specification overview",
+      "Door profiles: 17 cataloged options",
+      "Finish library: 172 records across nine families",
+      "TFL value line: 58 finishes across woodgrain, solid, and fabric looks",
+      "Quick Book: 362 coded cabinet and component configurations",
+      "Accessories: 10 storage and waste-management options",
+      "Range hoods: 12 source styles represented by 13 visual records",
+      "Countertops and full-height backsplashes",
+      "Vanity applications",
+      "Wardrobe and closet applications",
+      "Consultation and custom request handoff"
+    ],
+    "detailFillRules": [
+      "Main Catalogue controls narrative order, design styles, profiles, finishes, accessories, and room applications.",
+      "Quick Book supplies product names, codes, category structure, and reference images.",
+      "TFL Catalogue supplies the 58-finish cost-efficient material library.",
+      "Manufacturing Partner Profile supplies factory, process, QA, packing, logistics, and capability evidence only.",
+      "Current website content supplies local business information, service model, project review, countertops, furniture, and operational guidance."
+    ]
+  },
+  "catalogFacts": {
+    "mainCatalogue": {
+      "lines": 14,
+      "door_profiles": 17,
+      "natural_wood_options": 6,
+      "finish_records": 172,
+      "finish_categories": {
+        "Acrylic": 23,
+        "Engineered Veneer": 12,
+        "High Gloss PET": 1,
+        "High Pressure Laminate": 24,
+        "Matte Lacquer Laminate": 16,
+        "Natural Finishes": 3,
+        "Painted": 14,
+        "Stained": 21,
+        "Thermally Fused Laminate": 58
+      },
+      "finish_placeholders": 0,
+      "accessories": 10,
+      "range_hood_visual_records": 13,
+      "range_hood_styles": 12,
+      "countertop_edge_profiles": 8,
+      "lookbook_transformations": 4
+    },
+    "quickBook": {
+      "product_records": 362,
+      "categories": {
+        "Base Cabinets": 83,
+        "Island": 6,
+        "Vanity Cabinets": 33,
+        "Wall Cabinets": 48,
+        "Wardrobe Cabinets": 14,
+        "Closet Cabinets": 25,
+        "Drawer Box": 3,
+        "Panels & Fillers": 24,
+        "Posts & Bar Bracket": 16,
+        "Moulding": 110
+      },
+      "placeholder_images": 0,
+      "duplicate_codes": [
+        "BRK-SHAKER-MAP",
+        "C-166150-MAP",
+        "C-E6-MAP"
+      ]
+    },
+    "tflCatalogue": {
+      "finish_records": 58,
+      "categories": {
+        "Fabric": 2,
+        "Solid": 14,
+        "Woodgrain": 42
+      },
+      "placeholder_swatches": 0,
+      "lifestyle_images": 58
+    },
+    "storyboard": {
+      "title": "Asina Global Combined Catalog and Site Storyboard",
+      "primary_narrative_source": "Asina Global Catalogue",
+      "supporting_sources": [
+        "Asina Global Quick Book Catalogue",
+        "Asina Global TFL Catalogue"
+      ],
+      "journey": [
+        "Inspiration",
+        "Program",
+        "Collection",
+        "Transformation",
+        "Construction",
+        "Door Profile",
+        "Material",
+        "Finish",
+        "Product Configuration",
+        "Accessories",
+        "Complete Room",
+        "Consultation"
+      ],
+      "product_hierarchy": {
+        "level_1_program": [
+          "Kitchen",
+          "Vanity",
+          "Wardrobe and Closet"
+        ],
+        "level_2_collection_or_style": {
+          "Kitchen": [
+            "Contemporary",
+            "Traditional",
+            "Transitional"
+          ],
+          "Vanity": [
+            "Vanity Program"
+          ],
+          "Wardrobe and Closet": [
+            "Wardrobe",
+            "Closet"
+          ]
+        },
+        "level_3_construction": [
+          "Cabinet construction",
+          "Cabinet box construction",
+          "Door and drawer front substrate",
+          "Hardware and installation features"
+        ],
+        "level_4_door_profile": "One of 17 cabinet door profiles",
+        "level_5_material_family": [
+          "Natural wood",
+          "Stained",
+          "Painted",
+          "Matte lacquer laminate",
+          "Acrylic",
+          "High gloss PET",
+          "High pressure laminate",
+          "Engineered veneer",
+          "Thermally fused laminate"
+        ],
+        "level_6_finish": "Finish family, finish name, code, swatch, relative price tier, and lifestyle reference",
+        "level_7_product_configuration": {
+          "Kitchen": [
+            {
+              "category": "Base Cabinets",
+              "count": 83,
+              "quick_book_printed_pages": [
+                3,
+                23
+              ]
+            },
+            {
+              "category": "Island",
+              "count": 6,
+              "quick_book_printed_pages": [
+                24,
+                25
+              ]
+            },
+            {
+              "category": "Wall Cabinets",
+              "count": 48,
+              "quick_book_printed_pages": [
+                35,
+                47
+              ]
+            },
+            {
+              "category": "Drawer Box",
+              "count": 3,
+              "quick_book_printed_pages": [
+                59,
+                59
+              ]
+            },
+            {
+              "category": "Panels & Fillers",
+              "count": 24,
+              "quick_book_printed_pages": [
+                60,
+                66
+              ]
+            },
+            {
+              "category": "Posts & Bar Bracket",
+              "count": 16,
+              "quick_book_printed_pages": [
+                67,
+                70
+              ]
+            },
+            {
+              "category": "Moulding",
+              "count": 110,
+              "quick_book_printed_pages": [
+                71,
+                98
+              ]
+            }
+          ],
+          "Vanity": [
+            {
+              "category": "Vanity Cabinets",
+              "count": 33,
+              "quick_book_printed_pages": [
+                26,
+                34
+              ]
+            }
+          ],
+          "Wardrobe and Closet": [
+            {
+              "category": "Wardrobe Cabinets",
+              "count": 14,
+              "quick_book_printed_pages": [
+                48,
+                51
+              ]
+            },
+            {
+              "category": "Closet Cabinets",
+              "count": 25,
+              "quick_book_printed_pages": [
+                52,
+                58
+              ]
+            }
+          ]
+        },
+        "level_8_functional_accessories": [
+          "Corner storage",
+          "Waste and recycling",
+          "Pullout storage",
+          "Pantry storage",
+          "Wardrobe and closet organization"
+        ],
+        "level_9_complete_room": [
+          "Range hood cover",
+          "Countertop",
+          "Full-height backsplash",
+          "Countertop edge",
+          "Vanity fixtures and hardware"
+        ],
+        "level_10_consultation": "Attach the complete saved specification to the consultation request"
+      },
+      "detail_fill_rules": {
+        "main_catalogue": "Controls public reading order, collection story, transformations, comparisons, profiles, finishes, accessories, range hoods, surfaces, vanity, wardrobe, and closet context.",
+        "quick_book": "Fills product cards with code, name, category, render, line drawing, dimensions or changeability, interior options, finished-end option, glass-door option, and notes.",
+        "tfl_catalogue": "Fills TFL finish cards with code, name, Woodgrain/Solid/Fabric category, swatch, lifestyle image, substrate, panel size, thickness, compliance, PVC edgebanding, and repair-accessory details.",
+        "placement_rule": "Quick Book and TFL detail must expand the matching Main Catalogue chapter; they must not replace or reorder the Main Catalogue narrative.",
+        "price_rule": "Use relative price levels shown by the source or Request quote; never infer dollar pricing."
+      },
+      "routing_policy": {
+        "new_indexed_routes": 0,
+        "rule": "Reuse existing indexed pages and expose catalog depth through anchored sections, tabs, filters, accordions, overlays, and drawers.",
+        "product_detail_behavior": "Open on /cabinets/ in the existing detail overlay or drawer.",
+        "lookbook_detail_behavior": "Open on /cabinets/ as an expanded before-and-after slider or drawer.",
+        "finish_detail_behavior": "Open on /cabinets/ inside the material and finish explorer."
+      },
+      "asset_inventory": {
+        "coverage_rule": "Every catalog asset is addressable through the manifests and indexes below; chapter asset_sources identify the subset used at each point in the flow.",
+        "totals": {
+          "catalogs": 3,
+          "pages": 199,
+          "page_previews": 199,
+          "page_text_files": 199,
+          "extracted_images": 2107,
+          "curated_assets": 93,
+          "structured_items": 646,
+          "contact_sheets": 11,
+          "placeholder_assets": 2
+        },
+        "global_indexes": {
+          "catalog_manifest": "catalog-manifest.json",
+          "page_index": "page-index.csv",
+          "embedded_image_index": "embedded-image-index.csv",
+          "item_master_json": "item-master-index.json",
+          "item_master_csv": "item-master-index.csv",
+          "item_master_summary": "item-master-summary.json",
+          "cross_catalog_tfl_index": "cross-catalog-tfl-index.json",
+          "duplicate_image_index": "duplicate-images.json",
+          "audit_report": "audit-report.json"
+        },
+        "main_catalogue": {
+          "source_pdf": "output/pdf/Asina Global Catalogue.pdf",
+          "page_manifest": "main-catalogue/page-manifest.json",
+          "image_manifest": "main-catalogue/image-manifest.json",
+          "page_previews": "main-catalogue/page-previews/",
+          "page_text": "main-catalogue/page-text/",
+          "embedded_images": "main-catalogue/embedded-images/",
+          "contact_sheets": "main-catalogue/contact-sheets/",
+          "structured_records": {
+            "lines": "main-catalogue/lines.json",
+            "door_profiles": "main-catalogue/door-profiles.json",
+            "finishes": "main-catalogue/finishes.json",
+            "natural_wood": "main-catalogue/natural-wood-options.json",
+            "accessories": "main-catalogue/accessories.json",
+            "range_hoods": "main-catalogue/range-hoods.json",
+            "countertop_edges": "main-catalogue/countertop-edge-profiles.json",
+            "lookbook": "main-catalogue/lookbook-transformations.json"
+          },
+          "curated_assets": {
+            "door_profiles": "main-catalogue/curated/door-profiles/",
+            "accessories": "main-catalogue/curated/accessories/",
+            "lookbook": "main-catalogue/curated/lookbook/"
+          }
+        },
+        "quick_book": {
+          "source_pdf": "output/pdf/Asina Global Quick Book Catalogue.pdf",
+          "page_manifest": "quick-book/page-manifest.json",
+          "image_manifest": "quick-book/image-manifest.json",
+          "page_previews": "quick-book/page-previews/",
+          "page_text": "quick-book/page-text/",
+          "embedded_images": "quick-book/embedded-images/",
+          "contact_sheets": "quick-book/contact-sheets/",
+          "product_index": "quick-book/products.json",
+          "product_index_csv": "quick-book/products.csv",
+          "product_summary": "quick-book/product-summary.json",
+          "category_indexes": "quick-book/categories/",
+          "individual_product_records": "quick-book/product-records/"
+        },
+        "tfl_catalogue": {
+          "source_pdf": "output/pdf/Asina Global TFL Catalogue.pdf",
+          "page_manifest": "tfl-catalogue/page-manifest.json",
+          "image_manifest": "tfl-catalogue/image-manifest.json",
+          "page_previews": "tfl-catalogue/page-previews/",
+          "page_text": "tfl-catalogue/page-text/",
+          "embedded_images": "tfl-catalogue/embedded-images/",
+          "contact_sheets": "tfl-catalogue/contact-sheets/",
+          "finish_index": "tfl-catalogue/finishes.json",
+          "finish_index_csv": "tfl-catalogue/finishes.csv",
+          "curated_swatches": "tfl-catalogue/curated/swatches/"
+        },
+        "fallback_assets": {
+          "svg": "placeholders/product-image-placeholder.svg",
+          "png": "placeholders/product-image-placeholder.png"
+        }
+      },
+      "chapters": [
+        {
+          "order": 1,
+          "id": "brand-promise",
+          "title": "Brand Promise",
+          "main_catalogue_pages": [
+            1,
+            9
+          ],
+          "section_pages": [
+            8,
+            9
+          ],
+          "front_matter_pages": [
+            1,
+            7
+          ],
+          "purpose": "Establish customization, manufacturing control, value, and project support.",
+          "site_module": "Image-led hero and proof points",
+          "primary_action": "Explore the collections",
+          "asset_sources": [
+            "main-catalogue/lines.json#overview",
+            "main-catalogue/page-previews/page-001.jpg through page-009.jpg",
+            "main-catalogue/page-text/page-001.txt through page-009.txt",
+            "main-catalogue/image-manifest.json pages 1-9"
+          ]
+        },
+        {
+          "order": 2,
+          "id": "kitchen-introduction",
+          "title": "Kitchen Collection",
+          "main_catalogue_pages": [
+            10,
+            11
+          ],
+          "quick_book_categories": {
+            "Base Cabinets": 83,
+            "Island": 6,
+            "Wall Cabinets": 48,
+            "Drawer Box": 3,
+            "Panels & Fillers": 24,
+            "Posts & Bar Bracket": 16,
+            "Moulding": 110
+          },
+          "site_module": "Kitchen introduction and three collection gateways",
+          "asset_sources": [
+            "main-catalogue/lines.json#kitchen-collection",
+            "main-catalogue/page-previews/page-010.jpg through page-011.jpg",
+            "main-catalogue/page-text/page-010.txt through page-011.txt",
+            "quick-book/products.json",
+            "quick-book/categories/"
+          ]
+        },
+        {
+          "order": 3,
+          "id": "contemporary-kitchen",
+          "title": "Contemporary Collection",
+          "main_catalogue_pages": [
+            12,
+            17
+          ],
+          "door_profiles": [
+            "Micro Shaker",
+            "Slab"
+          ],
+          "finish_references": [
+            "PARC01",
+            "MQ-134704",
+            "LL2258"
+          ],
+          "lookbook_id": "contemporary-kitchen-same-space-bigger-impact",
+          "site_module": "Collection editorial, before/after slider, pairings, and product rail",
+          "asset_sources": [
+            "main-catalogue/lines.json#contemporary-design",
+            "main-catalogue/page-previews/page-012.jpg through page-017.jpg",
+            "main-catalogue/page-text/page-012.txt through page-017.txt",
+            "main-catalogue/lookbook-transformations.json#contemporary-kitchen-same-space-bigger-impact",
+            "main-catalogue/curated/lookbook/contemporary-kitchen-same-space-bigger-impact-before.jpg",
+            "main-catalogue/curated/lookbook/contemporary-kitchen-same-space-bigger-impact-after.jpg",
+            "quick-book/products.json",
+            "tfl-catalogue/finishes.json"
+          ]
+        },
+        {
+          "order": 4,
+          "id": "traditional-kitchen",
+          "title": "Traditional Collection",
+          "main_catalogue_pages": [
+            18,
+            23
+          ],
+          "finish_references": [
+            "ST-25238",
+            "ST-23632",
+            "LQ-21704",
+            "LQ-2152535",
+            "ST-25150"
+          ],
+          "lookbook_id": "traditional-kitchen-more-light-more-space-more-style",
+          "site_module": "Collection editorial, before/after slider, finishes, mouldings, and detail gallery",
+          "asset_sources": [
+            "main-catalogue/lines.json#traditional-design",
+            "main-catalogue/page-previews/page-018.jpg through page-023.jpg",
+            "main-catalogue/page-text/page-018.txt through page-023.txt",
+            "main-catalogue/lookbook-transformations.json#traditional-kitchen-more-light-more-space-more-style",
+            "main-catalogue/curated/lookbook/traditional-kitchen-more-light-more-space-more-style-before.jpg",
+            "main-catalogue/curated/lookbook/traditional-kitchen-more-light-more-space-more-style-after.jpg",
+            "quick-book/product-records/moulding/",
+            "tfl-catalogue/finishes.json"
+          ]
+        },
+        {
+          "order": 5,
+          "id": "transitional-kitchen",
+          "title": "Transitional Collection",
+          "main_catalogue_pages": [
+            24,
+            29
+          ],
+          "door_profiles": [
+            "Micro Shaker",
+            "J Groove Slab"
+          ],
+          "finish_references": [
+            "LK064D",
+            "VHT15",
+            "LQ-21704"
+          ],
+          "lookbook_id": "transitional-kitchen-asina-global-difference",
+          "site_module": "Before/after slider, pairing builder, products, and finishes",
+          "asset_sources": [
+            "main-catalogue/lines.json#transitional-design",
+            "main-catalogue/page-previews/page-024.jpg through page-029.jpg",
+            "main-catalogue/page-text/page-024.txt through page-029.txt",
+            "main-catalogue/lookbook-transformations.json#transitional-kitchen-asina-global-difference",
+            "main-catalogue/curated/lookbook/transitional-kitchen-asina-global-difference-before.jpg",
+            "main-catalogue/curated/lookbook/transitional-kitchen-asina-global-difference-after.jpg",
+            "quick-book/products.json",
+            "tfl-catalogue/finishes.json"
+          ]
+        },
+        {
+          "order": 6,
+          "id": "technical-specifications",
+          "title": "Built Better",
+          "main_catalogue_pages": [
+            30,
+            35
+          ],
+          "quick_book_enrichment": "Cabinet codes, configurations, dimensions, line drawings, and renders",
+          "site_module": "Exploded cabinet diagram, material comparison, and product specifications",
+          "asset_sources": [
+            "main-catalogue/lines.json#technical-specifications",
+            "main-catalogue/page-previews/page-030.jpg through page-035.jpg",
+            "main-catalogue/page-text/page-030.txt through page-035.txt",
+            "quick-book/products.json",
+            "quick-book/product-records/",
+            "quick-book/embedded-images/"
+          ]
+        },
+        {
+          "order": 7,
+          "id": "door-profiles",
+          "title": "Choose a Door Profile",
+          "main_catalogue_pages": [
+            36,
+            39
+          ],
+          "record_count": 17,
+          "record_source": "main-catalogue/door-profiles.json",
+          "site_module": "Visual profile selector with style filters",
+          "asset_sources": [
+            "main-catalogue/door-profiles.json",
+            "main-catalogue/door-profiles.csv",
+            "main-catalogue/curated/door-profiles/",
+            "main-catalogue/page-previews/page-036.jpg through page-039.jpg",
+            "main-catalogue/page-text/page-036.txt through page-039.txt"
+          ]
+        },
+        {
+          "order": 8,
+          "id": "materials-finishes",
+          "title": "Choose Material and Finish",
+          "main_catalogue_pages": [
+            40,
+            61
+          ],
+          "main_finish_count": 172,
+          "tfl_finish_count": 58,
+          "tfl_categories": {
+            "Woodgrain": 42,
+            "Solid": 14,
+            "Fabric": 2
+          },
+          "tfl_technical_detail": {
+            "substrates": [
+              "Particleboard",
+              "MDF"
+            ],
+            "panel_dimensions": {
+              "particleboard": "4 x 8 ft (49 x 97 in) / 1240 x 2460 mm",
+              "mdf": "4 x 8 ft (49 x 97 in) / 1245 x 2465 mm"
+            },
+            "thicknesses": {
+              "particleboard": [
+                "5/8 in (16 mm)",
+                "18 mm",
+                "3/4 in (19 mm)"
+              ],
+              "mdf": [
+                "3/8 in (9 mm)",
+                "5/8 in (16 mm)",
+                "18 mm",
+                "3/4 in (19 mm)"
+              ]
+            },
+            "compliance": [
+              "E1 HMR",
+              "CARB Phase 2",
+              "EPA TSCA Title VI"
+            ],
+            "finishing_system": [
+              "Colour-matched PVC edgebanding",
+              "Cover caps",
+              "Scratch markers",
+              "Filler sticks"
+            ]
+          },
+          "record_sources": [
+            "main-catalogue/finishes.json",
+            "tfl-catalogue/finishes.json"
+          ],
+          "site_module": "Material-family guide, searchable swatches, comparisons, and saved finishes",
+          "pricing_rule": "Show relative tiers or request a quote; do not invent dollar pricing",
+          "asset_sources": [
+            "main-catalogue/finishes.json",
+            "main-catalogue/finishes.csv",
+            "main-catalogue/natural-wood-options.json",
+            "main-catalogue/page-previews/page-040.jpg through page-061.jpg",
+            "main-catalogue/page-text/page-040.txt through page-061.txt",
+            "tfl-catalogue/finishes.json",
+            "tfl-catalogue/finishes.csv",
+            "tfl-catalogue/curated/swatches/",
+            "tfl-catalogue/embedded-images/",
+            "cross-catalog-tfl-index.json"
+          ]
+        },
+        {
+          "order": 9,
+          "id": "accessories",
+          "title": "Functional Accessories",
+          "main_catalogue_pages": [
+            62,
+            67
+          ],
+          "groups": {
+            "Corner Storage": [
+              "Lazy Susan",
+              "Swing Corner",
+              "Wari Corner"
+            ],
+            "Waste and Recycling": [
+              "Waste Bin",
+              "Single Garbage Bin",
+              "Double Garbage Bin",
+              "Top Drawer Double Garbage Bin"
+            ],
+            "Pullout Storage": [
+              "Spice Pullout",
+              "Basket Pullout"
+            ],
+            "Pantry Storage": [
+              "Pantry Swivel Basket"
+            ]
+          },
+          "record_source": "main-catalogue/accessories.json",
+          "site_module": "Problem-led accessory gallery with cabinet compatibility",
+          "asset_sources": [
+            "main-catalogue/accessories.json",
+            "main-catalogue/curated/accessories/",
+            "main-catalogue/page-previews/page-062.jpg through page-067.jpg",
+            "main-catalogue/page-text/page-062.txt through page-067.txt",
+            "quick-book/products.json"
+          ]
+        },
+        {
+          "order": 10,
+          "id": "range-hoods",
+          "title": "Range Hood Covers",
+          "main_catalogue_pages": [
+            68,
+            71
+          ],
+          "visual_records": 13,
+          "source_style_numbers": 12,
+          "record_source": "main-catalogue/range-hoods.json",
+          "site_module": "Visual gallery and four-step configuration flow",
+          "asset_sources": [
+            "main-catalogue/range-hoods.json",
+            "main-catalogue/page-previews/page-068.jpg through page-071.jpg",
+            "main-catalogue/page-text/page-068.txt through page-071.txt",
+            "main-catalogue/embedded-images/ as referenced by range-hoods.json"
+          ]
+        },
+        {
+          "order": 11,
+          "id": "countertops-backsplashes",
+          "title": "Countertops and Full-Height Backsplashes",
+          "main_catalogue_pages": [
+            72,
+            77
+          ],
+          "surface_types": [
+            "Quartz",
+            "Granite",
+            "Laminate",
+            "Full-height backsplash"
+          ],
+          "countertop_edge_visual_records": 8,
+          "countertop_edge_unique_labels": 7,
+          "countertop_edge_audit_note": "Roman Ogee appears twice on source page 77 and must be confirmed before publication.",
+          "site_module": "Surface comparison, edge-profile selector, and room pairings",
+          "asset_sources": [
+            "main-catalogue/countertop-edge-profiles.json",
+            "main-catalogue/page-previews/page-072.jpg through page-077.jpg",
+            "main-catalogue/page-text/page-072.txt through page-077.txt",
+            "main-catalogue/embedded-images/ pages 72-77"
+          ]
+        },
+        {
+          "order": 12,
+          "id": "vanity-program",
+          "title": "Vanity Program",
+          "main_catalogue_pages": [
+            78,
+            87
+          ],
+          "quick_book_categories": {
+            "Vanity Cabinets": 33
+          },
+          "lookbook_id": "vanity-from-outdated-to-outstanding",
+          "site_module": "Before/after slider, vanity finder, and supporting fixture gallery",
+          "asset_sources": [
+            "main-catalogue/page-previews/page-078.jpg through page-087.jpg",
+            "main-catalogue/page-text/page-078.txt through page-087.txt",
+            "main-catalogue/lookbook-transformations.json#vanity-from-outdated-to-outstanding",
+            "main-catalogue/curated/lookbook/vanity-from-outdated-to-outstanding-before.jpg",
+            "main-catalogue/curated/lookbook/vanity-from-outdated-to-outstanding-after.jpg",
+            "quick-book/categories/vanity-cabinets/",
+            "quick-book/product-records/vanity-cabinets/"
+          ]
+        },
+        {
+          "order": 13,
+          "id": "wardrobes-closets",
+          "title": "Wardrobe and Closet Systems",
+          "main_catalogue_pages": [
+            88,
+            98
+          ],
+          "quick_book_categories": {
+            "Wardrobe Cabinets": 14,
+            "Closet Cabinets": 25
+          },
+          "site_module": "Routine-led inspiration followed by product configurations",
+          "asset_sources": [
+            "main-catalogue/page-previews/page-088.jpg through page-098.jpg",
+            "main-catalogue/page-text/page-088.txt through page-098.txt",
+            "quick-book/categories/wardrobe-cabinets/",
+            "quick-book/product-records/wardrobe-cabinets/",
+            "quick-book/categories/closet-cabinets/",
+            "quick-book/product-records/closet-cabinets/"
+          ]
+        },
+        {
+          "order": 14,
+          "id": "consultation",
+          "title": "Design Consultation",
+          "main_catalogue_pages": [
+            99,
+            100
+          ],
+          "site_module": "Consultation form with saved products, profiles, finishes, and Lookbook references",
+          "primary_action": "Book a free design consultation",
+          "destination": "https://asinaglobal.com/contact/",
+          "asset_sources": [
+            "main-catalogue/page-previews/page-099.jpg through page-100.jpg",
+            "main-catalogue/page-text/page-099.txt through page-100.txt",
+            "item-master-index.json as the saved-selection source"
+          ]
+        }
+      ],
+      "lookbook": {
+        "record_count": 4,
+        "record_source": "main-catalogue/lookbook-transformations.json",
+        "index_route": "/cabinets/#lookbook",
+        "detail_route_pattern": null,
+        "display_pattern": "Before/after slider with problems, outcomes, related profiles, finishes, products, and consultation action"
+      },
+      "existing_route_placement": {
+        "/": [
+          "Catalog introduction",
+          "Three kitchen-style previews",
+          "One featured before-and-after transformation",
+          "Anchored links into the cabinets page"
+        ],
+        "/cabinets/": [
+          "Kitchen, Vanity, and Wardrobe/Closet program tabs",
+          "Contemporary, Traditional, and Transitional collection tabs",
+          "Four Lookbook transformations",
+          "Technical specifications",
+          "Door profiles",
+          "Main finish and TFL explorer",
+          "Quick Book product explorer",
+          "Accessories",
+          "Range hoods",
+          "Vanity program",
+          "Wardrobe and closet systems",
+          "Consultation action"
+        ],
+        "/countertops/": [
+          "Quartz, granite, laminate, and full-height backsplash",
+          "Material comparisons",
+          "Countertop edge profiles"
+        ],
+        "/design-to-production-support/": [
+          "Turn saved selections into drawings, specifications, approvals, and production details"
+        ],
+        "/contact/": [
+          "Design consultation",
+          "Saved catalog selections attached to the inquiry"
+        ]
+      },
+      "recommended_routes": [
+        "/",
+        "/cabinets/",
+        "/countertops/",
+        "/design-to-production-support/",
+        "/contact/"
+      ],
+      "flow_audit": {
+        "status": "passes_with_source_review_flags",
+        "main_catalogue_order_preserved": true,
+        "quick_book_categories_nested_under_matching_programs": true,
+        "tfl_nested_under_materials_and_finishes": true,
+        "detail_coverage": "All source assets and structured records are mapped; Quick Book option fields remain available in raw_card_text and require normalization before implementation.",
+        "review_flags": [
+          "Confirm source spelling: Seatle.",
+          "Confirm source spelling: Dessert Tan.",
+          "Resolve Quick Book repeated codes BRK-SHAKER-MAP, C-166150-MAP, and C-E6-MAP.",
+          "Resolve Main Catalogue versus TFL code differences for LPL_A101T, LPL_E321, LPL_E321PL, and LPL_I334T.",
+          "Confirm the two different range hood visuals both labeled Hood Range 12.",
+          "Confirm the two countertop edge visuals both labeled Roman Ogee.",
+          "Normalize Quick Book dimensions, changeability, option flags, and notes from raw_card_text before public use."
+        ]
+      }
+    },
+    "manufacturingPartner": {
+      "source": "Asina Global Manufacturing Partner Profile.pdf",
+      "allEmbeddedImages": 249,
+      "curatedImages": 30,
+      "claimsAudit": {
+        "source": "Asina Global Manufacturing Partner Profile.pdf",
+        "publication_rule": "Describe the facility as Asina Global's manufacturing partner. Do not imply that Asina Global owns the factory or directly completed the partner's historical projects.",
+        "safe_with_current_wording": [
+          {
+            "topic": "Relationship",
+            "source_pages": [
+              2,
+              3
+            ],
+            "recommended_copy": "Asina Global works with an established manufacturing partner in Vietnam to support custom cabinetry, bathroom cabinetry, hotel furniture, and related millwork programs."
+          },
+          {
+            "topic": "Production capabilities",
+            "source_pages": [
+              6,
+              9
+            ],
+            "recommended_copy": "The partner facility supports cutting, edge banding, CNC machining, painting, assembly, door production, packing, warehousing, technical development, and export logistics."
+          },
+          {
+            "topic": "Product capabilities",
+            "source_pages": [
+              10,
+              26
+            ],
+            "recommended_copy": "Capabilities include kitchens, vanities, wardrobes and closets, utility-room cabinetry, built-ins, cabinet fronts, hardware, storage accessories, mouldings, range hood covers, glass fronts, and countertop coordination."
+          },
+          {
+            "topic": "Construction options",
+            "source_pages": [
+              20,
+              21
+            ],
+            "recommended_copy": "Available construction approaches include particleboard, MDF, and plywood cores, Confirmat-and-dowel or concealed plastic-dowel-and-glue assembly, and coordinated PVC edgebanding."
+          }
+        ],
+        "verify_before_publish": [
+          {
+            "claim": "More than 15 years of export experience",
+            "source_page": 3,
+            "required_evidence": "Partner confirmation or dated company records"
+          },
+          {
+            "claim": "20,000 square metre factory and warehouse in Cu Chi",
+            "source_pages": [
+              2,
+              3
+            ],
+            "required_evidence": "Current facility documentation or partner confirmation"
+          },
+          {
+            "claim": "Approximately 100 containers per month",
+            "source_page": 3,
+            "required_evidence": "Current production-capacity statement and definition of container mix"
+          },
+          {
+            "claim": "ISO and FSC certification or compliance",
+            "source_page": 4,
+            "required_evidence": "Current certificate numbers, scopes, issuing bodies, and expiry dates"
+          },
+          {
+            "claim": "E1, JAS, CARB, or other marks shown on page 5",
+            "source_page": 5,
+            "required_evidence": "Current certificates and applicability to offered products"
+          },
+          {
+            "claim": "Minimum 15-year service life",
+            "source_page": 5,
+            "required_evidence": "Documented testing method, standard, and product scope"
+          },
+          {
+            "claim": "Environmental sustainability and eco-friendly practices",
+            "source_pages": [
+              4,
+              5
+            ],
+            "required_evidence": "Specific programs, metrics, policies, or certifications"
+          },
+          {
+            "claim": "Standard or Blum hinge-and-slide packages",
+            "source_page": 23,
+            "required_evidence": "Current supplier and availability confirmation"
+          },
+          {
+            "claim": "Current markets include the United States, Canada, Vietnam, Japan, and Australia",
+            "source_page": 2,
+            "required_evidence": "Current sales-region confirmation"
+          }
+        ],
+        "rewrite_or_avoid": [
+          {
+            "source_copy": "Defect-free products",
+            "source_page": 4,
+            "reason": "Absolute quality claim",
+            "replacement": "Quality checks are performed throughout production to support consistency and identify defects before shipment."
+          },
+          {
+            "source_copy": "Delivery and scheduling guarantee",
+            "source_page": 4,
+            "reason": "Unqualified guarantee",
+            "replacement": "Production planning and logistics are coordinated against the approved project schedule."
+          },
+          {
+            "source_copy": "Leading manufacturer",
+            "source_page": 3,
+            "reason": "Unsubstantiated superlative",
+            "replacement": "Established manufacturing partner."
+          },
+          {
+            "source_copy": "Approximately 100 containers per month",
+            "source_page": 3,
+            "reason": "Capacity can change",
+            "replacement": "Use only after current capacity is confirmed."
+          }
+        ],
+        "conflicts_with_current_catalogues": [
+          {
+            "topic": "Door profiles",
+            "profile_source": "20 profiles on page 16 plus 5 LPL profiles on page 17",
+            "current_source": "17 profiles in the Main Catalogue",
+            "decision": "Use the current Main Catalogue as the public source of truth."
+          },
+          {
+            "topic": "Colours and textures",
+            "profile_source": "More than 100 colours and textures on page 20",
+            "current_source": "172 Main Catalogue finish records plus 58 TFL records",
+            "decision": "Use current catalogues and avoid summing overlapping libraries."
+          },
+          {
+            "topic": "Finish names and codes",
+            "profile_source": "Selected legacy or inconsistently formatted codes on pages 18-19",
+            "current_source": "Main Catalogue and TFL structured indexes",
+            "decision": "Use the current structured finish indexes."
+          }
+        ],
+        "do_not_publish_without_rights_review": [
+          {
+            "content": "Named project list, addresses, and project photography",
+            "source_page": 27,
+            "reason": "The profile does not establish Asina Global's role, client permission, photographer rights, or permission to use addresses as case studies."
+          },
+          {
+            "content": "Employee group and worker photography",
+            "source_pages": [
+              3,
+              6,
+              9
+            ],
+            "reason": "Confirm partner approval and model/employee consent for public marketing use."
+          }
+        ],
+        "document_cleanup_flag": "The PDF text layer still contains spaced legacy strings such as C A N A P R O F I L E on pages 2-27. Do not copy raw extracted text directly to the website."
+      }
+    }
+  },
+  "pageCopy": {
+    "home": {
+      "title": "Wholesale Cabinets, Countertops & Project Supply | Asina Global",
+      "description": "Explore Asina Global cabinetry for kitchens, vanities, wardrobes, and closets, with 17 door profiles, 172 finish records, accessories, countertops, and project support.",
+      "eyebrow": "Asina Global",
+      "heading": "Cabinetry and surfaces, guided from room to review.",
+      "lead": "Choose the room style, door profile, finish, coded cabinet configuration, accessories, and related surfaces. Asina Global coordinates the approved project with its manufacturing partner from drawings through packing and shipping planning.",
+      "primaryCta": "Explore product selections",
+      "secondaryCta": "Start a Consultation"
+    },
+    "cabinets": {
+      "title": "Cabinet Selections: Styles, Door Profiles & Finishes | Asina Global",
+      "description": "Choose Contemporary, Traditional, or Transitional cabinetry across 17 door profiles, 172 finish records, 58 TFL options, and 362 coded configurations.",
+      "eyebrow": "Asina Global / Cabinet Selections",
+      "heading": "Choose the room direction, profile, finish, and configuration.",
+      "lead": "Follow the current product path: room direction, door profile, finish, configuration, and accessories. Use Quick Book references for cabinet names, codes, and listed options.",
+      "primaryCta": "Start with Your Room",
+      "secondaryCta": "Request a Consultation"
+    },
+    "design": {
+      "title": "Cabinet Design to Production Support | Asina Global",
+      "description": "Turn room layouts into buildable cabinet selections using 3 design styles, 17 door profiles, 172 finishes, coded configurations, and custom requests.",
+      "eyebrow": "Design to Production",
+      "heading": "Turn room intent into an approved cabinet specification.",
+      "lead": "Move from layout and inspiration into a door profile, finish, cabinet list, accessories, custom requirements, and a sample or mockup reference for production."
+    },
+    "quality": {
+      "title": "Cabinet QA, Packing & Manufacturing Partner | Asina Global",
+      "description": "See how Asina Global coordinates its manufacturing partner, sample approval, production QA, packing checks, and project-specific shipping responsibility.",
+      "eyebrow": "Manufacturing Partner + QA",
+      "heading": "One accountable path from approved detail to packed product.",
+      "lead": "Asina Global works with an established manufacturing partner in Vietnam. The partner operates the facility; Asina remains the supplier of record and coordinates approvals, communication, QA, packing, and logistics planning."
+    },
+    "about": {
+      "title": "About Asina Global | Cabinet Project Supply",
+      "description": "Meet Asina Global LLC in Longwood, Florida, and learn how its Vietnam manufacturing partner supports cabinet production, finishing, packing, and export logistics.",
+      "eyebrow": "About Asina Global",
+      "heading": "Product depth with one accountable project path.",
+      "lead": "Asina Global combines Florida-based project coordination with an established manufacturing partner in Vietnam for cabinetry, millwork, custom applications, QA, packing, and export logistics."
+    },
+    "contact": {
+      "title": "Cabinet Consultation & Project Review | Asina Global",
+      "description": "Send room type, drawings, style, door profile, finish direction, cabinet list, accessories, destination, and timeline for an Asina Global project review.",
+      "eyebrow": "Project Consultation",
+      "heading": "Bring the room, selection direction, and project requirements together.",
+      "lead": "Start with the room type, plans, style, profile, finish, cabinet codes or quantities, accessories, destination, and timeline. Custom colors, profiles, and sizing can be reviewed with the project."
+    }
+  },
+  "faqs": {
+    "home": [
+      [
+        "What product selections can I explore with Asina Global?",
+        "The current site brings together Kitchen, Vanity, and Wardrobe / Closet programs; door profiles; materials and finishes; cabinet configurations; accessories and range hoods; countertops and full-height backsplashes; and complete-room references."
+      ],
+      [
+        "How is product selection organized?",
+        "Follow the current decision path: room direction, cabinet specifications, door profile, materials and finishes, cabinet configuration, accessories, countertops, complete room, then consultation."
+      ],
+      [
+        "How many door profiles are shown?",
+        "The Door Profiles page indexes 17 profiles. Other profile requests can be reviewed for technical feasibility."
+      ],
+      [
+        "How many finish references are shown?",
+        "Materials & Finishes indexes 172 records across nine families. Asina Global’s broader finish range includes 600+ colours."
+      ],
+      [
+        "What is the Asina Global TFL finish line?",
+        "TFL means thermally fused laminate. It is Asina Global’s most cost-efficient finish line, with 58 references: 42 woodgrain, 14 solid, and 2 fabric looks."
+      ],
+      [
+        "Can Asina Global review a custom color or door profile?",
+        "If a requested color or profile is not among the current references, Asina Global can review a custom request subject to technical feasibility, sample approval, quantity, and quote."
+      ],
+      [
+        "Does Asina Global publish cabinet prices?",
+        "No. Pricing is prepared by project because drawings, quantities, construction, profile, finish, accessories, packing, destination, and shipping responsibility affect the quote."
+      ],
+      [
+        "Who manufactures Asina Global cabinetry?",
+        "Asina Global works with an established manufacturing partner in Vietnam. Asina remains the supplier of record and coordinates project communication, approvals, QA, packing, and shipping planning."
+      ],
+      [
+        "How is quality confirmed before production?",
+        "Drawings and selections are reviewed first. A sample or mockup can then confirm dimensions, construction, color, finish, materials, and details before repeat production."
+      ],
+      [
+        "What should I send for a cabinet consultation?",
+        "Send the room type, plans or cabinet runs, preferred style, door profile, finish direction, cabinet list or unit count, accessories, destination, and timeline."
+      ]
+    ],
+    "cabinets": [
+      [
+        "Which kitchen directions can I explore?",
+        "The current Collections section presents Contemporary, Traditional, and Transitional kitchen directions. Continue to Door Profiles, Materials & Finishes, and Quick Book references as you refine the selection."
+      ],
+      [
+        "How many door profiles can I choose from?",
+        "The Door Profiles page indexes 17 profiles. Asina Global can review requests outside these references for technical feasibility."
+      ],
+      [
+        "What finish families are available?",
+        "The 172 finish records include natural, stained, painted, matte lacquer laminate, acrylic, high-gloss PET, high-pressure laminate, engineered veneer, and TFL options."
+      ],
+      [
+        "What makes TFL the cost-efficient finish line?",
+        "Thermally fused laminate offers a broad decorative surface range. Materials & Finishes shows 58 TFL references: 42 woodgrain, 14 solid, and 2 fabric looks."
+      ],
+      [
+        "How many cabinet configurations are in the Quick Book?",
+        "The Asina Global Quick Book organizes 362 coded configurations across base cabinets, islands, wall cabinets, drawer boxes, panels and fillers, posts, brackets, mouldings, vanities, wardrobes, and closets."
+      ],
+      [
+        "Which accessories are shown?",
+        "The Accessories page includes corner storage, waste-bin systems, spice and basket pullouts, and a pantry swivel basket, including Lazy Susan, swing-corner, Wari-corner, and single- or double-bin options."
+      ],
+      [
+        "Does the selection flow include more than kitchens?",
+        "Yes. The site also presents Vanity and Wardrobe / Closet programs, range hoods, countertops, full-height backsplashes, mouldings, panels, fillers, and related cabinet components."
+      ],
+      [
+        "Can a color or profile be customized?",
+        "If a requested color or door profile is not among the current references, Asina Global can review a custom request. Feasibility, sample approval, quantity, and quote are confirmed during project review."
+      ],
+      [
+        "How are finishes confirmed?",
+        "Asina reviews the selected finish against an approved sample or mockup, then uses that reference during production QA."
+      ],
+      [
+        "What should buyers send for cabinet pricing?",
+        "Send room plans or cabinet runs, style direction, door profile, finish, coded cabinet list when available, accessories, quantity, destination, and timeline."
+      ]
+    ],
+    "quickBook": [
+      [
+        "What is the Asina Global Quick Book?",
+        "It is the coded product library used to identify cabinet and component configurations by name, code, and reference image."
+      ],
+      [
+        "How many products are in the Quick Book?",
+        "The current library contains 362 coded records across 10 product categories."
+      ],
+      [
+        "Which product categories are included?",
+        "Base cabinets, islands, wall cabinets, drawer boxes, panels and fillers, posts and bar brackets, mouldings, vanity cabinets, wardrobe cabinets, and closet cabinets."
+      ],
+      [
+        "Can the Quick Book be used as a price list?",
+        "No. It identifies products for planning and quoting. Pricing still depends on construction, finish, quantity, custom work, packing, destination, and project terms."
+      ]
+    ],
+    "tfl": [
+      [
+        "What does TFL mean?",
+        "TFL means thermally fused laminate, a decorative surface fused to a panel substrate for cabinet and interior applications."
+      ],
+      [
+        "How many TFL finishes are shown?",
+        "Materials & Finishes indexes 58 TFL references: 42 woodgrain, 14 solid, and 2 fabric looks."
+      ],
+      [
+        "Is TFL the most cost-efficient Asina Global finish line?",
+        "TFL is presented as Asina Global’s most cost-efficient finish line. Project pricing depends on the approved cabinet specification and scope."
+      ],
+      [
+        "Can TFL be used for kitchens, vanities, wardrobes, and closets?",
+        "TFL can be reviewed across compatible cabinet and interior applications. Final suitability depends on the selected product, construction, edge treatment, and project requirements."
+      ]
+    ],
+    "design": [
+      [
+        "Is this a standalone interior design service?",
+        "No. It is design-to-production support that turns room intent, cabinet layouts, profiles, finishes, custom sizing, and related selections into reviewable production details."
+      ],
+      [
+        "Where should cabinet selection begin?",
+        "Begin with the room and one of the three design directions: Contemporary, Traditional, or Transitional. Then select the door profile, finish, cabinet configuration, accessories, and surfaces."
+      ],
+      [
+        "How does the Quick Book help?",
+        "The Quick Book provides names, codes, and reference images for 362 cabinet and component configurations so the project team can identify required products more precisely."
+      ],
+      [
+        "Can custom sizing, colors, or profiles be reviewed?",
+        "Yes. Custom requests are reviewed against drawings, technical feasibility, materials, quantity, sample requirements, and production constraints before pricing is finalized."
+      ],
+      [
+        "What files help the review?",
+        "Send floor plans or cabinet runs, elevations when available, room type, style direction, door profile, finish, cabinet codes, accessories, unit count, and timeline."
+      ],
+      [
+        "How does the design become a production reference?",
+        "Approved drawings and selections move into a sample or mockup review. Once approved, that reference guides repeat production, QA, and packing checks."
+      ]
+    ],
+    "qualityAndPartner": [
+      [
+        "Who is Asina Global's manufacturing partner?",
+        "Asina Global works with an established manufacturing partner in Vietnam. Asina is the supplier of record and remains responsible for project review, approvals, communication, and coordinated handoff."
+      ],
+      [
+        "What production capabilities does the partner support?",
+        "The partner supports panel cutting, edge banding, CNC work, painting and finishing, door production, assembly, packing, warehousing, technical development, and export logistics."
+      ],
+      [
+        "How does Asina reduce measurement risk?",
+        "Asina reviews drawings and cabinet selections before production details are finalized. A mockup or sample can then establish the approved reference for repeat production."
+      ],
+      [
+        "How are colors and finishes checked?",
+        "The selected color and finish are confirmed against the approved sample or mockup and reviewed for consistency during production QA."
+      ],
+      [
+        "What does packing review include?",
+        "Packing review can cover item counts, room or cabinet labels, organization, added protection, moisture planning, and shipment readiness."
+      ],
+      [
+        "Who handles shipping?",
+        "Shipping responsibility is set during the project quote. Asina can coordinate freight planning based on destination, delivery needs, and the responsibility level agreed in writing."
+      ],
+      [
+        "How long do production and shipping take?",
+        "Timing is project-specific and depends on approved drawings, custom work, quantity, finish complexity, production capacity, freight route, and destination. The project quote confirms the working schedule."
+      ],
+      [
+        "Does Asina Global own the factory?",
+        "No. The facility is operated by Asina Global's manufacturing partner. Asina coordinates the customer-facing project, selection, approval, QA, packing, and logistics path."
+      ]
+    ],
+    "about": [
+      [
+        "What is Asina Global?",
+        "Asina Global LLC is a Florida-based project supplier for cabinets, countertops, and custom furniture packages. It coordinates product selection, drawings, approvals, QA, packing, and shipping planning."
+      ],
+      [
+        "Who is Asina Global built for?",
+        "Asina supports builders, developers, dealers, procurement teams, general contractors, designers, restaurant groups, franchise operators, and repeat-project buyers."
+      ],
+      [
+        "What is Asina Global's relationship with the factory?",
+        "Asina Global works with an established manufacturing partner in Vietnam. The partner operates the production facility; Asina remains the supplier of record for the customer project."
+      ],
+      [
+        "What can the manufacturing partner produce?",
+        "Capabilities include kitchen cabinets, vanities, wardrobes and closets, utility cabinetry, built-ins, doors, mouldings, hood covers, panels, fillers, and related hardware or accessories."
+      ],
+      [
+        "Can one project include multiple categories?",
+        "Yes. Asina can coordinate cabinets, countertops, furniture packages, and related room applications when one organized review makes the scope clearer."
+      ],
+      [
+        "Where is Asina Global LLC based?",
+        "Asina Global LLC is based in Longwood, Seminole County, Florida, within the Greater Orlando market, and can coordinate qualified project work nationwide."
+      ]
+    ]
+  },
+  "assetGuidance": {
+    "brand": [
+      "greenfield-site/assets/supporting/brand/asina-global-logo.svg",
+      "greenfield-site/assets/supporting/brand/asina-global-logo.png",
+      "greenfield-site/assets/supporting/brand/asina-mark.svg",
+      "website/assets/supporting/brand/asina-global-logo.svg"
+    ],
+    "revisedCatalogPdfs": [
+      "output/pdf/Asina Global Catalogue.pdf",
+      "output/pdf/Asina Global LAMOVA Catalogue-viet-eng.pdf",
+      "output/pdf/Asina Global Manufacturing Partner Profile.pdf",
+      "output/pdf/Asina Global Quick Book Catalogue.pdf",
+      "output/pdf/Asina Global TACO Master Book 2025.pdf",
+      "output/pdf/Asina Global TFL Catalogue.pdf"
+    ],
+    "lookbookBeforeAfter": [
+      "output/catalog-library/main-catalogue/curated/lookbook/contemporary-kitchen-same-space-bigger-impact-after.jpg",
+      "output/catalog-library/main-catalogue/curated/lookbook/contemporary-kitchen-same-space-bigger-impact-before.jpg",
+      "output/catalog-library/main-catalogue/curated/lookbook/traditional-kitchen-more-light-more-space-more-style-after.jpg",
+      "output/catalog-library/main-catalogue/curated/lookbook/traditional-kitchen-more-light-more-space-more-style-before.jpg",
+      "output/catalog-library/main-catalogue/curated/lookbook/transitional-kitchen-asina-global-difference-after.jpg",
+      "output/catalog-library/main-catalogue/curated/lookbook/transitional-kitchen-asina-global-difference-before.jpg",
+      "output/catalog-library/main-catalogue/curated/lookbook/vanity-from-outdated-to-outstanding-after.jpg",
+      "output/catalog-library/main-catalogue/curated/lookbook/vanity-from-outdated-to-outstanding-before.jpg"
+    ],
+    "doorProfiles": [
+      "output/catalog-library/main-catalogue/curated/door-profiles/ac-shaker.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/athabasca.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/beaded-shaker.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/dawson.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/essex.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/j-groove-shaker.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/j-groove-slab.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/joffre.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/logan.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/micro-shaker.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/onyx.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/sanford.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/seatle.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/shaker.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/slab.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/temple.png",
+      "output/catalog-library/main-catalogue/curated/door-profiles/walsh.png"
+    ],
+    "accessories": [
+      "output/catalog-library/main-catalogue/curated/accessories/basket-pullout.png",
+      "output/catalog-library/main-catalogue/curated/accessories/double-garbage-bin.png",
+      "output/catalog-library/main-catalogue/curated/accessories/lazy-susan.png",
+      "output/catalog-library/main-catalogue/curated/accessories/pantry-swivel-basket.png",
+      "output/catalog-library/main-catalogue/curated/accessories/single-garbage-bin.png",
+      "output/catalog-library/main-catalogue/curated/accessories/spice-pullout.png",
+      "output/catalog-library/main-catalogue/curated/accessories/swing-corner.png",
+      "output/catalog-library/main-catalogue/curated/accessories/top-drawer-double-garbage-bin.png",
+      "output/catalog-library/main-catalogue/curated/accessories/wari-corner.png",
+      "output/catalog-library/main-catalogue/curated/accessories/waste-bin.png"
+    ],
+    "manufacturingPartner": [
+      {
+        "page": 2,
+        "label": "Facility aerial - overhead",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/facility-aerial-overhead.jpg",
+        "recommended_use": "About-page manufacturing-partner overview or facility proof point",
+        "alt": "Aerial view of Asina Global's manufacturing partner facility in Vietnam"
+      },
+      {
+        "page": 2,
+        "label": "Facility aerial - oblique",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/facility-aerial-oblique.jpg",
+        "recommended_use": "Wide manufacturing section hero",
+        "alt": "Oblique aerial view of the manufacturing partner factory and surrounding site"
+      },
+      {
+        "page": 3,
+        "label": "Production team",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/team-on-production-floor.jpg",
+        "recommended_use": "People and capability story; use only after confirming staff-image permission",
+        "alt": "Manufacturing team gathered on the cabinetry production floor"
+      },
+      {
+        "page": 6,
+        "label": "Cutting line overview",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/cutting-line-overview.jpg",
+        "recommended_use": "Production-process overview",
+        "alt": "Automated cutting line inside the cabinetry factory"
+      },
+      {
+        "page": 6,
+        "label": "Panel cutting machine",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/panel-cutting-machine.jpg",
+        "recommended_use": "Cutting process detail",
+        "alt": "Industrial panel cutting machine in operation"
+      },
+      {
+        "page": 6,
+        "label": "Edge-banding line",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/edge-banding-line.jpg",
+        "recommended_use": "Edge-banding process",
+        "alt": "Panel edge-banding production line"
+      },
+      {
+        "page": 6,
+        "label": "Edge-banding station",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/edge-banding-station.jpg",
+        "recommended_use": "Process detail or quality-control section",
+        "alt": "Technicians operating an edge-banding station"
+      },
+      {
+        "page": 6,
+        "label": "CNC machine",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/cnc-machine.jpg",
+        "recommended_use": "Precision-machining proof point",
+        "alt": "CNC cabinet-component machining equipment"
+      },
+      {
+        "page": 6,
+        "label": "CNC line overview",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/cnc-line-overview.jpg",
+        "recommended_use": "Production technology section",
+        "alt": "CNC production line inside the manufacturing facility"
+      },
+      {
+        "page": 7,
+        "label": "Painting line",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/painting-line.jpg",
+        "recommended_use": "Finishing-process section",
+        "alt": "Cabinet-component painting line"
+      },
+      {
+        "page": 7,
+        "label": "Painting station",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/painting-station.jpg",
+        "recommended_use": "Finishing-process detail",
+        "alt": "Industrial finishing station for cabinetry components"
+      },
+      {
+        "page": 7,
+        "label": "Assembly line overview",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/assembly-line-overview.jpg",
+        "recommended_use": "Primary process-section image",
+        "alt": "Wide view of the cabinetry assembly line"
+      },
+      {
+        "page": 8,
+        "label": "Packing floor",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/packing-floor.jpg",
+        "recommended_use": "Packing and shipment preparation",
+        "alt": "Workers preparing cabinetry components for packing"
+      },
+      {
+        "page": 8,
+        "label": "Packing station",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/packing-station.jpg",
+        "recommended_use": "Packing-process detail",
+        "alt": "Cabinet components being packed for shipment"
+      },
+      {
+        "page": 8,
+        "label": "Door-line machine",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/door-line-machine.jpg",
+        "recommended_use": "Door-production capability",
+        "alt": "Cabinet door production machinery"
+      },
+      {
+        "page": 8,
+        "label": "Door-line worker",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/door-line-worker.jpg",
+        "recommended_use": "Craft and production detail",
+        "alt": "Technician working on cabinet door components"
+      },
+      {
+        "page": 9,
+        "label": "Laminate production line",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/laminate-production-line.jpg",
+        "recommended_use": "Laminate and TFL capability section",
+        "alt": "Laminate panel production line"
+      },
+      {
+        "page": 9,
+        "label": "Laminate machine",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/laminate-machine.jpg",
+        "recommended_use": "Material-production detail",
+        "alt": "Automated laminate panel machinery"
+      },
+      {
+        "page": 9,
+        "label": "Quality inspection",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/quality-inspection.jpg",
+        "recommended_use": "Quality-control proof point",
+        "alt": "Technician inspecting a cabinet door on the production floor"
+      },
+      {
+        "page": 9,
+        "label": "Technical CAD",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/technical-cad.jpg",
+        "recommended_use": "Engineering and shop-drawing section",
+        "alt": "Technical team member reviewing cabinetry drawings in CAD software"
+      },
+      {
+        "page": 8,
+        "label": "Finished-product storage",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/finished-product-storage.jpg",
+        "recommended_use": "Finished-product control",
+        "alt": "Packed finished products stored in the manufacturing warehouse"
+      },
+      {
+        "page": 8,
+        "label": "Loading logistics",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/loading-logistics.jpg",
+        "recommended_use": "Export logistics section",
+        "alt": "Forklift loading a shipping container at the factory"
+      },
+      {
+        "page": 9,
+        "label": "Material warehouse",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/material-warehouse.jpg",
+        "recommended_use": "Material inventory section",
+        "alt": "Forklift moving sheet materials in the warehouse"
+      },
+      {
+        "page": 9,
+        "label": "Warehouse inventory",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/factory/warehouse-inventory.jpg",
+        "recommended_use": "Inventory and supply-chain section",
+        "alt": "Organized material and component inventory in the warehouse"
+      },
+      {
+        "page": 10,
+        "label": "Kitchen cabinetry",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/products/kitchen-cabinetry.jpg",
+        "recommended_use": "Kitchen capability introduction; prefer Main Catalogue imagery when a matching image exists",
+        "alt": "Completed kitchen with contemporary custom cabinetry"
+      },
+      {
+        "page": 12,
+        "label": "Vanity cabinetry",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/products/vanity-cabinetry.jpg",
+        "recommended_use": "Vanity capability introduction",
+        "alt": "Bathroom with a large custom white vanity"
+      },
+      {
+        "page": 14,
+        "label": "Custom closet",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/products/custom-closet.jpg",
+        "recommended_use": "Wardrobe and closet capability introduction",
+        "alt": "Contemporary custom wardrobe and closet cabinetry"
+      },
+      {
+        "page": 15,
+        "label": "Custom built-in",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/products/custom-built-in.jpg",
+        "recommended_use": "Custom applications section",
+        "alt": "Built-in wall shelving and storage cabinetry"
+      },
+      {
+        "page": 17,
+        "label": "Panel and profile stack",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/materials/panel-profile-stack.jpg",
+        "recommended_use": "Door-profile or panel-construction section",
+        "alt": "Stack of finished cabinet panels showing multiple profiles and colours"
+      },
+      {
+        "page": 21,
+        "label": "PVC edgebanding",
+        "path": "output/catalog-library/manufacturing-partner-profile/curated/materials/pvc-edgebanding.jpg",
+        "recommended_use": "Edgebanding and finishing detail",
+        "alt": "Coiled woodgrain PVC edgebanding material"
+      }
+    ],
+    "reviewSheets": [
+      "output/catalog-library/main-catalogue/contact-sheets/contact-sheet-01.jpg",
+      "output/catalog-library/main-catalogue/contact-sheets/contact-sheet-02.jpg",
+      "output/catalog-library/main-catalogue/contact-sheets/contact-sheet-03.jpg",
+      "output/catalog-library/main-catalogue/contact-sheets/contact-sheet-04.jpg",
+      "output/catalog-library/main-catalogue/contact-sheets/contact-sheet-05.jpg",
+      "output/catalog-library/manufacturing-partner-profile/contact-sheets/contact-sheet-01.jpg",
+      "output/catalog-library/manufacturing-partner-profile/contact-sheets/contact-sheet-02.jpg",
+      "output/catalog-library/manufacturing-partner-profile/contact-sheets/contact-sheet-03.jpg",
+      "output/catalog-library/manufacturing-partner-profile/contact-sheets/contact-sheet-04.jpg",
+      "output/catalog-library/manufacturing-partner-profile/contact-sheets/contact-sheet-05.jpg",
+      "output/catalog-library/manufacturing-partner-profile/photo-contact-sheets/photo-contact-sheet-01.jpg",
+      "output/catalog-library/manufacturing-partner-profile/photo-contact-sheets/photo-contact-sheet-02.jpg",
+      "output/catalog-library/manufacturing-partner-profile/photo-contact-sheets/photo-contact-sheet-03.jpg",
+      "output/catalog-library/manufacturing-partner-profile/photo-contact-sheets/photo-contact-sheet-04.jpg",
+      "output/catalog-library/manufacturing-partner-profile/photo-contact-sheets/photo-contact-sheet-05.jpg",
+      "output/catalog-library/manufacturing-partner-profile/photo-contact-sheets/photo-contact-sheet-06.jpg",
+      "output/catalog-library/manufacturing-partner-profile/photo-contact-sheets/photo-contact-sheet-07.jpg",
+      "output/catalog-library/quick-book/contact-sheets/contact-sheet-01.jpg",
+      "output/catalog-library/quick-book/contact-sheets/contact-sheet-02.jpg",
+      "output/catalog-library/quick-book/contact-sheets/contact-sheet-03.jpg",
+      "output/catalog-library/tfl-catalogue/contact-sheets/contact-sheet-01.jpg",
+      "output/catalog-library/tfl-catalogue/contact-sheets/contact-sheet-02.jpg",
+      "output/catalog-library/tfl-catalogue/contact-sheets/contact-sheet-03.jpg"
+    ],
+    "structuredLibraries": [
+      "output/catalog-library/main-catalogue/door-profiles.json",
+      "output/catalog-library/main-catalogue/finishes.json",
+      "output/catalog-library/main-catalogue/accessories.json",
+      "output/catalog-library/main-catalogue/range-hoods.json",
+      "output/catalog-library/main-catalogue/countertop-edge-profiles.json",
+      "output/catalog-library/main-catalogue/lookbook-transformations.json",
+      "output/catalog-library/quick-book/products.json",
+      "output/catalog-library/tfl-catalogue/finishes.json",
+      "output/catalog-library/manufacturing-partner-profile/photo-inventory.json",
+      "output/catalog-library/manufacturing-partner-profile/claims-audit.json"
+    ]
+  }
+}
