@@ -40,7 +40,7 @@ export const publicRedirects = [
   ["/imported-cabinet-quality-qa/", "/process/#guide-topic-imported-quality"],
   ["/design-to-production-support/", "/process/"], ["/designer/", "/process/"], ["/designer.html", "/process/"],
   ["/design-help/", "/process/"], ["/consult-design/", "/process/"],
-  ["/contact/", "/project-review/"], ["/contact.html", "/project-review/"],
+  ["/contact/", "/project-review/#contact-details"], ["/contact.html", "/project-review/#contact-details"],
   ["/review/", "/project-review/"], ["/start-project-review/", "/project-review/"], ["/rfq-procurement-resources/", "/project-review/"],
   ["/privacy/", "/privacy-policy/"], ["/about.html", "/about/"],
   ["/wholesale-cabinet-supply-for-dealers/", "/multi-unit-cabinet-packages/#guide-topic-dealer-supply"],

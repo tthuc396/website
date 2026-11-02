@@ -32,8 +32,8 @@ http://asinaglobal.com/* https://asinaglobal.com/:splat 301!
 /designer.html /process/ 301!
 /design-help/ /process/ 301!
 /consult-design/ /process/ 301!
-/contact/ /project-review/ 301!
-/contact.html /project-review/ 301!
+/contact/ /project-review/#contact-details 301!
+/contact.html /project-review/#contact-details 301!
 /review/ /project-review/ 301!
 /start-project-review/ /project-review/ 301!
 /rfq-procurement-resources/ /project-review/ 301!

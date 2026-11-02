@@ -1,13 +1,13 @@
 export const sectionPolishCSS=`
 .i03.ref-c .comparison[data-interactive]{position:relative;width:min(100%,700px);height:auto;aspect-ratio:var(--comparison-ratio);min-height:0;overflow:hidden;isolation:isolate;touch-action:pan-y;user-select:none}
-.i03.ref-c .comparison[data-interactive] img{position:absolute;inset:0;width:100%;height:100%;max-width:none;max-height:none;aspect-ratio:auto;object-fit:cover;object-position:center;margin:0;pointer-events:none;user-select:none;-webkit-user-drag:none}
+.i03.ref-c .comparison[data-interactive] img{position:absolute;inset:0;width:100%;height:100%;max-width:none;max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center;margin:0;background:var(--surface);pointer-events:none;user-select:none;-webkit-user-drag:none}
 .i03.ref-c .comparison[data-interactive] .before-image{clip-path:inset(0 calc(100% - var(--split,50%)) 0 0)}
 .i03.ref-c .comparison-divider{position:absolute;top:0;bottom:0;left:var(--split,50%);width:2px;background:#f1eee3;pointer-events:none;z-index:1}
 .i03.ref-c .comparison-handle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:52px;height:52px;min-height:52px;border:1px solid #b2ac9a;border-radius:50%;background:#f1eee3;color:#34332e;display:grid;place-items:center;font-size:25px;line-height:1;cursor:ew-resize;touch-action:none;pointer-events:auto;padding:0;box-shadow:0 2px 14px #34332e25}
 .i03.ref-c .comparison-handle:active{transform:translate(-50%,-50%)}
 .i03.ref-c .comparison-handle:focus-visible{outline:3px solid var(--accent);outline-offset:5px}
 .i03.ref-c .comparison[data-dragging=true]{cursor:ew-resize}
-.i03.ref-c .comparison-instruction{font-size:11px;color:var(--muted);margin-top:14px}
+.i03.ref-c .comparison-annotations{position:absolute;inset:0;z-index:1;pointer-events:none}.i03.ref-c .comparison-annotations>div{position:absolute;inset:0}.i03.ref-c .comparison-annotations span{position:absolute;top:var(--note-top);max-width:35%;padding:7px 10px;background:rgba(39,37,33,.78);color:#fff;font-size:clamp(9px,.82vw,12px);line-height:1.35;letter-spacing:.01em}.i03.ref-c .comparison-annotations .before-annotation{left:12px}.i03.ref-c .comparison-annotations .after-annotation{right:12px;text-align:right}.i03.ref-c .comparison-instruction{font-size:11px;color:var(--muted);margin-top:14px}
 .i03.ref-c .comparison-note{margin-top:8px}
 .i03.ref-c .profile-item>img{background:transparent;mix-blend-mode:multiply;object-fit:contain;width:100%;height:235px;padding:12px;max-height:none}
 .i03.ref-c .profile-comparison img{background:transparent;mix-blend-mode:multiply;object-fit:contain;padding:10px}
@@ -106,6 +106,7 @@ export const sectionPolishCSS=`
 .i03.ref-c .pairing-images figcaption small{display:block;color:var(--muted);margin-top:4px}
 .i03.ref-c .finish-pairings figure{width:calc(25% - 10px)}
 .i03.ref-c .finish-pairings img{height:128px}
+.i03.ref-c .finish-pairings .finish-swatch-placeholder{display:block;width:100%;height:128px;aspect-ratio:auto;margin:0;background:var(--finish-swatch,#202321);border-radius:0;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--ink) 18%,transparent)}
 .i03.ref-c .hardware-list{padding-left:17px;font-size:12px;line-height:1.8}
 .i03.ref-c .hardware-items{display:flex;flex-wrap:wrap;gap:10px}
 .i03.ref-c .hardware-items figure{width:calc(50% - 5px);max-width:180px;margin:0}

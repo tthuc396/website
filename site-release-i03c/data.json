@@ -8709,12 +8709,8 @@
         "Micro Shaker",
         "Slab"
       ],
-      "before_image": "assets/contemporary-kitchen-same-space-bigger-impact-before-f60a3c6.jpg",
-      "after_image": "assets/contemporary-kitchen-same-space-bigger-impact-after-c04756f.jpg",
-      "before_source_preview": "main-catalogue/page-previews/page-016.jpg",
-      "after_source_preview": "main-catalogue/page-previews/page-017.jpg",
-      "before_source_text": "main-catalogue/page-text/page-016.txt",
-      "after_source_text": "main-catalogue/page-text/page-017.txt"
+      "before_image": "assets/lookbook-embedded/p016-room.jpg",
+      "after_image": "assets/lookbook-embedded/p017-room.svg"
     },
     {
       "id": "traditional-kitchen-more-light-more-space-more-style",
@@ -8774,12 +8770,8 @@
       "referenced_door_profiles": [
         "Raised-panel and recessed-panel traditional profiles"
       ],
-      "before_image": "assets/traditional-kitchen-more-light-more-space-more-style-before-3338425.jpg",
-      "after_image": "assets/traditional-kitchen-more-light-more-space-more-style-after-086f059.jpg",
-      "before_source_preview": "main-catalogue/page-previews/page-022.jpg",
-      "after_source_preview": "main-catalogue/page-previews/page-023.jpg",
-      "before_source_text": "main-catalogue/page-text/page-022.txt",
-      "after_source_text": "main-catalogue/page-text/page-023.txt"
+      "before_image": "assets/lookbook-embedded/p022-room.svg",
+      "after_image": "assets/lookbook-embedded/p023-room.jpg"
     },
     {
       "id": "transitional-kitchen-asina-global-difference",
@@ -8832,12 +8824,8 @@
         "Micro Shaker",
         "J Groove Slab"
       ],
-      "before_image": "assets/transitional-kitchen-asina-global-difference-before-aded17c.jpg",
-      "after_image": "assets/transitional-kitchen-asina-global-difference-after-f46ffd9.jpg",
-      "before_source_preview": "main-catalogue/page-previews/page-028.jpg",
-      "after_source_preview": "main-catalogue/page-previews/page-029.jpg",
-      "before_source_text": "main-catalogue/page-text/page-028.txt",
-      "after_source_text": "main-catalogue/page-text/page-029.txt"
+      "before_image": "assets/lookbook-embedded/p028-room.svg",
+      "after_image": "assets/lookbook-embedded/p029-room.svg"
     },
     {
       "id": "vanity-from-outdated-to-outstanding",
@@ -8867,12 +8855,8 @@
       ],
       "referenced_finishes": [],
       "referenced_door_profiles": [],
-      "before_image": "assets/vanity-from-outdated-to-outstanding-before-69062c8.jpg",
-      "after_image": "assets/vanity-from-outdated-to-outstanding-after-d106990.jpg",
-      "before_source_preview": "main-catalogue/page-previews/page-086.jpg",
-      "after_source_preview": "main-catalogue/page-previews/page-087.jpg",
-      "before_source_text": "main-catalogue/page-text/page-086.txt",
-      "after_source_text": "main-catalogue/page-text/page-087.txt"
+      "before_image": "assets/lookbook-embedded/p086-room.jpg",
+      "after_image": "assets/lookbook-embedded/p087-room.jpg"
     }
   ],
   "accessories": [
@@ -9103,51 +9087,37 @@
   "edges": [
     {
       "name": "Eased",
-      "pdf_page": 77,
-      "source_preview": "main-catalogue/page-previews/page-077.jpg",
-      "image": "assets/page-077-dca998f.jpg"
+      "image": "assets/countertops/edge-eased.jpg"
     },
     {
       "name": "Roman Ogee",
-      "pdf_page": 77,
-      "source_preview": "main-catalogue/page-previews/page-077.jpg",
-      "image": "assets/page-077-dca998f.jpg"
+      "image": "assets/countertops/edge-roman-ogee-01.jpg",
+      "variant": "Visual 1"
     },
     {
       "name": "C Grooved",
-      "pdf_page": 77,
-      "source_preview": "main-catalogue/page-previews/page-077.jpg",
-      "image": "assets/page-077-dca998f.jpg"
+      "image": "assets/countertops/edge-c-grooved.jpg"
     },
     {
       "name": "C Grooved Ogee",
-      "pdf_page": 77,
-      "source_preview": "main-catalogue/page-previews/page-077.jpg",
-      "image": "assets/page-077-dca998f.jpg"
+      "image": "assets/countertops/edge-c-grooved-ogee.jpg"
     },
     {
       "name": "Roman Ogee",
-      "pdf_page": 77,
-      "source_preview": "main-catalogue/page-previews/page-077.jpg",
-      "image": "assets/page-077-dca998f.jpg"
+      "image": "assets/countertops/edge-roman-ogee-02.jpg",
+      "variant": "Visual 2"
     },
     {
       "name": "Half Bevel",
-      "pdf_page": 77,
-      "source_preview": "main-catalogue/page-previews/page-077.jpg",
-      "image": "assets/page-077-dca998f.jpg"
+      "image": "assets/countertops/edge-half-bevel.jpg"
     },
     {
       "name": "Waterfall",
-      "pdf_page": 77,
-      "source_preview": "main-catalogue/page-previews/page-077.jpg",
-      "image": "assets/page-077-dca998f.jpg"
+      "image": "assets/countertops/edge-waterfall.jpg"
     },
     {
       "name": "Triple Waterfall",
-      "pdf_page": 77,
-      "source_preview": "main-catalogue/page-previews/page-077.jpg",
-      "image": "assets/page-077-dca998f.jpg"
+      "image": "assets/countertops/edge-triple-waterfall.jpg"
     }
   ],
   "factory": {
