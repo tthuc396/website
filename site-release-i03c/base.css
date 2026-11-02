@@ -66,3 +66,80 @@
 .footer-contact a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:900px){.site-footer{grid-template-columns:1fr 1fr}.site-footer .footer-contact{grid-column:1/-1;grid-row:2}.site-footer>p{justify-self:end}.site-footer>a:not(.brand){justify-self:start}}
 @media(max-width:767px){.contact-overview-body{grid-template-columns:1fr;gap:26px;padding-top:20px}.contact-overview-body>div:first-child>p:not(.eyebrow){font-size:13px}.site-footer{grid-template-columns:1fr;gap:15px}.site-footer>p{justify-self:start}.site-footer .footer-contact{grid-column:1;grid-row:auto;display:grid;gap:7px}.site-footer>a:not(.brand){justify-self:start}.consult-form>label,.consult-form>label:nth-of-type(4),.consult-form>label:nth-of-type(5),.consult-form>.form-wide{grid-column:1/-1}}
+
+/* Vanity and wardrobe program page, using the existing I-03 editorial language. */
+.program-detail-page{padding:0 5% 72px}
+.program-detail-intro{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(240px,.65fr);gap:clamp(35px,8vw,130px);align-items:end;padding:35px 0 54px;border-bottom:1px solid var(--line)}
+.program-detail-intro h2{max-width:14ch;margin:17px 0 18px;font-size:clamp(34px,4vw,58px)}
+.program-detail-intro>div>p:not(.eyebrow){max-width:60ch;color:var(--muted);font-size:14px}
+.program-detail-note{max-width:36ch;color:var(--muted);font-size:12px;line-height:1.75;border-left:1px solid var(--accent);padding:4px 0 4px 19px}
+.program-detail-jumps{display:flex;gap:25px;flex-wrap:wrap;margin-top:25px;font-size:12px}
+.program-detail-jumps a{border-bottom:1px solid var(--line);padding:8px 0}
+.program-detail-jumps span{margin-left:14px;color:var(--accent)}
+.program-detail-section{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(340px,.82fr);gap:clamp(36px,6vw,90px);align-items:center;padding:78px 0;border-bottom:1px solid var(--line);scroll-margin-top:30px}
+.program-detail-section-reverse{grid-template-columns:minmax(340px,.82fr) minmax(0,1.08fr)}
+.program-detail-section-reverse .program-detail-image{order:2}
+.program-detail-image figure{background:var(--surface);padding:clamp(12px,2vw,28px)}
+.program-detail-image img{width:100%;height:min(63vw,600px);min-height:400px;object-fit:contain}
+.program-detail-image figcaption{font-size:10px;color:var(--muted);padding-top:12px}
+.program-detail-image .program-room-figure{background:var(--surface);padding:clamp(12px,2vw,28px)}
+.program-detail-image .program-room-figure img{height:clamp(380px,43vw,560px);min-height:0;object-fit:contain}
+.program-room-context{padding:62px 0 55px;border-bottom:1px solid var(--line)}
+.program-room-context>header{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.65fr);gap:40px;align-items:end;margin-bottom:24px}
+.program-room-context>header .eyebrow{color:var(--accent)}
+.program-room-context>header h2{font-size:clamp(28px,3vw,42px);margin:9px 0 0}
+.program-room-context>header p{max-width:48ch;color:var(--muted);font-size:12px;line-height:1.75}
+.program-room-context-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.program-room-context-grid figure{min-width:0;margin:0;border-top:1px solid var(--line);padding-top:11px}
+.program-room-context-grid figure>div{height:clamp(300px,38vw,490px);display:flex;align-items:center;justify-content:center;background:var(--surface);overflow:hidden}
+.program-room-context-grid img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
+.program-room-context-grid figcaption{display:grid;gap:3px;padding-top:10px;font-size:12px}
+.program-room-context-grid figcaption small{font-size:11px;color:var(--muted)}
+.program-detail-copy{max-width:58ch}
+.program-detail-copy>.eyebrow{color:var(--accent)}
+.program-detail-copy h2{font-size:clamp(31px,3.5vw,48px);margin:13px 0 20px;max-width:13ch}
+.program-detail-copy p{font-size:13px;line-height:1.8;color:var(--muted);margin-bottom:15px}
+.program-detail-facts{margin:26px 0 21px;border-top:1px solid var(--line)}
+.program-detail-facts>div{display:grid;grid-template-columns:minmax(110px,.75fr) 1.25fr;gap:18px;padding:12px 0;border-bottom:1px solid var(--line);font-size:11px}
+.program-detail-facts strong{font-weight:600}.program-detail-facts span{color:var(--muted)}
+.program-reference-ledger{padding:66px 0 55px;border-bottom:1px solid var(--line)}
+.program-reference-ledger>header{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.65fr);gap:40px;align-items:end;margin-bottom:28px}
+.program-reference-ledger>header .eyebrow{color:var(--accent)}
+.program-reference-ledger>header h2{font-size:clamp(29px,3vw,43px);margin-top:10px}
+.program-reference-ledger>header p{font-size:12px;line-height:1.75;color:var(--muted)}
+.program-reference-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.program-reference-group{min-width:0;border-top:1px solid var(--accent);padding-top:12px}
+.program-reference-group h3{font-size:18px;letter-spacing:-.02em;margin-bottom:12px}
+.program-reference-group dl{margin:0}
+.program-reference-group dl>div{display:grid;grid-template-columns:minmax(65px,.4fr) minmax(0,1.6fr);gap:12px;padding:8px 0;border-top:1px solid var(--line);font-size:12px;line-height:1.5}
+.program-reference-group dt{font-size:11px;letter-spacing:.04em;color:var(--accent)}
+.program-reference-group dd{margin:0;color:var(--muted)}
+.closet-reference-ledger .program-reference-columns{grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 55px}
+.closet-reference-ledger .program-reference-group dl>div{grid-template-columns:minmax(80px,.38fr) minmax(0,1.62fr);font-size:12px;padding:9px 0}
+.closet-reference-ledger .program-reference-group dt{font-size:11px}
+.program-catalog-note{max-width:none;padding-top:18px;margin-top:25px;border-top:1px solid var(--line);font-size:11px;color:var(--muted)}
+.program-visual-ledger{padding:58px 0 52px;border-bottom:1px solid var(--line)}
+.program-visual-ledger>header{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.65fr);gap:40px;align-items:end;margin-bottom:23px}
+.program-visual-ledger>header .eyebrow{color:var(--accent)}
+.program-visual-ledger>header h2{font-size:clamp(27px,2.7vw,39px);margin-top:9px;max-width:20ch}
+.program-visual-ledger>header p{font-size:12px;line-height:1.7;color:var(--muted)}
+.program-visual-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.program-visual-grid figure,.wardrobe-form-grid figure,.closet-item-grid figure{min-width:0;border-top:1px solid var(--line);padding-top:10px}
+.program-visual-image,.wardrobe-form-image,.closet-item-image{position:relative;display:flex;align-items:center;justify-content:center;min-height:230px;background:var(--surface);overflow:hidden}
+.program-visual-image img{width:100%;height:230px;object-fit:contain;mix-blend-mode:multiply}
+.program-visual-image.drawing-image img{height:250px}
+.program-visual-image>span,.wardrobe-form-image>span,.closet-item-image>span{position:absolute;left:10px;top:10px;font-size:9px;letter-spacing:.1em;color:var(--accent);background:color-mix(in srgb,var(--bg) 90%,transparent);padding:4px 6px}
+.program-visual-grid figcaption,.wardrobe-form-grid figcaption,.closet-item-grid figcaption{display:grid;gap:3px;padding-top:10px;font-size:12px}
+.program-visual-grid figcaption small,.wardrobe-form-grid figcaption small,.closet-item-grid figcaption small{font-size:11px;color:var(--muted)}
+.wardrobe-layout-ledger{padding-top:48px}
+.wardrobe-form-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.wardrobe-form-image{min-height:280px}
+.wardrobe-form-image img{width:100%;height:270px;object-fit:contain;mix-blend-mode:multiply}
+.closet-accessory-ledger{padding-top:48px}
+.closet-item-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.closet-item-image{min-height:255px;padding:12px}
+.closet-item-image img{width:100%;height:225px;object-fit:contain;mix-blend-mode:multiply}
+.closet-item-grid figure:nth-child(1) .closet-item-image img,.closet-item-grid figure:nth-child(2) .closet-item-image img{object-fit:cover}
+@media(max-width:900px){.program-detail-section,.program-detail-section-reverse{grid-template-columns:minmax(0,1fr) minmax(280px,.9fr);gap:30px}.program-detail-image img{height:480px;min-height:350px}.program-reference-columns{gap:20px}.program-reference-ledger>header{gap:25px}}
+@media(max-width:767px){.program-detail-page{padding:0 20px 50px}.program-detail-intro{grid-template-columns:1fr;gap:22px;padding:25px 0 35px}.program-detail-intro h2{font-size:37px}.program-detail-note{max-width:52ch}.program-detail-section,.program-detail-section-reverse{grid-template-columns:1fr;gap:27px;padding:43px 0}.program-detail-section-reverse .program-detail-image{order:0}.program-detail-image{order:0}.program-detail-image figure{padding:12px}.program-detail-image img{height:min(120vw,520px);min-height:300px}.program-detail-copy h2{font-size:34px}.program-detail-copy p{font-size:13px}.program-detail-facts>div{grid-template-columns:110px 1fr}.program-reference-ledger{padding:43px 0}.program-reference-ledger>header{grid-template-columns:1fr;gap:13px;margin-bottom:20px}.program-reference-ledger>header h2{font-size:31px}.program-reference-columns,.closet-reference-ledger .program-reference-columns{grid-template-columns:1fr;gap:25px}.program-reference-group h3{font-size:18px}.program-reference-group dl>div,.closet-reference-ledger .program-reference-group dl>div{grid-template-columns:90px minmax(0,1fr);font-size:12px;padding:9px 0}.program-reference-group dt,.closet-reference-ledger .program-reference-group dt{font-size:11px}.program-visual-ledger{padding:40px 0 35px}.program-visual-ledger>header{grid-template-columns:1fr;gap:12px;margin-bottom:17px}.program-visual-ledger>header h2{font-size:30px}.program-visual-ledger>header p{font-size:12px}.program-visual-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.program-visual-image,.program-visual-image img{min-height:180px;height:180px}.program-visual-image.drawing-image img{height:190px}.program-visual-grid figure:last-child:nth-child(odd){grid-column:1/-1}.wardrobe-layout-ledger,.closet-accessory-ledger{padding-top:38px}.wardrobe-form-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.wardrobe-form-image,.wardrobe-form-image img{min-height:220px;height:220px}.closet-item-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.closet-item-image,.closet-item-image img{min-height:195px;height:195px;padding:8px}.program-visual-grid figcaption,.wardrobe-form-grid figcaption,.closet-item-grid figcaption{font-size:12px}.program-visual-grid figcaption small,.wardrobe-form-grid figcaption small,.closet-item-grid figcaption small{font-size:11px}}
+@media(max-width:767px){.program-room-context{padding:40px 0}.program-room-context>header{grid-template-columns:1fr;gap:12px;margin-bottom:18px}.program-room-context>header h2{font-size:31px}.program-room-context>header p{font-size:12px}.program-room-context-grid{grid-template-columns:1fr;gap:18px}.program-room-context-grid figure>div{height:clamp(250px,76vw,390px)}.program-detail-image .program-room-figure img{width:100%;height:auto;min-height:0;max-height:none;object-fit:contain}}

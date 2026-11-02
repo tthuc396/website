@@ -10,6 +10,7 @@ const localViewMetadata = {
   accessories: ["Cabinet Storage Accessories & Hood Covers | Asina Global", "Review ten storage accessories and 12 custom hood styles shown in 13 visuals. Confirm cabinet fit, ventilation and specifications during project review."],
   "accessories-catalogue": ["Accessories Catalogue | Asina Global", "Browse Asina Global’s Accessories Catalogue online. Confirm item selection, cabinet fit, hardware and suitability during project review."],
   countertops: ["Countertops & Full-Height Backsplashes | Asina Global", "Explore quartz, granite and laminate countertops, full-height backsplashes, material comparisons and eight edge-profile visuals. Request a project quote."],
+  "vanity-wardrobe": ["Vanity & Wardrobe Systems | Asina Global", "Explore custom vanity cabinet directions and cataloged wardrobe and closet storage systems. Review configurations and accessory references with Asina Global."],
   faqs: ["Cabinetry & Project Supply FAQs | Asina Global", "Find concise answers about cabinet construction, profiles, finishes, Quick Book references, accessories, countertops and project review."],
   consultation: ["Start a Project Review | Asina Global", "Prepare a project review with room plans, cabinet selections, profiles, finishes, Quick Book codes, accessories and destination."],
   about: ["About Asina Global | Project Supply", "Learn how Asina Global coordinates cabinetry, countertops, project review, quality checks, packing and shipping planning with its manufacturing partner."],
